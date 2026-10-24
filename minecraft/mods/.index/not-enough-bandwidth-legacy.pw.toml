@@ -1,0 +1,12 @@
+name = "Not Enough Bandwidth Legacy"
+filename = "nebl-21.1.12-neoforge+1.21.1.jar"
+
+[download]
+hash-format = "sha1"
+hash = "b22a4b1af1fe5729af3dc726b9a80ec66c9b889c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8685478
+project-id = 1522308
