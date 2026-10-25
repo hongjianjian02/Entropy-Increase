@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'ae2_overclocked-1.2.3-fix2-beta1-1.21.1Neoforg
 hash = 'ef7b424e7ca934a6afb7debd3fc4fac719b9ab0f'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 7930483
