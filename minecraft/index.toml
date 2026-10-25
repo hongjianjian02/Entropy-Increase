@@ -238,7 +238,7 @@ hash = "05b43823fe2773d55ec459b2fe401a0550be081b75e0c73071c8556cc840c57d"
 
 [[files]]
 file = "config/defaultworldtype/client-config.toml"
-hash = "7abf130c1b91066899d71a0455d028b96edf187ebc5dced1cfbe419a66ab03ba"
+hash = "517ef92d6990d1dcbdaaec650a283a85a010954ef2211762808cc9b33df9aeec"
 
 [[files]]
 file = "config/defaultworldtype/world-presets.txt"
@@ -881,6 +881,10 @@ file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "docs/kubejs-notes.md"
+hash = "d206140b8b3e174d6c01fd6d0058d8301098320f69483ce555e6f6df8057ab76"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
@@ -917,8 +921,8 @@ file = "kubejs/server_scripts/Recipe.js"
 hash = "d0c34724294fd3e7e6c2f90f667beeb6074575834182515529683ed4f2ef6c80"
 
 [[files]]
-file = "kubejs/startup_scripts/EventExplosionRecipes.js"
-hash = "3f7f0eae05af3ab32bf0ced0cf607df20938a314c7d76c7e23869dc7f0a058bb"
+file = "kubejs/server_scripts/spawn_twilight.js"
+hash = "9b55799f27f5e6b5956f607ecd888a24455fdd411b285d27f89650c1040e3bd9"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
