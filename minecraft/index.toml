@@ -1210,7 +1210,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/extra-hostile-neural-networks.pw.toml"
-hash = "ad137a71d3ef977c195e7c2070da3a84c74df4cea5339cca35511cf4b823ef3a"
+hash = "210ec72caaf22960314f2a52e5180d1e83f541c877a1f34dfa04c74b4d03e85c"
 metafile = true
 
 [[files]]
@@ -1325,7 +1325,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/hostile-neural-networks.pw.toml"
-hash = "2c9837a3af9188ae7120bb7c3550ac24df5e78936f0598e47fef128da50ad061"
+hash = "9ffc1d3e275b6defd92282464eb50d9b66506ecd5abfb414c0a04be00d8f4a07"
 metafile = true
 
 [[files]]
