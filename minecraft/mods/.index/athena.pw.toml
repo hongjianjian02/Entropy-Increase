@@ -1,6 +1,6 @@
 filename = 'athena-neoforge-1.21.1-4.0.6.jar'
 name = 'Athena'
-side = ''
+side = "both"
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

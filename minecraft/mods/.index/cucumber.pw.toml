@@ -1,6 +1,6 @@
 filename = 'Cucumber-1.21.1-8.0.16.jar'
 name = 'Cucumber Library'
-side = ''
+side = "both"
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
