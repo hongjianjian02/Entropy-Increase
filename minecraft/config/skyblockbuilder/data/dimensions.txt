@@ -1,5 +1,0 @@
-minecraft:overworld
-nuclearcraftneohaul:nuclear_wasteland
-minecraft:the_end
-minecraft:the_nether
-ae2:spatial_storage
