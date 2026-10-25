@@ -1791,8 +1791,23 @@ file = "mods/neoecoae-21.2.0-hotfix.jar"
 hash = "372ddf6971db7b96750b0a3ac496b77ba1938e0e57782fd42e779e52157be707"
 
 [[files]]
+file = "mods/tf-remastered.pw.toml"
+hash = "810a55422137fc1466884368f635fa634f57cf87f3046c5896ccbd95749fed28"
+metafile = true
+
+[[files]]
 file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6.jar"
 hash = "a5f7407309bb2627747393890a685fd405f8579c50f0714a720f2b9cc6f548de"
+
+[[files]]
+file = "mods/the-twilight-forest.pw.toml"
+hash = "9088f93a00bc3242f0239a7115bdcbc4480e19c6120f5396fb3af27d77abda3e"
+metafile = true
+
+[[files]]
+file = "mods/twilight-treehouses.pw.toml"
+hash = "5f30b76131ce282f22ed2601cd3a4137cfe830af40bb631c3014d86041cd6276"
+metafile = true
 
 [[files]]
 file = "options.txt"
