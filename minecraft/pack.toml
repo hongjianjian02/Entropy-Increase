@@ -1,4 +1,4 @@
-name = "熵增计划"
+name = "Entropy-Increase"
 author = "JianJian_"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
@@ -6,8 +6,8 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "5ecba224c7120d3346e3e10a958ffc51280ea02996ed084242b8bda0e5d8d164"
+hash = "140f8584e4732e3d659fc018a014a356d30ad730e528c31ead5d10992ec04f40"
 
 [versions]
 minecraft = "1.21.1"
-neoforge = "21.1.248"
+neoforge = "21.1.265"
