@@ -1,6 +1,6 @@
 filename = 'ProjectE-1.21.1-PE1.1.0.jar'
 name = 'ProjectE'
-side = ''
+side = "both"
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
