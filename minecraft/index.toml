@@ -1325,7 +1325,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/hostile-neural-networks.pw.toml"
-hash = "9ffc1d3e275b6defd92282464eb50d9b66506ecd5abfb414c0a04be00d8f4a07"
+hash = "e98c09c17dc46e5bc877be0db696318e64b56ca15e79f19063fe35aa16f4f8a9"
 metafile = true
 
 [[files]]
