@@ -238,7 +238,7 @@ hash = "05b43823fe2773d55ec459b2fe401a0550be081b75e0c73071c8556cc840c57d"
 
 [[files]]
 file = "config/defaultworldtype/client-config.toml"
-hash = "517ef92d6990d1dcbdaaec650a283a85a010954ef2211762808cc9b33df9aeec"
+hash = "7abf130c1b91066899d71a0455d028b96edf187ebc5dced1cfbe419a66ab03ba"
 
 [[files]]
 file = "config/defaultworldtype/world-presets.txt"
@@ -922,7 +922,7 @@ hash = "d0c34724294fd3e7e6c2f90f667beeb6074575834182515529683ed4f2ef6c80"
 
 [[files]]
 file = "kubejs/server_scripts/spawn_twilight.js"
-hash = "9b55799f27f5e6b5956f607ecd888a24455fdd411b285d27f89650c1040e3bd9"
+hash = "ce7a712c6bbb8a0408c5edba3ca0cfe7e20d68258b0973b0660ed81e4b22ef2f"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"

@@ -1,6 +1,3 @@
-// 玩家出生点：暮色森林（Twilight Forest）
-// 依赖：Twilight Forest（维度 id: twilightforest:twilight_forest）
-
 const TF_DIM = 'twilightforest:twilight_forest'
 
 function isInTwilight(player) {
