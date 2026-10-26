@@ -842,7 +842,7 @@ hash = "ce7a712c6bbb8a0408c5edba3ca0cfe7e20d68258b0973b0660ed81e4b22ef2f"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "ab8365ead0d2355e9b84174c0966e49b404f250b8ce9153095094b55c6da6b08"
+hash = "183d0f39604947a01e3085c737c28d7d3820f821a04fe520cffb489f54fc316b"
 
 [[files]]
 file = "mods/.index/aaron.pw.toml"
@@ -1732,7 +1732,7 @@ metafile = true
 
 [[files]]
 file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6.jar"
-hash = "a5f7407309bb2627747393890a685fd405f8579c50f0714a720f2b9cc6f548de"
+hash = "f0f3726aafe747b7f8885691c4022034794b762a7022ddec1398ee8fdfc5819e"
 
 [[files]]
 file = "mods/the-twilight-forest.pw.toml"

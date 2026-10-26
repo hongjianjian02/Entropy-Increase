@@ -6,4 +6,5 @@ StartupEvents.registry("item", event => {
         .tooltip("§7一颗普通的小石子")
         .texture("kubejs:item/flukesuki_pebble");
 });
-*/当示例看吧
+*/
+// 当示例看吧
