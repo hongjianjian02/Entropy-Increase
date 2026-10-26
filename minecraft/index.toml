@@ -762,7 +762,7 @@ hash = "b97c7c94ca29ba57689866ed44382f767fa1e0a5487bbea3dac56f07c60d61f6"
 
 [[files]]
 file = "config/terrablender.toml"
-hash = "cff6a9a0d415b19b9852844c0ad5bb2b1cfdb9fce12e729e7228a6521fc95927"
+hash = "499d188162ddcf7fcf450cdcdc96bd41ac582501ecad5ed4a74dd9ed6b01990a"
 
 [[files]]
 file = "config/wcwt-client.toml"
@@ -1742,5 +1742,10 @@ file = "打包.bat"
 hash = "299a8f49b86c472812f27764cb3c7847828fa0f5e85b76e85a34486547b3a9ab"
 
 [[files]]
-file = "重建索引.bat"
-hash = "87b2313b331d3d96b61a7c7d043c262c1872853d1bae66f074b4458a53237074"
+file = "mods/twilight-treehouses.pw.toml"
+hash = "5f30b76131ce282f22ed2601cd3a4137cfe830af40bb631c3014d86041cd6276"
+metafile = true
+
+[[files]]
+file = "options.txt"
+hash = "ec7ad4e7a97a81d119e2556977d91b6199f3c6a27bb551a2d5225509b74acede"

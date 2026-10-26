@@ -1,0 +1,4 @@
+[portal_flowers]
+	#必须放满的不同花朵（填写方块注册名，如 minecraft:dandelion）
+	#Required different flowers (use block registry names, e.g. minecraft:dandelion)
+	required_flowers = ["twilightforest:yellow_castle_rune_brick", "twilightforest:blue_castle_rune_brick", "twilightforest:violet_castle_rune_brick", "twilightforest:pink_castle_rune_brick"]
