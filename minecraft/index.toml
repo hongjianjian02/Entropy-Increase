@@ -770,7 +770,7 @@ hash = "147bad0efae5ce589faf130111940ac86e3dd792d2592b0236f854a9e4ef0fdc"
 
 [[files]]
 file = "config/twilightforest-common.toml"
-hash = "f1e19ff7558920756af40ff7439b618265a3c9ce263ce5b538dd01a80a10dce6"
+hash = "04d5a4c341bf3589931fad921959fe3dc93301354581186667078a1d17fc31c5"
 
 [[files]]
 file = "config/wcwt-client.toml"
@@ -849,8 +849,12 @@ file = "kubejs/server_scripts/spawn_twilight.js"
 hash = "695d877ae6ad401e6e10b7b4fd9e89ab7f2bd376500d20c43f771b99f66a2ff6"
 
 [[files]]
-file = "kubejs/server_scripts/twilight_gate.js"
-hash = "4ffdb7145d2eb756819fcc8bc98e0087868b3ca68c0721db7ad01cf00cc9a707"
+file = "kubejs/server_scripts/twilight_arrival.js"
+hash = "62f08d3a983adeb043e61ecb74cb5c5f3191aeffe88e060bf15e63de4f19fe94"
+
+[[files]]
+file = "kubejs/server_scripts/twilight_gate.js.disabled"
+hash = "1727ebfd1674018fe550d7cb2383e6355831a574be2ae9e68f5f711161f730b4"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
@@ -1367,6 +1371,16 @@ hash = "761bdbd5f1a291e1f7c95bda458f21aaf4839df56c7e3966062f7cafb609a9ea"
 metafile = true
 
 [[files]]
+file = "mods/.index/kubejs-studio.pw.toml"
+hash = "38af6839345c93757af3f0555b094dea05e3eb96386e72a0e172dcccfc687ed6"
+metafile = true
+
+[[files]]
+file = "mods/.index/kubejs.pw.toml"
+hash = "7e0eca275f27b6543f06c36dec433851a956960cbedd2be57d19e159d636bfc1"
+metafile = true
+
+[[files]]
 file = "mods/.index/ldlib.pw.toml"
 hash = "b693e86a30b12092c200201f883a36ccd1afb02cce7a6bdac315573fd682193c"
 metafile = true
@@ -1728,10 +1742,6 @@ hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
 [[files]]
 file = "mods/extrabotany-2.0.0-1.21.1-NeoForge.jar"
 hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
-
-[[files]]
-file = "mods/kubejs-neoforge-2101.7.2-build.369.jar"
-hash = "4c2181f99049844e71349913aaf3fea8b58ce081fee952616767676d1b6fa3b1"
 
 [[files]]
 file = "mods/neoecoae-21.2.0-hotfix.jar"
