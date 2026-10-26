@@ -849,6 +849,10 @@ file = "kubejs/server_scripts/spawn_twilight.js"
 hash = "c66ee38fcf331dde022685c1013efc31f49e2cd30a5279306aa19899771b4b4f"
 
 [[files]]
+file = "kubejs/server_scripts/stonecutter.js"
+hash = "9123299bd6dde882b57c90798c8d35b8b0de89914c332c97b8c3a90171e8794d"
+
+[[files]]
 file = "kubejs/server_scripts/twilight_arrival.js"
 hash = "dc239352fd08d41960df9401a47e1d8bc2edca775088befc54de053837ceafa5"
 
@@ -1608,6 +1612,11 @@ metafile = true
 [[files]]
 file = "mods/.index/re-avaritia.pw.toml"
 hash = "fe8621407dc7d8182bbb0e10f2725d47c2b59d5331a345c52aec3a22a8eeeb7f"
+metafile = true
+
+[[files]]
+file = "mods/.index/rehooked.pw.toml"
+hash = "f17bb6f3b58f6428fc1d8bd42071ba65ecf7c7f17342d6cfc7f6d043ae7c5110"
 metafile = true
 
 [[files]]

@@ -1,0 +1,11 @@
+filename = 'rehooked-1.9.4-1.21.1.jar'
+name = 'ReHooked'
+
+[download]
+hash = '44615255f6752cf2489e663091bf829a96e7ce45'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+
+[update.curseforge]
+file-id = 6341092
+project-id = 1096531
