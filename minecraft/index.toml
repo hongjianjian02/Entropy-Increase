@@ -770,7 +770,7 @@ hash = "147bad0efae5ce589faf130111940ac86e3dd792d2592b0236f854a9e4ef0fdc"
 
 [[files]]
 file = "config/twilightforest-common.toml"
-hash = "04d5a4c341bf3589931fad921959fe3dc93301354581186667078a1d17fc31c5"
+hash = "f1e19ff7558920756af40ff7439b618265a3c9ce263ce5b538dd01a80a10dce6"
 
 [[files]]
 file = "config/wcwt-client.toml"
@@ -846,7 +846,11 @@ hash = "e184cabcbaca2cdd922cb152c4dc2b998d2b35534c8881a0d9a7751285e088c4"
 
 [[files]]
 file = "kubejs/server_scripts/spawn_twilight.js"
-hash = "ce7a712c6bbb8a0408c5edba3ca0cfe7e20d68258b0973b0660ed81e4b22ef2f"
+hash = "695d877ae6ad401e6e10b7b4fd9e89ab7f2bd376500d20c43f771b99f66a2ff6"
+
+[[files]]
+file = "kubejs/server_scripts/twilight_gate.js"
+hash = "4ffdb7145d2eb756819fcc8bc98e0087868b3ca68c0721db7ad01cf00cc9a707"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"

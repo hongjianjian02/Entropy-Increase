@@ -4,6 +4,14 @@ function isInTwilight(player) {
   return String(player.level.dimension).includes(TF_DIM)
 }
 
+function saveHome(player) {
+  if (isInTwilight(player)) return
+  const data = player.persistentData
+  data.putDouble('mysterious:home_x', player.x)
+  data.putDouble('mysterious:home_y', player.y)
+  data.putDouble('mysterious:home_z', player.z)
+}
+
 function sendToTwilight(player) {
   const tf = player.server.getLevel(TF_DIM)
   if (!tf) {
@@ -24,11 +32,14 @@ function sendToTwilight(player) {
 PlayerEvents.loggedIn(event => {
   const player = event.player
   if (player.persistentData.getBoolean('mysterious:tf_spawn')) return
+  saveHome(player)
   if (sendToTwilight(player)) {
     player.persistentData.putBoolean('mysterious:tf_spawn', true)
   }
 })
 
 PlayerEvents.respawned(event => {
-  if (!isInTwilight(event.player)) sendToTwilight(event.player)
+  const player = event.player
+  if (player.persistentData.getBoolean('mysterious:returned')) return
+  if (!isInTwilight(player)) sendToTwilight(player)
 })
