@@ -765,6 +765,14 @@ file = "config/terrablender.toml"
 hash = "499d188162ddcf7fcf450cdcdc96bd41ac582501ecad5ed4a74dd9ed6b01990a"
 
 [[files]]
+file = "config/tfremastered-common.toml"
+hash = "147bad0efae5ce589faf130111940ac86e3dd792d2592b0236f854a9e4ef0fdc"
+
+[[files]]
+file = "config/twilightforest-common.toml"
+hash = "04d5a4c341bf3589931fad921959fe3dc93301354581186667078a1d17fc31c5"
+
+[[files]]
 file = "config/wcwt-client.toml"
 hash = "62dbad0ed5471feb3958a1c0fe009950073c5d6ce76b6af22559190fa1d1c8e1"
 
@@ -1752,3 +1760,15 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "ec7ad4e7a97a81d119e2556977d91b6199f3c6a27bb551a2d5225509b74acede"
+
+[[files]]
+file = "一键更新mods.bat"
+hash = "180abb562282ea8f30e63d17dc92e5456fe8a944b9493c41052d84b47e490400"
+
+[[files]]
+file = "打包.bat"
+hash = "299a8f49b86c472812f27764cb3c7847828fa0f5e85b76e85a34486547b3a9ab"
+
+[[files]]
+file = "重建索引.bat"
+hash = "87b2313b331d3d96b61a7c7d043c262c1872853d1bae66f074b4458a53237074"
