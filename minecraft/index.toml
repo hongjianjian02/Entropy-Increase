@@ -1016,16 +1016,6 @@ hash = "f25668c2e804d60a2495b26af9de55a741ad01f183241fad198c7a14e864115e"
 metafile = true
 
 [[files]]
-file = "mods/.index/compact-crafting-updated.pw.toml"
-hash = "b73235902d834bd5d4e029a215efe19456a3c8c7410ec47e76acb79e09948b16"
-metafile = true
-
-[[files]]
-file = "mods/.index/compact-machines.pw.toml"
-hash = "dc42384932c78a1ee818af8d8535b51ebd836c6d1f13f3171d9bd83985565f04"
-metafile = true
-
-[[files]]
 file = "mods/.index/configured.pw.toml"
 hash = "2b85d5c921585fc9b73325f9e7fdb3d1ab1ed93644def36a2ba0730ce82c8fb3"
 metafile = true
