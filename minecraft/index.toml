@@ -238,7 +238,7 @@ hash = "05b43823fe2773d55ec459b2fe401a0550be081b75e0c73071c8556cc840c57d"
 
 [[files]]
 file = "config/defaultworldtype/client-config.toml"
-hash = "7abf130c1b91066899d71a0455d028b96edf187ebc5dced1cfbe419a66ab03ba"
+hash = "517ef92d6990d1dcbdaaec650a283a85a010954ef2211762808cc9b33df9aeec"
 
 [[files]]
 file = "config/defaultworldtype/world-presets.txt"
@@ -1731,7 +1731,7 @@ hash = "810a55422137fc1466884368f635fa634f57cf87f3046c5896ccbd95749fed28"
 metafile = true
 
 [[files]]
-file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6.jar"
+file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6 (1).jar"
 hash = "f0f3726aafe747b7f8885691c4022034794b762a7022ddec1398ee8fdfc5819e"
 
 [[files]]
