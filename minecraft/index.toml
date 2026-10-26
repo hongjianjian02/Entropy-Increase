@@ -1740,6 +1740,11 @@ hash = "9088f93a00bc3242f0239a7115bdcbc4480e19c6120f5396fb3af27d77abda3e"
 metafile = true
 
 [[files]]
+file = "mods/twilight-forest-dungeons-villages.pw.toml"
+hash = "84076a66210c49f9a6b311c7cb205f70e7d631e14bd8398283b718cfd7d2535e"
+metafile = true
+
+[[files]]
 file = "mods/twilight-treehouses.pw.toml"
 hash = "5f30b76131ce282f22ed2601cd3a4137cfe830af40bb631c3014d86041cd6276"
 metafile = true
