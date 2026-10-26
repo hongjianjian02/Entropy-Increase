@@ -697,78 +697,6 @@ file = "config/sfm-server.toml"
 hash = "cc58cf665ba7e253280d029a56d13f0536e7fb56a1e9743f9ac93ffe68cc99eb"
 
 [[files]]
-file = "config/skyblockbuilder/client.json5"
-hash = "234dcee4146f621111db7f1a78a4ed44cdffbef678f469397bc3f19adc1a61c9"
-
-[[files]]
-file = "config/skyblockbuilder/customization.json5"
-hash = "832c788572855cded3a382925dc44af4bd16c17fbd97545879d634787c53e6f0"
-
-[[files]]
-file = "config/skyblockbuilder/data/biomes.txt"
-hash = "0e6c0d306747bf44b97f8c992759dac4584f07657c29c48c0c41a2a5a006e411"
-
-[[files]]
-file = "config/skyblockbuilder/data/carvers.txt"
-hash = "3a0ec12f4212b352834ef2273fbd1726235771b78f1e7da2e9644e8908983f17"
-
-[[files]]
-file = "config/skyblockbuilder/data/dimensions.txt"
-hash = "eac06b0037539555ebeef0d8e52fb926497785d2377a845ecffefe52a9576227"
-
-[[files]]
-file = "config/skyblockbuilder/data/features.txt"
-hash = "942014be1204de13760a2b6ccc2b66d4b58edeec47f84501f3e5bfb9a49a65bf"
-
-[[files]]
-file = "config/skyblockbuilder/data/structures.txt"
-hash = "108873339479275e769590247e54d9188bad4cb4db45b2d236336dedae85c8f3"
-
-[[files]]
-file = "config/skyblockbuilder/dimensions.json5"
-hash = "58be3fb5aae9a89cb21d98dd0fac3ec8cad39550f31fb6c6362ac47ba538a2cc"
-
-[[files]]
-file = "config/skyblockbuilder/inventory.json5"
-hash = "280841671b1ec1205ae7d16d511b11fcc581656c3358b8d128451e2c748f76a7"
-
-[[files]]
-file = "config/skyblockbuilder/permissions.json5"
-hash = "5f4ee4e56e3dedec0dd8ce354d28601ab01769c481e70f2b257bab92e8dd7805"
-
-[[files]]
-file = "config/skyblockbuilder/spawn.json5"
-hash = "dc512d8e7858719282097b062548dfde2b6c0c603802f948eca92c9bbeb60693"
-
-[[files]]
-file = "config/skyblockbuilder/starter_inventory.json5"
-hash = "375abee934ab67f6122dc4fc7df26d9520d8163b13865e1377b5cd88fe58712b"
-
-[[files]]
-file = "config/skyblockbuilder/structures.json5"
-hash = "7bb03c6856544d7fa7d6aea6b1c68b8b4b18005b422bac07753e7d8be66d42cb"
-
-[[files]]
-file = "config/skyblockbuilder/templates.json5"
-hash = "08f73427360cb3d52cbac31b8a76177486906bb15e0da8772990a40187b55505"
-
-[[files]]
-file = "config/skyblockbuilder/templates/islands/default.nbt"
-hash = "835c5e52662f162ad1fba6307d815cc36eece016bedda08e4152c5a9a15893dc"
-
-[[files]]
-file = "config/skyblockbuilder/templates/islands/gardenofglass.nbt"
-hash = "fb260b3df88a2fb064003dc023b8b166f06595d9f91a14eb2808e92f26f00246"
-
-[[files]]
-file = "config/skyblockbuilder/templates/portals/information.txt"
-hash = "0ff43fcfbc4b9dc44f5722a4ce0016cafb28f2a73b38d004fac47b7b20d60cf2"
-
-[[files]]
-file = "config/skyblockbuilder/world.json5"
-hash = "c3327bc136c57d55ccf74014fa5074e9df0e8630a5abe6af5a92b3b5a7fc19d3"
-
-[[files]]
 file = "config/sodium-fingerprint.json"
 hash = "d9afd764d5db690a06f2f2f485e63e33247cc571c9e20321426a3be8e40f2c47"
 
@@ -881,20 +809,12 @@ file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "docs/kubejs-notes.md"
-hash = "d206140b8b3e174d6c01fd6d0058d8301098320f69483ce555e6f6df8057ab76"
-
-[[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
-
-[[files]]
-file = "kubejs/assets/kubejs/textures/item/flukesuki_pebble.png"
-hash = "7518d22dd45500c0bd6bb27cc4d990076540072b4dcba0dd0bba2dcd5a07c778"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -913,12 +833,8 @@ file = "kubejs/config/web_server.json"
 hash = "f013c27092f7bb95ae77ffeafb2f1b4e1f3024ebe1c77b911ceea0e140bb7e85"
 
 [[files]]
-file = "kubejs/server_scripts/BlockEventRightClick.js"
-hash = "03d4a63beb4ea0b292a38485ad1709f5ffcced184602f461882728d568b446b4"
-
-[[files]]
 file = "kubejs/server_scripts/Recipe.js"
-hash = "d0c34724294fd3e7e6c2f90f667beeb6074575834182515529683ed4f2ef6c80"
+hash = "e184cabcbaca2cdd922cb152c4dc2b998d2b35534c8881a0d9a7751285e088c4"
 
 [[files]]
 file = "kubejs/server_scripts/spawn_twilight.js"
@@ -926,7 +842,7 @@ hash = "ce7a712c6bbb8a0408c5edba3ca0cfe7e20d68258b0973b0660ed81e4b22ef2f"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
-hash = "ea9192ed9ceb47177f067f638a528e62b7f6ddc63fb8b12b13a2338b4fc087cc"
+hash = "ab8365ead0d2355e9b84174c0966e49b404f250b8ce9153095094b55c6da6b08"
 
 [[files]]
 file = "mods/.index/aaron.pw.toml"
@@ -1464,6 +1380,11 @@ hash = "51e129832b04acd57da470fc41725bad5e101b6a6b1d4901fd8ea7a92b14e13d"
 metafile = true
 
 [[files]]
+file = "mods/.index/lithostitched.pw.toml"
+hash = "9358f0347b920304b20a0527ac10c4c0ba89a86757df7f3980ea038b9a43d356"
+metafile = true
+
+[[files]]
 file = "mods/.index/lmd.pw.toml"
 hash = "b6fd4e9a1ab5682e94b6dda8a2c8313697349cf4d53ccf84050e4307fed39445"
 metafile = true
@@ -1694,11 +1615,6 @@ hash = "f301d8e0089ba2bad97f1ac316938ba7ae28e95156c8a8d02f7cdf266cbb9532"
 metafile = true
 
 [[files]]
-file = "mods/.index/skyblock-builder.pw.toml"
-hash = "fef330806d7cd7f0f94cbf630d576a3ebd8e37cc12b9943195cb81ad445b09cb"
-metafile = true
-
-[[files]]
 file = "mods/.index/sodium.pw.toml"
 hash = "a5063145aabcd541e343d3ca73c573a9d6ca9cf6898541efa11477905f5f3014"
 metafile = true
@@ -1749,6 +1665,16 @@ hash = "5ccedd7f675db5eb5e777cb24a0c311f1dc85fed887814c7670e5cf2df261c2a"
 metafile = true
 
 [[files]]
+file = "mods/.index/tf-remastered.pw.toml"
+hash = "ff2fcad846dc89ed014a692e83251b78962e75e171b3a5e168af0d5a0759c5ab"
+metafile = true
+
+[[files]]
+file = "mods/.index/the-twilight-forest.pw.toml"
+hash = "1e9f7845167a3f273cb9d0bd14672f9a7cdbd053c5c22b9a3e5426a9a43c7bf7"
+metafile = true
+
+[[files]]
 file = "mods/.index/thunderbolt-lib.pw.toml"
 hash = "79d5b7b37682a84d4f9a4fbcca6111e282c69b960b4d3c4b2c198b1fd5a47b43"
 metafile = true
@@ -1756,6 +1682,11 @@ metafile = true
 [[files]]
 file = "mods/.index/titanium.pw.toml"
 hash = "b4401427694e028f2882bcce68ad274f2a02ec5f4279ef3328d457d77f8b1a3c"
+metafile = true
+
+[[files]]
+file = "mods/.index/twilight-treehouses.pw.toml"
+hash = "bc642da40d4bcbb25b82f2c11b3b43bf4ba0f56cee66f1db57e034b67035e5af"
 metafile = true
 
 [[files]]
