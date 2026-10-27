@@ -1784,6 +1784,10 @@ hash = "8d4c36e3aac91377077f3c9e51173a669d6dbe445df94e926df0cea1581a975e"
 metafile = true
 
 [[files]]
+file = "mods/EI core-1.0.0.jar"
+hash = "0739788f6c470ad6f9c899c0ab7ce41431f4428b17c34fbb633d7cecaedbc254"
+
+[[files]]
 file = "mods/appleskin.pw.toml"
 hash = "3f910a2722d6884203aba5eee8f5c129ea3c2e0b78bc683b2d7b5604fec755f5"
 metafile = true
@@ -1791,10 +1795,6 @@ metafile = true
 [[files]]
 file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
 hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
-
-[[files]]
-file = "mods/eicore-1.0.0.jar"
-hash = "0739788f6c470ad6f9c899c0ab7ce41431f4428b17c34fbb633d7cecaedbc254"
 
 [[files]]
 file = "mods/explorers-compass-edited.pw.toml"
