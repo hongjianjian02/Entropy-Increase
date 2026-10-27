@@ -1783,6 +1783,16 @@ file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6 (1).jar"
 hash = "f0f3726aafe747b7f8885691c4022034794b762a7022ddec1398ee8fdfc5819e"
 
 [[files]]
+file = "mods/travelers-titles-neoforge.pw.toml"
+hash = "2754ee25f4551304c77aeb45c7ab42947699ed09f44a9382611738cb96081209"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api-neoforge.pw.toml"
+hash = "a7f7162205a99fed65c2191907c00ee6a5f8a8a87cfd661e8d3829ebe346306f"
+metafile = true
+
+[[files]]
 file = "options.txt"
 hash = "ec7ad4e7a97a81d119e2556977d91b6199f3c6a27bb551a2d5225509b74acede"
 
