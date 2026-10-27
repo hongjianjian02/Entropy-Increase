@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#twilightforest:in_twilight_forest",
+  "features": "mysterious:tf_shimmering_mushrooms_oreberry",
+  "step": "vegetal_decoration"
+}

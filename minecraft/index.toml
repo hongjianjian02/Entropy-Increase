@@ -841,6 +841,22 @@ file = "kubejs/config/web_server.json"
 hash = "f013c27092f7bb95ae77ffeafb2f1b4e1f3024ebe1c77b911ceea0e140bb7e85"
 
 [[files]]
+file = "kubejs/data/mysterious/neoforge/biome_modifier/tf_mystical_flowers.json"
+hash = "c2f4c4cf147577d29381d745d1ce5654e24114d2fbe7f06cf06fca9d16b9312a"
+
+[[files]]
+file = "kubejs/data/mysterious/neoforge/biome_modifier/tf_shimmering_mushrooms.json"
+hash = "6940ea4abeacd0f1eca34c61d0d6d665fe60b2d8b3288ba42a3d83784671be66"
+
+[[files]]
+file = "kubejs/data/mysterious/worldgen/placed_feature/tf_mystical_flowers_dense.json"
+hash = "512296ce250d62e0778d5ce7915900fb7eca15682b6fa6fd5b1b4392e0508654"
+
+[[files]]
+file = "kubejs/data/mysterious/worldgen/placed_feature/tf_shimmering_mushrooms_oreberry.json"
+hash = "c89f4d7d5abdf05cc0ac8fc3575ccf2d36be93d0efe6e45d8ab2b3dc08e8040d"
+
+[[files]]
 file = "kubejs/server_scripts/Recipe.js"
 hash = "e184cabcbaca2cdd922cb152c4dc2b998d2b35534c8881a0d9a7751285e088c4"
 

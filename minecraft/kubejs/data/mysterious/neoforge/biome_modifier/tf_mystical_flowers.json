@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "#twilightforest:in_twilight_forest",
+  "features": "mysterious:tf_mystical_flowers_dense",
+  "step": "vegetal_decoration"
+}
