@@ -1,0 +1,13 @@
+name = "Icarus Wings"
+filename = "locusazzurro_icaruswings-1.21-0.7.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "675e9b2bf1826f4d533155a4a38f6a6b5a65bc82"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6110662
+project-id = 575424

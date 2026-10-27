@@ -825,6 +825,14 @@ file = "kubejs/assets/kubejs/textures/item/example_item.png"
 hash = "45a5f56eba6066ad05c70988a32b72c50cfeb6e35857739bd582007011ea002b"
 
 [[files]]
+file = "kubejs/client_scripts/hide_crowns.js"
+hash = "106036d95eb8283492bce29e11639dff462c3f29ab208682b752bc3233fde407"
+
+[[files]]
+file = "kubejs/client_scripts/tooltips.js"
+hash = "c4248ec82d412baeb97756cf44653fcc835f614915a170812bf54276c9859659"
+
+[[files]]
 file = "kubejs/config/client.json"
 hash = "0aeb4cb329b896e33a0777a1683b0b813a6f2f0adc5bc2cf3e6d10e18e442fef"
 
@@ -839,6 +847,10 @@ hash = "735599ec2db216a8fd145d32b565d990936fbb9bcc1aa10225cc065280f5611b"
 [[files]]
 file = "kubejs/config/web_server.json"
 hash = "f013c27092f7bb95ae77ffeafb2f1b4e1f3024ebe1c77b911ceea0e140bb7e85"
+
+[[files]]
+file = "kubejs/data/curios/tags/item/head.json"
+hash = "4c8084b31eef5b8156ef01b6222f8b09968036e8c868d6dcc1c486a55321e55a"
 
 [[files]]
 file = "kubejs/data/mysterious/neoforge/biome_modifier/tf_mystical_flowers.json"
@@ -857,8 +869,20 @@ file = "kubejs/data/mysterious/worldgen/placed_feature/tf_shimmering_mushrooms_o
 hash = "c89f4d7d5abdf05cc0ac8fc3575ccf2d36be93d0efe6e45d8ab2b3dc08e8040d"
 
 [[files]]
+file = "kubejs/data/twilightforest/loot_table/entities/lich.json"
+hash = "01a40ff7f201c7887c31425b3de55e933df32666c4ac40286a3f0294162282e5"
+
+[[files]]
+file = "kubejs/data/twilightforest/recipe/mystic_crown.json"
+hash = "c93f5eeed6a361c5f81f07337565b5dd28fd220b5768d3f589e836625dc18255"
+
+[[files]]
 file = "kubejs/server_scripts/Recipe.js"
 hash = "e184cabcbaca2cdd922cb152c4dc2b998d2b35534c8881a0d9a7751285e088c4"
+
+[[files]]
+file = "kubejs/server_scripts/remove_crown_recipes.js"
+hash = "e15a79c0aa984e5145a5bdb8d1f9d86ab6b0b713bc5acfbb3a15392835a98b82"
 
 [[files]]
 file = "kubejs/server_scripts/spawn_twilight.js"
@@ -875,6 +899,10 @@ hash = "62f08d3a983adeb043e61ecb74cb5c5f3191aeffe88e060bf15e63de4f19fe94"
 [[files]]
 file = "kubejs/server_scripts/twilight_gate.js.disabled"
 hash = "1727ebfd1674018fe550d7cb2383e6355831a574be2ae9e68f5f711161f730b4"
+
+[[files]]
+file = "kubejs/startup_scripts/hide_crowns_creative.js"
+hash = "65f7169a6d5da172985440174218367332ca8f083dda7c2869d49cd4927870ac"
 
 [[files]]
 file = "kubejs/startup_scripts/items.js"
@@ -1765,6 +1793,10 @@ file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
 hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
 
 [[files]]
+file = "mods/eicore-1.0.0.jar"
+hash = "0739788f6c470ad6f9c899c0ab7ce41431f4428b17c34fbb633d7cecaedbc254"
+
+[[files]]
 file = "mods/explorers-compass-edited.pw.toml"
 hash = "e401b81fedf6e85b60b7c7f071cd4e31a9e63b7aa4116025607cf0120c6451cb"
 metafile = true
@@ -1774,8 +1806,18 @@ file = "mods/extrabotany-2.0.0-1.21.1-NeoForge.jar"
 hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
 
 [[files]]
+file = "mods/icarus-wings.pw.toml"
+hash = "f5093da6e48a49e62f5dc1dd4f890b1d380eea14ae55e56af23848c0a23f9dad"
+metafile = true
+
+[[files]]
 file = "mods/natures-compass.pw.toml"
 hash = "2e9a8daaa0e0cc9cdfb67422e0f928f2db6a1f2984b8636eb2b5091c5fb23e29"
+metafile = true
+
+[[files]]
+file = "mods/neopasterdream.pw.toml"
+hash = "0fba9fa87c0e680907a456ed2ee461f434a0a4ebf24bf26920800df49961786b"
 metafile = true
 
 [[files]]

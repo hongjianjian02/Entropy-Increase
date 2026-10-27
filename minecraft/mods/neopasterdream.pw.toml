@@ -1,0 +1,13 @@
+name = "NeoPasterDream"
+filename = "pasterdream-0.10.0-pre.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "6e2fe52f95fcef76e805b6c47c129edf3eb311e7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9028931
+project-id = 1575033
