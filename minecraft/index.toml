@@ -113,6 +113,10 @@ file = "config/NotEnoughBandwidthLegacyConfig.json"
 hash = "251caf3455f695b0b3fbb49647821825243e2c877a53e9a95690bbe6fdede448"
 
 [[files]]
+file = "config/PasterDream-Client.toml"
+hash = "d435e428b51d653477bf98f81f97e14f83ebe8183832074109c90145682d3871"
+
+[[files]]
 file = "config/ProjectE/client.toml"
 hash = "956ff6653ab0cf9d1c5d2f174b2ccdb5bbed229a7dc9708f03e45b41a531cb0a"
 
@@ -1795,6 +1799,14 @@ metafile = true
 [[files]]
 file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
 hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
+
+[[files]]
+file = "mods/compactcrafting-4.0.1.jar"
+hash = "43744b7fd6cfeb416f631a77f6073a4f58cb794ada2eaafe21dacf57b0c512ed"
+
+[[files]]
+file = "mods/compactmachines-neoforge-7.0.81.jar"
+hash = "3518f73228c6eae5829ac087e8644a8b06c8a3b494b9f411958b8d33771eade5"
 
 [[files]]
 file = "mods/explorers-compass-edited.pw.toml"
