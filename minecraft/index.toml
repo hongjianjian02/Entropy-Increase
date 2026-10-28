@@ -1801,14 +1801,6 @@ file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
 hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
 
 [[files]]
-file = "mods/compactcrafting-4.0.1.jar"
-hash = "43744b7fd6cfeb416f631a77f6073a4f58cb794ada2eaafe21dacf57b0c512ed"
-
-[[files]]
-file = "mods/compactmachines-neoforge-7.0.81.jar"
-hash = "3518f73228c6eae5829ac087e8644a8b06c8a3b494b9f411958b8d33771eade5"
-
-[[files]]
 file = "mods/explorers-compass-edited.pw.toml"
 hash = "e401b81fedf6e85b60b7c7f071cd4e31a9e63b7aa4116025607cf0120c6451cb"
 metafile = true
@@ -1835,6 +1827,11 @@ metafile = true
 [[files]]
 file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6 (1).jar"
 hash = "f0f3726aafe747b7f8885691c4022034794b762a7022ddec1398ee8fdfc5819e"
+
+[[files]]
+file = "mods/thaumic-energistics-ce.pw.toml"
+hash = "2fcce39e6e1e6c890ab0f29c5a37f7ae4612712179de686b5020d77a4a029207"
+metafile = true
 
 [[files]]
 file = "mods/travelers-titles-neoforge.pw.toml"

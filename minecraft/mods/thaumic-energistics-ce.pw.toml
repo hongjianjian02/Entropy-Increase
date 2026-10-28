@@ -1,0 +1,13 @@
+name = "Thaumic Energistics: CE"
+filename = "thaumicenergistics_ce-1.21.1-neoforge-2.7.4.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "53391ecd045ff48793bebe334bacfcfb00c79bd5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9188731
+project-id = 1731454
