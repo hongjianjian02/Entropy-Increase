@@ -1,9 +1,10 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "40304C220F7BCCE6"
+	filename: "40304c220f7bcce6"
 	group: "4F34D8C283AFEFDA"
 	id: "40304C220F7BCCE6"
+	images: [ ]
 	order_index: 0
 	quest_links: [ ]
 	quests: [

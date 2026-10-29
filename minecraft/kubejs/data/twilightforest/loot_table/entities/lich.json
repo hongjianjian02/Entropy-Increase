@@ -22,15 +22,7 @@
         }
       ],
       "name": "lich_scepters",
-      "rolls": {
-        "type": "twilightforest:multiplayer_rolls",
-        "default_rolls": 1.0,
-        "per_player_rolls": {
-          "type": "minecraft:uniform",
-          "max": 1.0,
-          "min": -2.0
-        }
-      }
+      "rolls": 1.0
     },
     {
       "bonus_rolls": 0.0,
@@ -262,7 +254,8 @@
               }
             },
             {
-              "function": "minecraft:looting_enchant",
+              "function": "minecraft:enchanted_count_increase",
+              "enchantment": "minecraft:looting",
               "count": {
                 "type": "minecraft:uniform",
                 "min": 0,

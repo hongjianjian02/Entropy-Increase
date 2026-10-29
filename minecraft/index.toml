@@ -414,51 +414,51 @@ hash = "cc127c6067eb9e23289edc1c774afd71456456eef06c688af6731a72d3bba5e5"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "7c2cf9f342c562010cdc4ed16cc804269bcb0795c5b85a77cbe155f50f2f2ec7"
+hash = "fcaac62b8086a8352fd5b15e50b0a6c18749af780ddf289cc595c949f99247c7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/03A1D73903FA6FEC.snbt"
-hash = "523526741bc7c1b8c24edce34edacd1de30c6f789bf9fbc3fc9c0e6ba6241f41"
+hash = "c06fe414fbc784f10705b3f32718e6d8ced34c646ab6d02caf52d6824644a7da"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/0F13ECE19CBEBEF0.snbt"
-hash = "53103997f0f0eed2a3f53b98a5fd99d3c4a0d2205ce9db94508729af04779f3a"
+hash = "7433b4b0b6e88e587ed46ae0d185790a6085c7a3ad509fe657d4f2efc042b599"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/19169E2187F4B9B9.snbt"
-hash = "1ae11729760c5647dba422fd267f4885910b44f5b73df43a8c8ba98e32ca7f0a"
+hash = "160354d9e22e36046af284680afd9f58dca2d82b8016ab36c037074130a8a2e6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/40304C220F7BCCE6.snbt"
-hash = "53b2aa7f320e3001f700b037786d6adda9c1675852520ad59097396718b7e552"
+hash = "11e33fe26d2a103aadbac41388093f4f159f206caa13e4ae5da286e937200f35"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/40423503220CF0F0.snbt"
-hash = "d34e60d38717c67892397069958ce958e88ce39fb26e8c3ba33a18214555b54c"
+hash = "5596b3b41462ac370da43d6e53ec84194f5a2ff23180046253e7e957107119d0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/424EC44E4A478E49.snbt"
-hash = "d3b947b180867f4435fced546655699b0a59b45cc0ee37f8400236de807c62de"
+hash = "166b3631bf8ee70f32a5e4e901502ea8ab4aa3315912b2f527f2775fbc1d11d9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/58D00E42B7379E81.snbt"
-hash = "2b72ca2a6534839b73a0fee437e080de33b5b9f3d3c4045c33aea87d9ffcea90"
+hash = "941b9fc1f54f0b1fb343ed48fbfc0248237964c236da2b306b2c2dfd715692e8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/5C3F40131C469C9C.snbt"
-hash = "8c14193567b100501e17352cf8720336032f3703b9dcdaca43e56805484f654a"
+hash = "3c355e98b71ef85865fc3d6308369da45ac6efbd03547060f97fbc4a9ffeff99"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/7635944B6A6416E4.snbt"
-hash = "856ea067ddb040ef5ad1f27b7a34ba2571cda5fc8aa70db7b1b3630e7626e042"
+hash = "e2e495c6d2b16bdabd2a80839bdd2541e68f7eccf177ecc317af5e06c17eef4a"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "d7dd511fa89cc9066374f537d8e9259d6caff8fe7db0a0a04db3af393100e0a4"
+hash = "4e90e0c5f886d2f786e460a9be860404fa8062320269e86cddc4743ead6a95a0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "23908e640e131c335043b32908587e58f9d0197ead2f915ef3075612957639ec"
+hash = "492b2ed9a4b4de805afd0885174698522a3d364fc349874482d6627b2e0f6502"
 
 [[files]]
 file = "config/guideme.toml"
@@ -874,7 +874,7 @@ hash = "c89f4d7d5abdf05cc0ac8fc3575ccf2d36be93d0efe6e45d8ab2b3dc08e8040d"
 
 [[files]]
 file = "kubejs/data/twilightforest/loot_table/entities/lich.json"
-hash = "01a40ff7f201c7887c31425b3de55e933df32666c4ac40286a3f0294162282e5"
+hash = "56082b3830f169d110a936c2510a43bccb1444dad07fba4d526e0e733eb6ff5d"
 
 [[files]]
 file = "kubejs/data/twilightforest/recipe/mystic_crown.json"
@@ -1835,8 +1835,8 @@ file = "mods/extrabotany-2.0.0-1.21.1-NeoForge.jar"
 hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
 
 [[files]]
-file = "mods/thaumaturge-1.21.1-NeoForge-1.0.11.jar"
-hash = "f27a7a2638513f23692c006b835fe8ffcae21b42035c0d8e6297526f818ba746"
+file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6 (1).jar"
+hash = "f0f3726aafe747b7f8885691c4022034794b762a7022ddec1398ee8fdfc5819e"
 
 [[files]]
 file = "options.txt"
