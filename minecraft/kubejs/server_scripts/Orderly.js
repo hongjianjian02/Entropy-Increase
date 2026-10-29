@@ -8,7 +8,7 @@ ServerEvents.recipes(event => {
       '#': 'minecraft:stick',
       'A': 'twilightforest:naga_scale'
     }
-  ).id('kubejsstudio:root')
+  ).id('kubejs:root')
 
   // 下界岩
   event.shaped(

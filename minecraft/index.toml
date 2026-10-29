@@ -930,7 +930,7 @@ hash = "9ac6b715f6d904576e3213953198e07043efbff0ec17da1dac3cde6a4f84578e"
 
 [[files]]
 file = "kubejs/server_scripts/Orderly.js"
-hash = "d4b593fef0fc9dac244fe130a8e5fb878a475a4c4be1727152495f5b3859512b"
+hash = "fc2a0c7c7c5c35e016e767c12846770456db46dafc7ebb5132d8112f4b7d8826"
 
 [[files]]
 file = "kubejs/server_scripts/pure_daisy.js"
@@ -946,7 +946,7 @@ hash = "c53695945e907a340822d87fe5a79104e1ad0d9aadb5dba9e2b1bc51179f876d"
 
 [[files]]
 file = "kubejs/server_scripts/stonecutter.js"
-hash = "5314ee6b3622f216a63d6b34b8ba39339abf743af5168c40330d3634384db459"
+hash = "c45f82cbd3b847e1c8d7345d4a81d14c608e0e6a55a16da80bdb937f305a7b8e"
 
 [[files]]
 file = "kubejs/server_scripts/twilight_arrival.js"
