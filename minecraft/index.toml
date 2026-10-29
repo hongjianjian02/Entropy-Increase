@@ -874,7 +874,7 @@ hash = "c89f4d7d5abdf05cc0ac8fc3575ccf2d36be93d0efe6e45d8ab2b3dc08e8040d"
 
 [[files]]
 file = "kubejs/data/twilightforest/loot_table/entities/lich.json"
-hash = "56082b3830f169d110a936c2510a43bccb1444dad07fba4d526e0e733eb6ff5d"
+hash = "5a41e67aebd05867e111f67e57d35d43eb668a7f8af72bd1ac55c6e832244d19"
 
 [[files]]
 file = "kubejs/data/twilightforest/recipe/mystic_crown.json"
