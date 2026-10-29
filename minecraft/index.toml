@@ -113,10 +113,6 @@ file = "config/NotEnoughBandwidthLegacyConfig.json"
 hash = "251caf3455f695b0b3fbb49647821825243e2c877a53e9a95690bbe6fdede448"
 
 [[files]]
-file = "config/PasterDream-Client.toml"
-hash = "d435e428b51d653477bf98f81f97e14f83ebe8183832074109c90145682d3871"
-
-[[files]]
 file = "config/ProjectE/client.toml"
 hash = "956ff6653ab0cf9d1c5d2f174b2ccdb5bbed229a7dc9708f03e45b41a531cb0a"
 
@@ -819,6 +815,10 @@ hash = "d438aea41ca41e93697e059f523686935c0add482f6abe96b532bbf10c6ed80a"
 [[files]]
 file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "docs/专家包大纲-写作与提示词.md"
+hash = "46036a32f60c1878e8df790f8fc7b54179e891aa67ae4fd3b371dcf5ef624b3c"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -1820,13 +1820,8 @@ hash = "2e9a8daaa0e0cc9cdfb67422e0f928f2db6a1f2984b8636eb2b5091c5fb23e29"
 metafile = true
 
 [[files]]
-file = "mods/neopasterdream.pw.toml"
-hash = "0fba9fa87c0e680907a456ed2ee461f434a0a4ebf24bf26920800df49961786b"
-metafile = true
-
-[[files]]
-file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6 (1).jar"
-hash = "f0f3726aafe747b7f8885691c4022034794b762a7022ddec1398ee8fdfc5819e"
+file = "mods/thaumaturge-1.21.1-NeoForge-1.0.11.jar"
+hash = "f27a7a2638513f23692c006b835fe8ffcae21b42035c0d8e6297526f818ba746"
 
 [[files]]
 file = "mods/thaumic-energistics-ce.pw.toml"
@@ -1846,6 +1841,10 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "ec7ad4e7a97a81d119e2556977d91b6199f3c6a27bb551a2d5225509b74acede"
+
+[[files]]
+file = "prism更新.bat"
+hash = "36b5a50b437a754bb899e6f39bd80c596ae4e2eb126286c28204324e2eb387e4"
 
 [[files]]
 file = "一键更新mods.bat"
