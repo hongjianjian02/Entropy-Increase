@@ -885,6 +885,14 @@ file = "kubejs/server_scripts/Recipe.js"
 hash = "e184cabcbaca2cdd922cb152c4dc2b998d2b35534c8881a0d9a7751285e088c4"
 
 [[files]]
+file = "kubejs/server_scripts/blaze_powder.js"
+hash = "a9bb11fa511002382448726e5aaf4f46a733389c1cb2b813d8c97587437df2a1"
+
+[[files]]
+file = "kubejs/server_scripts/pure_daisy.js"
+hash = "015ed1e050530522a7066aae366155c30f3a04bb1097f80ab58d66627bd5ff75"
+
+[[files]]
 file = "kubejs/server_scripts/remove_crown_recipes.js"
 hash = "e15a79c0aa984e5145a5bdb8d1f9d86ab6b0b713bc5acfbb3a15392835a98b82"
 
@@ -1425,11 +1433,6 @@ metafile = true
 [[files]]
 file = "mods/.index/kubejs-projecte.pw.toml"
 hash = "761bdbd5f1a291e1f7c95bda458f21aaf4839df56c7e3966062f7cafb609a9ea"
-metafile = true
-
-[[files]]
-file = "mods/.index/kubejs-studio.pw.toml"
-hash = "38af6839345c93757af3f0555b094dea05e3eb96386e72a0e172dcccfc687ed6"
 metafile = true
 
 [[files]]
