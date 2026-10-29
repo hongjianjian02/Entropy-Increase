@@ -978,6 +978,11 @@ hash = "be6a50858c02108a4a6cd42e5f163483c8f167c307c6798ecda754764e91385f"
 metafile = true
 
 [[files]]
+file = "mods/.index/appleskin.pw.toml"
+hash = "808ece20b2094c8ce0178e38661cc4d66b78d81bfe16f160ce3d95003031c6cd"
+metafile = true
+
+[[files]]
 file = "mods/.index/applied-construction-sticks.pw.toml"
 hash = "4491f84408617cadf0e125b2d3caf805c81d07232922e8b14f59c44534259dcc"
 metafile = true
@@ -1173,6 +1178,11 @@ hash = "117f7f6f11bbe2459c3f8d08b7157799cac201c096de43bfbaec6d51a3b4e2c4"
 metafile = true
 
 [[files]]
+file = "mods/.index/explorers-compass-edited.pw.toml"
+hash = "4460e5b9e152be72749835d002507cbc92ad23d8e74e756d93a531da8829644f"
+metafile = true
+
+[[files]]
 file = "mods/.index/extended-crafting.pw.toml"
 hash = "39ffc1a3bd73e8738baf009ce43ff8b55a2efcfeb178d0871dc50176f4bb7334"
 metafile = true
@@ -1300,6 +1310,11 @@ metafile = true
 [[files]]
 file = "mods/.index/hostile-neural-networks.pw.toml"
 hash = "e98c09c17dc46e5bc877be0db696318e64b56ca15e79f19063fe35aa16f4f8a9"
+metafile = true
+
+[[files]]
+file = "mods/.index/icarus-wings.pw.toml"
+hash = "6cd06b719ce80fea698cec63e66b9815200d863c599b0b11c6df30d60ee33245"
 metafile = true
 
 [[files]]
@@ -1568,6 +1583,11 @@ hash = "cd7be301ea2b7c6d010e5e5c435536315cdb7d620cec5081dde63018119acb59"
 metafile = true
 
 [[files]]
+file = "mods/.index/natures-compass.pw.toml"
+hash = "3b12f3da76a83a57455117542a21d18117192c325be1c315dae04deafdc9b85a"
+metafile = true
+
+[[files]]
 file = "mods/.index/neo-eco-ae-extension.pw.toml"
 hash = "8bfc16326c36d127b1629e4561d55942c075a16dfd081ba13c04038f472faaf5"
 metafile = true
@@ -1748,6 +1768,11 @@ hash = "ff2fcad846dc89ed014a692e83251b78962e75e171b3a5e168af0d5a0759c5ab"
 metafile = true
 
 [[files]]
+file = "mods/.index/thaumic-energistics-ce.pw.toml"
+hash = "ddc286c676cef4409e3819a20e760d974c845b75cc62584546df220d9fac303b"
+metafile = true
+
+[[files]]
 file = "mods/.index/the-twilight-forest.pw.toml"
 hash = "1e9f7845167a3f273cb9d0bd14672f9a7cdbd053c5c22b9a3e5426a9a43c7bf7"
 metafile = true
@@ -1760,6 +1785,11 @@ metafile = true
 [[files]]
 file = "mods/.index/titanium.pw.toml"
 hash = "b4401427694e028f2882bcce68ad274f2a02ec5f4279ef3328d457d77f8b1a3c"
+metafile = true
+
+[[files]]
+file = "mods/.index/travelers-titles-neoforge.pw.toml"
+hash = "5d228eb8fbd2588a872897d28e76c67e9fd759b8d75b72cac26f6ccd435506fc"
 metafile = true
 
 [[files]]
@@ -1783,6 +1813,11 @@ hash = "ebb73156a71e07d7b7d1e63bc1efd99bb1c8c5002e9efeba7b8620095977dd8c"
 metafile = true
 
 [[files]]
+file = "mods/.index/yungs-api-neoforge.pw.toml"
+hash = "5492db6cb5280e7d7ef112c58f683125eda52fc09e1fa8f9e5232a10e7659264"
+metafile = true
+
+[[files]]
 file = "mods/.index/zerocore.pw.toml"
 hash = "8d4c36e3aac91377077f3c9e51173a669d6dbe445df94e926df0cea1581a975e"
 metafile = true
@@ -1792,51 +1827,16 @@ file = "mods/EI core-1.0.0.jar"
 hash = "0739788f6c470ad6f9c899c0ab7ce41431f4428b17c34fbb633d7cecaedbc254"
 
 [[files]]
-file = "mods/appleskin.pw.toml"
-hash = "3f910a2722d6884203aba5eee8f5c129ea3c2e0b78bc683b2d7b5604fec755f5"
-metafile = true
-
-[[files]]
 file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
 hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
-
-[[files]]
-file = "mods/explorers-compass-edited.pw.toml"
-hash = "e401b81fedf6e85b60b7c7f071cd4e31a9e63b7aa4116025607cf0120c6451cb"
-metafile = true
 
 [[files]]
 file = "mods/extrabotany-2.0.0-1.21.1-NeoForge.jar"
 hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
 
 [[files]]
-file = "mods/icarus-wings.pw.toml"
-hash = "f5093da6e48a49e62f5dc1dd4f890b1d380eea14ae55e56af23848c0a23f9dad"
-metafile = true
-
-[[files]]
-file = "mods/natures-compass.pw.toml"
-hash = "2e9a8daaa0e0cc9cdfb67422e0f928f2db6a1f2984b8636eb2b5091c5fb23e29"
-metafile = true
-
-[[files]]
 file = "mods/thaumaturge-1.21.1-NeoForge-1.0.11.jar"
 hash = "f27a7a2638513f23692c006b835fe8ffcae21b42035c0d8e6297526f818ba746"
-
-[[files]]
-file = "mods/thaumic-energistics-ce.pw.toml"
-hash = "31c4bfc97a6d2a1c5c1fdb725db88252bab533fba72b30fb29cef3f63cba8be8"
-metafile = true
-
-[[files]]
-file = "mods/travelers-titles-neoforge.pw.toml"
-hash = "2754ee25f4551304c77aeb45c7ab42947699ed09f44a9382611738cb96081209"
-metafile = true
-
-[[files]]
-file = "mods/yungs-api-neoforge.pw.toml"
-hash = "a7f7162205a99fed65c2191907c00ee6a5f8a8a87cfd661e8d3829ebe346306f"
-metafile = true
 
 [[files]]
 file = "options.txt"
