@@ -1,3 +1,4 @@
+// 出生
 const TF_DIM = 'twilightforest:twilight_forest'
 
 function isInTwilight(player) {

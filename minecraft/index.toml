@@ -873,40 +873,84 @@ file = "kubejs/data/mysterious/worldgen/placed_feature/tf_shimmering_mushrooms_o
 hash = "c89f4d7d5abdf05cc0ac8fc3575ccf2d36be93d0efe6e45d8ab2b3dc08e8040d"
 
 [[files]]
+file = "kubejs/data/twilightforest/loot_table/aurora_cache.json"
+hash = "4f1dc02698a1b772f04b3eaad391d9cd7102adb7231f53b874d4e2381de64ad2"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/darktower_cache.json"
+hash = "c6f34bcb4549ebd8565f694b71f775a500b43c2cae361134c946a7a89b704b94"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/darktower_key.json"
+hash = "1014a763d3ddbb6a62f791efd550a3a8a99299238e5d9293aa797178156af595"
+
+[[files]]
 file = "kubejs/data/twilightforest/loot_table/entities/lich.json"
 hash = "5a41e67aebd05867e111f67e57d35d43eb668a7f8af72bd1ac55c6e832244d19"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/graveyard.json"
+hash = "ed51b48876f122a31e417122c8c6c4282681148584b9f91d67d1957c2ea3c198"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/hill_2.json"
+hash = "5e1282cd853043d00258183f8ceaa02205010561f79d2bcc5b4a8323f5c9810b"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/labyrinth_dead_end.json"
+hash = "1cd91c7face7665a40cea2762e98078daafa429accb24644ac950867d7918744"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/labyrinth_room.json"
+hash = "330265f9dc74df7e12a7b9bcf0db1d972e49af2614b6c5c396b9022228b7f19b"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/labyrinth_vault.json"
+hash = "d028748d2b0809f748214c6d1e7bfd0bf7bd66930ead115e35d3576bfd512ddf"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/stronghold_cache.json"
+hash = "3d74c075bad9699efcd64df0ef7f40f28cc449bfa876ca7fed3d7844c3cb522f"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/stronghold_room.json"
+hash = "6a08058ad3f480181606a180d9a8d55cadd402bea93b8fb93bc15b53bb756e12"
 
 [[files]]
 file = "kubejs/data/twilightforest/recipe/mystic_crown.json"
 hash = "c93f5eeed6a361c5f81f07337565b5dd28fd220b5768d3f589e836625dc18255"
 
 [[files]]
-file = "kubejs/server_scripts/Recipe.js"
-hash = "e184cabcbaca2cdd922cb152c4dc2b998d2b35534c8881a0d9a7751285e088c4"
+file = "kubejs/server_scripts/Disordered.js"
+hash = "fb1743cc262a55cef1bb61d0fa0d843b055fad69d79ba5fdeeb9389bd38c44cf"
 
 [[files]]
-file = "kubejs/server_scripts/blaze_powder.js"
-hash = "a9bb11fa511002382448726e5aaf4f46a733389c1cb2b813d8c97587437df2a1"
+file = "kubejs/server_scripts/Mana Pool.js"
+hash = "9ac6b715f6d904576e3213953198e07043efbff0ec17da1dac3cde6a4f84578e"
+
+[[files]]
+file = "kubejs/server_scripts/Orderly.js"
+hash = "d4b593fef0fc9dac244fe130a8e5fb878a475a4c4be1727152495f5b3859512b"
 
 [[files]]
 file = "kubejs/server_scripts/pure_daisy.js"
-hash = "015ed1e050530522a7066aae366155c30f3a04bb1097f80ab58d66627bd5ff75"
+hash = "2408f9fd58c44e35f5fb2608843f105cd706d043ea4f3ddb835913055f072278"
 
 [[files]]
-file = "kubejs/server_scripts/remove_crown_recipes.js"
-hash = "e15a79c0aa984e5145a5bdb8d1f9d86ab6b0b713bc5acfbb3a15392835a98b82"
+file = "kubejs/server_scripts/remove.js"
+hash = "58c42029ae12e26dae7fd040d7a0a4d2f4499db1c9b888607a27088a90e04a4c"
 
 [[files]]
 file = "kubejs/server_scripts/spawn_twilight.js"
-hash = "695d877ae6ad401e6e10b7b4fd9e89ab7f2bd376500d20c43f771b99f66a2ff6"
+hash = "c53695945e907a340822d87fe5a79104e1ad0d9aadb5dba9e2b1bc51179f876d"
 
 [[files]]
 file = "kubejs/server_scripts/stonecutter.js"
-hash = "ba8649d7b927d17943e3dfbbb2929522eee05a86d9e70c59989fe18c0fc70233"
+hash = "5314ee6b3622f216a63d6b34b8ba39339abf743af5168c40330d3634384db459"
 
 [[files]]
 file = "kubejs/server_scripts/twilight_arrival.js"
-hash = "62f08d3a983adeb043e61ecb74cb5c5f3191aeffe88e060bf15e63de4f19fe94"
+hash = "46049f16c6c8ae47edb00b0f4b7be0a1617f77c7bbd34694d9b0ae11efd803db"
 
 [[files]]
 file = "kubejs/server_scripts/twilight_gate.js.disabled"

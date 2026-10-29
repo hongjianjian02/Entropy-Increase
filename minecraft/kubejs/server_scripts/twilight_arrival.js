@@ -1,3 +1,4 @@
+// 回家门
 const ARRIVAL_FROM = 'twilightforest:twilight_forest'
 const ARRIVAL_TO = 'minecraft:overworld'
 
