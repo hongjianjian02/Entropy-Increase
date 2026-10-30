@@ -185,21 +185,37 @@
 					type: "item"
 				}
 			]
-			x: -25.0d
-			y: -0.5d
+			x: -25.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["08959F40967AC768"]
 			id: "59C4DCBCFBBF5F82"
-			rewards: [{
-				count: 8
-				id: "2B49ACF88AE55FA1"
-				item: {
-					count: 1
-					id: "twilightforest:naga_scale"
+			rewards: [
+				{
+					count: 8
+					id: "2B49ACF88AE55FA1"
+					item: {
+						count: 1
+						id: "twilightforest:naga_scale"
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					count: 16
+					id: "5180502645673054"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_healing"
+							}
+						}
+						count: 1
+						id: "minecraft:splash_potion"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "1A25835429594236"
 				item: { count: 1, id: "twilightforest:naga_trophy" }
@@ -231,8 +247,8 @@
 				item: { count: 1, id: "botania:white_mystical_flower" }
 				type: "item"
 			}]
-			x: -23.5d
-			y: 0.5d
+			x: -25.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["59C4DCBCFBBF5F82"]
@@ -262,7 +278,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0C42E80F859B8885"]
@@ -284,7 +300,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["71652FC5565FC7A4"]
@@ -298,6 +314,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["6AEC9D71CCD30C34"]
 			id: "75BB933025FAD657"
 			tasks: [{
 				id: "3CDB11832FCAF178"
@@ -305,9 +322,10 @@
 				type: "item"
 			}]
 			x: -17.5d
-			y: -1.5d
+			y: 0.0d
 		}
 		{
+			dependencies: ["0117471874399E00"]
 			id: "1747B64A0F031F9E"
 			tasks: [{
 				id: "651B8DC933F5F64A"
@@ -315,9 +333,14 @@
 				type: "item"
 			}]
 			x: -17.5d
-			y: 0.0d
+			y: -1.5d
 		}
 		{
+			dependencies: [
+				"7A0100D3DDCE5C56"
+				"1747B64A0F031F9E"
+				"75BB933025FAD657"
+			]
 			id: "0B6B55D50FCF91C1"
 			tasks: [{
 				id: "5B2CDA30BE3499CC"
@@ -328,6 +351,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["0B6B55D50FCF91C1"]
 			id: "0D4DA2A006C180E6"
 			tasks: [
 				{
@@ -345,6 +369,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["0D4DA2A006C180E6"]
 			id: "08A7B05E4DDDF0B1"
 			tasks: [
 				{
@@ -379,8 +404,190 @@
 				item: { count: 1, id: "botania:pure_daisy" }
 				type: "item"
 			}]
+			x: -25.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["59C4DCBCFBBF5F82"]
+			id: "1C2638CF7098C4C5"
+			tasks: [{
+				id: "3F789BD8A17B79DF"
+				item: { count: 1, id: "twilightforest:root" }
+				type: "item"
+			}]
 			x: -23.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1C2638CF7098C4C5"
+				"7F3614FDE1F0BED7"
+			]
+			id: "459D34B2E07079C6"
+			tasks: [{
+				id: "250818B16138A1D1"
+				item: { count: 1, id: "twilightforest:liveroot_block" }
+				type: "item"
+			}]
+			x: -23.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["459D34B2E07079C6"]
+			id: "43AAF2EDEA4FB8B4"
+			tasks: [{
+				id: "52022E3D9FA44A8E"
+				item: { count: 1, id: "twilightforest:ironwood_ingot" }
+				type: "item"
+			}]
+			x: -23.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"43AAF2EDEA4FB8B4"
+				"5014C0B273E442CC"
+			]
+			id: "4B5E83E5302F1BC2"
+			tasks: [
+				{
+					id: "18A74CCFDE01475D"
+					item: { count: 1, id: "botania:manasteel_ingot" }
+					type: "item"
+				}
+				{
+					id: "69F475FDCDCB8FF5"
+					item: { count: 1, id: "botania:mana_diamond" }
+					type: "item"
+				}
+				{
+					id: "32DF379778E1F8EE"
+					item: { count: 1, id: "botania:mana_pearl" }
+					type: "item"
+				}
+			]
+			x: -21.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"4B5E83E5302F1BC2"
+				"4A0B37422ED3E672"
+			]
+			id: "2AD1FCEACBF4587F"
+			tasks: [{
+				id: "5D793D300232D163"
+				item: { count: 1, id: "botania:terrasteel_ingot" }
+				type: "item"
+			}]
+			x: -19.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2AD1FCEACBF4587F"
+				"6AEC9D71CCD30C34"
+			]
+			id: "1A283E48EC379423"
+			tasks: [{
+				id: "12C9A19B7F8242BD"
+				item: { count: 1, id: "botania:alfheim_portal" }
+				type: "item"
+			}]
+			x: -17.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A283E48EC379423"]
+			id: "04262792602706AF"
+			tasks: [
+				{
+					id: "0255716A5A20FDF5"
+					item: { count: 1, id: "botania:elementium_ingot" }
+					type: "item"
+				}
+				{
+					id: "0DBD915B8E79105A"
+					item: { count: 1, id: "botania:dragonstone" }
+					type: "item"
+				}
+				{
+					id: "6EC6802FCA2A4F01"
+					item: { count: 1, id: "botania:pixie_dust" }
+					type: "item"
+				}
+			]
+			x: -17.5d
+			y: 3.5d
+		}
+		{
+			id: "1301F3F28736AD5F"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "1AE69E58007B437B"
+				type: "dimension"
+			}]
+			x: -11.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["0C42E80F859B8885"]
+			id: "5014C0B273E442CC"
+			tasks: [{
+				id: "76CFEC3B097A799C"
+				item: { count: 1, id: "minecraft:ender_pearl" }
+				type: "item"
+			}]
+			x: -21.5d
+			y: 0.0d
+		}
+		{
+			id: "5F4BF79F031DA9B3"
+			tasks: [{
+				id: "16894C0F816E93E1"
+				item: { count: 1, id: "botania:livingrock" }
+				type: "item"
+			}]
+			x: -25.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4B5E83E5302F1BC2"]
+			id: "4A0B37422ED3E672"
+			tasks: [{
+				id: "6D1C8FBD0BA9B6F3"
+				item: { count: 1, id: "botania:terra_plate" }
+				type: "item"
+			}]
+			x: -21.5d
+			y: 3.5d
+		}
+		{
+			id: "73BE1F8E3643202D"
+			tasks: [
+				{
+					id: "44E33F8FF9C282DC"
+					item: { count: 1, id: "twilightforest:pink_castle_rune_brick" }
+					type: "item"
+				}
+				{
+					id: "5A8730CACDE9FA57"
+					item: { count: 1, id: "twilightforest:yellow_castle_rune_brick" }
+					type: "item"
+				}
+				{
+					id: "593165562F67A239"
+					item: { count: 1, id: "twilightforest:blue_castle_rune_brick" }
+					type: "item"
+				}
+				{
+					id: "15D64D86787BC927"
+					item: { count: 1, id: "twilightforest:violet_castle_rune_brick" }
+					type: "item"
+				}
+			]
+			x: -9.5d
+			y: -1.5d
 		}
 	]
 }

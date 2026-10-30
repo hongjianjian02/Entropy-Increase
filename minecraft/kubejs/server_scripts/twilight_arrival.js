@@ -8,7 +8,7 @@ function arrivalFill(player, blockId, filter) {
   var x = Math.floor(player.x)
   var y = Math.floor(player.y)
   var z = Math.floor(player.z)
-  player.server.runCommandSilent(`fill ${x - 5} ${y - 3} ${z - 5} ${x + 5} ${y + 4} ${z + 5} ${blockId} replace ${filter}`)
+  player.server.runCommandSilent(`fill ${x - 2} ${y - 3} ${z - 2} ${x + 2} ${y + 4} ${z + 2} ${blockId} replace ${filter}`)
 }
 
 PlayerEvents.tick(event => {

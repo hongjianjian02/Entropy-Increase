@@ -11,5 +11,14 @@
 	order_index: 1
 	preset: "normal"
 	quest_links: [ ]
-	quests: [ ]
+	quests: [{
+		id: "536BE2523D378CB4"
+		tasks: [{
+			id: "32A0895D3DF8765F"
+			item: { count: 1, id: "thaumaturge:thaumonomicon" }
+			type: "item"
+		}]
+		x: -5.0d
+		y: -0.5d
+	}]
 }

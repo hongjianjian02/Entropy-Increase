@@ -426,7 +426,7 @@ hash = "7433b4b0b6e88e587ed46ae0d185790a6085c7a3ad509fe657d4f2efc042b599"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/19169E2187F4B9B9.snbt"
-hash = "160354d9e22e36046af284680afd9f58dca2d82b8016ab36c037074130a8a2e6"
+hash = "92d835626f6a9b40ec341369266056d0d4171e7e23c66e1edb5ff2766f91c92d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/40304C220F7BCCE6.snbt"
@@ -438,7 +438,7 @@ hash = "5596b3b41462ac370da43d6e53ec84194f5a2ff23180046253e7e957107119d0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/424EC44E4A478E49.snbt"
-hash = "166b3631bf8ee70f32a5e4e901502ea8ab4aa3315912b2f527f2775fbc1d11d9"
+hash = "d1fe597773bbd7f51d030a0a0d18c9f0898ed60daaa101d138b97e83d7412fbb"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/58D00E42B7379E81.snbt"
@@ -458,7 +458,7 @@ hash = "4e90e0c5f886d2f786e460a9be860404fa8062320269e86cddc4743ead6a95a0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "492b2ed9a4b4de805afd0885174698522a3d364fc349874482d6627b2e0f6502"
+hash = "9952778c1a02f455f0b6d1b83ac9dc383101b99f2701fefc554e423e10affbf4"
 
 [[files]]
 file = "config/guideme.toml"
@@ -950,7 +950,7 @@ hash = "c45f82cbd3b847e1c8d7345d4a81d14c608e0e6a55a16da80bdb937f305a7b8e"
 
 [[files]]
 file = "kubejs/server_scripts/twilight_arrival.js"
-hash = "46049f16c6c8ae47edb00b0f4b7be0a1617f77c7bbd34694d9b0ae11efd803db"
+hash = "d90382bd5930e16a5933b1ce63933e0c798d1830edba8bad92dd9d75b0647f4a"
 
 [[files]]
 file = "kubejs/server_scripts/twilight_gate.js.disabled"

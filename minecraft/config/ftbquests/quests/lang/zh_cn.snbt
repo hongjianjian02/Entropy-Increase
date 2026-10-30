@@ -10,6 +10,7 @@
 	chapter.7635944B6A6416E4.title: "第四章"
 	chapter_group.323571BB47D0B746.title: "[主线]"
 	chapter_group.4F34D8C283AFEFDA.title: "【实用物品】"
+	quest.0117471874399E00.title: "击败雪怪首领"
 	quest.065E81BD2D5E4BD7.quest_desc: ["植物魔法真的是&#8AF5FF魔法&r吗？"]
 	quest.065E81BD2D5E4BD7.title: "植物魔法的开始"
 	quest.08959F40967AC768.quest_desc: ["初入这个世界随便送你点东西吧，这套装备应该可以让你度过前期了！"]
@@ -17,14 +18,20 @@
 	quest.0C42E80F859B8885.quest_desc: ["巫妖现在会掉落&e王冠碎片&r和概率掉落&e神秘王冠&r"]
 	quest.0C42E80F859B8885.title: "击败巫妖"
 	quest.100DB060C8AC126F.quest_desc: ["ps：用ME能量存储原件存储电量在再样板供应器放入感应卡会自动给机器发配电量"]
+	quest.1301F3F28736AD5F.title: "回家"
 	quest.156845B8FDE37E62.title: "维度存储"
 	quest.1784781D664074A3.title: "SFM"
+	quest.1A283E48EC379423.quest_desc: ["或许是同族的......."]
+	quest.1A283E48EC379423.title: "不觉得幻影骑士很像精灵吗"
 	quest.1F859657875F24FA.title: "流体管道"
 	quest.3EA85D4C8B58892F.quest_desc: ["ps：pip管道尽量不要过多使用下界合金升级"]
 	quest.3EA85D4C8B58892F.title: "物品管道"
 	quest.4D3F03124FF191D2.title: "任意能量导管"
+	quest.5014C0B273E442CC.quest_desc: ["现在可以用&e巫妖奖杯&r在切石机切末影珍珠"]
+	quest.536BE2523D378CB4.title: "你知道的,首先证明你会玩"
 	quest.57BC34FCEAB6B2DD.quest_desc: ["Mek管道不做推荐"]
 	quest.57BC34FCEAB6B2DD.title: "物流管道"
+	quest.59C4DCBCFBBF5F82.quest_desc: ["送你几瓶&4治疗药水&r，至于有什么用你应该知道吧！"]
 	quest.59C4DCBCFBBF5F82.title: "击败娜迦"
 	quest.5B67B138C5619BA5.quest_desc: ["ps：eio的管道数值都很逆天具体可以去EMI查看"]
 	quest.5B67B138C5619BA5.title: "物品导管"
@@ -39,6 +46,7 @@
 	quest.7F1F590775232C74.quest_desc: ["相信你永远在RF/FE包离不开它，此外还加入了&n&e更多通量存储&r&r，让对应的能量存储设备(龙之研究的龙球、通用机械的感应矩阵、应用通量的磁盘)直接变成通量的缓存(性能问题待观望)"]
 	quest.7F1F590775232C74.quest_subtitle: "流水的机器，铁打的通量"
 	quest.7F1F590775232C74.title: "通量"
+	quest.7F3614FDE1F0BED7.quest_desc: ["植魔的一小步，迈向精灵门的一大步"]
 	task.0711EE16841821C9.title: "任意化学品导管"
 	task.08EF6691F4EC3B5E.title: "任意流体导管"
 	task.094E675641541306.title: "任意机械管道"
