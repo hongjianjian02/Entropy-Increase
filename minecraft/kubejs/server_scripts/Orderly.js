@@ -71,5 +71,18 @@ ServerEvents.recipes(event => {
       "E": "botania:rune_mana",
       "F": "botania:rune_air"
     }
-  ).id('botania:terra_plate')  
+  ).id('botania:terra_plate')
+  
+  // 阿涅摩伊之杖
+  event.shaped(
+    Item.of('locusazzurro_icaruswings:wind_wand', 1),
+    ['  #','AB ','CD '],
+    {
+      '#': 'locusazzurro_icaruswings:anemone',
+      'A': 'twilightforest:huge_mushgloom_stem',
+      'B': 'minecraft:stick',
+      'C': 'twilightforest:huge_water_lily',
+      'D': 'twilightforest:huge_mushgloom'
+    }
+  ).id('locusazzurro_icaruswings:wind_wand')
 })

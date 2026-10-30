@@ -47,6 +47,9 @@
 		}
 		{
 			dependencies: ["3D25961A6C963D0D"]
+			icon: {
+				id: "thaumaturge:arcane_workbench"
+			}
 			id: "0FF73CE7539C399D"
 			tasks: [
 				{
@@ -121,6 +124,41 @@
 		{
 			dependencies: ["721865E9C00355EC"]
 			id: "56228613B240081E"
+			rewards: [
+				{
+					id: "0AE9E5F21A0A70DF"
+					item: {
+						components: {
+							"immersiveengineering:blueprint": "molds"
+						}
+						count: 1
+						id: "immersiveengineering:blueprint"
+					}
+					type: "item"
+				}
+				{
+					id: "500A20212C5D59D1"
+					item: {
+						components: {
+							"immersiveengineering:blueprint": "automatons"
+						}
+						count: 1
+						id: "immersiveengineering:blueprint"
+					}
+					type: "item"
+				}
+				{
+					id: "08AAD65DCF62446F"
+					item: {
+						components: {
+							"immersiveengineering:blueprint": "components"
+						}
+						count: 1
+						id: "immersiveengineering:blueprint"
+					}
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "4E04BA1935C9288E"
 				item: { count: 1, id: "immersiveengineering:workbench" }
@@ -153,6 +191,45 @@
 			}]
 			x: -3.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["56228613B240081E"]
+			id: "7101AC7D76000043"
+			tasks: [{
+				id: "2055F988E812BD62"
+				item: { count: 1, id: "immersiveengineering:cloche" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 8.0d
+		}
+		{
+			id: "28DB3C7E96FEDAE7"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:advanced_blast_furnace"
+				}
+				id: "24D890A1DF985584"
+				interaction_type: "block"
+				to_interact: "immersiveengineering:advanced_blast_furnace"
+				type: "interaction"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			id: "7F218ADF4A30248B"
+			tasks: [{
+				icon: {
+					id: "immersiveengineering:arc_furnace"
+				}
+				id: "1070418ADA4C21F4"
+				interaction_type: "block"
+				to_interact: "immersiveengineering:advanced_blast_furnace"
+				type: "interaction"
+			}]
+			x: -1.0d
+			y: 4.5d
 		}
 	]
 }

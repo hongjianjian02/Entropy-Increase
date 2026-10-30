@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "mekanism:ingot_steel",
+      "nuclearcraftneohaul:steel_alloy",
+      "immersiveengineering:ingot_steel"
+    ],
+    "resultItems": "mekanism:ingot_steel"
+  }
+]

@@ -418,7 +418,7 @@ hash = "7433b4b0b6e88e587ed46ae0d185790a6085c7a3ad509fe657d4f2efc042b599"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/19169E2187F4B9B9.snbt"
-hash = "3518d8092265f82c42ac012a1b3c76c5a4751d30a3fb0832f2751fa5cceddb63"
+hash = "bf15e81dc8ec8e19a166963a80979363c516e82ce1e0cfe29456c881814d9a50"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3af64a8d2e35b6b4.snbt"
@@ -434,7 +434,7 @@ hash = "5596b3b41462ac370da43d6e53ec84194f5a2ff23180046253e7e957107119d0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/424EC44E4A478E49.snbt"
-hash = "168d5f0a0d6f9f1ef3a6cd3d205b27b418f72479b5972c332dade35299900985"
+hash = "c9087b61ef619efdfcc60346dd24f4566d2813721cc0ab8cbcc10f41ee03499f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/58D00E42B7379E81.snbt"
@@ -458,7 +458,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "3627c2830e00094a1778bb8118cf64c21193c1e709835324a53a9ba4fae5b86b"
+hash = "9f0721d29155444997a5a0bf77e2c544e202a6478493e79ad5fce80e848ff2c9"
 
 [[files]]
 file = "config/guideme.toml"
@@ -834,7 +834,7 @@ hash = "106036d95eb8283492bce29e11639dff462c3f29ab208682b752bc3233fde407"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "d1c44720291e1ce95510971cd32c33fb19ba21e51f89bae9af007d9e4d97f0a3"
+hash = "2f160f0ce5130ab94382c6653b8be5b171b05cb91352dcaef6a5d99212cd2565"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -873,52 +873,140 @@ file = "kubejs/data/mysterious/worldgen/placed_feature/tf_shimmering_mushrooms_o
 hash = "c89f4d7d5abdf05cc0ac8fc3575ccf2d36be93d0efe6e45d8ab2b3dc08e8040d"
 
 [[files]]
+file = "kubejs/data/oei/replacements/steel.json"
+hash = "f62fe66922efb56f31b25000ceaa32df257e22bc6310d7ac147771a72adf764d"
+
+[[files]]
 file = "kubejs/data/twilightforest/data_maps/block/crumble_horn.json"
 hash = "eb9a05647969d2f65f21e0f542cebad5d14318d8a55a12572f7d992bd988f6f4"
 
 [[files]]
 file = "kubejs/data/twilightforest/loot_table/aurora_cache.json"
-hash = "4f1dc02698a1b772f04b3eaad391d9cd7102adb7231f53b874d4e2381de64ad2"
+hash = "378c1ccf2d6ab28af4c738cdaafe27f1b7296629594d52aaccfd137b21655b22"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/aurora_room.json"
+hash = "6d65ffa28ea501251412c3772bc8922e9a79c1c5ee677eba5f79b4013e103f86"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/camp_armor_rack.json"
+hash = "6dc9044a488e3b684589f29c0f3a773ca43800ad4d39ea789d7f2044695093df"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/camp_drying_rack.json"
+hash = "2b0c5c336943dbfb84e31216762e46912373e5437f03353bd5b7fd01f405256e"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/camp_pot.json"
+hash = "1320b14e5b8e2e3e6ae30642f2003e3cfc5477e5a5c036c0d6b7a0a154db43bc"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/camp_tent.json"
+hash = "60b289e2fb5b581429fa4f19af2971d466bb15c22c4a30086eb2f5a0506fb92b"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/darktower_boss.json"
+hash = "a448490f368167ea7e473fb9845022f85d476e773128fb4219ccdf743309aa03"
 
 [[files]]
 file = "kubejs/data/twilightforest/loot_table/darktower_cache.json"
-hash = "c6f34bcb4549ebd8565f694b71f775a500b43c2cae361134c946a7a89b704b94"
+hash = "8eb9aa230240a3a005e8a7498bdf9b2405f035069c9dbaa5b02b486a8c4fcd87"
 
 [[files]]
 file = "kubejs/data/twilightforest/loot_table/darktower_key.json"
-hash = "1014a763d3ddbb6a62f791efd550a3a8a99299238e5d9293aa797178156af595"
+hash = "1fa17fe26e858cfff58ea0da5761483147be4e66335e5d9a67c9cda7be9da57d"
 
 [[files]]
 file = "kubejs/data/twilightforest/loot_table/entities/lich.json"
 hash = "5a41e67aebd05867e111f67e57d35d43eb668a7f8af72bd1ac55c6e832244d19"
 
 [[files]]
+file = "kubejs/data/twilightforest/loot_table/fallen_trunk_loot.json"
+hash = "3ffc5e2cd293b0791cb02b9295a9c483074f8825e604f48017cd6b71f4bfcc35"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/fancy_well.json"
+hash = "a590fe83151b6130116a7dd37d73c53cf292e9e7e28b9cc82373cdf822da3281"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/foundation_basement.json"
+hash = "d6741cbfdbd6fa95cb38b6da1c0c304ae64f47d7e32218897949ed1503da220d"
+
+[[files]]
 file = "kubejs/data/twilightforest/loot_table/graveyard.json"
-hash = "ed51b48876f122a31e417122c8c6c4282681148584b9f91d67d1957c2ea3c198"
+hash = "2ba11002da0d7325f5f160d44536d0643527d87d885d0a4b6653eb407feb8942"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/hedge_cloth.json"
+hash = "500c5c0082c1c1a2a47299a011416ea1c4768d4ebbb2d912062703c5dce3dd48"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/hedge_maze.json"
+hash = "5d42a28515c4c27a8e1ce8f818f4a0931fbd450c0071819507b5f4f1f63fee62"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/hill_1.json"
+hash = "52bc47aadfa3a79313e07e7e3c6ed43d776248873bfc44f93a8b7ddcc1e8a1d8"
 
 [[files]]
 file = "kubejs/data/twilightforest/loot_table/hill_2.json"
-hash = "5e1282cd853043d00258183f8ceaa02205010561f79d2bcc5b4a8323f5c9810b"
+hash = "15f4dc9257bc1779b9d4e7799dd740629b2722c5f8553e33cbabe93d554e3ad0"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/hill_3.json"
+hash = "2622a332298c78cc5db5e9da866397d25e7eb9fff6cc2b78d82ee2f9c718f960"
 
 [[files]]
 file = "kubejs/data/twilightforest/loot_table/labyrinth_dead_end.json"
-hash = "1cd91c7face7665a40cea2762e98078daafa429accb24644ac950867d7918744"
+hash = "1b5b1efed79e218b6a0141d517604967481583957120d0d936320f82b41cb840"
 
 [[files]]
 file = "kubejs/data/twilightforest/loot_table/labyrinth_room.json"
-hash = "330265f9dc74df7e12a7b9bcf0db1d972e49af2614b6c5c396b9022228b7f19b"
+hash = "c06ee3418c5d1efefc3a89508e716fcbfb05d35bab56c934e60de6ab3b7ef2bd"
 
 [[files]]
 file = "kubejs/data/twilightforest/loot_table/labyrinth_vault.json"
-hash = "d028748d2b0809f748214c6d1e7bfd0bf7bd66930ead115e35d3576bfd512ddf"
+hash = "47da085fbfbc64f42427bb6cb332c2a153cad8b6a73482c8cb73f923453898df"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/labyrinth_vault_jackpot.json"
+hash = "4936a9c8e5db5dd4427db9db615cbd781e053155e7c59fbd3d0ed8c1abc6b32c"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/quest_grove_dropper.json"
+hash = "25cebde3e4196f077a914ae550996c8d7ad8ac390f4d218d3b8b001e49a22bcc"
 
 [[files]]
 file = "kubejs/data/twilightforest/loot_table/stronghold_cache.json"
-hash = "3d74c075bad9699efcd64df0ef7f40f28cc449bfa876ca7fed3d7844c3cb522f"
+hash = "14ba7877410f23829b33dd886ebad51014645214a2b7657cfb1d93bbf0ffed59"
 
 [[files]]
 file = "kubejs/data/twilightforest/loot_table/stronghold_room.json"
-hash = "6a08058ad3f480181606a180d9a8d55cadd402bea93b8fb93bc15b53bb756e12"
+hash = "aa11490aa5508ec995171318262fea5676306c8871afc18efe810f2276582678"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/tree_cache.json"
+hash = "9c38816f9d6ec9a872623b79beb98ddac2311c5f85c9d5ff556a75f250c1413e"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/troll_garden.json"
+hash = "9aed6a5e582d14c6d92c4b3779acc888e211e1cc250d1a4724b4614684fb1ed4"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/troll_vault.json"
+hash = "8f0f7e157fd51a3b51c6d7603dab26f218fa5a11fcf1761f4028bc9f27d7fdfa"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/troll_vault_with_lamp.json"
+hash = "c8e4fd95c2ab34f519ad7e3d020df404d665472a4637dd7beba49adf8af0b685"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/useless.json"
+hash = "488ad24f26bad1c965e1f7b9b58fbe44aa1fc79172d9ebdfbac86d35e3e13f74"
+
+[[files]]
+file = "kubejs/data/twilightforest/loot_table/well.json"
+hash = "9a33edc563f47052278787f5ed4528f03010f72280be5d073a02d5f7ef057687"
 
 [[files]]
 file = "kubejs/data/twilightforest/recipe/mystic_crown.json"
@@ -938,7 +1026,7 @@ hash = "9ac6b715f6d904576e3213953198e07043efbff0ec17da1dac3cde6a4f84578e"
 
 [[files]]
 file = "kubejs/server_scripts/Orderly.js"
-hash = "eb894a70729a28818244ca97a00c05e8d84798c1654dc40ca3f0f20fe3cf162c"
+hash = "fae582a01d24c4fc982232a8aac26e58cbc3e93df36d196a67cf0ecf419296b1"
 
 [[files]]
 file = "kubejs/server_scripts/pure_daisy.js"

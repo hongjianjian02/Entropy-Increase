@@ -174,17 +174,10 @@
 					type: "item"
 				}
 			]
-			tasks: [
-				{
-					id: "65E801E8B81E3AF5"
-					type: "checkmark"
-				}
-				{
-					id: "1C72A1B67AD336DE"
-					item: { count: 1, id: "twilightforest:twilight_oak_log" }
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "65E801E8B81E3AF5"
+				type: "checkmark"
+			}]
 			x: -25.5d
 			y: -1.5d
 		}
@@ -359,6 +352,9 @@
 		}
 		{
 			dependencies: ["0B6B55D50FCF91C1"]
+			icon: {
+				id: "twilightforest:giant_obsidian"
+			}
 			id: "0D4DA2A006C180E6"
 			tasks: [
 				{
@@ -377,6 +373,9 @@
 		}
 		{
 			dependencies: ["0D4DA2A006C180E6"]
+			icon: {
+				id: "twilightforest:lamp_of_cinders"
+			}
 			id: "08A7B05E4DDDF0B1"
 			tasks: [
 				{
