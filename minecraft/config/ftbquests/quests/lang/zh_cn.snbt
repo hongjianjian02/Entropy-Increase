@@ -2,6 +2,7 @@
 	chapter.03A1D73903FA6FEC.title: "第三章"
 	chapter.0F13ECE19CBEBEF0.title: "第六章"
 	chapter.19169E2187F4B9B9.title: "第二章"
+	chapter.3AF64A8D2E35B6B4.title: "资源"
 	chapter.40304C220F7BCCE6.title: "物流"
 	chapter.40423503220CF0F0.title: "介绍页"
 	chapter.424EC44E4A478E49.title: "第一章"
@@ -11,24 +12,37 @@
 	chapter_group.323571BB47D0B746.title: "[主线]"
 	chapter_group.4F34D8C283AFEFDA.title: "【实用物品】"
 	quest.0117471874399E00.title: "击败雪怪首领"
+	quest.04262792602706AF.title: "这是樱花钢吗？"
 	quest.065E81BD2D5E4BD7.quest_desc: ["植物魔法真的是&#8AF5FF魔法&r吗？"]
 	quest.065E81BD2D5E4BD7.title: "植物魔法的开始"
 	quest.08959F40967AC768.quest_desc: ["初入这个世界随便送你点东西吧，这套装备应该可以让你度过前期了！"]
 	quest.08959F40967AC768.title: "初入暮色"
+	quest.0B83A320EA00A9B0.title: "神秘农业"
 	quest.0C42E80F859B8885.quest_desc: ["巫妖现在会掉落&e王冠碎片&r和概率掉落&e神秘王冠&r"]
 	quest.0C42E80F859B8885.title: "击败巫妖"
 	quest.100DB060C8AC126F.quest_desc: ["ps：用ME能量存储原件存储电量在再样板供应器放入感应卡会自动给机器发配电量"]
 	quest.1301F3F28736AD5F.title: "回家"
+	quest.144913CE171A67E8.title: "eio磨粉机倍产"
 	quest.156845B8FDE37E62.title: "维度存储"
+	quest.1661897BFFC6CA25.title: "神秘矿簇倍产"
 	quest.1784781D664074A3.title: "SFM"
+	quest.1837369FE26C716B.title: "焦煤和杂酚油"
 	quest.1A283E48EC379423.quest_desc: ["或许是同族的......."]
 	quest.1A283E48EC379423.title: "不觉得幻影骑士很像精灵吗"
+	quest.1ABB4A061CF20212.quest_desc: [""]
+	quest.1ABB4A061CF20212.title: "&m附魔&r激活！"
 	quest.1F859657875F24FA.title: "流体管道"
+	quest.25BF6039CFA26DEE.title: "mek倍产"
+	quest.2EF91022AD2FBA46.title: "工业先锋矿石发酵倍产"
+	quest.31640D0A816C1426.title: "沉浸工艺倍产"
+	quest.34E8A826185D7AD3.title: "坠星仪式"
+	quest.38F1673B4154CF0A.title: "回家的钥匙！"
 	quest.3EA85D4C8B58892F.quest_desc: ["ps：pip管道尽量不要过多使用下界合金升级"]
 	quest.3EA85D4C8B58892F.title: "物品管道"
 	quest.4D3F03124FF191D2.title: "任意能量导管"
 	quest.5014C0B273E442CC.quest_desc: ["现在可以用&e巫妖奖杯&r在切石机切末影珍珠"]
-	quest.536BE2523D378CB4.title: "你知道的,首先证明你会玩"
+	quest.54643F6882F44234.quest_desc: ["探索自然！"]
+	quest.578760D8D2797C28.title: "世界盐怎么做？"
 	quest.57BC34FCEAB6B2DD.quest_desc: ["Mek管道不做推荐"]
 	quest.57BC34FCEAB6B2DD.title: "物流管道"
 	quest.59C4DCBCFBBF5F82.quest_desc: ["送你几瓶&4治疗药水&r，至于有什么用你应该知道吧！"]
@@ -38,9 +52,13 @@
 	quest.5BF7DF8C072BD707.quest_desc: ["真的有人有更好用的管道不用，来用这个吗……"]
 	quest.5BF7DF8C072BD707.quest_subtitle: "？！区区！？"
 	quest.5F643373E30E6602.title: "任意加压管道"
+	quest.61F2777A8F31327C.title: "炼钢"
+	quest.6A36DF7F83FCC41F.title: "血魔法炼金炉倍产"
 	quest.6A9478B98AECA246.title: "任意能量线缆"
 	quest.6AEC9D71CCD30C34.title: "击败幻影骑士"
 	quest.71652FC5565FC7A4.title: "击败米诺菇"
+	quest.73BE1F8E3643202D.quest_desc: ["在终焉城堡获取四色符文城堡砖每种至少一个"]
+	quest.73BE1F8E3643202D.title: "四色符文城堡砖"
 	quest.7A0100D3DDCE5C56.title: "击败九头蛇"
 	quest.7A5ECE4F9F1DB23F.title: "路由器"
 	quest.7F1F590775232C74.quest_desc: ["相信你永远在RF/FE包离不开它，此外还加入了&n&e更多通量存储&r&r，让对应的能量存储设备(龙之研究的龙球、通用机械的感应矩阵、应用通量的磁盘)直接变成通量的缓存(性能问题待观望)"]
@@ -50,12 +68,14 @@
 	task.0711EE16841821C9.title: "任意化学品导管"
 	task.08EF6691F4EC3B5E.title: "任意流体导管"
 	task.094E675641541306.title: "任意机械管道"
+	task.1BF2AACC3D0337F0.title: "坠星仪式"
 	task.22831D6075664B28.title: "气体管道"
 	task.22F060C52A50CEFD.title: "Any #enderio:enderio/hide_facades"
 	task.2DBBAB262FE1B08C.title: "任意物品导管"
 	task.37108F42445B128E.title: "任意物流管道"
 	task.449FBEF52375816E.title: "电力管道"
 	task.5BA2DE0C62BB3D68.title: "电力管道"
+	task.6025F41D537193DC.title: "血魔法炼金炉倍产"
 	task.67813E3CA24D42B4.title: "任意加压管道"
 	task.6B6446B74DC9F83A.title: "任意能量线缆"
 	task.743312AF9815BA12.title: "物品管道"

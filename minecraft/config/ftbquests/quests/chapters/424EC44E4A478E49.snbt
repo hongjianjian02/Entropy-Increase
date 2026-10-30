@@ -242,11 +242,18 @@
 				}
 				type: "item"
 			}]
-			tasks: [{
-				id: "4C3274D475E9B5C7"
-				item: { count: 1, id: "botania:white_mystical_flower" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4C3274D475E9B5C7"
+					item: { count: 1, id: "botania:white_mystical_flower" }
+					type: "item"
+				}
+				{
+					id: "41135AAC275ED9A0"
+					item: { count: 1, id: "botania:apothecary_default" }
+					type: "item"
+				}
+			]
 			x: -25.5d
 			y: 0.0d
 		}
@@ -391,7 +398,7 @@
 			dependencies: ["065E81BD2D5E4BD7"]
 			id: "7F3614FDE1F0BED7"
 			rewards: [{
-				count: 8
+				count: 7
 				id: "3FBDBB4F826B1DE3"
 				item: {
 					count: 1
@@ -405,7 +412,7 @@
 				type: "item"
 			}]
 			x: -25.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["59C4DCBCFBBF5F82"]
@@ -424,13 +431,22 @@
 				"7F3614FDE1F0BED7"
 			]
 			id: "459D34B2E07079C6"
+			rewards: [{
+				count: 16
+				id: "0D7C18C504C86ADB"
+				item: {
+					count: 1
+					id: "twilightforest:liveroot"
+				}
+				type: "item"
+			}]
 			tasks: [{
 				id: "250818B16138A1D1"
 				item: { count: 1, id: "twilightforest:liveroot_block" }
 				type: "item"
 			}]
 			x: -23.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["459D34B2E07079C6"]
@@ -441,7 +457,7 @@
 				type: "item"
 			}]
 			x: -23.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -467,7 +483,7 @@
 				}
 			]
 			x: -21.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -481,7 +497,7 @@
 				type: "item"
 			}]
 			x: -19.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: [
@@ -495,7 +511,7 @@
 				type: "item"
 			}]
 			x: -17.5d
-			y: 1.5d
+			y: 2.5d
 		}
 		{
 			dependencies: ["1A283E48EC379423"]
@@ -518,17 +534,26 @@
 				}
 			]
 			x: -17.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
+			dependencies: [
+				"73BE1F8E3643202D"
+				"1ABB4A061CF20212"
+			]
+			icon: {
+				id: "minecraft:grass_block"
+			}
 			id: "1301F3F28736AD5F"
+			shape: "diamond"
+			size: 2.0d
 			tasks: [{
 				dimension: "minecraft:overworld"
 				id: "1AE69E58007B437B"
 				type: "dimension"
 			}]
 			x: -11.5d
-			y: 2.5d
+			y: 4.5d
 		}
 		{
 			dependencies: ["0C42E80F859B8885"]
@@ -542,12 +567,23 @@
 			y: 0.0d
 		}
 		{
+			dependencies: [
+				"7F3614FDE1F0BED7"
+				"4C2702E0F9D1440C"
+			]
 			id: "5F4BF79F031DA9B3"
-			tasks: [{
-				id: "16894C0F816E93E1"
-				item: { count: 1, id: "botania:livingrock" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "16894C0F816E93E1"
+					item: { count: 1, id: "botania:livingrock" }
+					type: "item"
+				}
+				{
+					id: "54D1555F326B715D"
+					item: { count: 1, id: "botania:livingwood_log" }
+					type: "item"
+				}
+			]
 			x: -25.5d
 			y: 4.5d
 		}
@@ -560,9 +596,10 @@
 				type: "item"
 			}]
 			x: -21.5d
-			y: 3.5d
+			y: 4.5d
 		}
 		{
+			dependencies: ["08A7B05E4DDDF0B1"]
 			id: "73BE1F8E3643202D"
 			tasks: [
 				{
@@ -586,8 +623,78 @@
 					type: "item"
 				}
 			]
-			x: -9.5d
+			x: -11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["08959F40967AC768"]
+			id: "54643F6882F44234"
+			tasks: [{
+				id: "032188651A8B1107"
+				item: { count: 1, id: "naturescompass:naturescompass" }
+				type: "item"
+			}]
+			x: -27.5d
 			y: -1.5d
+		}
+		{
+			dependencies: ["54643F6882F44234"]
+			id: "72467A62EB164AAA"
+			tasks: [{
+				id: "59B7C9534309BF1C"
+				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
+				type: "item"
+			}]
+			x: -27.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72467A62EB164AAA"]
+			id: "4C2702E0F9D1440C"
+			rewards: [{
+				id: "37A3C641E1C9CB16"
+				item: {
+					components: {
+						"minecraft:unbreakable": { }
+					}
+					count: 1
+					id: "twilightforest:crumble_horn"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B38315242F9E720"
+				item: { count: 1, id: "twilightforest:crumble_horn" }
+				type: "item"
+			}]
+			x: -27.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["04262792602706AF"]
+			id: "38F1673B4154CF0A"
+			tasks: [{
+				id: "14DE5682FC4BD968"
+				item: { count: 1, id: "eicore:unstable_rune_gem" }
+				type: "item"
+			}]
+			x: -15.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"38F1673B4154CF0A"
+				"14DE5682FC4BD968"
+			]
+			dependency_requirement: "all_started"
+			id: "1ABB4A061CF20212"
+			tasks: [{
+				id: "3E0B2ACC743E9666"
+				item: { count: 1, id: "eicore:activated_rune_gem" }
+				type: "item"
+			}]
+			x: -13.5d
+			y: 4.5d
 		}
 	]
 }

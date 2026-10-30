@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = ".packignore"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+hash = "1e44f593324a890db038a6724cf0682dfb88710dd899751d021c6635975fa8e5"
 
 [[files]]
 file = "config/Mekanism-Extras/general.toml"
@@ -249,14 +249,6 @@ file = "config/emi-accelerator/emi-accelerator.txt"
 hash = "d63546ebd2ff82ab251d4af1ab82c4ef9348076b2cd9978c14ce7c6c011e98ba"
 
 [[files]]
-file = "config/emi-accelerator/reload-timings.json"
-hash = "308627143590ecb8213b4dc57c3794b00b88c9777b781160ba9dd0365e46cde5"
-
-[[files]]
-file = "config/emi-accelerator/stack-cache.emic"
-hash = "a4f268cc527df5b6b38421f81f0b998d91d3f5a0fc3477d0ed29995a7f6f24e9"
-
-[[files]]
 file = "config/emi.css"
 hash = "ed97f382cabfb2668d25dd96d5a7c0ce5a6e26d08cf8a3bf92db911911c0f0db"
 
@@ -426,7 +418,11 @@ hash = "7433b4b0b6e88e587ed46ae0d185790a6085c7a3ad509fe657d4f2efc042b599"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/19169E2187F4B9B9.snbt"
-hash = "92d835626f6a9b40ec341369266056d0d4171e7e23c66e1edb5ff2766f91c92d"
+hash = "3518d8092265f82c42ac012a1b3c76c5a4751d30a3fb0832f2751fa5cceddb63"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/3af64a8d2e35b6b4.snbt"
+hash = "354ffd5ee1767146e7885ee66c20a06b5f13969215aa5c0014b809dd65bc1915"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/40304C220F7BCCE6.snbt"
@@ -438,7 +434,7 @@ hash = "5596b3b41462ac370da43d6e53ec84194f5a2ff23180046253e7e957107119d0"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/424EC44E4A478E49.snbt"
-hash = "d1fe597773bbd7f51d030a0a0d18c9f0898ed60daaa101d138b97e83d7412fbb"
+hash = "168d5f0a0d6f9f1ef3a6cd3d205b27b418f72479b5972c332dade35299900985"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/58D00E42B7379E81.snbt"
@@ -457,8 +453,12 @@ file = "config/ftbquests/quests/data.snbt"
 hash = "4e90e0c5f886d2f786e460a9be860404fa8062320269e86cddc4743ead6a95a0"
 
 [[files]]
+file = "config/ftbquests/quests/lang/en_us.snbt"
+hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
+
+[[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "9952778c1a02f455f0b6d1b83ac9dc383101b99f2701fefc554e423e10affbf4"
+hash = "3627c2830e00094a1778bb8118cf64c21193c1e709835324a53a9ba4fae5b86b"
 
 [[files]]
 file = "config/guideme.toml"
@@ -834,7 +834,7 @@ hash = "106036d95eb8283492bce29e11639dff462c3f29ab208682b752bc3233fde407"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "c4248ec82d412baeb97756cf44653fcc835f614915a170812bf54276c9859659"
+hash = "d1c44720291e1ce95510971cd32c33fb19ba21e51f89bae9af007d9e4d97f0a3"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -871,6 +871,10 @@ hash = "512296ce250d62e0778d5ce7915900fb7eca15682b6fa6fd5b1b4392e0508654"
 [[files]]
 file = "kubejs/data/mysterious/worldgen/placed_feature/tf_shimmering_mushrooms_oreberry.json"
 hash = "c89f4d7d5abdf05cc0ac8fc3575ccf2d36be93d0efe6e45d8ab2b3dc08e8040d"
+
+[[files]]
+file = "kubejs/data/twilightforest/data_maps/block/crumble_horn.json"
+hash = "eb9a05647969d2f65f21e0f542cebad5d14318d8a55a12572f7d992bd988f6f4"
 
 [[files]]
 file = "kubejs/data/twilightforest/loot_table/aurora_cache.json"
@@ -921,6 +925,10 @@ file = "kubejs/data/twilightforest/recipe/mystic_crown.json"
 hash = "c93f5eeed6a361c5f81f07337565b5dd28fd220b5768d3f589e836625dc18255"
 
 [[files]]
+file = "kubejs/data/twilightforest/tags/item/portal/activator.json"
+hash = "0002c6181421be372d632cfda3116694a8e0269e5ee4c1200b66a81eb8881066"
+
+[[files]]
 file = "kubejs/server_scripts/Disordered.js"
 hash = "fb1743cc262a55cef1bb61d0fa0d843b055fad69d79ba5fdeeb9389bd38c44cf"
 
@@ -930,15 +938,15 @@ hash = "9ac6b715f6d904576e3213953198e07043efbff0ec17da1dac3cde6a4f84578e"
 
 [[files]]
 file = "kubejs/server_scripts/Orderly.js"
-hash = "fc2a0c7c7c5c35e016e767c12846770456db46dafc7ebb5132d8112f4b7d8826"
+hash = "eb894a70729a28818244ca97a00c05e8d84798c1654dc40ca3f0f20fe3cf162c"
 
 [[files]]
 file = "kubejs/server_scripts/pure_daisy.js"
-hash = "2408f9fd58c44e35f5fb2608843f105cd706d043ea4f3ddb835913055f072278"
+hash = "30cd8defaf8ac10e9d0fb70e00059b57d710f887ce90d7492d5a39ca2fd97c4b"
 
 [[files]]
 file = "kubejs/server_scripts/remove.js"
-hash = "58c42029ae12e26dae7fd040d7a0a4d2f4499db1c9b888607a27088a90e04a4c"
+hash = "8e9f6f27c66c83dae27ade03904d0784606598e815c16db0922dacafecb05b79"
 
 [[files]]
 file = "kubejs/server_scripts/spawn_twilight.js"
@@ -947,6 +955,10 @@ hash = "c53695945e907a340822d87fe5a79104e1ad0d9aadb5dba9e2b1bc51179f876d"
 [[files]]
 file = "kubejs/server_scripts/stonecutter.js"
 hash = "c45f82cbd3b847e1c8d7345d4a81d14c608e0e6a55a16da80bdb937f305a7b8e"
+
+[[files]]
+file = "kubejs/server_scripts/terra plate.js"
+hash = "30e88502c04de659febf04cf73365cb5a579398e02241fa7724bd06bdd5eec79"
 
 [[files]]
 file = "kubejs/server_scripts/twilight_arrival.js"
@@ -1871,7 +1883,7 @@ metafile = true
 
 [[files]]
 file = "mods/EI core-1.0.0.jar"
-hash = "0739788f6c470ad6f9c899c0ab7ce41431f4428b17c34fbb633d7cecaedbc254"
+hash = "8f860182e24ba98fe6dff7b2fc187a51cacea3d511111fc2c936fd3154a150d4"
 
 [[files]]
 file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"

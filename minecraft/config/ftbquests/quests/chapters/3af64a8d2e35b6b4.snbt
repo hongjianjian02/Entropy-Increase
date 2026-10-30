@@ -1,0 +1,159 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3af64a8d2e35b6b4"
+	group: "4F34D8C283AFEFDA"
+	icon: {
+		id: "minecraft:diamond_pickaxe"
+	}
+	id: "3AF64A8D2E35B6B4"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "7F71367678BBCD3B"
+			tasks: [{
+				id: "4242D03F1C719E1D"
+				item: { count: 1, id: "immersiveengineering:bucket_wheel" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			id: "2F2E58B8848BF839"
+			tasks: [{
+				id: "090DC4D02A9462EA"
+				item: { count: 1, id: "mekanism:digital_miner" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "neovitae:master_ritual_stone"
+			}
+			id: "34E8A826185D7AD3"
+			tasks: [{
+				id: "1BF2AACC3D0337F0"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			id: "4728059947266466"
+			tasks: [{
+				id: "3A7AA72E2F6083E0"
+				item: { count: 1, id: "industrialforegoing:laser_drill" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			id: "6AB469C0C473A87A"
+			tasks: [{
+				id: "5C19EB495BAB0F84"
+				item: { count: 1, id: "hostilenetworks:loot_fabricator" }
+				type: "item"
+			}]
+			x: 8.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "thaumaturge:cluster_iron"
+			}
+			id: "1661897BFFC6CA25"
+			tasks: [{
+				id: "01049319DF9BEBE1"
+				type: "checkmark"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "neovitae:athanor"
+			}
+			id: "6A36DF7F83FCC41F"
+			tasks: [{
+				id: "6025F41D537193DC"
+				type: "checkmark"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "770B4D4CAF300B36"
+			tasks: [{
+				id: "61E2C4515BF8FDDE"
+				item: { count: 1, id: "botania:orechid" }
+				type: "item"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "industrialforegoing:fermentation_station"
+			}
+			id: "2EF91022AD2FBA46"
+			tasks: [{
+				id: "18EA0344EC8EFC4B"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "mekanism:chemical_infuser"
+			}
+			id: "25BF6039CFA26DEE"
+			tasks: [{
+				id: "0AB16C5274F9ADC4"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "0B83A320EA00A9B0"
+			tasks: [{
+				id: "7436ADFAEC68721A"
+				item: { count: 1, id: "mysticalagriculture:iron_seeds" }
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			icon: {
+				id: "immersiveengineering:arc_furnace"
+			}
+			id: "31640D0A816C1426"
+			tasks: [{
+				id: "0C890CF9A7640AD9"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			icon: {
+				id: "enderio:sag_mill"
+			}
+			id: "144913CE171A67E8"
+			tasks: [{
+				id: "346F46B5C1A2530A"
+				type: "checkmark"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+	]
+}

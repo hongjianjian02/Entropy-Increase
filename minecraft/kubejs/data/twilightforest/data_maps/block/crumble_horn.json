@@ -1,0 +1,9 @@
+{
+  "replace": true,
+  "values": {
+    "minecraft:cobblestone": {
+      "crumble_chance": 0.2,
+      "crumble_to": "twilightforest:deadrock"
+    }
+  }
+}

@@ -11,14 +11,148 @@
 	order_index: 1
 	preset: "normal"
 	quest_links: [ ]
-	quests: [{
-		id: "536BE2523D378CB4"
-		tasks: [{
-			id: "32A0895D3DF8765F"
-			item: { count: 1, id: "thaumaturge:thaumonomicon" }
-			type: "item"
-		}]
-		x: -5.0d
-		y: -0.5d
-	}]
+	quests: [
+		{
+			dependencies: ["1301F3F28736AD5F"]
+			id: "578760D8D2797C28"
+			tasks: [{
+				id: "0177A2632844169C"
+				item: { count: 1, id: "thaumaturge:salis_mundus" }
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["0FF73CE7539C399D"]
+			id: "19328B6E409A8BC8"
+			tasks: [{
+				id: "16A53C016CFB3B0D"
+				item: { count: 1, id: "thaumaturge:ingot_brass" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["578760D8D2797C28"]
+			id: "3D25961A6C963D0D"
+			tasks: [{
+				id: "2F81D0CC03DC9DD1"
+				item: { count: 1, id: "thaumaturge:thaumonomicon" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3D25961A6C963D0D"]
+			id: "0FF73CE7539C399D"
+			tasks: [
+				{
+					id: "3032BE4B5D7541C3"
+					item: { count: 1, id: "thaumaturge:crucible" }
+					type: "item"
+				}
+				{
+					id: "685C9F77F40C2266"
+					item: { count: 1, id: "thaumaturge:arcane_workbench" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "immersiveengineering:block/multiblocks/coke_oven_on"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1837369FE26C716B"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "immersiveengineering:block/multiblocks/coke_oven_off"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "0193483A1676B424"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:coke_oven"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: 6.0d
+		}
+		{
+			id: "61F2777A8F31327C"
+			tasks: [{
+				icon: {
+					components: {
+						"ftbquests:icon": "immersiveengineering:block/multiblocks/blast_furnace_on"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "5962BDDD5AE86B0C"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "immersiveengineering:blast_furnace"
+				type: "observation"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1837369FE26C716B"]
+			id: "721865E9C00355EC"
+			tasks: [{
+				id: "4B0656F3F63D7145"
+				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["721865E9C00355EC"]
+			id: "56228613B240081E"
+			tasks: [{
+				id: "4E04BA1935C9288E"
+				item: { count: 1, id: "immersiveengineering:workbench" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"61F2777A8F31327C"
+				"19328B6E409A8BC8"
+			]
+			id: "73C90A1C2BA55BD2"
+			tasks: [{
+				id: "7DBAF4430AFDC6FF"
+				item: { count: 1, id: "mekanism:ingot_steel" }
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0FF73CE7539C399D"]
+			id: "4125116C8702CF71"
+			tasks: [{
+				id: "3D0D0C319D8288E4"
+				item: { count: 1, id: "thaumaturge:goggles_revealing" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.0d
+		}
+	]
 }
