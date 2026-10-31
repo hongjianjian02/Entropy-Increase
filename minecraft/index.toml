@@ -1923,16 +1923,6 @@ hash = "fd36407ae04888318f9181488fab2bc3c8c262bfdbbea843fb791a013a16b63e"
 metafile = true
 
 [[files]]
-file = "mods/.index/spell-engine.pw.toml"
-hash = "721ee880760d0adb5b1516aa1850b08af6f234c6002d4eb16d70660dbc5e6ddf"
-metafile = true
-
-[[files]]
-file = "mods/.index/spell-power.pw.toml"
-hash = "ac97436babc0c39d61d65cfd659a30d9ab06cbaf3531d2fbc1fc0db1acaf0624"
-metafile = true
-
-[[files]]
 file = "mods/.index/squat-grow.pw.toml"
 hash = "c7f5015e76b982c3e3ee90e803369a8632baef64c68eec4714dac116ef904721"
 metafile = true
