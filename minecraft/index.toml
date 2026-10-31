@@ -418,7 +418,7 @@ hash = "7433b4b0b6e88e587ed46ae0d185790a6085c7a3ad509fe657d4f2efc042b599"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/19169E2187F4B9B9.snbt"
-hash = "087cceff9a0a0144faeac0ca945d561ffafe2bf145c6f07b519b65841602308a"
+hash = "41918c74ce80ec9deed00c1f25060ce5516f1aea9357999c2437a4c9e87e516b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3af64a8d2e35b6b4.snbt"
@@ -458,7 +458,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "9f0721d29155444997a5a0bf77e2c544e202a6478493e79ad5fce80e848ff2c9"
+hash = "83196caf221a2f6237da513ae3f9ec7f672a80d40efbc3af1b16cdbacfc14588"
 
 [[files]]
 file = "config/guideme.toml"
@@ -877,8 +877,28 @@ file = "kubejs/data/mysterious/worldgen/placed_feature/tf_shimmering_mushrooms_o
 hash = "c89f4d7d5abdf05cc0ac8fc3575ccf2d36be93d0efe6e45d8ab2b3dc08e8040d"
 
 [[files]]
+file = "kubejs/data/oei/replacements/bronze.json"
+hash = "2aee926648bd1c4e4f8d0ed3209c9d6596cde5d03b8571f17062f33ec8e5115c"
+
+[[files]]
+file = "kubejs/data/oei/replacements/silver.json"
+hash = "0925e4f2bfca9d1e16a3ee6004d5081cdbb6b196975aa376c42ceb829ea02542"
+
+[[files]]
+file = "kubejs/data/oei/replacements/silver_dush.json"
+hash = "e6f6b506fee2912b0bc52e81093c95a83d6c0492d3f9cdabb27ad43633a08d35"
+
+[[files]]
 file = "kubejs/data/oei/replacements/steel.json"
 hash = "f62fe66922efb56f31b25000ceaa32df257e22bc6310d7ac147771a72adf764d"
+
+[[files]]
+file = "kubejs/data/oei/replacements/tin.json"
+hash = "578a889b33746805ac488bee712a7d777f173144faa47b4a864d2d89389eb601"
+
+[[files]]
+file = "kubejs/data/oei/replacements/uranium.json"
+hash = "5370de6a6c3ca8b014519423a30cd52fcb929cb7aa290411692a643a3f725416"
 
 [[files]]
 file = "kubejs/data/twilightforest/data_maps/block/crumble_horn.json"
@@ -1026,7 +1046,7 @@ hash = "99d866135ccda721fd7fcc1a843c6e26f3fed21700ab900d422d0d8a27b1147b"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/CraftingTable/Orderly.js"
-hash = "f1c666df947d842905d144952605db49be53b17233a2829107d3380e89747c76"
+hash = "d38c2138e0d798abd7d3630aae945e71e509fe00b455af83ff8979c49352158e"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/CraftingTable/remove.js"
@@ -1057,6 +1077,10 @@ file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/blast_furnace.j
 hash = "40e097d3d2662c15862407dfe463b317efa53fc6ead2d0204627f0bed9ff08f4"
 
 [[files]]
+file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/remove.js"
+hash = "ee484918820958fa37e1f26fd9bb4ff74cf1d9db79a91512ff86ab4931f174d9"
+
+[[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Mek/Remove.js"
 hash = "7c9f101c56c69753abef2e2f9d2b6b9cf05e262180a6d54c82f5c061887f7c45"
 
@@ -1071,6 +1095,10 @@ hash = "e393365a577b818ccc13e9b082a7013705b261a129ea78b01482c05a2d2400d9"
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Thaumaturge/crucible.js"
 hash = "a898daaecdfcce36eb6f1b2ab43d63769f2e8aab423782dbb3eaa25af4829efb"
+
+[[files]]
+file = "kubejs/server_scripts/Recipes/Mods/Thaumaturge/infusion.js"
+hash = "335ffc7e3a19f72724014f7a656a447817d3b61b07d18cfbd8cf26a56b4d7e73"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/stonecutter.js"

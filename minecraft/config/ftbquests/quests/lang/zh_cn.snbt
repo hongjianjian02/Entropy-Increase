@@ -37,6 +37,7 @@
 	quest.1ABB4A061CF20212.title: "&m附魔&r激活！"
 	quest.1F859657875F24FA.title: "流体管道"
 	quest.25BF6039CFA26DEE.title: "mek倍产"
+	quest.28DB3C7E96FEDAE7.title: "改良高炉"
 	quest.2EF91022AD2FBA46.title: "工业先锋矿石发酵倍产"
 	quest.31640D0A816C1426.title: "沉浸工艺倍产"
 	quest.34E8A826185D7AD3.title: "坠星仪式"
@@ -68,6 +69,7 @@
 	quest.7F1F590775232C74.quest_desc: ["相信你永远在RF/FE包离不开它，此外还加入了&n&e更多通量存储&r&r，让对应的能量存储设备(龙之研究的龙球、通用机械的感应矩阵、应用通量的磁盘)直接变成通量的缓存(性能问题待观望)"]
 	quest.7F1F590775232C74.quest_subtitle: "流水的机器，铁打的通量"
 	quest.7F1F590775232C74.title: "通量"
+	quest.7F218ADF4A30248B.title: "电弧炉"
 	quest.7F3614FDE1F0BED7.quest_desc: ["植魔的一小步，迈向精灵门的一大步"]
 	task.0711EE16841821C9.title: "任意化学品导管"
 	task.08EF6691F4EC3B5E.title: "任意流体导管"
