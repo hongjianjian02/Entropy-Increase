@@ -34,28 +34,28 @@ ServerEvents.recipes(event => {
 
   // 不稳定符文宝石
   event.shaped(
-  Item.of('eicore:unstable_rune_gem', 1),
-  ['#AF', 'BCD', 'FE#'],
-  {
-    '#': 'twilightforest:fiery_ingot',
-    'A': 'eicore:mystic_crown',
-    'B': 'twilightforest:giant_obsidian',
-    'C': 'twilightforest:lamp_of_cinders',
-    'D': 'botania:elementium_block',
-    'E': 'botania:manasteel_block',
-    'F': 'botania:terrasteel_ingot'
-  }
+    Item.of('eicore:unstable_rune_gem', 1),
+    ['#AF', 'BCD', 'FE#'],
+    {
+      '#': 'twilightforest:fiery_ingot',
+      'A': 'eicore:mystic_crown',
+      'B': 'twilightforest:giant_obsidian',
+      'C': 'twilightforest:lamp_of_cinders',
+      'D': 'botania:elementium_block',
+      'E': 'botania:manasteel_block',
+      'F': 'botania:terrasteel_ingot'
+    }
   ).id('eicore:unstable_rune_gem')
 
   // 探险家指南针
   event.shaped(
-  Item.of('explorerscompass:explorerscompass', 1),
-  ['#A#','ABA','#A#'],
-  {
-    '#': 'minecraft:cobweb',
-    'A': 'twilightforest:etched_nagastone',
-    'B': 'minecraft:compass'
-  }
+    Item.of('explorerscompass:explorerscompass', 1),
+    ['#A#', 'ABA', '#A#'],
+    {
+      '#': 'minecraft:cobweb',
+      'A': 'twilightforest:etched_nagastone',
+      'B': 'minecraft:compass'
+    }
   ).id('explorerscompass:explorers_compass')
   
   // 泰拉凝聚板

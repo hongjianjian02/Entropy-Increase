@@ -1,7 +1,7 @@
 // 白雏菊
 ServerEvents.recipes(event => {
 
-  // 迷宫石→活石
+  // 死岩→活石
   event.custom({
     type: 'botania:pure_daisy',
     input: {
