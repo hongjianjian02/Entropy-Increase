@@ -1213,6 +1213,16 @@ hash = "15b5d7879bcc3b3df990c0f0dd9c178bcf1f2804f30394b8f1ef4b8365118404"
 metafile = true
 
 [[files]]
+file = "mods/.index/astages-ftb-quests.pw.toml"
+hash = "fa1c250d5bf30551c4b4e713d3c98f84e560fb25763ee711d6c88e3cebbd285b"
+metafile = true
+
+[[files]]
+file = "mods/.index/astages.pw.toml"
+hash = "d298083726b769bcf3a3f227712f803e702f90da89eeb8a6af770b55f601f997"
+metafile = true
+
+[[files]]
 file = "mods/.index/astral-sorcery.pw.toml"
 hash = "88329d424bbabb5f39558c2cd33b7ccf5c6027de148d433cd4904ce08e88660c"
 metafile = true
