@@ -1,14 +1,14 @@
 // 合金炉
 ServerEvents.recipes(event => {
 
-  // 合金炉 · 钢合金：铁锭/铁粉 → 炼金黄铜锭
+  // 合金炉 · 钢合金：神秘锭 + 煤/石墨 → 钢合金
   // 覆盖 nuclearcraftneohaul:alloy_furnace/steel_alloy
   event.custom({
     type: 'nuclearcraftneohaul:alloy_furnace_recipe',
     itemIngredients: [
       {
         count: 1,
-        ingredient: [{ item: 'thaumaturge:ingot_brass' }]
+        ingredient: [{ item: 'thaumaturge:ingot_thaumium' }]
       },
       {
         count: 2,
@@ -31,14 +31,14 @@ ServerEvents.recipes(event => {
     timeModifier: 1.0
   }).id('nuclearcraftneohaul:alloy_furnace/steel_alloy')
 
-  // 合金炉 · HSLA 钢：15 铁 → 15 炼金黄铜锭
+  // 合金炉 · HSLA 钢：15 神秘锭 + 锰混合 → 16 HSLA 钢
   // 覆盖 nuclearcraftneohaul:alloy_furnace/hsla_steel_alloy
   event.custom({
     type: 'nuclearcraftneohaul:alloy_furnace_recipe',
     itemIngredients: [
       {
         count: 15,
-        ingredient: [{ item: 'thaumaturge:ingot_brass' }]
+        ingredient: [{ item: 'thaumaturge:ingot_thaumium' }]
       },
       {
         count: 1,

@@ -1,12 +1,12 @@
 // 电弧炉
 ServerEvents.recipes(event => {
 
-  // 电弧炉 · 钢锭：铁锭 → 炼金黄铜锭
+  // 电弧炉 · 钢锭：神秘锭 → 钢锭
   event.custom({
     type: 'immersiveengineering:arc_furnace',
     additives: [{ tag: 'c:dusts/coal_coke' }],
     energy: 204800,
-    input: { item: 'thaumaturge:ingot_brass' },
+    input: { item: 'thaumaturge:ingot_thaumium' },
     results: [{ tag: 'c:ingots/steel' }],
     slag: { tag: 'c:slag' },
     time: 400

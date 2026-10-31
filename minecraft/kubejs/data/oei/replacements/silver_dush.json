@@ -1,0 +1,10 @@
+[
+  {
+    "matchItems": [
+      "neovitae:silver_dust",
+      "immersiveengineering:dust_silver",
+      "nuclearcraftneohaul:silver_dust"
+    ],
+    "resultItems": "nuclearcraftneohaul:silver_dust"
+  }
+]

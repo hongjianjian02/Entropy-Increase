@@ -13,7 +13,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["1301F3F28736AD5F"]
 			id: "578760D8D2797C28"
 			tasks: [{
 				id: "0177A2632844169C"
@@ -28,7 +27,7 @@
 			id: "19328B6E409A8BC8"
 			tasks: [{
 				id: "16A53C016CFB3B0D"
-				item: { count: 1, id: "thaumaturge:ingot_brass" }
+				item: { count: 1, id: "thaumaturge:ingot_thaumium" }
 				type: "item"
 			}]
 			x: -3.0d
@@ -193,17 +192,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["56228613B240081E"]
-			id: "7101AC7D76000043"
-			tasks: [{
-				id: "2055F988E812BD62"
-				item: { count: 1, id: "immersiveengineering:cloche" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 8.0d
-		}
-		{
 			dependencies: ["73C90A1C2BA55BD2"]
 			id: "28DB3C7E96FEDAE7"
 			tasks: [{
@@ -232,6 +220,17 @@
 			}]
 			x: -1.0d
 			y: 4.5d
+		}
+		{
+			dependencies: ["0FF73CE7539C399D"]
+			id: "6E894B02A23ACDAD"
+			tasks: [{
+				id: "28A1052C62C088ED"
+				item: { count: 1, id: "thaumaturge:smelter_basic" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
 		}
 	]
 }
