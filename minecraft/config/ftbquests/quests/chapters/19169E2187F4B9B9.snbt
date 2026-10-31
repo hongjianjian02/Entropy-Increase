@@ -164,7 +164,7 @@
 				item: { count: 1, id: "immersiveengineering:workbench" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 6.0d
 		}
 		{
@@ -200,10 +200,11 @@
 				item: { count: 1, id: "immersiveengineering:cloche" }
 				type: "item"
 			}]
-			x: -2.0d
+			x: -1.0d
 			y: 8.0d
 		}
 		{
+			dependencies: ["73C90A1C2BA55BD2"]
 			id: "28DB3C7E96FEDAE7"
 			tasks: [{
 				icon: {
@@ -218,6 +219,7 @@
 			y: 2.5d
 		}
 		{
+			dependencies: ["73C90A1C2BA55BD2"]
 			id: "7F218ADF4A30248B"
 			tasks: [{
 				icon: {

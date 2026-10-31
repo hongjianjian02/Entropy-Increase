@@ -1,0 +1,13 @@
+# 统一行尾，避免 Windows 提交的 CRLF 在 Linux CI 上出问题
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sh  text eol=lf
+
+# 二进制文件不做换行/文本转换
+*.exe  binary
+*.jar  binary
+*.zip  binary
+*.png  binary
+*.jpg  binary
+*.ogg  binary
+*.nbt  binary
