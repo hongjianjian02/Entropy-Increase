@@ -1050,11 +1050,11 @@ hash = "21ae866f92dea1c22f703c2fcfd5fb8e2993a1664cb611a5a064eb582b974bdd"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/arc_furnace.js"
-hash = "9c073e5ad6b4adbe8c79f8e00a2b4ea632df4d30a9ae1719180fd96ae58cdaef"
+hash = "23cda125dedff6f219942b7626ab0849c79c8534b7c882217d023f1a22a42fd1"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/blast_furnace.js"
-hash = "3b792dc1ac5d2993ec4665ecb5d940351d65cb68ab1aa75d679d7e37902ccda7"
+hash = "40e097d3d2662c15862407dfe463b317efa53fc6ead2d0204627f0bed9ff08f4"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Mek/Remove.js"
@@ -1062,15 +1062,15 @@ hash = "7c9f101c56c69753abef2e2f9d2b6b9cf05e262180a6d54c82f5c061887f7c45"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Mek/metallurgic_infusing.js"
-hash = "6870ceb5caf6aa5014b69d9450bd459094879828865e88c1ab3e00ab908f3795"
+hash = "497aeb288f370b6a7d563ea8c9ce2d50eee75f8e88e7474e01b8af687d7a254f"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Nuclearcraft/alloy_furnace.js"
-hash = "d80846de00c327be061255257a160032c2f62f58f423f9f66ffb9c6c6380be85"
+hash = "e393365a577b818ccc13e9b082a7013705b261a129ea78b01482c05a2d2400d9"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Thaumaturge/crucible.js"
-hash = "4d8ade3e530cfb301ed7bddbc26e7cb5d1915aeca5db6c1fdd45336d42ee239f"
+hash = "a898daaecdfcce36eb6f1b2ab43d63769f2e8aab423782dbb3eaa25af4829efb"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/stonecutter.js"

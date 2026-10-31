@@ -16,4 +16,17 @@ ServerEvents.recipes(event => {
     result: { id: 'thaumaturge:ingot_brass', count: 1 }
   }).id('thaumaturge:crucible/ingot_brass')
 
+  // 神秘锭：铁锭 → 魔力钢锭
+  // 覆盖原版 thaumaturge:crucible/ingot_thaumium
+  event.custom({
+    type: 'thaumaturge:crucible',
+    aspects: [
+      { aspect: 'thaumaturge:praecantatio', amount: 5 },
+      { aspect: 'thaumaturge:terra', amount: 5 }
+    ],
+    catalyst: { item: 'botania:manasteel_ingot' },
+    research: { entry: 'thaumaturge:metallurgy', stage: 1 },
+    result: { id: 'thaumaturge:ingot_thaumium', count: 1 }
+  }).id('thaumaturge:crucible/ingot_thaumium')
+
 })

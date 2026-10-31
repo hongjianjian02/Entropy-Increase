@@ -3,7 +3,7 @@
 
 ServerEvents.recipes(event => {
 
-  // 冶金灌注机 · 钢粉：富集铁 → 炼金黄铜锭
+  // 冶金灌注机 · 钢粉：神秘锭 + 碳 → 钢粉
   // 覆盖 mekanism:processing/steel/enriched_iron_to_dust
   event.custom({
     type: 'mekanism:metallurgic_infusing',
@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
     },
     item_input: {
       count: 1,
-      item: 'thaumaturge:ingot_brass'
+      item: 'thaumaturge:ingot_thaumium'
     },
     output: {
       count: 1,
