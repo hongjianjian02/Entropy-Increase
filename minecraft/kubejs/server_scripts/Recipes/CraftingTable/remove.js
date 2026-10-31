@@ -10,4 +10,7 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'botania:elven_trade/diamond_return' })
   event.remove({ id: 'botania:elven_trade/ender_pearl_return' })
   event.remove({ id: 'botania:mana_infusion/mana_powder_from_dye' })
+  event.remove({ id: 'immersiveengineering:blueprint/component_iron' })
+  event.remove({ id: 'immersiveengineering:blueprint/component_steel' })
+  event.remove({ id: 'immersiveengineering:crafting/component_iron' })
 })

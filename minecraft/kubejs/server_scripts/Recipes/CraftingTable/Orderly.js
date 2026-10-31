@@ -150,5 +150,18 @@ ServerEvents.recipes(event => {
       'A': 'immersiveengineering:component_steel',
       'B': 'thaumaturge:mechanism_complex'
     }
-  ).id('kubejs:heavy_engineering')  
+  ).id('kubejs:heavy_engineering')
+    //铁机械零件
+    event.shaped(
+        Item.of('immersiveengineering:component_iron', 1),
+        [
+            '# #',
+            ' A ',
+            '# #'
+        ],
+        {
+            '#': '#c:plates/iron',
+            'A': 'immersiveengineering:ingot_lead'
+        }
+    ).id('kubejs:component_iron')
 })
