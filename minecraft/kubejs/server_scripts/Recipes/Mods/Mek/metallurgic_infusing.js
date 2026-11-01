@@ -1,10 +1,7 @@
 // 通用机械（Mekanism）配方改动
-// 约定：复用原配方 ID 直接覆盖，不写 remove
-
 ServerEvents.recipes(event => {
 
   // 冶金灌注机 · 钢粉：神秘锭 + 碳 → 钢粉
-  // 覆盖 mekanism:processing/steel/enriched_iron_to_dust
   event.custom({
     type: 'mekanism:metallurgic_infusing',
     chemical_input: {

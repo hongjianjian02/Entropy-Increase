@@ -838,7 +838,7 @@ hash = "74e2eefb484acab9b1c0d036c1a7f78d6740bd32495a8d059e5c5f5d3fc808b4"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "2f160f0ce5130ab94382c6653b8be5b171b05cb91352dcaef6a5d99212cd2565"
+hash = "08ee93f5d80891fdb052aa9ad7a1cfb8640fdcb7d348e446f87af9ffd9d1f2e7"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -859,6 +859,10 @@ hash = "f013c27092f7bb95ae77ffeafb2f1b4e1f3024ebe1c77b911ceea0e140bb7e85"
 [[files]]
 file = "kubejs/data/curios/tags/item/head.json"
 hash = "4c8084b31eef5b8156ef01b6222f8b09968036e8c868d6dcc1c486a55321e55a"
+
+[[files]]
+file = "kubejs/data/immersiveengineering/loot_table/chests/engineers_house.json"
+hash = "3e49fb0ef4bb30e8bdd710d8e0a2d413673f374440a815d8324790eb7d84d292"
 
 [[files]]
 file = "kubejs/data/mysterious/neoforge/biome_modifier/tf_mystical_flowers.json"
@@ -1050,7 +1054,7 @@ hash = "a684fcc769204e7da1993ed3b926b02abc0ae52f01ab534734108dff14c15bcd"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/CraftingTable/remove.js"
-hash = "1aeee984ff52b9be65d7a640efdb9766fc76c37d3b34e123d5d6417f74435caa"
+hash = "32629d11be7f325cda11ffdb6d13e4baf0641aa9a991a77d67eac16db754f50f"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Botania/Mana Pool.js"
@@ -1086,15 +1090,15 @@ hash = "6cbba8a0955d541d75783a6141f6fe78159e0b4119775b24560262fec3ebb354"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/remove.js"
-hash = "ec8f7514b4ffab791dfbe379d6aacce36665ef47534686b7308282c2651424d1"
+hash = "39c1a554e924e870125d05b71390028960c0944bf76db22f4de3ca228f12656b"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Mek/Remove.js"
-hash = "7c9f101c56c69753abef2e2f9d2b6b9cf05e262180a6d54c82f5c061887f7c45"
+hash = "b1e48141e62bdd58eec518f5b05a0ea9cc7e5b06006826db89d2c1a9ee2f4a78"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Mek/metallurgic_infusing.js"
-hash = "497aeb288f370b6a7d563ea8c9ce2d50eee75f8e88e7474e01b8af687d7a254f"
+hash = "f319cfaf8b8892c7a7ac380c16517b83625d6169215adfe627623de5999109b6"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Nuclearcraft/alloy_furnace.js"
@@ -2044,8 +2048,8 @@ hash = "8d4c36e3aac91377077f3c9e51173a669d6dbe445df94e926df0cea1581a975e"
 metafile = true
 
 [[files]]
-file = "mods/EI core-1.0.0.jar"
-hash = "8f860182e24ba98fe6dff7b2fc187a51cacea3d511111fc2c936fd3154a150d4"
+file = "mods/EI core-1.0.1.jar"
+hash = "92bcbdc61726969ec84626e5de8765c38dfaf8a4e28b5fd47862d4f0cc7cdcd1"
 
 [[files]]
 file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
