@@ -1,16 +1,16 @@
 ServerEvents.recipes(event => {
+  // 精灵王冠
   event.remove({ output: 'twilightforest:mystic_crown' })
+  // 超级王冠
   event.remove({ output: 'extrabotany:super_crown' })
+  // 解构台
   event.remove({ id: 'twilightforest:uncrafting_table' })
-  event.remove({ id: 'botania:pure_daisy/livingrock' })
-  event.remove({ id: 'botania:pure_daisy/livingwood_log' })
+  // 精灵交易 - 铁返回
   event.remove({ id: 'botania:elven_trade/iron_return' })
-  event.remove({ id: 'botania:elven_trade/diamond_block_return' })
-  event.remove({ id: 'botania:elven_trade/iron_block_return' })
+  // 精灵交易 - 钻石返回
   event.remove({ id: 'botania:elven_trade/diamond_return' })
+  // 精灵交易 - 末影珍珠返回
   event.remove({ id: 'botania:elven_trade/ender_pearl_return' })
+  // 魔力尘 - 染料
   event.remove({ id: 'botania:mana_infusion/mana_powder_from_dye' })
-  event.remove({ id: 'immersiveengineering:blueprint/component_iron' })
-  event.remove({ id: 'immersiveengineering:blueprint/component_steel' })
-  event.remove({ id: 'immersiveengineering:crafting/component_iron' })
 })

@@ -1,6 +1,4 @@
 // 伊卡洛斯之翼（Icarus Wings）配方改动
-// 约定：复用原配方 ID 直接覆盖，不写 remove
-
 ServerEvents.recipes(event => {
 
   // 量子燃料：钢锭部分从「#c:ingots/steel 或碳素钢」改为只用碳素钢

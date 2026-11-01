@@ -13,7 +13,7 @@ ServerEvents.recipes(event => {
       block: 'botania:livingrock'
     },
     time: 150
-  }).id('kubejs:pure_daisy_mazestone_to_livingrock')
+  }).id('botania:pure_daisy/livingrock')
 
   // 根→活根方块
   event.custom({
@@ -29,7 +29,7 @@ ServerEvents.recipes(event => {
       }
     },
     time: 150
-  }).id('kubejs:pure_daisy_root_to_liveroot')
+  }).id('kubejs:pure_daisy/liveroot')
 
   // 红树林原木→活木
   event.custom({
@@ -44,6 +44,6 @@ ServerEvents.recipes(event => {
       block: 'botania:livingwood_log'
     },
     time: 150
-  }).id('kubejs:pure_daisy_mangrove_to_livingwood')
+  }).id('botania:pure_daisy/livingwood_log')
 
 })

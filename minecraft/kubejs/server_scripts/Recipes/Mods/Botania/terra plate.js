@@ -1,5 +1,6 @@
-ServerEvents.generateData('after_mods', event => {
   // 泰拉凝聚板
+ServerEvents.generateData('after_mods', event => {
+
   // 激活的符文宝石
 event.json(
   'botania:recipe/terra_plate/activated_rune_gem',

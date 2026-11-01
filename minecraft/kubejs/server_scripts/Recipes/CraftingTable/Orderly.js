@@ -151,17 +151,24 @@ ServerEvents.recipes(event => {
       'B': 'thaumaturge:mechanism_complex'
     }
   ).id('kubejs:heavy_engineering')
-    //铁机械零件
-    event.shaped(
-        Item.of('immersiveengineering:component_iron', 1),
-        [
-            '# #',
-            ' A ',
-            '# #'
-        ],
-        {
-            '#': '#c:plates/iron',
-            'A': 'immersiveengineering:ingot_lead'
-        }
-    ).id('kubejs:component_iron')
+  
+  //铁机械零件 1
+  event.shaped(
+    Item.of('immersiveengineering:component_iron', 1),
+    ['# #',' A ','# #'],
+    {
+      '#': '#c:plates/iron',
+      'A': 'immersiveengineering:ingot_lead'
+    }
+  ).id('immersiveengineering:crafting/component_iron')
+
+  // 钢机械零件 1
+  event.shaped(
+    Item.of('immersiveengineering:component_steel', 1),
+    ['# #',' A ','# #'],
+    {
+      '#': '#c:plates/steel',
+      'A': 'immersiveengineering:ingot_lead'
+    }
+  ).id('immersiveengineering:crafting/component_steel')  
 })
