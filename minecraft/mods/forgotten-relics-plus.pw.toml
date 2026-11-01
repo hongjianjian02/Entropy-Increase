@@ -1,0 +1,13 @@
+name = "Forgotten Relics Plus"
+filename = "forgotten_relics_plus-1.21.1-neoforge-1.7.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "62427cb8125576d4b5e121d24e086486d70e304b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9191065
+project-id = 1738718

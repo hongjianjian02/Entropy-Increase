@@ -1,0 +1,13 @@
+name = "OraculumWorktables"
+filename = "OraculumWorktables-1.21.1-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "55fac74ffb44ff91f473a4c2f2caaf55aa37b767"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8290806
+project-id = 1564433

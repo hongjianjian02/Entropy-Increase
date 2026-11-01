@@ -2052,12 +2052,42 @@ file = "mods/EI core-1.0.1.jar"
 hash = "92bcbdc61726969ec84626e5de8765c38dfaf8a4e28b5fd47862d4f0cc7cdcd1"
 
 [[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "9009bd5cdcdbc6bc47a7fbb203844d9a551accdd796877bdba5233ac14bbd513"
+metafile = true
+
+[[files]]
 file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
 hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
 
 [[files]]
 file = "mods/extrabotany-2.0.0-1.21.1-NeoForge.jar"
 hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
+
+[[files]]
+file = "mods/forgotten-relics-plus.pw.toml"
+hash = "c9d67c78f2e4575546f562c0fa386b294e00bedeaa5a9ddc3de67b5d491000f3"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "00bacfc5a98d9b0dff90bbad503def28abf970a2061c9456f721e442bc32ab29"
+metafile = true
+
+[[files]]
+file = "mods/morejs.pw.toml"
+hash = "564b879b80fefa01331a62aded574c6f7d7f55c701f031e2b5072f02737560d0"
+metafile = true
+
+[[files]]
+file = "mods/oraculum.pw.toml"
+hash = "5b3d42db96f7fea3e52d5294cc4485afaa1c872b35cad04be32143a8d558afcc"
+metafile = true
+
+[[files]]
+file = "mods/oraculumworktables.pw.toml"
+hash = "3c8d9dde3bf98494ec07ec593de75f8de2445ba5a7e33f292c02ddd286144d31"
+metafile = true
 
 [[files]]
 file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6 (1).jar"

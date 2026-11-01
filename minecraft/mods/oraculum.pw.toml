@@ -1,0 +1,13 @@
+name = "Oraculum"
+filename = "Oraculum-1.0-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8d3fb343d289a7ca6db165a512a1763a6cc0339e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8485480
+project-id = 1563530
