@@ -2089,6 +2089,11 @@ file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
 hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
 
 [[files]]
+file = "mods/eeeabs-mobs-nameless-guardian-is-back.pw.toml"
+hash = "c5d8286477b8d8333de47eb4d8609a3c23916769eb2a7ba2e062596bf8fd7e3f"
+metafile = true
+
+[[files]]
 file = "mods/extrabotany-2.0.0-1.21.1-NeoForge.jar"
 hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
 

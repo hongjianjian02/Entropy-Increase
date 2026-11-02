@@ -1,0 +1,13 @@
+name = "EEEAB's Mobs | Nameless Guardian is back!"
+filename = "eeeabsmobs_namelessguardian-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d453bb9f5ace448d66fd84ba073c434d9e96e1d8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9067694
+project-id = 1709491
