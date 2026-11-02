@@ -2080,6 +2080,11 @@ file = "mods/EI core-1.0.1.jar"
 hash = "92bcbdc61726969ec84626e5de8765c38dfaf8a4e28b5fd47862d4f0cc7cdcd1"
 
 [[files]]
+file = "mods/aether.pw.toml"
+hash = "59c9a1f969edd0ba1da9ba5ad6975951513225d0304a692c3d4c862e2360940c"
+metafile = true
+
+[[files]]
 file = "mods/better-advanced-tooltips.pw.toml"
 hash = "9009bd5cdcdbc6bc47a7fbb203844d9a551accdd796877bdba5233ac14bbd513"
 metafile = true
