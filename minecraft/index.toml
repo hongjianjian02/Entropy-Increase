@@ -1050,23 +1050,43 @@ hash = "99d866135ccda721fd7fcc1a843c6e26f3fed21700ab900d422d0d8a27b1147b"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/CraftingTable/Orderly.js"
-hash = "a684fcc769204e7da1993ed3b926b02abc0ae52f01ab534734108dff14c15bcd"
+hash = "ab8bd47ee5e6a2a2feeec3c75ee287949147719ccc0550f73b0f1da5f2d5a60a"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/CraftingTable/remove.js"
-hash = "32629d11be7f325cda11ffdb6d13e4baf0641aa9a991a77d67eac16db754f50f"
+hash = "21d2241f29aee9b1c4ac1172871ff8fc5e70196a62b09d6e53cbbeca842bf545"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Botania/Mana Pool.js"
 hash = "a7bbb498bc2ba87babebaea641d23b76a82991bb32bf282d3c02d0c20b67b67c"
 
 [[files]]
+file = "kubejs/server_scripts/Recipes/Mods/Botania/Orderly.js"
+hash = "6b6116a8dbc4cc3dcb46418dece56cf2b5aa06ecbac64226ac1f0a6af7e04373"
+
+[[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Botania/pure_daisy.js"
 hash = "e2545d7d009fc66973f05b1e4696c19640ac77d79337bb92a3ddfb23bda12da9"
 
 [[files]]
+file = "kubejs/server_scripts/Recipes/Mods/Botania/remove.js"
+hash = "2e39faed990a598a76d4f16c55483f723426ddb7b3191a5ab56431055f2f1c63"
+
+[[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Botania/terra plate.js"
 hash = "e5685448f37688d379d4acce6d3904f0518dd17b68c49020519eeba1a1572e83"
+
+[[files]]
+file = "kubejs/server_scripts/Recipes/Mods/Explorerscompass/Orderly.js"
+hash = "e0c0de66bdb1ee78c682c442364f43a9139947953de73d7cb6bdb0876c6989ab"
+
+[[files]]
+file = "kubejs/server_scripts/Recipes/Mods/Extrabotany/remove.js"
+hash = "c05cc0f1079fd517e2e1c25c1cd1b86ea536fb3b028343873f2dc66ad6d9b193"
+
+[[files]]
+file = "kubejs/server_scripts/Recipes/Mods/Icarus Wings/Orderly"
+hash = "229af736d372934e7f96c58926db271028d9dbc374980186d938b9f8eb24ecec"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Icarus Wings/crafting_shaped.js"
@@ -1075,6 +1095,10 @@ hash = "49739ce87eecd9cfb9813319d99c54c4b7d8f6fb154648c1fee2cdccb15ed1a7"
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Icarus Wings/tag.js"
 hash = "d2e1c120eb577aba82e49b99ca253ca4bea36b2d2ca2eab66e259a9fd0a21a1e"
+
+[[files]]
+file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/Orderly.js"
+hash = "d899fb3108a5ba36015929a25636877c5d05c7039a01c71d5587814f5dd12d5b"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/arc_furnace.js"
@@ -1111,6 +1135,10 @@ hash = "a898daaecdfcce36eb6f1b2ab43d63769f2e8aab423782dbb3eaa25af4829efb"
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Thaumaturge/infusion.js"
 hash = "335ffc7e3a19f72724014f7a656a447817d3b61b07d18cfbd8cf26a56b4d7e73"
+
+[[files]]
+file = "kubejs/server_scripts/Recipes/Mods/The Twilight Forest/remove.js"
+hash = "2a30d89fcf3954226e72430d67d56f6f0a89d62d3bffcef74c68cf3ade5af3dd"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/The Twilight Forest/spawn_twilight.js"
@@ -1599,7 +1627,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/jei.pw.toml"
-hash = "b932fb216b995d115bda672af1de570a1f8c81882e1c1a8c4da18e7702c2fefc"
+hash = "4a00568243622e93e0fb7f2ab2e3b5aee34a0373c329d1fcdf93f554f175511b"
 metafile = true
 
 [[files]]
@@ -2063,11 +2091,6 @@ hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
 [[files]]
 file = "mods/extrabotany-2.0.0-1.21.1-NeoForge.jar"
 hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
-
-[[files]]
-file = "mods/forgotten-relics-plus.pw.toml"
-hash = "c9d67c78f2e4575546f562c0fa386b294e00bedeaa5a9ddc3de67b5d491000f3"
-metafile = true
 
 [[files]]
 file = "mods/kubejs.pw.toml"
