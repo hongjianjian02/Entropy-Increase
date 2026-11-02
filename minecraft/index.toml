@@ -1117,6 +1117,10 @@ file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/remove.js"
 hash = "39c1a554e924e870125d05b71390028960c0944bf76db22f4de3ca228f12656b"
 
 [[files]]
+file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/trade.js"
+hash = "9179c51813120b32335816b48a43af246a33c71f7f8ffc145559901ad4f9f5ad"
+
+[[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Mek/Remove.js"
 hash = "b1e48141e62bdd58eec518f5b05a0ea9cc7e5b06006826db89d2c1a9ee2f4a78"
 
