@@ -66,121 +66,6 @@
 			y: -0.5d
 		}
 		{
-			icon: {
-				components: {
-					"ftbquests:icon": "immersiveengineering:block/multiblocks/coke_oven_on"
-				}
-				id: "ftbquests:custom_icon"
-			}
-			id: "1837369FE26C716B"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:icon": "immersiveengineering:block/multiblocks/coke_oven_off"
-					}
-					id: "ftbquests:custom_icon"
-				}
-				id: "0193483A1676B424"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:coke_oven"
-				type: "observation"
-			}]
-			x: -7.0d
-			y: 6.0d
-		}
-		{
-			id: "61F2777A8F31327C"
-			tasks: [{
-				icon: {
-					components: {
-						"ftbquests:icon": "immersiveengineering:block/multiblocks/blast_furnace_on"
-					}
-					id: "ftbquests:custom_icon"
-				}
-				id: "5962BDDD5AE86B0C"
-				observation_type: "block"
-				observe_type: 0
-				timer: 0L
-				to_observe: "immersiveengineering:blast_furnace"
-				type: "observation"
-			}]
-			x: -7.0d
-			y: 3.5d
-		}
-		{
-			dependencies: ["1837369FE26C716B"]
-			id: "721865E9C00355EC"
-			tasks: [{
-				id: "4B0656F3F63D7145"
-				item: { count: 1, id: "immersiveengineering:treated_wood_horizontal" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: 6.0d
-		}
-		{
-			dependencies: ["721865E9C00355EC"]
-			id: "56228613B240081E"
-			rewards: [
-				{
-					id: "0AE9E5F21A0A70DF"
-					item: {
-						components: {
-							"immersiveengineering:blueprint": "molds"
-						}
-						count: 1
-						id: "immersiveengineering:blueprint"
-					}
-					type: "item"
-				}
-				{
-					id: "500A20212C5D59D1"
-					item: {
-						components: {
-							"immersiveengineering:blueprint": "automatons"
-						}
-						count: 1
-						id: "immersiveengineering:blueprint"
-					}
-					type: "item"
-				}
-				{
-					id: "08AAD65DCF62446F"
-					item: {
-						components: {
-							"immersiveengineering:blueprint": "components"
-						}
-						count: 1
-						id: "immersiveengineering:blueprint"
-					}
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "4E04BA1935C9288E"
-				item: { count: 1, id: "immersiveengineering:workbench" }
-				type: "item"
-			}]
-			x: -1.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"61F2777A8F31327C"
-				"19328B6E409A8BC8"
-			]
-			id: "73C90A1C2BA55BD2"
-			tasks: [{
-				id: "7DBAF4430AFDC6FF"
-				item: { count: 1, id: "mekanism:ingot_steel" }
-				type: "item"
-			}]
-			x: -4.5d
-			y: 3.5d
-		}
-		{
 			dependencies: ["0FF73CE7539C399D"]
 			id: "4125116C8702CF71"
 			tasks: [{
@@ -192,36 +77,6 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["73C90A1C2BA55BD2"]
-			id: "28DB3C7E96FEDAE7"
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:advanced_blast_furnace"
-				}
-				id: "24D890A1DF985584"
-				interaction_type: "block"
-				to_interact: "immersiveengineering:advanced_blast_furnace"
-				type: "interaction"
-			}]
-			x: -1.0d
-			y: 2.5d
-		}
-		{
-			dependencies: ["73C90A1C2BA55BD2"]
-			id: "7F218ADF4A30248B"
-			tasks: [{
-				icon: {
-					id: "immersiveengineering:arc_furnace"
-				}
-				id: "1070418ADA4C21F4"
-				interaction_type: "block"
-				to_interact: "immersiveengineering:advanced_blast_furnace"
-				type: "interaction"
-			}]
-			x: -1.0d
-			y: 4.5d
-		}
-		{
 			dependencies: ["0FF73CE7539C399D"]
 			id: "6E894B02A23ACDAD"
 			tasks: [{
@@ -231,6 +86,188 @@
 			}]
 			x: -0.5d
 			y: -0.5d
+		}
+		{
+			dependencies: [
+				"19328B6E409A8BC8"
+				"73A40657CC673DA0"
+				"01D6299D694C147A"
+			]
+			id: "7FE76F3459489CAC"
+			tasks: [{
+				id: "28CF3720C94478F6"
+				item: { count: 1, id: "mekanism:ingot_steel" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: 3.5d
+		}
+		{
+			icon: {
+				id: "immersiveengineering:blast_furnace"
+			}
+			id: "73A40657CC673DA0"
+			tasks: [{
+				count: 27L
+				id: "35A5E127CB3B1342"
+				item: { count: 1, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["35F2F8CA26499EF0"]
+			id: "01D6299D694C147A"
+			tasks: [
+				{
+					id: "16661968F4D59D33"
+					item: { count: 1, id: "immersiveengineering:coal_coke" }
+					type: "item"
+				}
+				{
+					id: "38D215655AD7DDB0"
+					item: { count: 1, id: "immersiveengineering:creosote_bucket" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			icon: {
+				id: "immersiveengineering:coke_oven"
+			}
+			id: "35F2F8CA26499EF0"
+			tasks: [{
+				count: 27L
+				id: "502C7ABE532C71B4"
+				item: { count: 1, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["01D6299D694C147A"]
+			id: "7ED320DC6F3B0B61"
+			tasks: [{
+				id: "21358BCC7A611893"
+				item: { count: 1, id: "immersiveengineering:workbench" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["578760D8D2797C28"]
+			icon: {
+				id: "aether:cold_aercloud"
+			}
+			id: "128A66B8CA3E3F08"
+			tasks: [
+				{
+					id: "53936ED06CC32E19"
+					item: { count: 1, id: "minecraft:glowstone" }
+					type: "item"
+				}
+				{
+					dimension: "aether:the_aether"
+					id: "5A3D4C50939C610B"
+					type: "dimension"
+				}
+				{
+					id: "3E0CF941252DA5D3"
+					item: { count: 1, id: "thaumaturge:salis_mundus" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["128A66B8CA3E3F08"]
+			id: "021E0709C9A7D9EF"
+			tasks: [{
+				id: "2AEA1451DBCB4DE8"
+				item: { count: 1, id: "aether:bronze_dungeon_key" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["128A66B8CA3E3F08"]
+			id: "6D7A7A6198817159"
+			tasks: [{
+				id: "33524CCF23F2446F"
+				item: { count: 1, id: "aether:silver_dungeon_key" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["128A66B8CA3E3F08"]
+			id: "3B0E2B868685E5A2"
+			tasks: [{
+				id: "16FF8EB9FCAE1FB5"
+				item: { count: 1, id: "aether:gold_dungeon_key" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["128A66B8CA3E3F08"]
+			id: "16DEAADC209D716E"
+			tasks: [{
+				id: "197989727FD58D94"
+				item: { count: 1, id: "aether:sun_altar" }
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["021E0709C9A7D9EF"]
+			id: "31D3EEE6F2B91EC5"
+			tasks: [
+				{
+					id: "10B15B61531BB536"
+					item: { count: 1, id: "aether:ambrosium_shard" }
+					type: "item"
+				}
+				{
+					id: "7E229A8BCD2F8D28"
+					item: { count: 1, id: "aether:zanite_gemstone" }
+					type: "item"
+				}
+			]
+			x: -10.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6D7A7A6198817159"]
+			id: "1A8F47A4A83C71A9"
+			tasks: [{
+				id: "6CDD11829069FDEA"
+				item: { count: 1, id: "aether:gravitite_ore" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["3B0E2B868685E5A2"]
+			id: "51209ED7030C9AF7"
+			tasks: [{
+				id: "68CCBE77F39AA4F0"
+				item: { count: 1, id: "eicore:tianqing_ore" }
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.5d
 		}
 	]
 }

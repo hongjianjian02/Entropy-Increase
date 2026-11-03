@@ -422,7 +422,7 @@ hash = "7433b4b0b6e88e587ed46ae0d185790a6085c7a3ad509fe657d4f2efc042b599"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/19169E2187F4B9B9.snbt"
-hash = "41918c74ce80ec9deed00c1f25060ce5516f1aea9357999c2437a4c9e87e516b"
+hash = "9194190547046c3796e8ccb965ebd42286225bd20091c4157f04dd03361f454d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3af64a8d2e35b6b4.snbt"
@@ -462,7 +462,7 @@ hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "83196caf221a2f6237da513ae3f9ec7f672a80d40efbc3af1b16cdbacfc14588"
+hash = "221d67573010b9f3863fe9cac5a351831cf0a7df635043dc9ae87d2665e20762"
 
 [[files]]
 file = "config/guideme.toml"
@@ -1146,7 +1146,7 @@ hash = "335ffc7e3a19f72724014f7a656a447817d3b61b07d18cfbd8cf26a56b4d7e73"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/The Aether/portal.js"
-hash = "612a4312ac3e1d9e35ece18dfe2a1b1949e09a3814f4c7ebe3b8c2b9a9a0e725"
+hash = "b8c3db6e574bb6d4a1b80277336021c1a10217019e8e9d96041d22d9dfc22b89"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/The Twilight Forest/remove.js"
