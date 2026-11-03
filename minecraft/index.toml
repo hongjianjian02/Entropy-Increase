@@ -173,6 +173,10 @@ file = "config/ae2wtlib.toml"
 hash = "18894f2fb101d59d2740d60c8a630fda90edfc59700acad1ae012ceade58a5d5"
 
 [[files]]
+file = "config/aether-server.toml"
+hash = "5d0c8a82ec023751418bad0bd469b7e7ba65ca4cf22cb682b2b78d9f0f46f1e1"
+
+[[files]]
 file = "config/appflux-common.toml"
 hash = "4698fdc44f620d377a4ffac3fdcd3ee731a10ac7cc8003777a8ada3f270040ec"
 
@@ -1139,6 +1143,10 @@ hash = "a898daaecdfcce36eb6f1b2ab43d63769f2e8aab423782dbb3eaa25af4829efb"
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Thaumaturge/infusion.js"
 hash = "335ffc7e3a19f72724014f7a656a447817d3b61b07d18cfbd8cf26a56b4d7e73"
+
+[[files]]
+file = "kubejs/server_scripts/Recipes/Mods/The Aether/portal.js"
+hash = "612a4312ac3e1d9e35ece18dfe2a1b1949e09a3814f4c7ebe3b8c2b9a9a0e725"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/The Twilight Forest/remove.js"
