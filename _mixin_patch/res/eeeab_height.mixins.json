@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "entropy.patch",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BloodyAltarHeightMixin",
+    "CoreforgeRuinsHeightMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

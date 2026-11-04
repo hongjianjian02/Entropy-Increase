@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "eeeabsmobs:guling",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 837215961,
+    "spacing": 50,
+    "separation": 25
+  }
+}

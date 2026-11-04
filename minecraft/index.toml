@@ -645,6 +645,46 @@ file = "config/patchouli-client.toml"
 hash = "af6a2ac2c40095993ccdc76bb8c74dd72ed4dd216276e39f5e835a87c1ab6e27"
 
 [[files]]
+file = "config/paxi/datapacks/eeeab_end/data/eeeabsmobs/tags/worldgen/biome/has_structure/bloody_altar.json"
+hash = "29465e7d492ee2278fd8de6113eb0547824da92e8615ec99f3e7e689b202fb78"
+
+[[files]]
+file = "config/paxi/datapacks/eeeab_end/data/eeeabsmobs/tags/worldgen/biome/has_structure/coreforge_ruins.json"
+hash = "29465e7d492ee2278fd8de6113eb0547824da92e8615ec99f3e7e689b202fb78"
+
+[[files]]
+file = "config/paxi/datapacks/eeeab_end/data/eeeabsmobs/tags/worldgen/biome/has_structure/guling.json"
+hash = "29465e7d492ee2278fd8de6113eb0547824da92e8615ec99f3e7e689b202fb78"
+
+[[files]]
+file = "config/paxi/datapacks/eeeab_end/data/eeeabsmobs/worldgen/structure/bloody_altar.json"
+hash = "ec1ac5167e24e013d173ddf77140f740174628eb0c01ca3017aa4d1907d04559"
+
+[[files]]
+file = "config/paxi/datapacks/eeeab_end/data/eeeabsmobs/worldgen/structure/coreforge_ruins.json"
+hash = "54a70cffad126f6c65ede971cc3830cbaf0d04398d9c53a52bedb8ce3b060135"
+
+[[files]]
+file = "config/paxi/datapacks/eeeab_end/data/eeeabsmobs/worldgen/structure/guling.json"
+hash = "3e08678b5532db1ba46d94d5bc52678563f1909eee6f0917778cc89d44b51016"
+
+[[files]]
+file = "config/paxi/datapacks/eeeab_end/data/eeeabsmobs/worldgen/structure_set/bloody_altar.json"
+hash = "b0daf50581503875d517b1b47213b4c0f7a70816cd8c20c20fbcb85775c33051"
+
+[[files]]
+file = "config/paxi/datapacks/eeeab_end/data/eeeabsmobs/worldgen/structure_set/coreforge_ruins.json"
+hash = "0b15b979ebbe9dce984e25d907330130b9bce08e851bfc6a7b585fa3f868ba73"
+
+[[files]]
+file = "config/paxi/datapacks/eeeab_end/data/eeeabsmobs/worldgen/structure_set/guling.json"
+hash = "db9c0e851ba65767aaf90c6a29506317f5dbb9d3bf4cb3b15f9538f8cea6d020"
+
+[[files]]
+file = "config/paxi/datapacks/eeeab_end/pack.mcmeta"
+hash = "e8141b208c5eeba6f0d3640ec758c16941ba831b1d4a64b81cddf8c250cd2ad9"
+
+[[files]]
 file = "config/placebo.cfg"
 hash = "6bbc71c6dc18b1ba4952e1bc54ed2b98c3a90f04cec4257ec3f7566cdf0c0e2a"
 
@@ -865,18 +905,6 @@ file = "kubejs/data/curios/tags/item/head.json"
 hash = "4c8084b31eef5b8156ef01b6222f8b09968036e8c868d6dcc1c486a55321e55a"
 
 [[files]]
-file = "kubejs/data/eeeabsmobs/tags/worldgen/biome/has_structure/bloody_altar.json"
-hash = "cc8deaf8cbc85301e7dac2ab7638bcb78b0d17ee6e0382bc0089e3a8edd04ffc"
-
-[[files]]
-file = "kubejs/data/eeeabsmobs/tags/worldgen/biome/has_structure/coreforge_ruins.json"
-hash = "cc8deaf8cbc85301e7dac2ab7638bcb78b0d17ee6e0382bc0089e3a8edd04ffc"
-
-[[files]]
-file = "kubejs/data/eeeabsmobs/worldgen/structure/coreforge_ruins.json"
-hash = "2869b73380dfbae09ee84341226afba627648b2d5e3655b56dd429eddbcca423"
-
-[[files]]
 file = "kubejs/data/immersiveengineering/loot_table/chests/engineers_house.json"
 hash = "3e49fb0ef4bb30e8bdd710d8e0a2d413673f374440a815d8324790eb7d84d292"
 
@@ -919,6 +947,10 @@ hash = "578a889b33746805ac488bee712a7d777f173144faa47b4a864d2d89389eb601"
 [[files]]
 file = "kubejs/data/oei/replacements/uranium.json"
 hash = "5370de6a6c3ca8b014519423a30cd52fcb929cb7aa290411692a643a3f725416"
+
+[[files]]
+file = "kubejs/data/pack.mcmeta"
+hash = "b3ecc6d541c1d366b22a3cdcee2ad9f15c5b1f734e3a5d4d1e742e232e397bf3"
 
 [[files]]
 file = "kubejs/data/twilightforest/data_maps/block/crumble_horn.json"
@@ -1071,10 +1103,6 @@ hash = "ab8bd47ee5e6a2a2feeec3c75ee287949147719ccc0550f73b0f1da5f2d5a60a"
 [[files]]
 file = "kubejs/server_scripts/Recipes/CraftingTable/remove.js"
 hash = "21d2241f29aee9b1c4ac1172871ff8fc5e70196a62b09d6e53cbbeca842bf545"
-
-[[files]]
-file = "kubejs/server_scripts/Recipes/Mods/AE2/controller.js"
-hash = "99583dd1feccb5df4af4ff0692bf65a9246d9ab7f6e3a6cb8a0d4a49e3631b42"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Botania/Mana Pool.js"
@@ -1430,7 +1458,12 @@ metafile = true
 
 [[files]]
 file = "mods/.index/eeeabs-mobs-nameless-guardian-is-back.pw.toml"
-hash = "c5d8286477b8d8333de47eb4d8609a3c23916769eb2a7ba2e062596bf8fd7e3f"
+hash = "0e10853d29d0690107b1d76143a8fe9ffcf2c149be0240334a4879b8ff6a44ca"
+metafile = true
+
+[[files]]
+file = "mods/.index/eeeabs-mobs-unofficial.pw.toml"
+hash = "24bcac02ef04a81c6c99dee5870be91d3be3ca50a60be60306cb20ace04b356d"
 metafile = true
 
 [[files]]
@@ -2024,6 +2057,16 @@ hash = "40bba67bdeb81134ef95aa1d3f5b8d07b669e45aa1666801315504d21d8db65f"
 metafile = true
 
 [[files]]
+file = "mods/.index/rftools-power.pw.toml"
+hash = "1273e2a7e058073a0b66d1476bb7271f008781d08f93f26f4c406554b7f1ab07"
+metafile = true
+
+[[files]]
+file = "mods/.index/rftools-storage.pw.toml"
+hash = "fa357b90ac401f5ebb85620521912db60800665be2d1d63df8ea8c3d62b94317"
+metafile = true
+
+[[files]]
 file = "mods/.index/rftools-utility.pw.toml"
 hash = "37383a2cce841609053ee1d534add290f41d9280ff36a7824bab821c964bfa68"
 metafile = true
@@ -2147,23 +2190,8 @@ file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
 hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
 
 [[files]]
-file = "mods/eeeabs-mobs-unofficial.pw.toml"
-hash = "9e05e964f690a4f0b934d2121f681b1917967ec3d38d8a626bbdf784ed323cb3"
-metafile = true
-
-[[files]]
 file = "mods/extrabotany-2.0.0-1.21.1-NeoForge.jar"
 hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
-
-[[files]]
-file = "mods/rftools-power.pw.toml"
-hash = "1273e2a7e058073a0b66d1476bb7271f008781d08f93f26f4c406554b7f1ab07"
-metafile = true
-
-[[files]]
-file = "mods/rftools-storage.pw.toml"
-hash = "fa357b90ac401f5ebb85620521912db60800665be2d1d63df8ea8c3d62b94317"
-metafile = true
 
 [[files]]
 file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6 (1).jar"
