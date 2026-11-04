@@ -865,6 +865,18 @@ file = "kubejs/data/curios/tags/item/head.json"
 hash = "4c8084b31eef5b8156ef01b6222f8b09968036e8c868d6dcc1c486a55321e55a"
 
 [[files]]
+file = "kubejs/data/eeeabsmobs/tags/worldgen/biome/has_structure/bloody_altar.json"
+hash = "cc8deaf8cbc85301e7dac2ab7638bcb78b0d17ee6e0382bc0089e3a8edd04ffc"
+
+[[files]]
+file = "kubejs/data/eeeabsmobs/tags/worldgen/biome/has_structure/coreforge_ruins.json"
+hash = "cc8deaf8cbc85301e7dac2ab7638bcb78b0d17ee6e0382bc0089e3a8edd04ffc"
+
+[[files]]
+file = "kubejs/data/eeeabsmobs/worldgen/structure/coreforge_ruins.json"
+hash = "2869b73380dfbae09ee84341226afba627648b2d5e3655b56dd429eddbcca423"
+
+[[files]]
 file = "kubejs/data/immersiveengineering/loot_table/chests/engineers_house.json"
 hash = "3e49fb0ef4bb30e8bdd710d8e0a2d413673f374440a815d8324790eb7d84d292"
 
@@ -1059,6 +1071,10 @@ hash = "ab8bd47ee5e6a2a2feeec3c75ee287949147719ccc0550f73b0f1da5f2d5a60a"
 [[files]]
 file = "kubejs/server_scripts/Recipes/CraftingTable/remove.js"
 hash = "21d2241f29aee9b1c4ac1172871ff8fc5e70196a62b09d6e53cbbeca842bf545"
+
+[[files]]
+file = "kubejs/server_scripts/Recipes/Mods/AE2/controller.js"
+hash = "99583dd1feccb5df4af4ff0692bf65a9246d9ab7f6e3a6cb8a0d4a49e3631b42"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Botania/Mana Pool.js"
@@ -2138,6 +2154,16 @@ metafile = true
 [[files]]
 file = "mods/extrabotany-2.0.0-1.21.1-NeoForge.jar"
 hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
+
+[[files]]
+file = "mods/rftools-power.pw.toml"
+hash = "1273e2a7e058073a0b66d1476bb7271f008781d08f93f26f4c406554b7f1ab07"
+metafile = true
+
+[[files]]
+file = "mods/rftools-storage.pw.toml"
+hash = "fa357b90ac401f5ebb85620521912db60800665be2d1d63df8ea8c3d62b94317"
+metafile = true
 
 [[files]]
 file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6 (1).jar"
