@@ -1458,12 +1458,12 @@ metafile = true
 
 [[files]]
 file = "mods/.index/eeeabs-mobs-nameless-guardian-is-back.pw.toml"
-hash = "0e10853d29d0690107b1d76143a8fe9ffcf2c149be0240334a4879b8ff6a44ca"
+hash = "17217903080323d3abf1b5d6abc48c8b5258a25d250caa546378c573aa7ae70b"
 metafile = true
 
 [[files]]
 file = "mods/.index/eeeabs-mobs-unofficial.pw.toml"
-hash = "24bcac02ef04a81c6c99dee5870be91d3be3ca50a60be60306cb20ace04b356d"
+hash = "7fdf5991ab98201df9ebcf5e042ebb59ef62a2a614033a4e9187b2613712f98f"
 metafile = true
 
 [[files]]

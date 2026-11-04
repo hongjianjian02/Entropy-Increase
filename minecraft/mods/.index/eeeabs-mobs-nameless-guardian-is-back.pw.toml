@@ -3,6 +3,6 @@ filename = "eeeabsmobs_namelessguardian-1.0.0.jar"
 side = "both"
 
 [download]
+url = "https://mediafilez.forgecdn.net/files/9067/694/eeeabsmobs_namelessguardian-1.0.0.jar"
 hash-format = "sha1"
 hash = "d453bb9f5ace448d66fd84ba073c434d9e96e1d8"
-mode = "metadata:curseforge"

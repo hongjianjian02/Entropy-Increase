@@ -3,6 +3,6 @@ filename = "eeeabsmobs-1.0.2-neoforge.jar"
 side = "both"
 
 [download]
+url = "https://mediafilez.forgecdn.net/files/8806/759/eeeabsmobs-1.0.2-neoforge.jar"
 hash-format = "sha1"
 hash = "2a1b33ec19916c1f749a873a04a1a549efabe14d"
-mode = "metadata:curseforge"
