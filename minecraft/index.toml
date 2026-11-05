@@ -1105,6 +1105,10 @@ file = "kubejs/server_scripts/Recipes/CraftingTable/remove.js"
 hash = "21d2241f29aee9b1c4ac1172871ff8fc5e70196a62b09d6e53cbbeca842bf545"
 
 [[files]]
+file = "kubejs/server_scripts/Recipes/Mods/AE2/controller.js"
+hash = "8b4f10cd73b426749d8175ee20bc27d1b744f37872d226cb857d716914a05e7b"
+
+[[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Botania/Mana Pool.js"
 hash = "a7bbb498bc2ba87babebaea641d23b76a82991bb32bf282d3c02d0c20b67b67c"
 
@@ -1433,6 +1437,11 @@ metafile = true
 [[files]]
 file = "mods/.index/curios.pw.toml"
 hash = "aafe8031527d7aacb62a412228317f4d74b6be92dce9c8da935e8f421afc6bb6"
+metafile = true
+
+[[files]]
+file = "mods/.index/customskinloader.pw.toml"
+hash = "25a09878132d5c6c598917bddcc8baf3cb3daadcc05ba0544275e9869cd64371"
 metafile = true
 
 [[files]]
@@ -1981,6 +1990,11 @@ hash = "f2475b5d4a63e0cf0cc93496ad56531f58aab1468203d4ea4d139b20c35c327d"
 metafile = true
 
 [[files]]
+file = "mods/.index/paxi-neoforge.pw.toml"
+hash = "b195d17d8138d83647b6abb853e25b3b2d6d8defdc76bb345eb93f40c2232019"
+metafile = true
+
+[[files]]
 file = "mods/.index/pipez-lag-fix.pw.toml"
 hash = "abe560501479537e23539c5f71c681dc178925265970e0a1c5c13bde3e7a641b"
 metafile = true
@@ -2170,17 +2184,8 @@ file = "mods/EI core-1.0.1.jar"
 hash = "fa00d19ec219a5922b2bc77e39867b0dcea14358a3070ded211870cd06d37afd"
 
 [[files]]
-file = "mods/Paxi-1.21.1-NeoForge-5.1.3.jar"
-hash = "4b60f8eb3b8b8880eff7c3ac825cde84394848eac3915ed61ade607cdd331ce7"
-
-[[files]]
 file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
 hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
-
-[[files]]
-file = "mods/customskinloader.pw.toml"
-hash = "25a09878132d5c6c598917bddcc8baf3cb3daadcc05ba0544275e9869cd64371"
-metafile = true
 
 [[files]]
 file = "mods/extrabotany-2.0.0-1.21.1-NeoForge.jar"
@@ -2189,11 +2194,6 @@ hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
 [[files]]
 file = "mods/mmcece-26.11.4-beta.jar"
 hash = "1fdc3ef519d3757db3d678c71ba0a3ee7ce0352f96c24270254bae44d84f8a7d"
-
-[[files]]
-file = "mods/paxi-neoforge.pw.toml"
-hash = "b195d17d8138d83647b6abb853e25b3b2d6d8defdc76bb345eb93f40c2232019"
-metafile = true
 
 [[files]]
 file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6 (1).jar"
