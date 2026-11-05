@@ -1210,7 +1210,7 @@ hash = "a9ed3408327a168e50553614aa352a3f91d7c09f349b72adf0557bb718cf9440"
 
 [[files]]
 file = "kubejs/server_scripts/stages.js"
-hash = "d48a7dab54768cf4668a5fa6b8fd5ce0c9bb7bed0718357e9d67141b135f9b20"
+hash = "4d7556ffb182cf80506b748c3319aaa865215e9183f94541e481f69b83eb26ea"
 
 [[files]]
 file = "kubejs/startup_scripts/hide_crowns_creative.js"
