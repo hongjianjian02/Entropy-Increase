@@ -1417,11 +1417,6 @@ hash = "b65ee01fec17228645121952de6dec75053b0b4c59a8c8036d6fa7829819f3f9"
 metafile = true
 
 [[files]]
-file = "mods/.index/cucumber.pw.toml"
-hash = "9de8a3fc8219572ee504b28fd870483e27850041372db5f6172b9e8d3d5b20c3"
-metafile = true
-
-[[files]]
 file = "mods/.index/cull-leaves.pw.toml"
 hash = "e8d18b1d0254b3dff81703e7aa22f7fe3d398a29d90cf1485408c8b9ad0b473b"
 metafile = true
@@ -1877,6 +1872,11 @@ hash = "77726651ea6816089bfb2641781e0df17df7fabe3fce7163f3230662ee9f6c21"
 metafile = true
 
 [[files]]
+file = "mods/.index/mmcece.pw.toml"
+hash = "02f0b719c082383872977932ce6b9f5683bb2ad3dfac1a29dcda5310f5da1a68"
+metafile = true
+
+[[files]]
 file = "mods/.index/mod-menu-neoforge-edition.pw.toml"
 hash = "e58093801c8e5413e33e3720f49bb07d86cfbae0b8e7bdb6ea045a9b8e64adcd"
 metafile = true
@@ -1914,16 +1914,6 @@ metafile = true
 [[files]]
 file = "mods/.index/mousetweaks-x-accessories-fix.pw.toml"
 hash = "4b98938088452b6ac420e4c82111d92f96be7b50284570bc7407ad8c4c4ee655"
-metafile = true
-
-[[files]]
-file = "mods/.index/mystical-agriculture-tiered-crystals.pw.toml"
-hash = "2552675c42ec6ea26288e5a39a8c3e70bbc258a666e95de0e05539860020e3a2"
-metafile = true
-
-[[files]]
-file = "mods/.index/mystical-agriculture.pw.toml"
-hash = "cd7be301ea2b7c6d010e5e5c435536315cdb7d620cec5081dde63018119acb59"
 metafile = true
 
 [[files]]
@@ -2107,11 +2097,6 @@ hash = "9dc37674653192869dcd907c02524661b240f5b920c1d517783023fe04478dbc"
 metafile = true
 
 [[files]]
-file = "mods/.index/squat-grow.pw.toml"
-hash = "1768c3fee997b5c1ef404830ccad29832bcc951c4d25e8781a4e58c54d51c803"
-metafile = true
-
-[[files]]
 file = "mods/.index/super-factory-manager.pw.toml"
 hash = "3475bc54e34397a66bda87520874e8e2da589c6e02e1612db44f18f4f31ec46c"
 metafile = true
@@ -2192,6 +2177,10 @@ hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
 [[files]]
 file = "mods/extrabotany-2.0.0-1.21.1-NeoForge.jar"
 hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
+
+[[files]]
+file = "mods/mmcece-26.11.4-beta.jar"
+hash = "1fdc3ef519d3757db3d678c71ba0a3ee7ce0352f96c24270254bae44d84f8a7d"
 
 [[files]]
 file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6 (1).jar"
