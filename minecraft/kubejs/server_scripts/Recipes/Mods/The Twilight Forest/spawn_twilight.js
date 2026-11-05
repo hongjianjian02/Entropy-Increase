@@ -42,5 +42,10 @@ PlayerEvents.loggedIn(event => {
 PlayerEvents.respawned(event => {
   const player = event.player
   if (player.persistentData.getBoolean('mysterious:returned')) return
+  // 完成第一章（chapter1 阶段）后不再拉回暮色
+  if (AStages.playerHasStage(player, 'chapter1')) {
+    player.persistentData.putBoolean('mysterious:returned', true)
+    return
+  }
   if (!isInTwilight(player)) sendToTwilight(player)
 })

@@ -1198,7 +1198,7 @@ hash = "2a30d89fcf3954226e72430d67d56f6f0a89d62d3bffcef74c68cf3ade5af3dd"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/The Twilight Forest/spawn_twilight.js"
-hash = "c53695945e907a340822d87fe5a79104e1ad0d9aadb5dba9e2b1bc51179f876d"
+hash = "3e48c84b340b7ab4fad2a8e699fecd492fb53a5943b4dc8eeb1f66b57d98d1fa"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/The Twilight Forest/twilight_arrival.js"
@@ -1207,6 +1207,10 @@ hash = "d90382bd5930e16a5933b1ce63933e0c798d1830edba8bad92dd9d75b0647f4a"
 [[files]]
 file = "kubejs/server_scripts/Recipes/stonecutter.js"
 hash = "a9ed3408327a168e50553614aa352a3f91d7c09f349b72adf0557bb718cf9440"
+
+[[files]]
+file = "kubejs/server_scripts/stages.js"
+hash = "d48a7dab54768cf4668a5fa6b8fd5ce0c9bb7bed0718357e9d67141b135f9b20"
 
 [[files]]
 file = "kubejs/startup_scripts/hide_crowns_creative.js"
@@ -1414,6 +1418,11 @@ metafile = true
 [[files]]
 file = "mods/.index/cosmetic-armor-reworked.pw.toml"
 hash = "b65ee01fec17228645121952de6dec75053b0b4c59a8c8036d6fa7829819f3f9"
+metafile = true
+
+[[files]]
+file = "mods/.index/cucumber.pw.toml"
+hash = "942d50bb453e223abc2a80a8d02703eb801d794a2c3c06f9568146eb255c55a9"
 metafile = true
 
 [[files]]
@@ -1872,11 +1881,6 @@ hash = "77726651ea6816089bfb2641781e0df17df7fabe3fce7163f3230662ee9f6c21"
 metafile = true
 
 [[files]]
-file = "mods/.index/mmcece.pw.toml"
-hash = "02f0b719c082383872977932ce6b9f5683bb2ad3dfac1a29dcda5310f5da1a68"
-metafile = true
-
-[[files]]
 file = "mods/.index/mod-menu-neoforge-edition.pw.toml"
 hash = "e58093801c8e5413e33e3720f49bb07d86cfbae0b8e7bdb6ea045a9b8e64adcd"
 metafile = true
@@ -1999,11 +2003,6 @@ metafile = true
 [[files]]
 file = "mods/.index/pneumaticcraft-repressurized.pw.toml"
 hash = "a68f8d1d74cadd2ead3ddd7ae088bfc662bd53e16a7a17f15f242deb55089755"
-metafile = true
-
-[[files]]
-file = "mods/.index/powah-rearchitected.pw.toml"
-hash = "a32db772d8b5b852fd6d0140245011b70c0d5948985918ea352d1b4503c2ff8b"
 metafile = true
 
 [[files]]
@@ -2173,6 +2172,11 @@ hash = "fa00d19ec219a5922b2bc77e39867b0dcea14358a3070ded211870cd06d37afd"
 [[files]]
 file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
 hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
+
+[[files]]
+file = "mods/customskinloader.pw.toml"
+hash = "25a09878132d5c6c598917bddcc8baf3cb3daadcc05ba0544275e9869cd64371"
+metafile = true
 
 [[files]]
 file = "mods/extrabotany-2.0.0-1.21.1-NeoForge.jar"
