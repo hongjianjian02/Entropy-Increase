@@ -269,5 +269,16 @@
 			x: -10.5d
 			y: 5.5d
 		}
+		{
+			dependencies: ["7ED320DC6F3B0B61"]
+			id: "23D00422414A32B3"
+			tasks: [{
+				id: "70C937B7C219D18C"
+				item: { components: { "immersiveengineering:blueprint": "components" }, count: 1, id: "immersiveengineering:blueprint" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 7.5d
+		}
 	]
 }

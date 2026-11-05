@@ -687,6 +687,19 @@
 			]
 			dependency_requirement: "all_started"
 			id: "1ABB4A061CF20212"
+			rewards: [{
+				auto: "enabled"
+				command: "/astages add @s chapter1"
+				exclude_from_claim_all: true
+				icon: {
+					components: {
+						"ftbquests:icon": "ftbteams:textures/settings.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "5B3BA2AD28CFD56E"
+				type: "command"
+			}]
 			tasks: [{
 				id: "3E0B2ACC743E9666"
 				item: { count: 1, id: "eicore:activated_rune_gem" }

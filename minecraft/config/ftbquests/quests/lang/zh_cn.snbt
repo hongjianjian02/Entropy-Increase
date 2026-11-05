@@ -24,7 +24,9 @@
 	quest.0B83A320EA00A9B0.title: "神秘农业"
 	quest.0C42E80F859B8885.quest_desc: ["巫妖现在会掉落&e王冠碎片&r和概率掉落&e神秘王冠&r"]
 	quest.0C42E80F859B8885.title: "击败巫妖"
+	quest.0FF73CE7539C399D.title: "粉色小粉末的产物"
 	quest.100DB060C8AC126F.quest_desc: ["ps：用ME能量存储原件存储电量在再样板供应器放入感应卡会自动给机器发配电量"]
+	quest.128A66B8CA3E3F08.title: "天境"
 	quest.1301F3F28736AD5F.quest_desc: ["跳入暮色传送门然后回家！ 但是真的是回家吗？"]
 	quest.1301F3F28736AD5F.title: "回家"
 	quest.144913CE171A67E8.title: "eio磨粉机倍产"
@@ -37,10 +39,12 @@
 	quest.1ABB4A061CF20212.quest_desc: [""]
 	quest.1ABB4A061CF20212.title: "&m附魔&r激活！"
 	quest.1F859657875F24FA.title: "流体管道"
+	quest.23D00422414A32B3.quest_desc: ["需要使用&5注魔&r制作"]
 	quest.25BF6039CFA26DEE.title: "mek倍产"
 	quest.2EF91022AD2FBA46.title: "工业先锋矿石发酵倍产"
 	quest.31640D0A816C1426.title: "沉浸工艺倍产"
 	quest.34E8A826185D7AD3.title: "坠星仪式"
+	quest.35F2F8CA26499EF0.title: "焦炉"
 	quest.38F1673B4154CF0A.title: "回家的钥匙！"
 	quest.3B0E2B868685E5A2.title: "烈阳巨灵"
 	quest.3EA85D4C8B58892F.quest_desc: ["ps：pip管道尽量不要过多使用下界合金升级"]
@@ -49,6 +53,11 @@
 	quest.5014C0B273E442CC.quest_desc: ["现在可以用&e巫妖奖杯&r在切石机切末影珍珠"]
 	quest.51209ED7030C9AF7.quest_desc: ["在30-15的高度生成"]
 	quest.54643F6882F44234.quest_desc: ["探索自然！"]
+	quest.578760D8D2797C28.quest_desc: [
+		"冒险：地狱 天境"
+		"魔法：神秘"
+		"科技：沉浸工艺 沉浸原油"
+	]
 	quest.578760D8D2797C28.title: "世界盐怎么做？"
 	quest.57BC34FCEAB6B2DD.quest_desc: ["Mek管道不做推荐"]
 	quest.57BC34FCEAB6B2DD.title: "物流管道"
@@ -64,6 +73,7 @@
 	quest.6AEC9D71CCD30C34.title: "击败幻影骑士"
 	quest.6D7A7A6198817159.title: "武神女王"
 	quest.71652FC5565FC7A4.title: "击败米诺菇"
+	quest.73A40657CC673DA0.title: "高炉"
 	quest.73BE1F8E3643202D.quest_desc: ["在终焉城堡获取四色符文城堡砖每种至少一个"]
 	quest.73BE1F8E3643202D.title: "四色符文城堡砖"
 	quest.7A0100D3DDCE5C56.title: "击败九头蛇"

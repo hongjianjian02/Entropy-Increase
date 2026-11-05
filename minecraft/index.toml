@@ -413,43 +413,43 @@ file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "fcaac62b8086a8352fd5b15e50b0a6c18749af780ddf289cc595c949f99247c7"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/03A1D73903FA6FEC.snbt"
+file = "config/ftbquests/quests/chapters/03a1d73903fa6fec.snbt"
 hash = "c06fe414fbc784f10705b3f32718e6d8ced34c646ab6d02caf52d6824644a7da"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/0F13ECE19CBEBEF0.snbt"
+file = "config/ftbquests/quests/chapters/0f13ece19cbebef0.snbt"
 hash = "7433b4b0b6e88e587ed46ae0d185790a6085c7a3ad509fe657d4f2efc042b599"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/19169E2187F4B9B9.snbt"
-hash = "9194190547046c3796e8ccb965ebd42286225bd20091c4157f04dd03361f454d"
+file = "config/ftbquests/quests/chapters/19169e2187f4b9b9.snbt"
+hash = "a9e09afce184dc5d570326f38acc9b299ed1b006b328e1b87a5364baae3d926e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3af64a8d2e35b6b4.snbt"
 hash = "354ffd5ee1767146e7885ee66c20a06b5f13969215aa5c0014b809dd65bc1915"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/40304C220F7BCCE6.snbt"
+file = "config/ftbquests/quests/chapters/40304c220f7bcce6.snbt"
 hash = "11e33fe26d2a103aadbac41388093f4f159f206caa13e4ae5da286e937200f35"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/40423503220CF0F0.snbt"
+file = "config/ftbquests/quests/chapters/40423503220cf0f0.snbt"
 hash = "5596b3b41462ac370da43d6e53ec84194f5a2ff23180046253e7e957107119d0"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/424EC44E4A478E49.snbt"
-hash = "c9087b61ef619efdfcc60346dd24f4566d2813721cc0ab8cbcc10f41ee03499f"
+file = "config/ftbquests/quests/chapters/424ec44e4a478e49.snbt"
+hash = "4470c2bf6c886ca235c4cb29582c512db50c591b68c180dbcc784945ef62eb5a"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/58D00E42B7379E81.snbt"
+file = "config/ftbquests/quests/chapters/58d00e42b7379e81.snbt"
 hash = "941b9fc1f54f0b1fb343ed48fbfc0248237964c236da2b306b2c2dfd715692e8"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/5C3F40131C469C9C.snbt"
+file = "config/ftbquests/quests/chapters/5c3f40131c469c9c.snbt"
 hash = "3c355e98b71ef85865fc3d6308369da45ac6efbd03547060f97fbc4a9ffeff99"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/7635944B6A6416E4.snbt"
+file = "config/ftbquests/quests/chapters/7635944b6a6416e4.snbt"
 hash = "e2e495c6d2b16bdabd2a80839bdd2541e68f7eccf177ecc317af5e06c17eef4a"
 
 [[files]]
@@ -458,11 +458,11 @@ hash = "4e90e0c5f886d2f786e460a9be860404fa8062320269e86cddc4743ead6a95a0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
+hash = "1d6faa9e1a76d13f3ab8558a3640158b1f0a54f624a4e37ddc3ef41ed4191058"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "221d67573010b9f3863fe9cac5a351831cf0a7df635043dc9ae87d2665e20762"
+hash = "ec785332de4f39dbbfb3262bc48696023847dbef618f2fc8d1181dffc1257eb8"
 
 [[files]]
 file = "config/guideme.toml"
@@ -1210,7 +1210,7 @@ hash = "a9ed3408327a168e50553614aa352a3f91d7c09f349b72adf0557bb718cf9440"
 
 [[files]]
 file = "kubejs/server_scripts/stages.js"
-hash = "4d7556ffb182cf80506b748c3319aaa865215e9183f94541e481f69b83eb26ea"
+hash = "4e97047a736a685060cd0bbebd36f3acc18289ed1590a309c22c394fd33d1bc8"
 
 [[files]]
 file = "kubejs/startup_scripts/hide_crowns_creative.js"
@@ -2170,6 +2170,10 @@ file = "mods/EI core-1.0.1.jar"
 hash = "fa00d19ec219a5922b2bc77e39867b0dcea14358a3070ded211870cd06d37afd"
 
 [[files]]
+file = "mods/Paxi-1.21.1-NeoForge-5.1.3.jar"
+hash = "4b60f8eb3b8b8880eff7c3ac825cde84394848eac3915ed61ade607cdd331ce7"
+
+[[files]]
 file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
 hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
 
@@ -2185,6 +2189,11 @@ hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
 [[files]]
 file = "mods/mmcece-26.11.4-beta.jar"
 hash = "1fdc3ef519d3757db3d678c71ba0a3ee7ce0352f96c24270254bae44d84f8a7d"
+
+[[files]]
+file = "mods/paxi-neoforge.pw.toml"
+hash = "b195d17d8138d83647b6abb853e25b3b2d6d8defdc76bb345eb93f40c2232019"
+metafile = true
 
 [[files]]
 file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6 (1).jar"
