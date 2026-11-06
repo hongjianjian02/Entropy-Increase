@@ -1105,8 +1105,12 @@ file = "kubejs/server_scripts/Recipes/CraftingTable/remove.js"
 hash = "21d2241f29aee9b1c4ac1172871ff8fc5e70196a62b09d6e53cbbeca842bf545"
 
 [[files]]
+file = "kubejs/server_scripts/Recipes/Mods/AE2/AStages.js"
+hash = "c62c059b6e92852ab4a04710ab7f1fd123385a4993bde486900e0c98885690ae"
+
+[[files]]
 file = "kubejs/server_scripts/Recipes/Mods/AE2/controller.js"
-hash = "8b4f10cd73b426749d8175ee20bc27d1b744f37872d226cb857d716914a05e7b"
+hash = "d01d9c38e5d65821d6bb0c9ca73bdc3a7e31b42c35cecae00ed4d12f9791a206"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Botania/Mana Pool.js"
@@ -1214,7 +1218,7 @@ hash = "a9ed3408327a168e50553614aa352a3f91d7c09f349b72adf0557bb718cf9440"
 
 [[files]]
 file = "kubejs/server_scripts/stages.js"
-hash = "4e97047a736a685060cd0bbebd36f3acc18289ed1590a309c22c394fd33d1bc8"
+hash = "e6e10a17fd4919c957a5571d8d11a394ac9d2888fc3994ba4acc55222a229d4b"
 
 [[files]]
 file = "kubejs/startup_scripts/hide_crowns_creative.js"
@@ -1332,11 +1336,6 @@ metafile = true
 [[files]]
 file = "mods/.index/applied-pneumatics.pw.toml"
 hash = "34903de92b8efa2813734827d3ec980fe20a44fef23ea497fef6e702a3b68a08"
-metafile = true
-
-[[files]]
-file = "mods/.index/applied-soul.pw.toml"
-hash = "6b4e3385ddc4073ec824db46cf37ca0b9ec73497a93a3d32948c1fcee6090f4a"
 metafile = true
 
 [[files]]
@@ -1682,11 +1681,6 @@ metafile = true
 [[files]]
 file = "mods/.index/immersive-petroleum.pw.toml"
 hash = "5f5cf12dba8c9bb66e081739bef497ef968acedc8b047d90fc81e0a021528cc3"
-metafile = true
-
-[[files]]
-file = "mods/.index/industrial-foregoing-souls.pw.toml"
-hash = "192c6001b11b0a420968c289f4d0f9a6475cc9481b3595e2eac95749a717af13"
 metafile = true
 
 [[files]]
@@ -2105,11 +2099,6 @@ hash = "3691e9b90bfe83b31a81d23386f2a7cd83b22d9e0b6740ea91eea71c935de25b"
 metafile = true
 
 [[files]]
-file = "mods/.index/soulplied-energistics.pw.toml"
-hash = "9dc37674653192869dcd907c02524661b240f5b920c1d517783023fe04478dbc"
-metafile = true
-
-[[files]]
 file = "mods/.index/super-factory-manager.pw.toml"
 hash = "3475bc54e34397a66bda87520874e8e2da589c6e02e1612db44f18f4f31ec46c"
 metafile = true
@@ -2196,8 +2185,18 @@ file = "mods/mmcece-26.11.4-beta.jar"
 hash = "1fdc3ef519d3757db3d678c71ba0a3ee7ce0352f96c24270254bae44d84f8a7d"
 
 [[files]]
-file = "mods/thaumaturge-1.21.1-NeoForge-1.0.6 (1).jar"
-hash = "f0f3726aafe747b7f8885691c4022034794b762a7022ddec1398ee8fdfc5819e"
+file = "mods/thaumaturge-1.21.1-NeoForge-1.1.0.jar"
+hash = "2671390136fad5ac9abd36797cb0a5a938967a5c32399442589bb7720d463900"
+
+[[files]]
+file = "mods/thaumaturge.pw.toml"
+hash = "2a69c51a520dea3c6446b38ec7f81f8e43b2bdbd4a5a9169e09e95835669ebe5"
+metafile = true
+
+[[files]]
+file = "mods/thaumic-energistics-ce.pw.toml"
+hash = "780e5888308e6d4ddc466ab576f76be039f39d08221de2cc50bac6ae19a789a3"
+metafile = true
 
 [[files]]
 file = "options.txt"
