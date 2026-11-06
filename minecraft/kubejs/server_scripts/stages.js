@@ -32,9 +32,8 @@ ServerEvents.loaded(event => {
     AStages.addRestrictionForModRecipe('ch2_ae2_wcwt', 'chapter2', 'wcwt') // AE2 WCWT
     AStages.addRestrictionForModRecipe('ch2_ae2_lt', 'chapter2', 'ae2lt') // AE2 闪电科技
     AStages.addRestrictionForModRecipe('ch2_ae2_thaumic', 'chapter2', 'thaumicenergistics_ce') // 神秘能源学
-    AStages.addRestrictionForModRecipe('ch2_ae2_soulplied', 'chapter2', 'soulplied_energistics') // 灵魂涌动
     AStages.addRestrictionForModRecipe('ch2_ae2_appliedsoul', 'chapter2', 'appliedsoul') // Applied Soul
-    AStages.addRestrictionForModRecipe('ch2_ae2_sticks', 'chapter2', 'appliedsticks') // Applied 建筑棍
+    AStages.addRestrictionForModRecipe('ch2_ae2_sticks', 'chapter2', 'appliedsticks') // Applied 建筑棒
 
     AStages.addRestrictionForModRecipe('ch2_if', 'chapter2', 'industrialforegoing') // 工业先锋
     // EIO 本体 + 附属
