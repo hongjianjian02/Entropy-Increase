@@ -1935,7 +1935,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/neovitae.pw.toml"
-hash = "e9d8a8c62954af807412c8e9d6986d9a25a8f3d92fdca0b4ac297c44787d1d94"
+hash = "a35e9c3cccfcd239d1343840b45fd062ddd9138ef5580ce752c6f82f7e419966"
 metafile = true
 
 [[files]]
@@ -2010,7 +2010,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/pneumaticcraft-repressurized.pw.toml"
-hash = "a68f8d1d74cadd2ead3ddd7ae088bfc662bd53e16a7a17f15f242deb55089755"
+hash = "ad8615c021dc857d27ad994105a63a2266cde855691c94f80c910642679794f7"
 metafile = true
 
 [[files]]
@@ -2114,8 +2114,13 @@ hash = "ff2fcad846dc89ed014a692e83251b78962e75e171b3a5e168af0d5a0759c5ab"
 metafile = true
 
 [[files]]
+file = "mods/.index/thaumaturge.pw.toml"
+hash = "2a69c51a520dea3c6446b38ec7f81f8e43b2bdbd4a5a9169e09e95835669ebe5"
+metafile = true
+
+[[files]]
 file = "mods/.index/thaumic-energistics-ce.pw.toml"
-hash = "ddc286c676cef4409e3819a20e760d974c845b75cc62584546df220d9fac303b"
+hash = "780e5888308e6d4ddc466ab576f76be039f39d08221de2cc50bac6ae19a789a3"
 metafile = true
 
 [[files]]
@@ -2170,7 +2175,7 @@ metafile = true
 
 [[files]]
 file = "mods/EI core-1.0.1.jar"
-hash = "fa00d19ec219a5922b2bc77e39867b0dcea14358a3070ded211870cd06d37afd"
+hash = "4a65adcf5aa6dec8b4fb03dc429ec2f4a375e577817b9ff4bc4ff75456ef69c6"
 
 [[files]]
 file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
@@ -2183,20 +2188,6 @@ hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
 [[files]]
 file = "mods/mmcece-26.11.4-beta.jar"
 hash = "1fdc3ef519d3757db3d678c71ba0a3ee7ce0352f96c24270254bae44d84f8a7d"
-
-[[files]]
-file = "mods/thaumaturge-1.21.1-NeoForge-1.1.0.jar"
-hash = "2671390136fad5ac9abd36797cb0a5a938967a5c32399442589bb7720d463900"
-
-[[files]]
-file = "mods/thaumaturge.pw.toml"
-hash = "2a69c51a520dea3c6446b38ec7f81f8e43b2bdbd4a5a9169e09e95835669ebe5"
-metafile = true
-
-[[files]]
-file = "mods/thaumic-energistics-ce.pw.toml"
-hash = "780e5888308e6d4ddc466ab576f76be039f39d08221de2cc50bac6ae19a789a3"
-metafile = true
 
 [[files]]
 file = "options.txt"
