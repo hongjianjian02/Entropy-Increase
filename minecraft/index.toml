@@ -422,11 +422,11 @@ hash = "7433b4b0b6e88e587ed46ae0d185790a6085c7a3ad509fe657d4f2efc042b599"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/19169e2187f4b9b9.snbt"
-hash = "a9e09afce184dc5d570326f38acc9b299ed1b006b328e1b87a5364baae3d926e"
+hash = "e5ccaf89b1692968e42b3036f248aede21f7fe380df304df06322fcd4feea089"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3af64a8d2e35b6b4.snbt"
-hash = "354ffd5ee1767146e7885ee66c20a06b5f13969215aa5c0014b809dd65bc1915"
+hash = "7f88fe709976b47e72308e5587ab1bf5fdd4256d2a0be260f319ac6456b71bd5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/40304c220f7bcce6.snbt"
@@ -458,11 +458,11 @@ hash = "4e90e0c5f886d2f786e460a9be860404fa8062320269e86cddc4743ead6a95a0"
 
 [[files]]
 file = "config/ftbquests/quests/lang/en_us.snbt"
-hash = "1d6faa9e1a76d13f3ab8558a3640158b1f0a54f624a4e37ddc3ef41ed4191058"
+hash = "05e2ebd3e27853c7ae7c6b75a974b53a2e6c395a01eceb1b9a5c2233860fc0c7"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "ec785332de4f39dbbfb3262bc48696023847dbef618f2fc8d1181dffc1257eb8"
+hash = "a2338ffd12a4a7334c658fd1f025f8b3be3cf2385f81b422a51bc174ba0028c6"
 
 [[files]]
 file = "config/guideme.toml"
@@ -882,7 +882,7 @@ hash = "74e2eefb484acab9b1c0d036c1a7f78d6740bd32495a8d059e5c5f5d3fc808b4"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "08ee93f5d80891fdb052aa9ad7a1cfb8640fdcb7d348e446f87af9ffd9d1f2e7"
+hash = "4453edf92854a9658d2e89cd4763ea14bc76582bd27922551865e57363cc2634"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -902,7 +902,7 @@ hash = "f013c27092f7bb95ae77ffeafb2f1b4e1f3024ebe1c77b911ceea0e140bb7e85"
 
 [[files]]
 file = "kubejs/data/c/tags/fluid/diesel.json"
-hash = "1fe4e70a448c2962983c013e173fdb51ab4c39579669a355f5ebd35635644ecd"
+hash = "9a988bab4fa1626a54492820c32509a572293191a96462a4d6f1730d2f9eeb22"
 
 [[files]]
 file = "kubejs/data/curios/tags/item/head.json"
@@ -930,27 +930,35 @@ hash = "c89f4d7d5abdf05cc0ac8fc3575ccf2d36be93d0efe6e45d8ab2b3dc08e8040d"
 
 [[files]]
 file = "kubejs/data/oef/replacements/biodiesel.json"
-hash = "8b187094ff63f8bcc7964cff4fd22ab08491c8383c4ef82e9783e120aece927b"
+hash = "14a944a67baad9c43ef093b948f730314fab1d8e58e6869e83be81386b761e52"
 
 [[files]]
 file = "kubejs/data/oef/replacements/crude_oil.json"
-hash = "dfe363ef0fa15b97ab3aaa75c4a266ab965dd50d3221a33ae968e11c978c4d8c"
+hash = "3561656f0e9ca5c39a2b24e09e0ffc956bc1ff40e21249be263a87ae93ec05d5"
 
 [[files]]
 file = "kubejs/data/oef/replacements/diesel.json"
-hash = "a21e1fe25405712ff7088fbe943aa0b8cf1a4b35b3b5ba486a6522956c41ce45"
+hash = "3256e1dc446a12aa6d4af28806545ed67a2a7382b49f795dcec204d609b38b98"
 
 [[files]]
 file = "kubejs/data/oef/replacements/ethanol.json"
 hash = "cbfbb448c0505b12bbcccad79aecff06fec41a9fc4155b0e91a653f5d5514e1a"
 
 [[files]]
+file = "kubejs/data/oef/replacements/gasolinge.json"
+hash = "2fcc48b0da0be61b6f10e9e9477cdf8afd1d2f28a51eb06e610621560c587a14"
+
+[[files]]
 file = "kubejs/data/oef/replacements/kerosene.json"
-hash = "8b00ceb4bee9c002c52c37207c8f783496e26a611765976f5135309886f9c6e1"
+hash = "f1d6429f479c224b29eaf431827dc87dbb209bb178ed14555ff45cc9132102a3"
+
+[[files]]
+file = "kubejs/data/oef/replacements/lubricant.json"
+hash = "54b14ed42d8da4379547e3378ccdd41c93fe448027a622344c1f4267f951399e"
 
 [[files]]
 file = "kubejs/data/oef/replacements/plantoil.json"
-hash = "a644827961b7499809e063b26b22b4db09ccfebbface755be6fad61550f2c6ea"
+hash = "fa69aed6264173de5f79cb1c743648b03af95989b40ec6980b58259d1f2ff09b"
 
 [[files]]
 file = "kubejs/data/oei/replacements/bronze.json"
@@ -1198,11 +1206,11 @@ hash = "6cbba8a0955d541d75783a6141f6fe78159e0b4119775b24560262fec3ebb354"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/plate_steel.js"
-hash = "0e90d752fa0ba87b63d30a66859e8a6cba57b9243c0df213bb1f187bdd17671a"
+hash = "f80c70bd1de6bcc8de3662e24e10ba29c2b6c4273b5735c004bf27eb2813205c"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/remove.js"
-hash = "39c1a554e924e870125d05b71390028960c0944bf76db22f4de3ca228f12656b"
+hash = "9c5cb7ad9819ef7731d078412e9eecba95e66cb23c3e5b105c60da259127d682"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/trade.js"
@@ -1219,6 +1227,10 @@ hash = "f319cfaf8b8892c7a7ac380c16517b83625d6169215adfe627623de5999109b6"
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Nuclearcraft/alloy_furnace.js"
 hash = "e393365a577b818ccc13e9b082a7013705b261a129ea78b01482c05a2d2400d9"
+
+[[files]]
+file = "kubejs/server_scripts/Recipes/Mods/Thaumaturge/arcane_workbench.js"
+hash = "4ff38cc37f2f173fe66fa0423cccf36bd5ebc009cd112e850a9d8a70b0d12153"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Thaumaturge/crucible.js"
@@ -1250,15 +1262,11 @@ hash = "a9ed3408327a168e50553614aa352a3f91d7c09f349b72adf0557bb718cf9440"
 
 [[files]]
 file = "kubejs/server_scripts/stages.js"
-hash = "ccb053bdcaa33595dc85c8320b08acf1bceb47a3b5928df34e328d8715542ec6"
+hash = "57351e796d272007bdf883bffd9a184e0bec48add14e0175034bfb8166cdaf3c"
 
 [[files]]
 file = "kubejs/startup_scripts/hide_crowns_creative.js"
 hash = "65f7169a6d5da172985440174218367332ca8f083dda7c2869d49cd4927870ac"
-
-[[files]]
-file = "kubejs/startup_scripts/items.js"
-hash = "183d0f39604947a01e3085c737c28d7d3820f821a04fe520cffb489f54fc316b"
 
 [[files]]
 file = "mods/.index/aaron.pw.toml"
@@ -1982,22 +1990,22 @@ metafile = true
 
 [[files]]
 file = "mods/.index/oelib.pw.toml"
-hash = "376a71fdc1241e2f8a3bee495d64fe236d10aee1a620dbc8ac60685d95eb81eb"
+hash = "aab5342b2414642f11b470bfb937c1bec4b9511a8497c36be24ea777653a2592"
 metafile = true
 
 [[files]]
 file = "mods/.index/one-enough-block.pw.toml"
-hash = "ed85d45c213dd8e764c03417b26d0ccedf9cb5eecb1bb2f2d0a886a8224082ea"
+hash = "671beb431fab9c09714044f659090470d9cc54d87a868a564bf414c46d57ea13"
 metafile = true
 
 [[files]]
 file = "mods/.index/one-enough-fluid.pw.toml"
-hash = "c0764b59a44a0d8e179a67964735cb38565f9dcf8fa54a326d93cb0f15f3db77"
+hash = "dc87c631087a2f788e0b74e5b452a27639c07c8d56b927262115b720c40fad88"
 metafile = true
 
 [[files]]
 file = "mods/.index/one-enough-item.pw.toml"
-hash = "b12a66536f7d33be719fa9468f816744065ed8859f64753a37721facb6258034"
+hash = "6ebd9e89b0407e1c5f0b3393e3f3a67f142f7f43edae80836d0f753c015503ee"
 metafile = true
 
 [[files]]
