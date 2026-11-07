@@ -49,8 +49,8 @@ ServerEvents.loaded(event => {
     AStages.addRestrictionForDimension('ch2_dim_end', 'chapter2', 'minecraft:the_end') // 末地维度
 
     // 击败末影龙后解锁
-    AStages.addRestrictionForModRecipe('Dd_draconic', 'Defeat dragon', 'draconicevolution') // 龙之研究
-    AStages.addRestrictionForModRecipe('Dd_draconic_add', 'Defeat dragon', 'draconicadditions') // 龙研附属
+    AStages.addRestrictionForModRecipe('Dd_draconic', 'dragon', 'draconicevolution') // 龙之研究
+    AStages.addRestrictionForModRecipe('Dd_draconic_add', 'dragon', 'draconicadditions') // 龙研附属
 
 
     // ===== 第三章未完成时锁住：第四章内容 =====

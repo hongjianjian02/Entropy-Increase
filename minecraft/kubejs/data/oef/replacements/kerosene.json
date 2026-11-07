@@ -1,0 +1,8 @@
+[
+  {
+    "matchFluid": [
+      "#c:kerosene"
+    ],
+    "resultFluid": "pneumaticcraft:kerosene"
+  }
+]

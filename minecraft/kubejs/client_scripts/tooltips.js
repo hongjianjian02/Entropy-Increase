@@ -7,7 +7,7 @@ ItemEvents.modifyTooltips(event => {
     event.add('twilightforest:smoker', '§e可以在火焰沼泽获取')
     event.add('locusazzurro_icaruswings:zephir_essence', '§e可以击杀幻翼获取')
     event.add('locusazzurro_icaruswings:nether_essence', '§e可以击杀烈焰人获取')
-    event.add('locusazzurro_icaruswings:void_essence', '§e可以击杀末影人获取')
+    event.add('locusazzurro_icaruswings:void_essence', '§e可以击杀潜影贝获取')
     event.add('locusazzurro_icaruswings:anemone', '§e可以在暮色战利品箱获取')
     event.add('eicore:tianshu_star', '§1据说是天上坠落的星星')
     event.add('eicore:mystic_crown', '§7暮色森林深处的古老遗物，戴上后能窥见裂隙的脉动')

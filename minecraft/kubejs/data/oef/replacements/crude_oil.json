@@ -1,0 +1,8 @@
+[
+  {
+    "matchFluid": [
+      "#c:crude_oil"
+    ],
+    "resultFluid": "immersivepetroleum:crudeoil"
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {
+    "matchFluid": [
+      "#c:plantoil"
+    ],
+    "resultFluid": "pneumaticcraft:vegetable_oil"
+  }
+]

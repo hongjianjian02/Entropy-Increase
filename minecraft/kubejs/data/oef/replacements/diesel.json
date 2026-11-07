@@ -1,0 +1,9 @@
+[
+  {
+    "matchFluid": [
+      "pneumaticcraft:diesel",
+      "immersivepetroleum:diesel"
+    ],
+    "resultFluid": "immersivepetroleum:diesel"
+  }
+]

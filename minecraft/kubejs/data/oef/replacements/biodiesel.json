@@ -1,0 +1,8 @@
+[
+  {
+    "matchFluid": [
+      "#c:biodiesel"
+    ],
+    "resultFluid": "immersiveengineering:biodiesel"
+  }
+]

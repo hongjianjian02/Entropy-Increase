@@ -1,0 +1,13 @@
+name = "One Enough Block"
+filename = "OneEnoughBlock-neoforge-1.21.1-1.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0ee93cf640a4524c090775dec2b4a84a52aea797"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9405256
+project-id = 1356867

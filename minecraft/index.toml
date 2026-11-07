@@ -901,6 +901,10 @@ file = "kubejs/config/web_server.json"
 hash = "f013c27092f7bb95ae77ffeafb2f1b4e1f3024ebe1c77b911ceea0e140bb7e85"
 
 [[files]]
+file = "kubejs/data/c/tags/fluid/diesel.json"
+hash = "1fe4e70a448c2962983c013e173fdb51ab4c39579669a355f5ebd35635644ecd"
+
+[[files]]
 file = "kubejs/data/curios/tags/item/head.json"
 hash = "4c8084b31eef5b8156ef01b6222f8b09968036e8c868d6dcc1c486a55321e55a"
 
@@ -923,6 +927,30 @@ hash = "512296ce250d62e0778d5ce7915900fb7eca15682b6fa6fd5b1b4392e0508654"
 [[files]]
 file = "kubejs/data/mysterious/worldgen/placed_feature/tf_shimmering_mushrooms_oreberry.json"
 hash = "c89f4d7d5abdf05cc0ac8fc3575ccf2d36be93d0efe6e45d8ab2b3dc08e8040d"
+
+[[files]]
+file = "kubejs/data/oef/replacements/biodiesel.json"
+hash = "8b187094ff63f8bcc7964cff4fd22ab08491c8383c4ef82e9783e120aece927b"
+
+[[files]]
+file = "kubejs/data/oef/replacements/crude_oil.json"
+hash = "dfe363ef0fa15b97ab3aaa75c4a266ab965dd50d3221a33ae968e11c978c4d8c"
+
+[[files]]
+file = "kubejs/data/oef/replacements/diesel.json"
+hash = "a21e1fe25405712ff7088fbe943aa0b8cf1a4b35b3b5ba486a6522956c41ce45"
+
+[[files]]
+file = "kubejs/data/oef/replacements/ethanol.json"
+hash = "cbfbb448c0505b12bbcccad79aecff06fec41a9fc4155b0e91a653f5d5514e1a"
+
+[[files]]
+file = "kubejs/data/oef/replacements/kerosene.json"
+hash = "8b00ceb4bee9c002c52c37207c8f783496e26a611765976f5135309886f9c6e1"
+
+[[files]]
+file = "kubejs/data/oef/replacements/plantoil.json"
+hash = "a644827961b7499809e063b26b22b4db09ccfebbface755be6fad61550f2c6ea"
 
 [[files]]
 file = "kubejs/data/oei/replacements/bronze.json"
@@ -1169,6 +1197,10 @@ file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/blueprint.js"
 hash = "6cbba8a0955d541d75783a6141f6fe78159e0b4119775b24560262fec3ebb354"
 
 [[files]]
+file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/plate_steel.js"
+hash = "0e90d752fa0ba87b63d30a66859e8a6cba57b9243c0df213bb1f187bdd17671a"
+
+[[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/remove.js"
 hash = "39c1a554e924e870125d05b71390028960c0944bf76db22f4de3ca228f12656b"
 
@@ -1218,7 +1250,7 @@ hash = "a9ed3408327a168e50553614aa352a3f91d7c09f349b72adf0557bb718cf9440"
 
 [[files]]
 file = "kubejs/server_scripts/stages.js"
-hash = "e6e10a17fd4919c957a5571d8d11a394ac9d2888fc3994ba4acc55222a229d4b"
+hash = "ccb053bdcaa33595dc85c8320b08acf1bceb47a3b5928df34e328d8715542ec6"
 
 [[files]]
 file = "kubejs/startup_scripts/hide_crowns_creative.js"
@@ -1436,11 +1468,6 @@ metafile = true
 [[files]]
 file = "mods/.index/curios.pw.toml"
 hash = "aafe8031527d7aacb62a412228317f4d74b6be92dce9c8da935e8f421afc6bb6"
-metafile = true
-
-[[files]]
-file = "mods/.index/customskinloader.pw.toml"
-hash = "25a09878132d5c6c598917bddcc8baf3cb3daadcc05ba0544275e9869cd64371"
 metafile = true
 
 [[files]]
@@ -1955,12 +1982,22 @@ metafile = true
 
 [[files]]
 file = "mods/.index/oelib.pw.toml"
-hash = "8e6278420687b5b93c3859c81275d5f86d25e018bbd6e185344e5e4609003533"
+hash = "376a71fdc1241e2f8a3bee495d64fe236d10aee1a620dbc8ac60685d95eb81eb"
+metafile = true
+
+[[files]]
+file = "mods/.index/one-enough-block.pw.toml"
+hash = "ed85d45c213dd8e764c03417b26d0ccedf9cb5eecb1bb2f2d0a886a8224082ea"
+metafile = true
+
+[[files]]
+file = "mods/.index/one-enough-fluid.pw.toml"
+hash = "c0764b59a44a0d8e179a67964735cb38565f9dcf8fa54a326d93cb0f15f3db77"
 metafile = true
 
 [[files]]
 file = "mods/.index/one-enough-item.pw.toml"
-hash = "9d2a99a891914ce9d0486846afc06536acf695c03d3dc7f3962a54ebd2d64180"
+hash = "b12a66536f7d33be719fa9468f816744065ed8859f64753a37721facb6258034"
 metafile = true
 
 [[files]]
@@ -2186,8 +2223,8 @@ file = "mods/extrabotany-2.0.0-1.21.1-NeoForge.jar"
 hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
 
 [[files]]
-file = "mods/mmcece-26.11.4-beta.jar"
-hash = "1fdc3ef519d3757db3d678c71ba0a3ee7ce0352f96c24270254bae44d84f8a7d"
+file = "mods/mmcece-26.11.7-beta.jar"
+hash = "9725a57a9c1f3f8968bc6a26260d864a833d8d5536f5cb364039f6cf17c66418"
 
 [[files]]
 file = "options.txt"

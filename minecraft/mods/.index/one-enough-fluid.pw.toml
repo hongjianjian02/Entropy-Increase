@@ -1,0 +1,13 @@
+name = "One Enough Fluid"
+filename = "OneEnoughFluid-neoforge-1.21.1-1.1.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b5085df4ee6a51aaa7cf63913bf45b4eed5d5be5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9405257
+project-id = 1366406
