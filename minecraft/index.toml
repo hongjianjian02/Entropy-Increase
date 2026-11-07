@@ -2175,7 +2175,7 @@ metafile = true
 
 [[files]]
 file = "mods/EI core-1.0.1.jar"
-hash = "b72f6a79179438b4f75bf83cbb5764e747a200935e9279dc158369e42a9351ee"
+hash = "efb3611e922a64660e3371a97ec16fab799fae78d817eb73db6841b419532858"
 
 [[files]]
 file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
