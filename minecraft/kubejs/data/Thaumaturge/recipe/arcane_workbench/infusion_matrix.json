@@ -1,0 +1,24 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    { "aspect": "thaumaturge:aer" },
+    { "aspect": "thaumaturge:ignis" },
+    { "aspect": "thaumaturge:terra" },
+    { "aspect": "thaumaturge:aqua" },
+    { "aspect": "thaumaturge:ordo" },
+    { "aspect": "thaumaturge:perditio" }
+  ],
+  "key": {
+    "N": { "item": "thaumaturge:stone_arcane_brick" },
+    "S": { "item": "thaumaturge:plate_thaumium" },
+    "A": { "item": "thaumaturge:alumentum" }
+  },
+  "pattern": [
+    "NSN",
+    "SAS",
+    "NSN"
+  ],
+  "research": { "entry": "thaumaturge:infusion", "stage": 1 },
+  "result": { "count": 1, "id": "thaumaturge:infusion_matrix" },
+  "vis": 150
+}

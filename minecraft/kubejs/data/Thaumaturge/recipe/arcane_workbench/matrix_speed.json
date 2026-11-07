@@ -1,0 +1,21 @@
+{
+  "type": "thaumaturge:arcane_workbench_shaped",
+  "crystals": [
+    { "aspect": "thaumaturge:aer" },
+    { "aspect": "thaumaturge:ordo" }
+  ],
+  "key": {
+    "N": { "item": "thaumaturge:stone_arcane" },
+    "B": { "item": "minecraft:diamond_block" },
+    "S": { "item": "thaumaturge:mechanism_complex" },
+    "A": { "item": "thaumaturge:nitor_yellow" }
+  },
+  "pattern": [
+    "NBN",
+    "ASA",
+    "NAN"
+  ],
+  "research": { "entry": "thaumaturge:infusion", "stage": 2 },
+  "result": { "count": 1, "id": "thaumaturge:matrix_speed" },
+  "vis": 500
+}
