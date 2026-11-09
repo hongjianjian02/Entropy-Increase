@@ -5,5 +5,8 @@ ServerEvents.recipes(event => {
   event.remove({ id: 'immersivepetroleum:arcfurnace/steel' })
   // 焦煤变高定向石墨
   event.remove({ id: 'immersiveengineering:squeezer/graphite_dust' })
-
+  // 删除金齿轮在工作台中的合成
+  event.remove({ id: 'industrialforegoing:gold_gear' })
+  // 删除沉浸工艺模组所有棒在工作台中的合成
+  event.remove({ mod: 'immersiveengineering', group: 'sticks' })
 })
