@@ -1,0 +1,11 @@
+filename = 'rechiseled-1.2.6-neoforge-mc1.21.jar'
+name = 'Rechiseled'
+
+[download]
+hash = 'a7ca83d2f99520233bfa9ce769a157fe05201639'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+
+[update.curseforge]
+file-id = 8875899
+project-id = 558998
