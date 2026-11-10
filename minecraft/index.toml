@@ -510,15 +510,15 @@ hash = "e88de67aa7c2e9663f6c84745b107de1790dea26b934cdb5c513f2475362d9a5"
 
 [[files]]
 file = "config/jaopca/custom_forms.json"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+hash = "72f1797c3c8c37200a687c28e4cc397726c1c883d4cbb196fd469789a2d6c2c0"
 
 [[files]]
 file = "config/jaopca/lang/zh_cn.json"
-hash = "b85352c673c1c678d2c02f35a55a62565b3f576e77e15a7e4cfc4b537cfb1657"
+hash = "766fc03ab4a0ba5713eaaca9fc3d04579f0f99d08669b221e6c63d930e1cdffa"
 
 [[files]]
 file = "config/jaopca/main.toml"
-hash = "b38e56d077b9aca447edc16980ff44db2cfef23f9244a6a89f732f1c765c7c2d"
+hash = "107d9da198d0d15447266c2cb207ec37ae3b5638acbc9976088b8e18a249efda"
 
 [[files]]
 file = "config/jaopca/materials/aerialite.toml"
@@ -1465,22 +1465,6 @@ file = "config/jaopca/modules/enderio_non_ingot.toml"
 hash = "75b195e0eb9fba2880af903ddddb97037f344b4562ee00ccf4c65a7cb40cb68f"
 
 [[files]]
-file = "config/jaopca/modules/extras_ae2.toml"
-hash = "75b195e0eb9fba2880af903ddddb97037f344b4562ee00ccf4c65a7cb40cb68f"
-
-[[files]]
-file = "config/jaopca/modules/extras_gears.toml"
-hash = "75b195e0eb9fba2880af903ddddb97037f344b4562ee00ccf4c65a7cb40cb68f"
-
-[[files]]
-file = "config/jaopca/modules/extras_plates.toml"
-hash = "75b195e0eb9fba2880af903ddddb97037f344b4562ee00ccf4c65a7cb40cb68f"
-
-[[files]]
-file = "config/jaopca/modules/extras_rods.toml"
-hash = "75b195e0eb9fba2880af903ddddb97037f344b4562ee00ccf4c65a7cb40cb68f"
-
-[[files]]
 file = "config/jaopca/modules/immersiveengineering.toml"
 hash = "75b195e0eb9fba2880af903ddddb97037f344b4562ee00ccf4c65a7cb40cb68f"
 
@@ -1722,15 +1706,11 @@ hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
 file = "config/paxi/resourcepacks/jaopca_zh_cn/assets/jaopca/lang/zh_cn.json"
-hash = "fafaa3e53409aeb6178dfec15d2164952ef0f023bcfbec407745ae4d4a9ea0d5"
-
-[[files]]
-file = "config/paxi/resourcepacks/jaopca_zh_cn/assets/jaopcaextras/lang/zh_cn.json"
-hash = "400dc44b78034d86674132c449c7a3c254f17e8c836dda6fbfee244b2a9bf1f9"
+hash = "5e26ddff0cdba709bb736be9e9002bb8e2a16a2130a94db07f44e00e202eb2a7"
 
 [[files]]
 file = "config/paxi/resourcepacks/jaopca_zh_cn/pack.mcmeta"
-hash = "d9e4b940aeecb47643643223c321b99bd0a5993acc1d09095d17176b370f56f4"
+hash = "7884f4c0a506343070cf4e14adcbf91bf12df4e1e1e232917406436ed0ba837b"
 
 [[files]]
 file = "config/placebo.cfg"
@@ -1903,6 +1883,42 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 [[files]]
 file = "docs/专家包大纲-写作与提示词.md"
 hash = "46036a32f60c1878e8df790f8fc7b54179e891aa67ae4fd3b371dcf5ef624b3c"
+
+[[files]]
+file = "kubejs/assets/jaopca/lang/en_us.json"
+hash = "2962d21bd8147dd02f4a811f5a29ff5e22b12a6d68995864aeeeb49f929d7066"
+
+[[files]]
+file = "kubejs/assets/jaopca/models/item/crystal/gears.json"
+hash = "918ea32e332084bf3ba551642ee5303963aac43ea2bfdec8fc091eed1b1eeec3"
+
+[[files]]
+file = "kubejs/assets/jaopca/models/item/crystal/plates.json"
+hash = "0a2d668b23facd8acb8fc84aa69e46ae1666669c54723c0d6459af2c4f44cd85"
+
+[[files]]
+file = "kubejs/assets/jaopca/models/item/metallic/gears.json"
+hash = "918ea32e332084bf3ba551642ee5303963aac43ea2bfdec8fc091eed1b1eeec3"
+
+[[files]]
+file = "kubejs/assets/jaopca/models/item/metallic/plates.json"
+hash = "0a2d668b23facd8acb8fc84aa69e46ae1666669c54723c0d6459af2c4f44cd85"
+
+[[files]]
+file = "kubejs/assets/jaopca/textures/item/custom/gears_base.png"
+hash = "512f3e3e2db83a0177e194c70b35b4b0c36bedb2425395743daf023f395ce27d"
+
+[[files]]
+file = "kubejs/assets/jaopca/textures/item/custom/gears_overlay.png"
+hash = "96af757383e3c06b89ea3bc6edcb34ace9fab764e2e0f4ca9cebe8336f3aa074"
+
+[[files]]
+file = "kubejs/assets/jaopca/textures/item/custom/plates_base.png"
+hash = "77d46033f1dc6c12055fb1dbc8ae2adc56a993210709f023bd68996a40685103"
+
+[[files]]
+file = "kubejs/assets/jaopca/textures/item/custom/plates_overlay.png"
+hash = "35d45c736877979167c0a7960f8ce96ba4aa57937523a39322f558bf356b3614"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/example_block.png"
@@ -2230,7 +2246,7 @@ hash = "d2e1c120eb577aba82e49b99ca253ca4bea36b2d2ca2eab66e259a9fd0a21a1e"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/Orderly.js"
-hash = "d899fb3108a5ba36015929a25636877c5d05c7039a01c71d5587814f5dd12d5b"
+hash = "d566ca0aeb303dc0f1a3c280360b0232d10f853ee20a6a704200e4460308d641"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/arc_furnace.js"
@@ -2245,16 +2261,16 @@ file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/blueprint.js"
 hash = "6cbba8a0955d541d75783a6141f6fe78159e0b4119775b24560262fec3ebb354"
 
 [[files]]
-file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/plate_steel.js"
-hash = "f80c70bd1de6bcc8de3662e24e10ba29c2b6c4273b5735c004bf27eb2813205c"
-
-[[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/remove.js"
-hash = "9c5cb7ad9819ef7731d078412e9eecba95e66cb23c3e5b105c60da259127d682"
+hash = "9fd8d09e47f4cfc60c2285dae4fec5d6dbbe082c9b76a76f0e049ef5082e4063"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Immersive Engineering/trade.js"
 hash = "9179c51813120b32335816b48a43af246a33c71f7f8ffc145559901ad4f9f5ad"
+
+[[files]]
+file = "kubejs/server_scripts/Recipes/Mods/JAOPCA/components.js"
+hash = "6c1908461aed2870c6826a03f91545c752270a240e8b80dd4fd5d96b732d17ac"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Mek/Remove.js"
@@ -2714,6 +2730,11 @@ hash = "55c21e0159f5509b84d1e1fa42c2e478a3600c43007ede829cad5839aaa1b8da"
 metafile = true
 
 [[files]]
+file = "mods/.index/fusion-connected-textures.pw.toml"
+hash = "9c779cd69b64a6317a56b3d9def6d3a936e7404d848ac49a29cc3d38e171ebd9"
+metafile = true
+
+[[files]]
 file = "mods/.index/geckolib.pw.toml"
 hash = "268ec25a9d9c046a8edde9d14a77c924465eedacb0d93484d72ff2d7b3653703"
 metafile = true
@@ -2781,11 +2802,6 @@ metafile = true
 [[files]]
 file = "mods/.index/jade.pw.toml"
 hash = "295f6f68a613dbbbbc353190b3b382a7356ad6c6c2426c29488eb061181a74ce"
-metafile = true
-
-[[files]]
-file = "mods/.index/jaopca-extras.pw.toml"
-hash = "d92c78bbcea9fc0d18594fc07d4fe12d7ffa483dd6e2edba91e01b3ebd2d8e0d"
 metafile = true
 
 [[files]]
@@ -3134,6 +3150,16 @@ hash = "deed8357e4eff8a1521b32be173a618d7ed88e069bb32ff4ea16495bc500a549"
 metafile = true
 
 [[files]]
+file = "mods/.index/rechiseled-applied-energistics-2.pw.toml"
+hash = "da1780c6e58ba2b2565bd390ef1b9dbcd0f4d9559daf9eeb5de2bff26a2d9740"
+metafile = true
+
+[[files]]
+file = "mods/.index/rechiseled.pw.toml"
+hash = "ce6c5e6efce2c09f2ef1b0837198b0e63aa813246f3bd640a9f3631ff9bf239b"
+metafile = true
+
+[[files]]
 file = "mods/.index/rehooked.pw.toml"
 hash = "b6367935922e7e93c8f99f53a0319b5e3697865cf090be3021f8d7c3b84a8975"
 metafile = true
@@ -3196,6 +3222,16 @@ metafile = true
 [[files]]
 file = "mods/.index/super-factory-manager.pw.toml"
 hash = "3475bc54e34397a66bda87520874e8e2da589c6e02e1612db44f18f4f31ec46c"
+metafile = true
+
+[[files]]
+file = "mods/.index/supermartijn642s-config-lib.pw.toml"
+hash = "9349a3c59904a368c2eb7af432ff3bf4b3814c9433d1b36ed33785e12b347c8f"
+metafile = true
+
+[[files]]
+file = "mods/.index/supermartijn642s-core-lib.pw.toml"
+hash = "67c1a10f42236380be26d10b8a10bfeb69becacf2f5ca46b5d77be254773f954"
 metafile = true
 
 [[files]]

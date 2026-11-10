@@ -1,0 +1,41 @@
+[
+  {
+    "name": "gears",
+    "type": "item",
+    "materialTypes": [
+      "ingot",
+      "ingot_legacy",
+      "gem",
+      "crystal",
+      "ingot_plain",
+      "gem_plain",
+      "crystal_plain"
+    ]
+  },
+  {
+    "name": "plates",
+    "type": "item",
+    "materialTypes": [
+      "ingot",
+      "ingot_legacy",
+      "gem",
+      "crystal",
+      "ingot_plain",
+      "gem_plain",
+      "crystal_plain"
+    ]
+  },
+  {
+    "name": "rods",
+    "type": "item",
+    "materialTypes": [
+      "ingot",
+      "ingot_legacy",
+      "gem",
+      "crystal",
+      "ingot_plain",
+      "gem_plain",
+      "crystal_plain"
+    ]
+  }
+]

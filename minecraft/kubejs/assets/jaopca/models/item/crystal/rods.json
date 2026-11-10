@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "jaopca:item/custom/rods_base",
+    "layer1": "jaopca:item/custom/rods_overlay"
+  }
+}
