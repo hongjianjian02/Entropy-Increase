@@ -5,3 +5,4 @@ minecraft/.packwiz-installer/overrides.ignore
 minecraft/Entropy-Increase*
 /_astages_wiki
 *.md
+/docs

@@ -1,0 +1,7 @@
+{
+  "textures": {
+    "layer0": "jaopca:item/unified_plates/silver",
+    "layer1": "jaopca:item/custom/plates_overlay"
+  },
+  "parent": "minecraft:item/generated"
+}
