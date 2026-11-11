@@ -3325,6 +3325,11 @@ file = "mods/prickle-neoforge-1.21.1-21.1.11.jar"
 hash = "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167"
 
 [[files]]
+file = "mods/thaumtinkerer.pw.toml"
+hash = "071019b116d7605c1be6637f438e2a226e1f3d4e4c0fd7620c8d2d59ce177983"
+metafile = true
+
+[[files]]
 file = "options.txt"
 hash = "ec7ad4e7a97a81d119e2556977d91b6199f3c6a27bb551a2d5225509b74acede"
 
