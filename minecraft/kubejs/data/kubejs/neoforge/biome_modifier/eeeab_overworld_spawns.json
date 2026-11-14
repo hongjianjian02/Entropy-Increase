@@ -1,0 +1,84 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": "#minecraft:is_overworld",
+  "spawners": [
+    {
+      "type": "eeeabsmobs:corpse",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "eeeabsmobs:corpse_villager",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "eeeabsmobs:corpse_warlock",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "eeeabsmobs:immortal_skeleton",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "eeeabsmobs:immortal_archer",
+      "weight": 6,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "eeeabsmobs:immortal_knight",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "eeeabsmobs:immortal_mage",
+      "weight": 3,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "eeeabsmobs:immortal_warrior",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "eeeabsmobs:immortal_shaman",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "eeeabsmobs:immortal_executioner",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "eeeabsmobs:relic_observer",
+      "weight": 4,
+      "minCount": 1,
+      "maxCount": 2
+    },
+    {
+      "type": "eeeabsmobs:relic_ripper",
+      "weight": 2,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "eeeabsmobs:relic_earthshaker",
+      "weight": 1,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

@@ -173,6 +173,15 @@
 					}
 					type: "item"
 				}
+				{
+					count: 128
+					id: "466302580D1DA40E"
+					item: {
+						count: 1
+						id: "nuclearcraftneohaul:moresmore"
+					}
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "65E801E8B81E3AF5"
@@ -688,17 +697,11 @@
 			dependency_requirement: "all_started"
 			id: "1ABB4A061CF20212"
 			rewards: [{
-				auto: "enabled"
-				command: "/astages add @s chapter1"
-				exclude_from_claim_all: true
-				icon: {
-					components: {
-						"ftbquests:icon": "ftbteams:textures/settings.png"
-					}
-					id: "ftbquests:custom_icon"
-				}
-				id: "5B3BA2AD28CFD56E"
-				type: "command"
+				auto: "invisible"
+				id: "29B36D76CF8A4DD1"
+				remove: false
+				stage: "chapter4"
+				type: "astages:server"
 			}]
 			tasks: [{
 				id: "3E0B2ACC743E9666"

@@ -34,7 +34,7 @@
 	quest.144913CE171A67E8.title: "eio磨粉机倍产"
 	quest.156845B8FDE37E62.title: "维度存储"
 	quest.1661897BFFC6CA25.title: "神秘矿簇倍产"
-	quest.16DEAADC209D716E.quest_desc: ["你可以自由控制天镜的白天黑夜了 在黑夜可以放置lv2矿机进行挖掘天镜的全部矿石"]
+	quest.16DEAADC209D716E.quest_desc: ["你可以自由控制天镜的白天黑夜了 在黑夜可以放置lv0矿机进行挖掘天镜的全部矿石"]
 	quest.1784781D664074A3.title: "SFM"
 	quest.1A283E48EC379423.quest_desc: ["或许是同族的......."]
 	quest.1A283E48EC379423.title: "不觉得幻影骑士很像精灵吗"
@@ -46,6 +46,7 @@
 	quest.25BF6039CFA26DEE.title: "mek倍产"
 	quest.2EF91022AD2FBA46.title: "工业先锋矿石发酵倍产"
 	quest.2F1A2867EC504BB6.title: "粉碎机"
+	quest.2F6AF5B48E001849.title: "优化你的石油线"
 	quest.31640D0A816C1426.title: "沉浸工艺倍产"
 	quest.34E8A826185D7AD3.title: "坠星仪式"
 	quest.35F2F8CA26499EF0.title: "焦炉"
@@ -55,6 +56,8 @@
 	quest.3B0E2B868685E5A2.title: "烈阳巨灵"
 	quest.3EA85D4C8B58892F.quest_desc: ["ps：pip管道尽量不要过多使用下界合金升级"]
 	quest.3EA85D4C8B58892F.title: "物品管道"
+	quest.4CF6C86CD92C3279.quest_desc: ["这几种是你现在可以做获取压力的机器 "]
+	quest.4CF6C86CD92C3279.title: "获取你需要的压力"
 	quest.4D3F03124FF191D2.title: "任意能量导管"
 	quest.5014C0B273E442CC.quest_desc: ["现在可以用&e巫妖奖杯&r在切石机切末影珍珠"]
 	quest.51209ED7030C9AF7.quest_desc: ["在天境维度30-15的高度生成"]
@@ -88,6 +91,7 @@
 	quest.73A40657CC673DA0.title: "高炉"
 	quest.73BE1F8E3643202D.quest_desc: ["在终焉城堡获取四色符文城堡砖每种至少一个"]
 	quest.73BE1F8E3643202D.title: "四色符文城堡砖"
+	quest.75A136B20D2FF7E3.quest_desc: ["在地狱击败有额外掉落盖亚魂  小概率掉落盖亚魂锭"]
 	quest.7A0100D3DDCE5C56.title: "击败九头蛇"
 	quest.7A5ECE4F9F1DB23F.title: "路由器"
 	quest.7F1F590775232C74.quest_desc: ["相信你永远在RF/FE包离不开它，此外还加入了&n&e更多通量存储&r&r，让对应的能量存储设备(龙之研究的龙球、通用机械的感应矩阵、应用通量的磁盘)直接变成通量的缓存(性能问题待观望)"]

@@ -35,12 +35,23 @@
 		}
 		{
 			dependencies: ["578760D8D2797C28"]
+			icon: {
+				id: "thaumaturge:thaumonomicon"
+			}
 			id: "3D25961A6C963D0D"
-			tasks: [{
-				id: "2F81D0CC03DC9DD1"
-				item: { count: 1, id: "thaumaturge:thaumonomicon" }
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2F81D0CC03DC9DD1"
+					item: { count: 1, id: "thaumaturge:thaumonomicon" }
+					type: "item"
+				}
+				{
+					id: "1B7A8C2B8D4E759D"
+					item: { count: 1, id: "thaumaturge_tinkerer:share_book" }
+					optional_task: true
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: -0.5d
 		}
@@ -320,28 +331,6 @@
 			y: 3.5d
 		}
 		{
-			dependencies: ["75A136B20D2FF7E3"]
-			id: "15ABAF90D10AF79A"
-			tasks: [{
-				id: "6DE3FDF9AF37F924"
-				item: { count: 1, id: "extrabotany:challenge_ticket" }
-				type: "item"
-			}]
-			x: -12.5d
-			y: 5.5d
-		}
-		{
-			dependencies: ["15ABAF90D10AF79A"]
-			id: "29C1F302AB327C59"
-			tasks: [{
-				id: "1054708721F2CAD4"
-				item: { count: 1, id: "extrabotany:voidcaller" }
-				type: "item"
-			}]
-			x: -12.5d
-			y: 7.5d
-		}
-		{
 			dependencies: ["7FE76F3459489CAC"]
 			id: "23DA1960E2B48C55"
 			tasks: [
@@ -550,6 +539,90 @@
 			}]
 			x: 11.5d
 			y: 3.5d
+		}
+		{
+			dependencies: ["36A6D619DD9C5D95"]
+			icon: {
+				id: "pneumaticcraft:plastic"
+			}
+			id: "683DB878B0E489C5"
+			tasks: [
+				{
+					id: "13112A7B81923359"
+					item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
+					type: "item"
+				}
+				{
+					id: "0616189E4CE82367"
+					item: { count: 1, id: "pneumaticcraft:plastic" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["683DB878B0E489C5"]
+			icon: {
+				id: "pneumaticcraft:refinery"
+			}
+			id: "2F6AF5B48E001849"
+			tasks: [
+				{
+					id: "0384701A44598622"
+					item: { count: 1, id: "pneumaticcraft:refinery" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "66A539050542C9AA"
+					item: { count: 1, id: "pneumaticcraft:refinery_output" }
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["683DB878B0E489C5"]
+			icon: {
+				id: "pneumaticcraft:thermal_compressor"
+			}
+			id: "4CF6C86CD92C3279"
+			tasks: [{
+				id: "09980DE39224F945"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(pneumaticcraft:manual_compressor)item(pneumaticcraft:liquid_compressor)item(pneumaticcraft:thermal_compressor)item(pneumaticcraft:air_compressor))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["6E894B02A23ACDAD"]
+			icon: {
+				id: "thaumaturge:infusion_matrix"
+			}
+			id: "608809FB6023E34D"
+			tasks: [
+				{
+					id: "75484CFAAEB1F61E"
+					item: { count: 1, id: "thaumaturge:infusion_matrix" }
+					type: "item"
+				}
+				{
+					id: "0AB89700427A55F5"
+					item: { count: 1, id: "thaumaturge:pedestal_arcane" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "4CE475D2D897D98C"
+					item: { count: 1, id: "thaumaturge:pedestal_arcane" }
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -0.5d
 		}
 	]
 }
