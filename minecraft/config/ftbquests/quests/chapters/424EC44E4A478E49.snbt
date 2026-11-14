@@ -450,7 +450,7 @@
 			}]
 			tasks: [{
 				id: "250818B16138A1D1"
-				item: { count: 1, id: "twilightforest:liveroot_block" }
+				item: { count: 1, id: "twilightforest:liveroot" }
 				type: "item"
 			}]
 			x: -23.5d
@@ -553,6 +553,14 @@
 				id: "minecraft:grass_block"
 			}
 			id: "1301F3F28736AD5F"
+			rewards: [{
+				auto: "enabled"
+				id: "0C4BA4EBF1F39C51"
+				ignore_reward_blocking: true
+				remove: false
+				stage: "chapter 1"
+				type: "astages:server"
+			}]
 			shape: "diamond"
 			size: 2.0d
 			tasks: [{
@@ -696,13 +704,6 @@
 			]
 			dependency_requirement: "all_started"
 			id: "1ABB4A061CF20212"
-			rewards: [{
-				auto: "invisible"
-				id: "29B36D76CF8A4DD1"
-				remove: false
-				stage: "chapter4"
-				type: "astages:server"
-			}]
 			tasks: [{
 				id: "3E0B2ACC743E9666"
 				item: { count: 1, id: "eicore:activated_rune_gem" }
