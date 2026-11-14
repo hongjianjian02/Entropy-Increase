@@ -3300,12 +3300,32 @@ file = "mods/extrabotany-2.0.0-1.21.1-NeoForge.jar"
 hash = "b872855e459161cbf56b6249cbcfa568f305ee80e858b023866c21eade8db96c"
 
 [[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "d9ed9ac8e0db9db29078dafa22bc2d86ac702f10863ae7cb1d5245111c5ea17b"
+metafile = true
+
+[[files]]
+file = "mods/gensokyo-delight-youkais-feasts.pw.toml"
+hash = "f7e934e82890a87053fc63ba11b7381631e6775ff6f8cb0548547f995240a542"
+metafile = true
+
+[[files]]
+file = "mods/immortalers-delight.pw.toml"
+hash = "a4085d9fbece293e93185a72415834701a52ad1e8e0ac8a358aaeefcf8cf6189"
+metafile = true
+
+[[files]]
 file = "mods/mmcece-26.11.7-beta.jar"
 hash = "9725a57a9c1f3f8968bc6a26260d864a833d8d5536f5cb364039f6cf17c66418"
 
 [[files]]
 file = "mods/prickle-neoforge-1.21.1-21.1.11.jar"
 hash = "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167"
+
+[[files]]
+file = "mods/spice-of-life-carrot-edition.pw.toml"
+hash = "e520ad446364dff7dd50896108a96140f3f5598b72003dade5b17308fa9ef2a9"
+metafile = true
 
 [[files]]
 file = "mods/thaumtinkerer.pw.toml"

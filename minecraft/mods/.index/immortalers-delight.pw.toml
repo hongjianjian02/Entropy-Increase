@@ -1,0 +1,13 @@
+name = "Immortalers Delight"
+filename = "immortalers_delight-1.21.1-neoforge-1.0.10.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "de85eabfa7ca6928d81d5bb9b55940c12b17db07"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8791309
+project-id = 1196075
