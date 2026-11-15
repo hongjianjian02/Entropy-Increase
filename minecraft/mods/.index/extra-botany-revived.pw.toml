@@ -1,0 +1,13 @@
+name = "Extra Botany Revived"
+filename = "ExtraBotany-1.21.1-1.0.4-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "246e372964413d09c5f2fa0c93b95a4c224d1949"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9599226
+project-id = 1764698
