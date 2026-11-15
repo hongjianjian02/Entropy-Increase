@@ -3189,17 +3189,17 @@ metafile = true
 
 [[files]]
 file = "mods/.index/sophisticated-backpacks.pw.toml"
-hash = "30a795883987c9f3bd28e98d8bf600854d58395d2e0dd09aec3a5a176e463429"
+hash = "eee1aaa1819c2e18f18645f167ac9ef973db106d622c67f34fcabb04aa00e95d"
 metafile = true
 
 [[files]]
 file = "mods/.index/sophisticated-core.pw.toml"
-hash = "73ee6b533f25d7ba76827650c61edc4c8efce781b22a73ce699315561aea7931"
+hash = "3dfdea35816deee4fadfb2fdc55ff87e4929ae6db2bbe1c3a37fa1c3e85bd1f9"
 metafile = true
 
 [[files]]
 file = "mods/.index/sophisticated-storage.pw.toml"
-hash = "3691e9b90bfe83b31a81d23386f2a7cd83b22d9e0b6740ea91eea71c935de25b"
+hash = "ca8e3a0f1641ac4d15780c3044e4464c6d2be53c23e11efa26d8ce303e941e17"
 metafile = true
 
 [[files]]
@@ -3289,7 +3289,7 @@ metafile = true
 
 [[files]]
 file = "mods/EI core-1.0.1.jar"
-hash = "c546e41bd98fbd5491da753c022dc05a502c1fb79927330b95ff466481d583bf"
+hash = "1aa7c60d9fd6f92c329ac33f72cf889709d3634bc88ca8549a700ba27bdbcc60"
 
 [[files]]
 file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
