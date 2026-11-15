@@ -10,11 +10,11 @@ PlayerEvents.inventoryChanged(event => {
 // 首个控制器配方第三章（chapter2）开放；原 ID 配方仍需要 has_controller 阶段
 ServerEvents.loaded(event => {
   try {
-    const craftingType = Java.loadClass('net.minecraft.world.item.crafting.RecipeType').CRAFTING
+    const ae2CraftingType = Java.loadClass('net.minecraft.world.item.crafting.RecipeType').CRAFTING
     AStages.addRestrictionForRecipe('ch_controller_first', 'chapter2',
-      craftingType, 'kubejs:network/blocks/controller')
+      ae2CraftingType, 'kubejs:network/blocks/controller')
     AStages.addRestrictionForRecipe('ch_controller_vanilla', 'has_controller',
-      craftingType, 'ae2:network/blocks/controller')
+      ae2CraftingType, 'ae2:network/blocks/controller')
     console.info('[stages] ME 控制器首次配方与原 ID 配方限制已注册')
   } catch (err) {
     console.error('[stages] ME 控制器限制失败: ' + err)

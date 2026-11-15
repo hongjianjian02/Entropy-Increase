@@ -29,7 +29,7 @@ ServerEvents.loaded(event => {
       .disableBlockInteraction()
   })
 
-  const craftingType = Java.loadClass('net.minecraft.world.item.crafting.RecipeType').CRAFTING
+  const jdtCraftingType = Java.loadClass('net.minecraft.world.item.crafting.RecipeType').CRAFTING
   const timeCraftingRecipes = [
     'justdirethings:upgrade_time_protection',
     'justdirethings:time_wand',
@@ -41,7 +41,7 @@ ServerEvents.loaded(event => {
     'justdirethings:upgrade_deathprotection'
   ]
   timeCraftingRecipes.forEach(recipeId => {
-    AStages.addRestrictionForRecipe('ch5_jdt_time_recipe_' + recipeId.split(':')[1], 'chapter5', craftingType, recipeId)
+    AStages.addRestrictionForRecipe('ch5_jdt_time_recipe_' + recipeId.split(':')[1], 'chapter5', jdtCraftingType, recipeId)
   })
 
   console.info('[stages] JDT 时间系列限制已注册：14 个物品、8 条工作台配方，chapter5 开放')

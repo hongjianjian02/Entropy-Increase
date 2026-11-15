@@ -7,6 +7,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: `jaopca:storage_blocks.to_storage_block.${material}` })
     event.remove({ id: `jaopca:storage_blocks.to_material.${material}` })
 
+    // 材料标签变化后，部分旧 JAOPCA 块不再注册。
+    if (!Item.exists(legacyBlock)) return
+
     // 旧 JAOPCA 块实际存储 9 份材料；指定旧块，避免原模组四份材料块拆出九份。
     event.shapeless(Item.of(definition.item, 9), [legacyBlock])
       .id(`kubejs:jaopca/legacy_storage_blocks/${material}`)
@@ -19,8 +22,10 @@ jaopcaStorageBlockTagRegistries.forEach(registry => {
     global.jaopcaStorageBlocks.forEach(definition => {
       const tag = `c:storage_blocks/${definition.material}`
       const legacyBlock = `jaopca:storage_blocks.${definition.material}`
-      event.remove(tag, legacyBlock)
-      event.remove('c:storage_blocks', legacyBlock)
+      if (Item.exists(legacyBlock)) {
+        event.remove(tag, legacyBlock)
+        event.remove('c:storage_blocks', legacyBlock)
+      }
       event.add(tag, definition.block)
       event.add('c:storage_blocks', definition.block)
     })

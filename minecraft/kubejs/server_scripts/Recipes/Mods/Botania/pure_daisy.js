@@ -5,13 +5,10 @@ ServerEvents.recipes(event => {
   event.custom({
     type: 'botania:pure_daisy',
     input: {
-      type: 'botania:block',
+      type: 'block',
       block: 'twilightforest:deadrock'
     },
-    output: {
-      type: 'botania:block',
-      block: 'botania:livingrock'
-    },
+    output: { name: 'botania:livingrock' },
     time: 150
   }).id('botania:pure_daisy/livingrock')
 
@@ -19,31 +16,23 @@ ServerEvents.recipes(event => {
   event.custom({
     type: 'botania:pure_daisy',
     input: {
-      type: 'botania:block',
+      type: 'block',
       block: 'twilightforest:root'
     },
-    output: {
-      type: 'botania:state',
-      state: {
-        Name: 'twilightforest:liveroot_block'
-      }
-    },
+    output: { name: 'twilightforest:liveroot_block' },
     time: 150
   }).id('kubejs:pure_daisy/liveroot')
 
+  // Revived 使用独立的属性复制配方类型，覆盖新版 livingwood 配方。
   // 红树林原木→活木
   event.custom({
-    type: 'botania:pure_daisy',
-    copy_properties: true,
+    type: 'botania:state_copying_pure_daisy',
     input: {
-      type: 'botania:block',
+      type: 'block',
       block: 'twilightforest:mangrove_log'
     },
-    output: {
-      type: 'botania:block',
-      block: 'botania:livingwood_log'
-    },
+    output: 'botania:livingwood_log',
     time: 150
-  }).id('botania:pure_daisy/livingwood_log')
+  }).id('botania:pure_daisy/livingwood')
 
 })

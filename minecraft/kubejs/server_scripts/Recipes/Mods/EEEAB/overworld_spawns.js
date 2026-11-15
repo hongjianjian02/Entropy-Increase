@@ -3,7 +3,6 @@ const EEEAB_OVERWORLD_STAGE = 'eeeab_nameless_guardian_defeated'
 const EEEAB_SPAWN_TYPE = Java.loadClass('net.minecraft.world.entity.MobSpawnType')
 const EEEAB_MONSTER = Java.loadClass('net.minecraft.world.entity.monster.Monster')
 const EEEAB_SERVER_PLAYER = Java.loadClass('net.minecraft.server.level.ServerPlayer')
-const EEEAB_STATS = Java.loadClass('net.minecraft.stats.Stats')
 const EEEAB_ENTITY_INIT = Java.loadClass('com.eeeab.eeeabsmobs.server.init.EntityInit')
 
 const EEEAB_OVERWORLD_MOBS = [
@@ -36,7 +35,7 @@ EntityEvents.death('eeeabsmobs:nameless_guardian', event => {
 // 兼容已有存档：有无名守卫者击杀统计的玩家登录时补上全局阶段。
 PlayerEvents.loggedIn(event => {
   if (AStages.serverHasStage(EEEAB_OVERWORLD_STAGE)) return
-  if (event.player.getStats().getValue(EEEAB_STATS.ENTITY_KILLED, EEEAB_ENTITY_INIT.NAMELESS_GUARDIAN.get()) > 0) {
+  if (event.player.getStats().getKilled(EEEAB_ENTITY_INIT.NAMELESS_GUARDIAN.get()) > 0) {
     unlockEeeabOverworldSpawns(event.server)
   }
 })

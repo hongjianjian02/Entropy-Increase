@@ -1,5 +1,6 @@
 RecipeViewerEvents.removeEntries('item', event => {
   global.jaopcaStorageBlocks.forEach(definition => {
-    event.remove(`jaopca:storage_blocks.${definition.material}`)
+    const legacyBlock = `jaopca:storage_blocks.${definition.material}`
+    if (Item.exists(legacyBlock)) event.remove(legacyBlock)
   })
 })
