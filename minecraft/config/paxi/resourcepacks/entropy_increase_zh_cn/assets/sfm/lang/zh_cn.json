@@ -1,0 +1,7 @@
+{
+  "gui.sfm.manager.button.discord": "不和谐",
+  "key.sfm.label_gun.open_gui": "Open Label Gun 界面",
+  "log.sfm.statement.tick.forget": "忘记 %s",
+  "log.sfm.statement.tick.if.false": "错误：%s",
+  "log.sfm.statement.tick.if.true": "正确：%s"
+}

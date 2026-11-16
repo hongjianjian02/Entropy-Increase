@@ -1,0 +1,10 @@
+{
+  "midnightconfig.action.color_chooser": "打开颜色选择器",
+  "midnightconfig.action.file_chooser": "打开文件选择器",
+  "midnightconfig.action.list_index": "编辑索引 %s 处的列表",
+  "midnightconfig.color_chooser.brightness": "亮度：%s",
+  "midnightconfig.color_chooser.hue": "色调：%s",
+  "midnightconfig.color_chooser.saturation": "饱和度：%s",
+  "midnightlib.modrinth": "莫德林斯",
+  "midnightlib.wiki": "百科"
+}

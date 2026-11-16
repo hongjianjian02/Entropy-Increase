@@ -1,125 +1,706 @@
+# Entropy-Increase / Minecraft 1.21.1 / Sol: Apple Pie 2.2.0
+
 [Benefits]
-	# A list of diversity value thresholds, in ascending order. When the player's food diversity reaches a threshold,
-	# they will get the benefits associated with that threshold.
-	#
-	#
-	thresholds = [2.0, 5.0, 7.0, 10.0, 15.0, 20.0, 25.0, 30.0, 35.0, 40.0, 45.0, 50.0, 60.0, 70.0, 80.0, 90.0, 100.0]
-	# 
-	# Define custom benefits here. Each entry in the list corresponds to a benefit that will be obtained
-	# at the corresponding diversity threshold defined the list above. For example, the first entry in
-	# this list will be applied when the player's food diversity reaches the number in the first entry in
-	# the threshold list above.
-	# A benefit can also be marked as a detriment. In that case, its activation is reversed.
-	# A detriment is applied while the player has less diversity than the threshold,
-	# and will be removed when the threshold is reached.
-	# Each benefit is a string with the following form: [+/-][type],[registry name],[value] (without the brackets)
-	# A leading plus (or the of a symbol) denotes a benefit, while a minus denotes a detriment.
-	# The type can either be 'attribute' for attribute modifiers or 'effect' for potion effects
-	# Registry names for common vanila attributes are 
-	# generic.max_health, generic.knockback_resistance, generic.movement_speed, generic.luck, 
-	# generic.attack_damage, generic.attack_speed, generic.armor, generic.armor_toughness 
-	# The value of attributes is the numerical number that will be added to that attribute
-	# Use a negative number for subtraction. Multiplicative modifiers are not supported.
-	# For potion effects, the value is an integer and is the potion effect amplifier. Note
-	# that the amplifier is 0 indexed, so minecraft:strength,1 corresponds to Strength II
-	#
-	# To add multiple benefits to the same threshold, separate them by a semicolon ';'
-	# Make sure that you have NO SPACES!
-	# As an example, 'attribute,generic.max_health,2;effect,strength,1' will give both +2 max hp
-	# and Strength II at the corresponding threshold.
-	# 'attribute,generic.attack_damage,1;-effect,slowness,0' will give +1 attack damage at the corresponding threshold
-	# and Slowness I below the corresponding threshold.
-	#
-	#
-	benefitsUnparsed = ["effect,speed,0", "", "effect,haste,0", "effect,strength,0", "attribute,generic.armor_toughness,2", "effect,regeneration,0", "effect,speed,1", "effect,strength,0", "effect,luck,0", "attribute,generic.knockback_resistance,1", "attribute,generic.speed,2", "attribute,generic.armor_toughness,2", "effect,haste,1", "effect,strength,1", "attribute,generic.armor_toughness,2", "effect,strength,2", "effect,luck,1"]
-	# The minimum number of foods a player needs to eat before any benefits are applied.
-	#
-	#
-	# Default: 0
-	# Range: 0 ~ 1000
-	minFoodsToActivate = 0
+# 保留仍有有效奖励的阈值；150、200 档的效果均未安装，删除空档。
+thresholds = [8.0, 12.0, 16.0, 20.0, 24.0, 28.0, 32.0, 36.0, 40.0, 44.0, 48.0, 52.0, 56.0, 60.0, 64.0, 68.0, 72.0, 76.0, 80.0, 100.0]
+
+# 沿用原数值，属性奖励会逐档累加；原版 ID 显式添加 minecraft 命名空间。生命成长交由胡萝卜版。
+benefitsUnparsed = [
+    # 多样性 8
+    "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.attack_damage,4",
+    # 多样性 12
+    "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.attack_damage,4",
+    # 多样性 16
+    "effect,minecraft:regeneration,1;attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.attack_damage,4",
+    # 多样性 20
+    "effect,minecraft:night_vision,0;attribute,minecraft:generic.attack_damage,4",
+    # 多样性 24
+    "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.attack_damage,4",
+    # 多样性 28
+    "effect,minecraft:regeneration,1;attribute,minecraft:generic.attack_damage,6",
+    # 多样性 32
+    "attribute,minecraft:generic.luck,1",
+    # 多样性 36
+    "attribute,minecraft:generic.armor_toughness,4",
+    # 多样性 40
+    "attribute,minecraft:generic.luck,1",
+    # 多样性 44
+    "attribute,minecraft:generic.armor_toughness,4;effect,minecraft:resistance,2",
+    # 多样性 48
+    "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.luck,1",
+    # 多样性 52
+    "attribute,minecraft:generic.attack_damage,6",
+    # 多样性 56
+    "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.luck,1",
+    # 多样性 60
+    "attribute,minecraft:generic.attack_damage,6",
+    # 多样性 64
+    "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.luck,1",
+    # 多样性 68
+    "attribute,minecraft:generic.attack_damage,6",
+    # 多样性 72
+    "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.luck,1",
+    # 多样性 76
+    "attribute,minecraft:generic.attack_damage,6",
+    # 多样性 80
+    "attribute,minecraft:generic.luck,1;attribute,minecraft:generic.armor_toughness,4",
+    # 多样性 100
+    "attribute,minecraft:generic.luck,1;attribute,minecraft:generic.attack_damage,10;effect,minecraft:resistance,3;effect,minecraft:saturation,0;effect,farmersdelight:nourishment,0",
+]
+
+# 累计进食 100 次后才启用奖励（次数，不是 100 种食物）。
+minFoodsToActivate = 100
 
 [Filtering]
-	# Foods in this list won't contribute to food diversity.
-	#
-	#
-	blacklist = []
-	#
-	# When this list contains anything, the blacklist is ignored and instead only foods from here count.
-	#
-	#
-	whitelist = []
+# 空酒瓶不计入多样性；妖怪归家使用本版 youkaisfeasts 命名空间。
+blacklist = ["youkaisfeasts:sake_bottle"]
+
+# 留空，所有未被黑名单排除的可食物品均可参与。
+whitelist = []
 
 [Miscellaneous]
-	# Whether or not to reset food diversity on death, effectively losing all benefits.
-	#
-	#
-	resetOnDeath = false
-	#
-	# If true, eating foods outside of survival mode (e.g. creative/adventure) is not tracked.
-	#
-	#
-	limitProgressionToSurvival = false
-	#
-	# How many foods should be tracked. I.e., how many food items eaten in the past should count toward food diversity.
-	# Note that the larger this is, the higher your potential diversity value can be, so keep this mind
-	# if you are defining custom thresholds/benefits above.
-	# !!!If you update queueSize, and leave the other advanced options unchanged,
-	# make sure you change endDecay (below) to match queueSize, or else nothing will change!!!
-	#
-	#
-	# Default: 32
-	# Range: 1 ~ 1000
-	queueSize = 32
+# 死亡不重置多样性。
+resetOnDeath = false
+
+# 沿用参考配置，非生存模式也可记录。
+limitProgressionToSurvival = false
+
+# 从吃过的不同食物中，按当前复杂度保留最高的 8 种计分。
+queueSize = 8
+
+# 自定义苹果派版新增模式：低分食物不挤掉高分记录，重复食物不重复加分。
+# 内部保留吃过的食物历史，方便将来调整复杂度后重新选取最高 8 种。
+keepHighestDiversityFoods = true
 
 [Advanced]
-	# These config options all affect the technical details of how diversity is calculated.
-	# Please look at the explanation on the wiki on the github to see how these values work.
-	#
-	# Lowest possible diversity contribution a food can give. This is a multiplier, not an
-	# absolute value!
-	#
-	#
-	# Default: 0.0
-	# Range: 0.0 ~ 1.0
-	minContribution = 0.0
-	#
-	# The default diversity value when you eat a food. There is little reason to ever change this.
-	#
-	#
-	# Default: 1.0
-	# Range: 0.0 ~ 100.0
-	defaultContribution = 1.0
-	#
-	# How many meals in the past should the diversity penalty stop from.
-	# **Needs to be less than queueSize and greater than startDecay!!!**
-	# Note that if you update queueSize, to retain the default behavior, you need to also
-	# set endDecay equal to the queueSize
-	#
-	#
-	# Default: 32
-	# Range: 0 ~ 1000
-	endDecay = 32
-	#
-	# How many meals in the past should the diversity time penalty start to apply.
-	# **Needs to be less than queueSize and less than or equal to endDecay!!!**
-	#
-	#
-	# Default: 0
-	# Range: 0 ~ 1000
-	startDecay = 0
-	#
-	# Whether blacklisted foods should still take a spot in the queue, even if they don't contribute any diversity.
-	#
-	#
-	shouldForbiddenCount = true
+# 最高多样性模式忽略时间衰减；下列衰减值用于关闭该模式后的普通记录。
+minContribution = 1.0
+
+# 未单独设置复杂度的食物按营养和饱和度公式计算，此值是基础倍率。
+defaultContribution = 1.0
+
+# 普通模式的衰减终点；最高多样性模式下忽略。
+endDecay = 8
+
+# 普通模式的衰减起点；最高多样性模式下忽略。
+startDecay = 8
+
+# 黑名单食物不占用进食队列。
+shouldForbiddenCount = false
 
 [Complexity]
-	# Define custom complexity values for individual foods here.
-	# The complexity value of a food is how much diversity points it gives. 
-	# The base diversity value of foods not defined here is equal to defaultContribution.
-	# Each entry in the list should be a string defining one food, and the format is [registry name],[value]
-	# Note that tags are NOT currently supported.
-	#
-	#
-	complexityUnparsed = ["minecraft:cooked_porkchop,2", "minecraft:cooked_beef,2", "minecraft:golden_carrot,2", "minecraft:golden_apple,4", "minecraft:enchanted_golden_apple,10", "largemeals:sweet_berry_custard,5", "largemeals:pufferfish_broth,5", "largemeals:mushroom_pot_pie,5", "largemeals:hearty_lunch,6", "farmersrespite:green_tea,3", "farmersrespite:yellow_tea,3", "farmersrespite:coffee,3", "farmersrespite:black_tea,3", "farmersrespite:rose_hip_tea,3", "farmersrespite:dandelion_tea,3", "farmersrespite:black_tea,3", "farmersrespite:rose_hip_pie_slice,4", "farmersrespite:coffee_cake_slice,4", "farmersrespite:blazing_chili,5", "farmersdelight:cake_slice,4", "farmersdelight:chocolate_pie_slice,4", "farmersdelight:apple_pie_slice,4", "farmersdelight:sweet_berry_cheesecake_slice,4"]
+# 按当前实际注册食物及制作／获取难度补齐；仅覆盖分值，不是白名单。
+# 保留原 45 项：炼狱麦酒 100，两种无尽食品 16，原饮品等分值不调整。
+# 1 基础生食；2 简单加工；3/4 基础料理；6/8 复杂料理；10/12 稀有或长加工链；16 顶级获取门槛。
+# 切片和分装不额外提高分值；详细依据见仓库 docs/solapplepie-reference/food-difficulty/食物分值明细.md。
+complexityUnparsed = [
+    # 实用拓展
+    "actuallyadditions:coffee_cup,4",
+    # 天境
+    "aether:blue_berry,1",
+    "aether:candy_cane,1",
+    "aether:gingerbread_man,1",
+    "aether:white_apple,1",
+    "aether:enchanted_berry,2",
+    "aether:blue_gummy_swet,3",
+    "aether:golden_gummy_swet,3",
+    "aether:healing_stone,4",
+    # 无尽贪婪
+    "avaritia:cosmic_meatballs,32",
+    "avaritia:ultimate_stew,32",
+    # 植物魔法
+    "botania:mana_cookie,3",
+    "botania:mana_bottle,4",
+    # 龙之附加
+    "draconicadditions:hermal,16",
+    # 末影接口
+    "enderio:enderios,4",
+    # 永恒星光
+    "eternal_starlight:abyssal_fruit,2",
+    "eternal_starlight:aurora_deer_steak,2",
+    "eternal_starlight:crinoa_porridge,2",
+    "eternal_starlight:doomeden_carrion,2",
+    "eternal_starlight:luminaris,2",
+    "eternal_starlight:luminofish,2",
+    "eternal_starlight:lunar_berries,2",
+    "eternal_starlight:lunaris_cactus_fruit,2",
+    "eternal_starlight:pungency_fruit,2",
+    "eternal_starlight:ratlin_meat,2",
+    "eternal_starlight:rookfish,2",
+    "eternal_starlight:rotten_flesh_jerky,2",
+    "eternal_starlight:rotten_ham,2",
+    "eternal_starlight:seeker_tentacle,2",
+    "eternal_starlight:shadow_snail_meat,2",
+    "eternal_starlight:velvetumoss_ball,2",
+    "eternal_starlight:bouldershroom_stew,3",
+    "eternal_starlight:cooked_aurora_deer_steak,3",
+    "eternal_starlight:cooked_luminaris,3",
+    "eternal_starlight:cooked_luminofish,3",
+    "eternal_starlight:cooked_ratlin_meat,3",
+    "eternal_starlight:cooked_rookfish,3",
+    "eternal_starlight:cooked_shadow_snail_meat,3",
+    "eternal_starlight:crinoa_ball,3",
+    "eternal_starlight:jinglestem_crisp,3",
+    "eternal_starlight:lunaris_cactus_gel,3",
+    "eternal_starlight:popped_nocturnal_millet_bucket,3",
+    "eternal_starlight:pungency_stew,3",
+    "eternal_starlight:roasted_forgotten_nocturnal_millet,3",
+    "eternal_starlight:rookfish_skewer,3",
+    "eternal_starlight:jinglestem_sandwich,4",
+    "eternal_starlight:shadow_escargot,4",
+    "eternal_starlight:shadow_snail_pie,4",
+    "eternal_starlight:blossom_of_stars,6",
+    "eternal_starlight:silver_pungency_fruit,8",
+    # 更多实用设备
+    "excessive_utilities:magical_apple,4",
+    # 额外植物学
+    "extrabotany:candy_drei,3",
+    "extrabotany:candy_eins,3",
+    "extrabotany:candy_zwei,3",
+    "extrabotany:fried_chicken,3",
+    "extrabotany:nightmare_fuel,4",
+    "extrabotany:spirit_fuel,4",
+    "extrabotany:mana_drink,6",
+    # 农夫乐事
+    "farmersdelight:bacon,1",
+    "farmersdelight:cabbage,1",
+    "farmersdelight:cabbage_leaf,1",
+    "farmersdelight:chicken_cuts,1",
+    "farmersdelight:cod_slice,1",
+    "farmersdelight:ham,1",
+    "farmersdelight:minced_beef,1",
+    "farmersdelight:mutton_chops,1",
+    "farmersdelight:onion,1",
+    "farmersdelight:pumpkin_slice,1",
+    "farmersdelight:salmon_slice,1",
+    "farmersdelight:tomato,1",
+    "farmersdelight:apple_pie_slice,2", # 保留原分值
+    "farmersdelight:beef_patty,2",
+    "farmersdelight:bone_broth,2",
+    "farmersdelight:cabbage_rolls,2",
+    "farmersdelight:cooked_bacon,2",
+    "farmersdelight:cooked_chicken_cuts,2",
+    "farmersdelight:cooked_cod_slice,2",
+    "farmersdelight:cooked_mutton_chops,2",
+    "farmersdelight:cooked_rice,2",
+    "farmersdelight:cooked_salmon_slice,2",
+    "farmersdelight:fried_egg,2",
+    "farmersdelight:honey_cookie,2",
+    "farmersdelight:pie_crust,2",
+    "farmersdelight:raw_pasta,2",
+    "farmersdelight:smoked_ham,2",
+    "farmersdelight:sweet_berry_cookie,2",
+    "farmersdelight:tomato_sauce,2",
+    "farmersdelight:wheat_dough,2",
+    "farmersdelight:bacon_and_eggs,3",
+    "farmersdelight:baked_cod_stew,3",
+    "farmersdelight:barbecue_stick,3",
+    "farmersdelight:beef_stew,3",
+    "farmersdelight:cake_slice,3",
+    "farmersdelight:chicken_soup,3",
+    "farmersdelight:cod_roll,3",
+    "farmersdelight:dog_food,3",
+    "farmersdelight:egg_sandwich,3",
+    "farmersdelight:fried_rice,3",
+    "farmersdelight:fruit_salad,3",
+    "farmersdelight:glow_berry_custard,3",
+    "farmersdelight:melon_popsicle,3",
+    "farmersdelight:mixed_salad,3",
+    "farmersdelight:mushroom_rice,3",
+    "farmersdelight:nether_salad,3",
+    "farmersdelight:pumpkin_pie_slice,3",
+    "farmersdelight:pumpkin_soup,3",
+    "farmersdelight:ratatouille,3",
+    "farmersdelight:salmon_roll,3",
+    "farmersdelight:stuffed_potato,3",
+    "farmersdelight:vegetable_soup,3",
+    "farmersdelight:bacon_sandwich,4",
+    "farmersdelight:chicken_sandwich,4",
+    "farmersdelight:chocolate_pie_slice,4",
+    "farmersdelight:dumplings,4",
+    "farmersdelight:fish_stew,4",
+    "farmersdelight:grilled_salmon,4",
+    "farmersdelight:hamburger,4",
+    "farmersdelight:kelp_roll,4",
+    "farmersdelight:kelp_roll_slice,4",
+    "farmersdelight:mutton_wrap,4",
+    "farmersdelight:noodle_soup,4",
+    "farmersdelight:onion_soup,4",
+    "farmersdelight:pasta_with_meatballs,4",
+    "farmersdelight:pasta_with_mutton_chop,4",
+    "farmersdelight:roasted_mutton_chops,4",
+    "farmersdelight:squid_ink_pasta,4",
+    "farmersdelight:steak_and_potatoes,4",
+    "farmersdelight:sweet_berry_cheesecake_slice,4",
+    "farmersdelight:vegetable_noodles,4",
+    "farmersdelight:apple_cider,6", # 保留原分值
+    "farmersdelight:honey_glazed_ham,6",
+    "farmersdelight:roast_chicken,6",
+    "farmersdelight:shepherds_pie,6",
+    "farmersdelight:stuffed_pumpkin,6",
+    "farmersdelight:gleaming_salad,8",
+    # 千古乐事
+    "immortalers_delight:evolutcorn,1",
+    "immortalers_delight:evolutcorn_grains,1",
+    "immortalers_delight:gelpitaya_flesh,1",
+    "immortalers_delight:himekaido,1",
+    "immortalers_delight:kwat_wheat,1",
+    "immortalers_delight:mashed_poisonous_potato,1",
+    "immortalers_delight:mashed_potatoes,1",
+    "immortalers_delight:obsidian_walnut_kernel,1",
+    "immortalers_delight:oxygrape,1",
+    "immortalers_delight:pearlip,1",
+    "immortalers_delight:pearlipearl,1",
+    "immortalers_delight:sextlotus_root,1",
+    "immortalers_delight:sextlotus_root_cuts,1",
+    "immortalers_delight:abc_ookie,2",
+    "immortalers_delight:baked_obsidian_walnut,2",
+    "immortalers_delight:baked_poisonous_potato,2",
+    "immortalers_delight:cooked_travarice,2",
+    "immortalers_delight:golden_himekaido,2",
+    "immortalers_delight:himekandy,2",
+    "immortalers_delight:kwat_wheat_toast,2",
+    "immortalers_delight:kwat_wheat_toast_slice,2",
+    "immortalers_delight:moon_oil,2",
+    "immortalers_delight:oxyraisins,2",
+    "immortalers_delight:roast_evolutcorn,2",
+    "immortalers_delight:roast_evolutcorn_chops,2",
+    "immortalers_delight:trava_bao,2",
+    "immortalers_delight:abc_offee,3",
+    "immortalers_delight:bottle_melon_juice,3",
+    "immortalers_delight:bowl_of_millenian_bamboo,3",
+    "immortalers_delight:bowl_of_tenchimuyo,3",
+    "immortalers_delight:carrot_tea,3",
+    "immortalers_delight:evolutcorn_hard_candy,3",
+    "immortalers_delight:evolutcorn_juice,3",
+    "immortalers_delight:golden_kwat_toast,3",
+    "immortalers_delight:golden_kwat_toast_slice,3",
+    "immortalers_delight:ice_pearlip,3",
+    "immortalers_delight:large_column_slice,3",
+    "immortalers_delight:leisamboo_icecream,3",
+    "immortalers_delight:leisamboo_tea_cake,3",
+    "immortalers_delight:meaty_rotten_tomato_broth,3",
+    "immortalers_delight:obsidian_walnut_milk,3",
+    "immortalers_delight:onsen_tamago,3",
+    "immortalers_delight:pearlip_milk_shake,3",
+    "immortalers_delight:pearlip_pumpkin_pie,3",
+    "immortalers_delight:pearlipearl_eggsteam,3",
+    "immortalers_delight:peatic_musa_salad,3",
+    "immortalers_delight:pitcher_plant_barbecue,3",
+    "immortalers_delight:popolutcorn,3",
+    "immortalers_delight:sealed_ancient_rations,3",
+    "immortalers_delight:sparkling_water,3",
+    "immortalers_delight:sparrow_wine,3",
+    "immortalers_delight:stuffed_poisonous_potato,3",
+    "immortalers_delight:trava_congee,3",
+    "immortalers_delight:yogurt,3",
+    "immortalers_delight:zea_pancake_slice,3",
+    "immortalers_delight:apollyon_cake_roll,4",
+    "immortalers_delight:aromatic_pod_affogato,4",
+    "immortalers_delight:banana_box_cod,4",
+    "immortalers_delight:banana_box_salmon,4",
+    "immortalers_delight:bowl_of_universal_chicken_soup,4",
+    "immortalers_delight:bowl_pitcher_plant_claypot_rice,4",
+    "immortalers_delight:braised_spider_eyes_in_gravy,4",
+    "immortalers_delight:chocolate_pearlip_sticks,4",
+    "immortalers_delight:chocoreeze,4",
+    "immortalers_delight:colorful_grilled_skewers,4",
+    "immortalers_delight:cretaceous_zea_ball,4",
+    "immortalers_delight:dipped_rotten_flesh,4",
+    "immortalers_delight:evolutcorn_bread,4",
+    "immortalers_delight:evolutcorn_honeycomb_cake,4",
+    "immortalers_delight:evolutcorn_icecream,4",
+    "immortalers_delight:evolutcorn_jiaozi,4",
+    "immortalers_delight:extra_spicy_pasta,4",
+    "immortalers_delight:gelpitaya_icepop,4",
+    "immortalers_delight:glistering_watermelon_juice,4",
+    "immortalers_delight:hako_jiaozi,4",
+    "immortalers_delight:himekaido_chazuke,4",
+    "immortalers_delight:hot_hi_soup,4",
+    "immortalers_delight:ice_pizza_slice,4",
+    "immortalers_delight:incandescence_sushi,4",
+    "immortalers_delight:kwat_soup,4",
+    "immortalers_delight:kwat_wheat_doufu,4",
+    "immortalers_delight:lu_chicken_legs,4",
+    "immortalers_delight:mashed_poisonous_potato_with_jam,4",
+    "immortalers_delight:mashed_potato_with_jam,4",
+    "immortalers_delight:nether_cream_bread,4",
+    "immortalers_delight:nether_cream_soup,4",
+    "immortalers_delight:nether_soup,4",
+    "immortalers_delight:pearlip_beer,4",
+    "immortalers_delight:pearlip_bubble_milk,4",
+    "immortalers_delight:pearlip_jelly,4",
+    "immortalers_delight:pearlip_pie_slice,4",
+    "immortalers_delight:perfect_summer_ice,4",
+    "immortalers_delight:pickled_sextlotus_root,4",
+    "immortalers_delight:pod_petal_cheese_stick,4",
+    "immortalers_delight:pod_shell_burger_meat_cube,4",
+    "immortalers_delight:pufferfish_roll,4",
+    "immortalers_delight:raw_sniffer_slice,4",
+    "immortalers_delight:raw_sniffer_steak,4",
+    "immortalers_delight:raw_sniffer_tail,4",
+    "immortalers_delight:scarlet_gelato,4",
+    "immortalers_delight:smashed_sextlotus_root,4",
+    "immortalers_delight:trava_california_roll,4",
+    "immortalers_delight:trava_california_roll_slice,4",
+    "immortalers_delight:tropical_fruity_cyclone,4",
+    "immortalers_delight:twilight_gelato,4",
+    "immortalers_delight:vara_ji,4",
+    "immortalers_delight:walnut_pie_slice,4",
+    "immortalers_delight:abblue_beauty_c_offee,6",
+    "immortalers_delight:bizarre_sausage,6",
+    "immortalers_delight:bowl_of_stewed_rotten_meat_in_clay_pot,6",
+    "immortalers_delight:braised_pork,6",
+    "immortalers_delight:cooked_sniffer_slice,6",
+    "immortalers_delight:cooked_sniffer_steak,6",
+    "immortalers_delight:cooked_sniffer_tail,6",
+    "immortalers_delight:crispy_yogurt_rotten_flesh,6",
+    "immortalers_delight:eight_berry_travarice_cake,6",
+    "immortalers_delight:evolutcorn_millefeuille,6",
+    "immortalers_delight:evolutcorn_pot_stickers,6",
+    "immortalers_delight:frosty_crown_mousse,6",
+    "immortalers_delight:frosty_crown_mousse_slice,6",
+    "immortalers_delight:frozen_margarita_jelly,6",
+    "immortalers_delight:fry_kwat_wheat_doufu,6",
+    "immortalers_delight:gelpitaya_tart,6",
+    "immortalers_delight:giant_tart_slice,6",
+    "immortalers_delight:glistering_fizz,6",
+    "immortalers_delight:hamburger_meat_sushi,6",
+    "immortalers_delight:himekaido_yogurt_pie_slice,6",
+    "immortalers_delight:jade_and_ruby_soup,6",
+    "immortalers_delight:jeng_nanu_slice,6",
+    "immortalers_delight:ku_mesh_non,6",
+    "immortalers_delight:ku_mesh_non_slice,6",
+    "immortalers_delight:kwat_tofu_miso_soup,6",
+    "immortalers_delight:lonely_spirit_wine,6",
+    "immortalers_delight:mapo_doufu,6",
+    "immortalers_delight:morning_fizz,6",
+    "immortalers_delight:obsidian_kernelcurd,6",
+    "immortalers_delight:old_beijing_chicken_roll,6",
+    "immortalers_delight:oxygrape_evolutcorn_muffin,6",
+    "immortalers_delight:pitcher_plant_jiao_zi,6",
+    "immortalers_delight:pitcher_plant_shao_mai,6",
+    "immortalers_delight:pitcher_sushi,6",
+    "immortalers_delight:scarlet_devils_cake,6",
+    "immortalers_delight:scarlet_devils_cake_slice,6",
+    "immortalers_delight:scarlet_sundae,6",
+    "immortalers_delight:sextlotus_fizz,6",
+    "immortalers_delight:sniffer_trava_zongzi,6",
+    "immortalers_delight:soul_tea,6",
+    "immortalers_delight:super_kwat_wheat_hamburger,6",
+    "immortalers_delight:tartare_chicken,6",
+    "immortalers_delight:torchflower_cake,6",
+    "immortalers_delight:torchflower_cookie,6",
+    "immortalers_delight:alfalfa_porridge,8",
+    "immortalers_delight:ancient_onsen_tamago,8",
+    "immortalers_delight:bowl_of_kwat_tofu_stew,8",
+    "immortalers_delight:british_yellow_tea,8", # 保留原分值
+    "immortalers_delight:cherry_pearlipearl_tea,8", # 保留原分值
+    "immortalers_delight:clear_water_vodka,8", # 保留原分值
+    "immortalers_delight:cold_kwat_tofu_salad,8",
+    "immortalers_delight:dreumk_wine,8", # 保留原分值
+    "immortalers_delight:evolutcorn_beer,8", # 保留原分值
+    "immortalers_delight:evolutcorn_chicken_burger,8",
+    "immortalers_delight:fried_sniffer_egg,8",
+    "immortalers_delight:fruit_tea,8", # 保留原分值
+    "immortalers_delight:gleeman_tear,8", # 保留原分值
+    "immortalers_delight:green_tea_fizz,8",
+    "immortalers_delight:iced_black_tea,8", # 保留原分值
+    "immortalers_delight:iced_kwat_soup,8",
+    "immortalers_delight:jvav_offee,8",
+    "immortalers_delight:kwat_pocket_sushi,8",
+    "immortalers_delight:leaf_green_tea,8", # 保留原分值
+    "immortalers_delight:leaf_tea,8", # 保留原分值
+    "immortalers_delight:leisamboo_tea,8", # 保留原分值
+    "immortalers_delight:nether_kvass,8", # 保留原分值
+    "immortalers_delight:pearlipearl_milk_green,8", # 保留原分值
+    "immortalers_delight:pearlipearl_milk_tea,8", # 保留原分值
+    "immortalers_delight:pearlipearl_tart,8",
+    "immortalers_delight:piglin_odori_sake,8", # 保留原分值
+    "immortalers_delight:pitcher_sausage,8",
+    "immortalers_delight:red_stuffed_bun,8",
+    "immortalers_delight:roasted_mushroom_pizza_slice,8",
+    "immortalers_delight:shutorch,8",
+    "immortalers_delight:sticky_beer,8", # 保留原分值
+    "immortalers_delight:stinky_doufu,8",
+    "immortalers_delight:stove_black_tea,8", # 保留原分值
+    "immortalers_delight:sutffed_kwat_wheat_doufu,8",
+    "immortalers_delight:syrup_with_kernelcurd,8",
+    "immortalers_delight:torchflower_curry_rice,8",
+    "immortalers_delight:traveer,8", # 保留原分值
+    "immortalers_delight:vulcan_coktail,8", # 保留原分值
+    "immortalers_delight:walnut_icecream,8",
+    "immortalers_delight:enchanted_golden_himekaido,10",
+    "immortalers_delight:hong_mei_ling,10",
+    "immortalers_delight:rainbow_fizz,10",
+    "immortalers_delight:bowl_of_this_side_down,12",
+    "immortalers_delight:dragon_slaying_art,16",
+    "immortalers_delight:purgatory_ale,100", # 保留原分值
+    # 原版
+    "minecraft:apple,1",
+    "minecraft:beef,1",
+    "minecraft:beetroot,1",
+    "minecraft:carrot,1",
+    "minecraft:chicken,1",
+    "minecraft:chorus_fruit,1",
+    "minecraft:cod,1",
+    "minecraft:glow_berries,1",
+    "minecraft:honey_bottle,1",
+    "minecraft:melon_slice,1",
+    "minecraft:mutton,1",
+    "minecraft:poisonous_potato,1",
+    "minecraft:porkchop,1",
+    "minecraft:potato,1",
+    "minecraft:pufferfish,1",
+    "minecraft:rabbit,1",
+    "minecraft:rotten_flesh,1",
+    "minecraft:salmon,1",
+    "minecraft:spider_eye,1",
+    "minecraft:sweet_berries,1",
+    "minecraft:tropical_fish,1",
+    "minecraft:baked_potato,2",
+    "minecraft:bread,2",
+    "minecraft:cooked_beef,2",
+    "minecraft:cooked_chicken,2",
+    "minecraft:cooked_cod,2",
+    "minecraft:cooked_mutton,2",
+    "minecraft:cooked_porkchop,2",
+    "minecraft:cooked_rabbit,2",
+    "minecraft:cooked_salmon,2",
+    "minecraft:dried_kelp,2",
+    "minecraft:golden_carrot,2", # 保留原分值
+    "minecraft:beetroot_soup,3",
+    "minecraft:cookie,3",
+    "minecraft:mushroom_stew,3",
+    "minecraft:ominous_bottle,3",
+    "minecraft:pumpkin_pie,3",
+    "minecraft:suspicious_stew,3",
+    "minecraft:golden_apple,4", # 保留原分值
+    "minecraft:rabbit_stew,4",
+    "minecraft:enchanted_golden_apple,10", # 保留原分值
+    # 新生魔艺
+    "neovitae:tainted_flesh,1",
+    "neovitae:bottled_spite,3",
+    "neovitae:vitae_morsel,3",
+    # 核电工艺
+    "nuclearcraftneohaul:cocoa_butter,4",
+    "nuclearcraftneohaul:ground_cocoa_nibs,4",
+    "nuclearcraftneohaul:dark_chocolate,6",
+    "nuclearcraftneohaul:graham_cracker,6",
+    "nuclearcraftneohaul:milk_chocolate,6",
+    "nuclearcraftneohaul:unsweetened_chocolate,6",
+    "nuclearcraftneohaul:marshmallow,8",
+    "nuclearcraftneohaul:smore,8",
+    "nuclearcraftneohaul:dominos,10",
+    "nuclearcraftneohaul:moresmore,10",
+    "nuclearcraftneohaul:foursmore,12",
+    # 气动工艺
+    "pneumaticcraft:sourdough_bread,3",
+    "pneumaticcraft:chips,4",
+    "pneumaticcraft:cod_n_chips,6",
+    "pneumaticcraft:salmon_tempura,6",
+    # 神秘学
+    "thaumaturge:brain,1",
+    "thaumaturge:chunk_beef,1",
+    "thaumaturge:chunk_chicken,1",
+    "thaumaturge:chunk_fish,1",
+    "thaumaturge:chunk_mutton,1",
+    "thaumaturge:chunk_pork,1",
+    "thaumaturge:chunk_rabbit,1",
+    "thaumaturge:mana_bean,1",
+    "thaumaturge:triple_meat_treat,4",
+    # 暮色森林
+    "twilightforest:blackberry,1",
+    "twilightforest:blightberry,1",
+    "twilightforest:blueberry,1",
+    "twilightforest:duskberry,1",
+    "twilightforest:gelatinous_maze_slime_drop,1",
+    "twilightforest:gelatinous_slime_drop,1",
+    "twilightforest:maloberry,1",
+    "twilightforest:raspberry,1",
+    "twilightforest:raw_meef,1",
+    "twilightforest:raw_venison,1",
+    "twilightforest:skyberry,1",
+    "twilightforest:stingberry,1",
+    "twilightforest:torchberries,1",
+    "twilightforest:beef_jerky,2",
+    "twilightforest:chicken_jerky,2",
+    "twilightforest:cod_jerky,2",
+    "twilightforest:cooked_meef,2",
+    "twilightforest:cooked_venison,2",
+    "twilightforest:experiment_115,2",
+    "twilightforest:fugu_jerky,2",
+    "twilightforest:maze_wafer,2",
+    "twilightforest:meef_jerky,2",
+    "twilightforest:monster_jerky,2",
+    "twilightforest:mutton_jerky,2",
+    "twilightforest:pork_jerky,2",
+    "twilightforest:rabbit_jerky,2",
+    "twilightforest:salmon_jerky,2",
+    "twilightforest:shika_senbei,2",
+    "twilightforest:tropical_fish_jerky,2",
+    "twilightforest:venison_jerky,2",
+    "twilightforest:berry_medley,3",
+    "twilightforest:meef_stroganoff,3",
+    "twilightforest:moss_soup,3",
+    "twilightforest:hydra_chop,8",
+    # 妖怪归家
+    "youkaisfeasts:black_grape,1",
+    "youkaisfeasts:crab,1",
+    "youkaisfeasts:crab_roe,1",
+    "youkaisfeasts:cucumber,1",
+    "youkaisfeasts:cucumber_slice,1",
+    "youkaisfeasts:raw_boarchop,1",
+    "youkaisfeasts:raw_boarchop_bits,1",
+    "youkaisfeasts:raw_lamprey,1",
+    "youkaisfeasts:raw_lamprey_fillet,1",
+    "youkaisfeasts:raw_tuna,1",
+    "youkaisfeasts:raw_tuna_slice,1",
+    "youkaisfeasts:raw_venison,1",
+    "youkaisfeasts:raw_venison_slice,1",
+    "youkaisfeasts:red_grape,1",
+    "youkaisfeasts:roe,1",
+    "youkaisfeasts:white_grape,1",
+    "youkaisfeasts:black_grape_juice,2",
+    "youkaisfeasts:crab_meat,2",
+    "youkaisfeasts:grilled_boarchop,2",
+    "youkaisfeasts:grilled_boarchop_bits,2",
+    "youkaisfeasts:grilled_venison,2",
+    "youkaisfeasts:grilled_venison_slice,2",
+    "youkaisfeasts:otoro,2",
+    "youkaisfeasts:raisin,2",
+    "youkaisfeasts:red_grape_juice,2",
+    "youkaisfeasts:roasted_lamprey,2",
+    "youkaisfeasts:roasted_lamprey_fillet,2",
+    "youkaisfeasts:seared_tuna,2",
+    "youkaisfeasts:seared_tuna_slice,2",
+    "youkaisfeasts:steamed_crab,2",
+    "youkaisfeasts:tofu,2",
+    "youkaisfeasts:white_grape_juice,2",
+    "youkaisfeasts:avgolemono,3",
+    "youkaisfeasts:bamboo_mizuyokan,3",
+    "youkaisfeasts:big_popsicle,3",
+    "youkaisfeasts:butter,3",
+    "youkaisfeasts:candy_apple,3",
+    "youkaisfeasts:dried_fish,3",
+    "youkaisfeasts:grilled_eel_over_rice,3",
+    "youkaisfeasts:honey_glazed_cucumber,3",
+    "youkaisfeasts:imitation_crab,3",
+    "youkaisfeasts:kabayaki,3",
+    "youkaisfeasts:lamprey_skewer,3",
+    "youkaisfeasts:lions_head,3",
+    "youkaisfeasts:mantou,3",
+    "youkaisfeasts:matcha_mochi,3",
+    "youkaisfeasts:milk_popsicle,3",
+    "youkaisfeasts:mochi,3",
+    "youkaisfeasts:nattou,3",
+    "youkaisfeasts:oily_bean_curd,3",
+    "youkaisfeasts:poor_god_soup,3",
+    "youkaisfeasts:pork_rice_ball,3",
+    "youkaisfeasts:sakura_mochi,3",
+    "youkaisfeasts:sauce_grilled_fish,3",
+    "youkaisfeasts:steamed_egg_in_bamboo,3",
+    "youkaisfeasts:tamagoyaki,3",
+    "youkaisfeasts:tamagoyaki_slice,3",
+    "youkaisfeasts:tsukimi_dango,3",
+    "youkaisfeasts:tutu_congee,3",
+    "youkaisfeasts:yellow_tea,3",
+    "youkaisfeasts:assorted_dango,4",
+    "youkaisfeasts:blazing_red_curry,4",
+    "youkaisfeasts:burgundy,4",
+    "youkaisfeasts:champagne,4",
+    "youkaisfeasts:cumberland_loin,4",
+    "youkaisfeasts:dark_tea,4",
+    "youkaisfeasts:egg_nigiri,4",
+    "youkaisfeasts:han_palace,4",
+    "youkaisfeasts:higan_soup,4",
+    "youkaisfeasts:kaguya_hime,4",
+    "youkaisfeasts:kappa_maki,4",
+    "youkaisfeasts:kappa_maki_slice,4",
+    "youkaisfeasts:kinako_dango,4",
+    "youkaisfeasts:longevity_noodles,4",
+    "youkaisfeasts:lorelei_nigiri,4",
+    "youkaisfeasts:mapo_tofu,4",
+    "youkaisfeasts:mitarashi_dango,4",
+    "youkaisfeasts:mushroom_soup,4",
+    "youkaisfeasts:onigili,4",
+    "youkaisfeasts:otoro_nigiri,4",
+    "youkaisfeasts:oyaki,4",
+    "youkaisfeasts:potato_soup,4",
+    "youkaisfeasts:red_wine,4",
+    "youkaisfeasts:rice_powder_pork,4",
+    "youkaisfeasts:seagrass_gunkan,4",
+    "youkaisfeasts:shinnko_maki,4",
+    "youkaisfeasts:shinnko_maki_slice,4",
+    "youkaisfeasts:shirayuki,4",
+    "youkaisfeasts:stinky_tofu,4",
+    "youkaisfeasts:sweet_ormosia_mochi_mixed_boiled,4",
+    "youkaisfeasts:tarte_lune_slice,4",
+    "youkaisfeasts:tekka_maki,4",
+    "youkaisfeasts:tekka_maki_slice,4",
+    "youkaisfeasts:tobiko_gunkan,4",
+    "youkaisfeasts:tofu_crab_stew,4",
+    "youkaisfeasts:tomato_sauce_cod,4",
+    "youkaisfeasts:tuna_nigiri,4",
+    "youkaisfeasts:tuscan_salmon,4",
+    "youkaisfeasts:van_allen,4",
+    "youkaisfeasts:white_wine,4",
+    "youkaisfeasts:yashouma_dango,4",
+    "youkaisfeasts:borscht,6",
+    "youkaisfeasts:bun,6",
+    "youkaisfeasts:cold_tofu,6",
+    "youkaisfeasts:egg_futomaki,6",
+    "youkaisfeasts:egg_futomaki_slice,6",
+    "youkaisfeasts:full_moons_eve,6",
+    "youkaisfeasts:miso_soup,6",
+    "youkaisfeasts:nattou_gunkan,6",
+    "youkaisfeasts:pastitsio,6",
+    "youkaisfeasts:rainbow_futomaki,6",
+    "youkaisfeasts:rainbow_futomaki_slice,6",
+    "youkaisfeasts:raw_imitation_bear_paw,6",
+    "youkaisfeasts:raw_scholar_ginkgo,6",
+    "youkaisfeasts:salmon_futomaki,6",
+    "youkaisfeasts:salmon_futomaki_slice,6",
+    "youkaisfeasts:scholar_ginkgo,6",
+    "youkaisfeasts:sekibankiyaki,6",
+    "youkaisfeasts:senbei,6",
+    "youkaisfeasts:seven_colored_yokan,6",
+    "youkaisfeasts:shaved_ice_over_rice,6",
+    "youkaisfeasts:signature_mushroom_stew,6",
+    "youkaisfeasts:tofu_burger,6",
+    "youkaisfeasts:udumbara_cake,6",
+    "youkaisfeasts:yakumo_inari,6",
+    "youkaisfeasts:black_tea,8", # 保留原分值
+    "youkaisfeasts:bowl_of_heart_throbbing_surprise,8",
+    "youkaisfeasts:california_roll,8",
+    "youkaisfeasts:california_roll_slice,8",
+    "youkaisfeasts:cornflower_tea,8", # 保留原分值
+    "youkaisfeasts:dassai,8", # 保留原分值
+    "youkaisfeasts:genmai_tea,8", # 保留原分值
+    "youkaisfeasts:green_tea,8", # 保留原分值
+    "youkaisfeasts:green_water,8", # 保留原分值
+    "youkaisfeasts:hakutsuru,8", # 保留原分值
+    "youkaisfeasts:hokkaido_salmon_hotpot,8",
+    "youkaisfeasts:imitation_bear_paw,8",
+    "youkaisfeasts:kappa_village,8", # 保留原分值
+    "youkaisfeasts:kiku,8", # 保留原分值
+    "youkaisfeasts:mead,8", # 保留原分值
+    "youkaisfeasts:mio,8", # 保留原分值
+    "youkaisfeasts:oolong_tea,8", # 保留原分值
+    "youkaisfeasts:power_soup,8",
+    "youkaisfeasts:saidi_tea,8", # 保留原分值
+    "youkaisfeasts:sakura_honey_tea,8", # 保留原分值
+    "youkaisfeasts:seafood_miso_soup,8",
+    "youkaisfeasts:suigei,8", # 保留原分值
+    "youkaisfeasts:tea_mocha,8", # 保留原分值
+    "youkaisfeasts:tengu_tango,8", # 保留原分值
+    "youkaisfeasts:white_tea,8", # 保留原分值
+    "youkaisfeasts:rainbow_roll,10",
+    "youkaisfeasts:rainbow_roll_slice,10",
+    "youkaisfeasts:roe_california_roll,10",
+    "youkaisfeasts:roe_california_roll_slice,10",
+    "youkaisfeasts:salmon_lover_roll,10",
+    "youkaisfeasts:salmon_lover_roll_slice,10",
+    "youkaisfeasts:volcano_roll,10",
+    "youkaisfeasts:volcano_roll_slice,10",
+]

@@ -1,0 +1,5 @@
+{
+  "command.yungsapi.locate.replaced": "请改用 %1$s！",
+  "dataPack.yungsapi.locate_replacer.description": "隐藏结构替换了结构定位器模组中的原版结构。",
+  "dataPack.yungsapi.locate_replacer.name": "YUNG 的 API 取代了普通结构"
+}

@@ -1,0 +1,6 @@
+{
+  "extrahnn.info.extract_model.off": "模型未提取",
+  "extrahnn.info.extract_model.on": "模型已提取",
+  "extrahnn.info.not_build": "禁止构建此模型！",
+  "extrahnn.info.progress": "进度：%1$s/%2$s"
+}

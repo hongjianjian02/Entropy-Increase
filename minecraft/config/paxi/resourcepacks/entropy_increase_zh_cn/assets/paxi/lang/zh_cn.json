@@ -1,0 +1,5 @@
+{
+  "text.autoconfig.paxi-fabric-1_21.option.general.loadFromBaseDatapacksDirectory": "从基本“数据包”目录加载",
+  "text.autoconfig.paxi-fabric-1_21.option.general.loadFromBaseDatapacksDirectory.@Tooltip": "Paxi 是否还应强制加载 Minecraft 基础文件夹中“datapacks”文件夹中放置的所有数据包。这是为了与 CurseForge 的新数据包系统兼容。",
+  "text.autoconfig.paxi-fabric-1_21.title": "帕克西"
+}

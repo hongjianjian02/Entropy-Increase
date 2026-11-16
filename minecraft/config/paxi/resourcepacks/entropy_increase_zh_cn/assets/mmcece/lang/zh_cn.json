@@ -1,0 +1,5 @@
+{
+  "jade.mmcece.performance": "平均值：%1$sμs/t（搜索：%2$sms）",
+  "jade.mmcece.workmode": "工作模式：%s",
+  "menu.mmcece.controller.performance": "平均值：%1$sμs/t（搜索：%2$sms）"
+}

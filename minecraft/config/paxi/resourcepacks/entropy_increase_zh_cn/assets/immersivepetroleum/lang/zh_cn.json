@@ -1,0 +1,11 @@
+{
+  "advancement.immersivepetroleum.rudders": "360 无范围",
+  "chat.immersivepetroleum.command.reservoir.inf.flow": "无限储层输出设置为 %1$smB/t",
+  "chat.immersivepetroleum.command.reservoir.inf.toggle.set": "%1$s 处的水库：无限。",
+  "chat.immersivepetroleum.command.reservoir.inf.toggle.unset": "%1$s 处的水库：有限。",
+  "chat.immersivepetroleum.command.reservoir.infinite": "§d无限§r %1$s",
+  "item.immersivepetroleum.shader.name.blue": "蓝色 ASHPD",
+  "item.immersivepetroleum.shader.name.cube0": "存储立方体",
+  "item.immersivepetroleum.shader.name.cube1": "伴侣立方体",
+  "item.immersivepetroleum.shader.name.orange": "橙色 ASHPD"
+}

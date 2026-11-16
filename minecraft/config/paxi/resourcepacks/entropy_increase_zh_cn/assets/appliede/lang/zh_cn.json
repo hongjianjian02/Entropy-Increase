@@ -1,0 +1,7 @@
+{
+  "config.appliede.mapper.facade": "伪装板映射器",
+  "config.appliede.mapper.inventory": "库存物品处理器",
+  "config.appliede.mapper.p2p_tunnel": "P2P通道映射器",
+  "config.appliede.mapper.recipe": "AE2配方映射器",
+  "gui.appliede.unlearned": "已经遗忘！"
+}

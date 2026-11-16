@@ -1,0 +1,8 @@
+{
+  "configuration.mekanism.gear.meka_suit": "机甲服",
+  "configuration.mekanism.projecte.mapper.chemical_chemical_to_chemical": "机制 CC2C",
+  "configuration.mekanism.projecte.mapper.chemical_to_chemical": "机制C2C",
+  "configuration.mekanism.projecte.mapper.item_chemical_to_item": "机构 IC2I",
+  "configuration.mekanism.projecte.mapper.item_to_chemical": "I2C 机制",
+  "configuration.mekanism.projecte.mapper.pressurized_reaction": "机制中华人民共和国"
+}

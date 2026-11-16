@@ -3292,6 +3292,16 @@ file = "mods/EI core-1.0.1.jar"
 hash = "1aa7c60d9fd6f92c329ac33f72cf889709d3634bc88ca8549a700ba27bdbcc60"
 
 [[files]]
+file = "mods/always-eat.pw.toml"
+hash = "8db3f2a65c6a9577cd586e8b3ef4a486a4aef82d0f14556c29e45092eb689b17"
+metafile = true
+
+[[files]]
+file = "mods/architectury-api.pw.toml"
+hash = "9412ae80a3b8633c4b8507402610c4d8ad3e27809a27a9a76263d16fa7347b2e"
+metafile = true
+
+[[files]]
 file = "mods/botania-neoforge-1.21.1-454-20260618.183251-45.jar"
 hash = "62339ad3af80c73b28a34db764aeb62ce277297b063c54558c531862e351aa9b"
 

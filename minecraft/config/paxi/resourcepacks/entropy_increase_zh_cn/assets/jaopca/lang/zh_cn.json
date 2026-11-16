@@ -1,0 +1,10 @@
+{
+  "fluid_type.jaopca.electrodynamics_crudeminerals": "粗 %s 溶液",
+  "fluid_type.jaopca.electrodynamics_dirtyminerals": "污浊 %s 溶液",
+  "fluid_type.jaopca.electrodynamics_impureminerals": "不纯 %s 溶液",
+  "fluid_type.jaopca.electrodynamics_royalminerals": "王水 %s 溶液",
+  "item.jaopca.electrodynamics_crudeminerals": "粗 %s 溶液桶",
+  "item.jaopca.electrodynamics_dirtyminerals": "污浊 %s 溶液桶",
+  "item.jaopca.electrodynamics_impureminerals": "不纯 %s 溶液桶",
+  "item.jaopca.electrodynamics_royalminerals": "王水 %s 溶液桶"
+}

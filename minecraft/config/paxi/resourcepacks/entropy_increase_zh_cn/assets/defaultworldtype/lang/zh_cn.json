@@ -1,0 +1,11 @@
+{
+  "defaultworldtype.configuration.allowed-world-types": "允许的世界类型",
+  "defaultworldtype.configuration.disable-button": "禁用按钮",
+  "defaultworldtype.configuration.flat-settings": "平地设置",
+  "defaultworldtype.configuration.flat-settings.tooltip": "输入平坦世界类型的有效生成设置。仅当世界类型为“minecraft:flat”时才有效。",
+  "defaultworldtype.configuration.section.defaultworldtype.client.config.toml.title": "默认世界类型",
+  "defaultworldtype.configuration.world-preset": "世界预设",
+  "defaultworldtype.configuration.world-preset.button": "深入研究",
+  "defaultworldtype.configuration.world-preset.tooltip": "默认情况下应选择的世界类型的名称",
+  "defaultworldtype.tooltip.disable": "被 DefaultWorldType 禁用"
+}

@@ -1,0 +1,14 @@
+{
+  "chloride.particles.list": "颗粒列表",
+  "chloride.particles.list.search": "搜索粒子...",
+  "chloride.settings.chloride": "氯化物设置",
+  "chloride.settings.coming_soon": "即将推出！",
+  "chloride.settings.populi": "大众设置",
+  "chloride.settings.textrue": "TexTrue 样式设置",
+  "chloride.world.clouds.height.desc.__COMMENT": "改变云层的高度。",
+  "chloride.world.far_skybox.desc": "使用非常低的渲染距离时，防止天空盒被剪切。\n强制在 32 块上使用天空远平面香草",
+  "chloride.world.far_skybox.title": "远天空盒",
+  "chloride.world.void_horizon.desc": "黑暗虚空平面开始渲染的 Y 级别。\n63 保持原版行为；将其设置为 -64 以消除海平面以下的半暗天空（如平坦世界）",
+  "chloride.world.void_horizon.title": "虚空地平线高度",
+  "chloride.world.void_horizon.vanilla": "原版"
+}
