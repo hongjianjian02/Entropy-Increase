@@ -1,0 +1,13 @@
+name = "Dream Champions"
+filename = "dream_champions-1.0.1-neoforge+mc1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1b6f3a641b40b0fb105d7b552aa5bd9afde41f4b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8451307
+project-id = 1613831
