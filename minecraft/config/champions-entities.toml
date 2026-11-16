@@ -1,0 +1,95 @@
+#List of entity configurations
+[[entities]]
+  entity = "minecraft:creeper"
+  minTier = 0
+  maxTier = 4
+  presetAffixes = []
+  affixList = ["champions:knocking", "champions:wounding", "champions:paralyzing", "champions:molten"]
+  affixPermission = "BLACKLIST"
+[[entities]]
+  entity = "minecraft:ender_dragon"
+  minTier = 3
+  maxTier = 5
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+[[entities]]
+  entity = "minecraft:wither"
+  minTier = 3
+  maxTier = 5
+  presetAffixes = []
+  affixList = []
+  affixPermission = "BLACKLIST"
+
+# 娜迦固定1星，固定词条：急速、爆震、活力。保留模组原有1星加成。
+[[entities]]
+  entity = "twilightforest:naga"
+  minTier = 1
+  maxTier = 1
+  presetAffixes = ["champions:hasty", "champions:knocking", "champions:lively"]
+  affixList = ["champions:hasty", "champions:knocking", "champions:lively"]
+  affixPermission = "WHITELIST"
+
+# 巫妖本体固定1星，固定词条：亵渎、皇家、创伤。保留模组原有1星加成。
+# 分身使用同一实体ID，由lich.js跳过冠军生成。
+[[entities]]
+  entity = "twilightforest:lich"
+  minTier = 1
+  maxTier = 1
+  presetAffixes = ["champions:desecrating", "dream_champions:royal", "champions:wounding"]
+  affixList = ["champions:desecrating", "dream_champions:royal", "champions:wounding"]
+  affixPermission = "WHITELIST"
+
+# 幻影骑士每名固定1星，固定词条：皇家、月亮、暗影。保留模组原有1星加成。
+[[entities]]
+  entity = "twilightforest:knight_phantom"
+  minTier = 1
+  maxTier = 1
+  presetAffixes = ["dream_champions:royal", "dream_champions:moon", "dream_champions:shadow"]
+  affixList = ["dream_champions:royal", "dream_champions:moon", "dream_champions:shadow"]
+  affixPermission = "WHITELIST"
+
+# 九头蛇固定2星，固定词条：点燃、熔融、活力、月亮。保留模组原有2星加成。
+[[entities]]
+  entity = "twilightforest:hydra"
+  minTier = 2
+  maxTier = 2
+  presetAffixes = ["champions:enkindling", "champions:molten", "champions:lively", "dream_champions:moon"]
+  affixList = ["champions:enkindling", "champions:molten", "champions:lively", "dream_champions:moon"]
+  affixPermission = "WHITELIST"
+
+# 暮色恶魂固定2星，固定词条：保护、腐蚀、活力、月亮。保留模组原有2星加成。
+[[entities]]
+  entity = "twilightforest:ur_ghast"
+  minTier = 2
+  maxTier = 2
+  presetAffixes = ["champions:shielding", "dream_champions:corrosion", "champions:lively", "dream_champions:moon"]
+  affixList = ["champions:shielding", "dream_champions:corrosion", "champions:lively", "dream_champions:moon"]
+  affixPermission = "WHITELIST"
+
+# 冰雪女王固定2星，固定词条：极寒、抑制、活力、月亮。保留模组原有2星加成。
+[[entities]]
+  entity = "twilightforest:snow_queen"
+  minTier = 2
+  maxTier = 2
+  presetAffixes = ["champions:arctic", "champions:dampening", "champions:lively", "dream_champions:moon"]
+  affixList = ["champions:arctic", "champions:dampening", "champions:lively", "dream_champions:moon"]
+  affixPermission = "WHITELIST"
+
+# 雪怪首领固定1星，固定词条：魔术、创伤、活力。保留模组原有1星加成。
+[[entities]]
+  entity = "twilightforest:alpha_yeti"
+  minTier = 1
+  maxTier = 1
+  presetAffixes = ["dream_champions:ender", "champions:wounding", "champions:lively"]
+  affixList = ["dream_champions:ender", "champions:wounding", "champions:lively"]
+  affixPermission = "WHITELIST"
+
+# 米诺菇固定1星，固定词条：熔融、瘟疫、活力。保留模组原有1星加成。
+[[entities]]
+  entity = "twilightforest:minoshroom"
+  minTier = 1
+  maxTier = 1
+  presetAffixes = ["champions:molten", "champions:plagued", "champions:lively"]
+  affixList = ["champions:molten", "champions:plagued", "champions:lively"]
+  affixPermission = "WHITELIST"
