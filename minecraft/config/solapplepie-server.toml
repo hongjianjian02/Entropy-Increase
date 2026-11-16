@@ -109,8 +109,8 @@ complexityUnparsed = [
     "avaritia:cosmic_meatballs,32",
     "avaritia:ultimate_stew,32",
     # 植物魔法
-    "botania:mana_cookie,3",
-    "botania:mana_bottle,4",
+    "botania:biscuit_of_totality,3",
+    "botania:mana_in_a_bottle,4",
     # 龙之附加
     "draconicadditions:hermal,16",
     # 末影接口

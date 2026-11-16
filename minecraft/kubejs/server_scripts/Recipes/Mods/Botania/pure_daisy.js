@@ -1,38 +1,27 @@
-// 白雏菊
+// 白雏菊：使用 Botania 456 的 StateIngredient 格式。
 ServerEvents.recipes(event => {
-
   // 死岩→活石
   event.custom({
     type: 'botania:pure_daisy',
-    input: {
-      type: 'block',
-      block: 'twilightforest:deadrock'
-    },
-    output: { name: 'botania:livingrock' },
+    input: { type: 'botania:block', block: 'twilightforest:deadrock' },
+    output: { type: 'botania:state', state: { Name: 'botania:livingrock' } },
     time: 150
   }).id('botania:pure_daisy/livingrock')
 
   // 根→活根方块
   event.custom({
     type: 'botania:pure_daisy',
-    input: {
-      type: 'block',
-      block: 'twilightforest:root'
-    },
-    output: { name: 'twilightforest:liveroot_block' },
+    input: { type: 'botania:block', block: 'twilightforest:root' },
+    output: { type: 'botania:state', state: { Name: 'twilightforest:liveroot_block' } },
     time: 150
   }).id('kubejs:pure_daisy/liveroot')
 
-  // Revived 使用独立的属性复制配方类型，覆盖新版 livingwood 配方。
-  // 红树林原木→活木
+  // 红树林原木→活木，保留原木朝向。
   event.custom({
-    type: 'botania:state_copying_pure_daisy',
-    input: {
-      type: 'block',
-      block: 'twilightforest:mangrove_log'
-    },
-    output: 'botania:livingwood_log',
+    type: 'botania:pure_daisy',
+    copy_properties: true,
+    input: { type: 'botania:block', block: 'twilightforest:mangrove_log' },
+    output: { type: 'botania:block', block: 'botania:livingwood_log' },
     time: 150
-  }).id('botania:pure_daisy/livingwood')
-
+  }).id('botania:pure_daisy/livingwood_log')
 })

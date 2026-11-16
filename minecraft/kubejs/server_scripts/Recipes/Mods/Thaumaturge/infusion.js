@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
       { item: 'twilightforest:fiery_ingot' },
       { item: 'thaumaturge:mechanism_simple' },
       { item: 'thaumaturge:mechanism_simple' },
-      { item: 'botania:rune_fire' }
+      { item: 'botania:rune_of_fire' }
     ],
     instability: 1,
     research: { entry: 'thaumaturge:base_infusion', stage: 0 },

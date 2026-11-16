@@ -101,75 +101,16 @@
 				{
 					id: "11B69220E24B408F"
 					item: {
-						components: {
-							"minecraft:enchantments": {
-								levels: {
-									"minecraft:knockback": 1
-								}
-							}
-						}
 						count: 1
-						id: "twilightforest:ironwood_sword"
-					}
-					type: "item"
-				}
-				{
-					id: "17971D74059A986A"
-					item: {
-						components: {
-							"minecraft:enchantments": {
-								levels: {
-									"minecraft:fortune": 1
-								}
-							}
-						}
-						count: 1
-						id: "twilightforest:ironwood_axe"
+						id: "ae2:fluix_sword"
 					}
 					type: "item"
 				}
 				{
 					id: "34523D0CA029229C"
 					item: {
-						components: {
-							"minecraft:enchantments": {
-								levels: {
-									"minecraft:efficiency": 1
-								}
-							}
-						}
 						count: 1
-						id: "twilightforest:ironwood_pickaxe"
-					}
-					type: "item"
-				}
-				{
-					id: "623ADF61F6960691"
-					item: {
-						components: {
-							"minecraft:enchantments": {
-								levels: {
-									"minecraft:unbreaking": 1
-								}
-							}
-						}
-						count: 1
-						id: "twilightforest:ironwood_shovel"
-					}
-					type: "item"
-				}
-				{
-					id: "1E0274F2EC4C125C"
-					item: {
-						components: {
-							"minecraft:enchantments": {
-								levels: {
-									"minecraft:efficiency": 1
-								}
-							}
-						}
-						count: 1
-						id: "twilightforest:ironwood_hoe"
+						id: "ae2:fluix_pickaxe"
 					}
 					type: "item"
 				}
@@ -230,17 +171,18 @@
 			dependencies: ["08959F40967AC768"]
 			icon: {
 				components: {
-					"botania:elven_unlock": { }
-					"minecraft:rarity": "uncommon"
+					"minecraft:custom_data": {
+						"botania:elven_unlock": 1b
+					}
 				}
-				id: "botania:lexicon"
+				id: "botania:lexica_botania"
 			}
 			id: "065E81BD2D5E4BD7"
 			rewards: [{
 				id: "23FE27A49067DA74"
 				item: {
 					count: 1
-					id: "botania:flower_bag"
+					id: "botania:flower_pouch"
 				}
 				type: "item"
 			}]
@@ -252,7 +194,7 @@
 				}
 				{
 					id: "41135AAC275ED9A0"
-					item: { count: 1, id: "botania:apothecary_default" }
+					item: { count: 1, id: "botania:petal_apothecary" }
 					type: "item"
 				}
 			]
@@ -515,7 +457,7 @@
 			id: "1A283E48EC379423"
 			tasks: [{
 				id: "12C9A19B7F8242BD"
-				item: { count: 1, id: "botania:alfheim_portal" }
+				item: { count: 1, id: "botania:elven_gateway_core" }
 				type: "item"
 			}]
 			x: -17.5d
@@ -608,7 +550,7 @@
 			id: "4A0B37422ED3E672"
 			tasks: [{
 				id: "6D1C8FBD0BA9B6F3"
-				item: { count: 1, id: "botania:terra_plate" }
+				item: { count: 1, id: "botania:terrestrial_agglomeration_plate" }
 				type: "item"
 			}]
 			x: -21.5d
@@ -711,6 +653,31 @@
 			}]
 			x: -13.5d
 			y: 4.5d
+		}
+		{
+			dependencies: ["54643F6882F44234"]
+			id: "18DC9AF6247F5DF0"
+			rewards: [{
+				id: "7EACB2F4FCBD225B"
+				item: {
+					components: {
+						"minecraft:lore": ["{\"color\":\"gray\",\"translate\":\"item.twilightforest.glass_sword.desc\"}"]
+						"minecraft:unbreakable": { }
+						"twilightforest:infinite_glass_sword": { }
+					}
+					count: 1
+					id: "twilightforest:glass_sword"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "twilightforest:twilight_dinner"
+				criterion: ""
+				id: "2C83AB64A7807D76"
+				type: "advancement"
+			}]
+			x: -29.5d
+			y: -1.5d
 		}
 	]
 }
