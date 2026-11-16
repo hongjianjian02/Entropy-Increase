@@ -42,7 +42,7 @@ powerBattleModeHint = true
 #We apologize for making players excessively capable. 
 #For the sake of balance, you can use this option to synchronously strengthen some of the original enemies.
 #Configure which enemies can be strengthened in the entity tags file, to all the functions.
-needStrengthenTheEnemies = false
+needStrengthenTheEnemies = true
 # 
 #Configures whether to ignore the entity's potion effect immunity when the stun effect derives other potion effects.
 #This allows stun to have a more consistent effect on different mobs.
