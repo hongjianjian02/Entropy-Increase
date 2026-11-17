@@ -3406,6 +3406,11 @@ hash = "0c6adf90e71fbcab8d915fd6c70b2645a5dd0249ef1aa782222f774a4da5d215"
 metafile = true
 
 [[files]]
+file = "mods/lootr.pw.toml"
+hash = "ff152357ebb175e8e8c58ecda4f9814d398c5668f3311b0ad6a4afcb1dc26d13"
+metafile = true
+
+[[files]]
 file = "mods/mmcece-26.11.7-beta.jar"
 hash = "9725a57a9c1f3f8968bc6a26260d864a833d8d5536f5cb364039f6cf17c66418"
 

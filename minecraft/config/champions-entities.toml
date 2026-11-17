@@ -96,207 +96,275 @@
 
 # 普通小怪随机词条限制：保护、共振、结晶、魔术。
 # 仅使用实体级黑名单，词条保持全局启用，Boss仍可自定义使用。
-# 未指定星级上下限的新增条目沿用全局星级范围及权重。
+# 必须显式填写星级字段；0到-1表示包含全部全局星级，保留原权重。
 [[entities]]
   entity = "minecraft:blaze"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:bogged"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:breeze"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:cave_spider"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:drowned"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:enderman"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:endermite"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:evoker"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:ghast"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:giant"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:guardian"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:hoglin"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:husk"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:illusioner"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:magma_cube"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:phantom"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:piglin"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:piglin_brute"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:pillager"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:ravager"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:shulker"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:silverfish"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:skeleton"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:slime"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:spider"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:stray"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:vex"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:vindicator"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:witch"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:wither_skeleton"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:zoglin"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:zombie"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:zombie_villager"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
 
 [[entities]]
   entity = "minecraft:zombified_piglin"
+  minTier = 0
+  maxTier = -1
   presetAffixes = []
   affixList = ["champions:shielding", "dream_champions:resonance", "dream_champions:crystallize", "dream_champions:ender"]
   affixPermission = "BLACKLIST"
