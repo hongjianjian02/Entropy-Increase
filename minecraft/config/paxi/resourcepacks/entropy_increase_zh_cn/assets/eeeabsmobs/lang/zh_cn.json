@@ -22,5 +22,8 @@
   "item.eeeabsmobs.deathpact_codex": "死契法典",
   "item.eeeabsmobs.ghost_warrior_upgrade_smithing_template": "幽灵战士升级锻造模板",
   "item.eeeabsmobs.relicron_upgrade_smithing_template": "圣遗物升级锻造模板",
-  "item_group.eeeabsmobs.creative_tab": "EEEAB 的怪物"
+  "item_group.eeeabsmobs.creative_tab": "EEEAB 的怪物",
+  "structure.eeeabsmobs.bloody_altar": "血色祭坛",
+  "structure.eeeabsmobs.coreforge_ruins": "机核哨站",
+  "structure.eeeabsmobs.guling": "古陵"
 }

@@ -1,0 +1,5 @@
+smoothingHealingFactor = 1.5
+teaHealingPeriod = 60
+udumbaraHealingPeriod = 60
+udumbaraDuration = 200
+udumbaraFullMoonReduction = 4

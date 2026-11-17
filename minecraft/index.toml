@@ -1705,6 +1705,18 @@ file = "config/paxi/resourcepack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
+file = "config/paxi/resourcepacks/entropy_increase_zh_cn/assets/botania/lang/zh_cn.json"
+hash = "cfd3ed0c6ee014ec8c0dd3e8c62b3bdc069e20c0a2f41a392b7d4445b06383dd"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_increase_zh_cn/assets/extrabotany/lang/zh_cn.json"
+hash = "da8b442fa98ea0b2b40b9d2a7539248f0a7e65c4c6a27deb65e4de081db6b94c"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_increase_zh_cn/assets/youkaishomecoming/lang/zh_cn.json"
+hash = "2cc4de69ee2420b83235179793b19d9aa250ee5f25161adca250a693c59248eb"
+
+[[files]]
 file = "config/paxi/resourcepacks/jaopca_zh_cn/assets/jaopca/lang/zh_cn.json"
 hash = "5e26ddff0cdba709bb736be9e9002bb8e2a16a2130a94db07f44e00e202eb2a7"
 
@@ -1779,6 +1791,10 @@ hash = "b627c4456e6fa0bc4b5f85e2f1cd949faedae3cb9afdaf2a5f52e6f3b6ae1f01"
 [[files]]
 file = "config/sodium-options.json"
 hash = "44478bef0973f1aa587c0493568a5cbc5426233b611f14bd2be489b5b862fa7f"
+
+[[files]]
+file = "config/solapplepie-server.toml"
+hash = "79b578d2900ea5785697849ddea3a844a6ba45d1b38f9a313559ffcd4a3d1528"
 
 [[files]]
 file = "config/sophisticatedbackpacks-common.toml"
@@ -1881,6 +1897,10 @@ file = "config/xaeropatreon.txt"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
+file = "config/youkaishomecoming-server.toml"
+hash = "86687a658f7957d337ccbd0f4da4295836423268ea0d05fb9c0ee2799ad43be5"
+
+[[files]]
 file = "docs/专家包大纲-写作与提示词.md"
 hash = "46036a32f60c1878e8df790f8fc7b54179e891aa67ae4fd3b371dcf5ef624b3c"
 
@@ -1957,6 +1977,22 @@ file = "kubejs/config/web_server.json"
 hash = "f013c27092f7bb95ae77ffeafb2f1b4e1f3024ebe1c77b911ceea0e140bb7e85"
 
 [[files]]
+file = "kubejs/data/ae2ltpp/recipe/packaged_core/botania_runic_altar_packaged_core.json"
+hash = "436b143cecd7b7a3250d8ffb4b0c70d093d88588dcf30d15f0fe13dc868ed44c"
+
+[[files]]
+file = "kubejs/data/ae2ltpp/recipe/packaged_core/botania_terra_plate_packaged_core.json"
+hash = "d5fd7f2d2a6a30e4b898633cceef7afde9534bff66ab675cb8c8f2c91c357876"
+
+[[files]]
+file = "kubejs/data/avaritia/recipe/botania_creative_pool.json"
+hash = "f03a2be1a863333409ef47ca1efdf4635eaf1a3c1e2af8f7422adb4bf108499d"
+
+[[files]]
+file = "kubejs/data/avaritia/recipe/botania_mana_tablet.json"
+hash = "02734946e2df3dbfaa91706305a78e8133c2e247f1edfaf459773a5c5f397f70"
+
+[[files]]
 file = "kubejs/data/c/tags/fluid/diesel.json"
 hash = "9a988bab4fa1626a54492820c32509a572293191a96462a4d6f1730d2f9eeb22"
 
@@ -1967,6 +2003,14 @@ hash = "4c8084b31eef5b8156ef01b6222f8b09968036e8c868d6dcc1c486a55321e55a"
 [[files]]
 file = "kubejs/data/immersiveengineering/loot_table/chests/engineers_house.json"
 hash = "3e49fb0ef4bb30e8bdd710d8e0a2d413673f374440a815d8324790eb7d84d292"
+
+[[files]]
+file = "kubejs/data/immortalers_delight/tags/entity_type/mid_boss.json"
+hash = "ce716e738082e439a640b83f769e0e287c54a78923201ea6bac3812723c9fe52"
+
+[[files]]
+file = "kubejs/data/immortalers_delight/tags/entity_type/normal_mobs.json"
+hash = "d838e99d9cbd14c24d1f3e3c4caa47505ae2c0dd8fcd208db0cfb165660cbf6b"
 
 [[files]]
 file = "kubejs/data/mysterious/neoforge/biome_modifier/tf_mystical_flowers.json"
@@ -2043,6 +2087,10 @@ hash = "5370de6a6c3ca8b014519423a30cd52fcb929cb7aa290411692a643a3f725416"
 [[files]]
 file = "kubejs/data/pack.mcmeta"
 hash = "b3ecc6d541c1d366b22a3cdcee2ad9f15c5b1f734e3a5d4d1e742e232e397bf3"
+
+[[files]]
+file = "kubejs/data/pneumaticcraft/recipe/block_heat_properties/botania/blaze_block.json"
+hash = "11a776223716dbb9ff346f7bf3c55b82f68bc221eec9d35c4e13acb14de228f7"
 
 [[files]]
 file = "kubejs/data/twilightforest/data_maps/block/crumble_horn.json"
@@ -2285,6 +2333,10 @@ file = "kubejs/server_scripts/Recipes/Mods/Thaumaturge/infusion.js"
 hash = "51a4d788e289c8d29b50e714ea8f45f403150d4074eca01c6dd38367cd4e1958"
 
 [[files]]
+file = "kubejs/server_scripts/Recipes/Mods/The Aether/food_freezing.js"
+hash = "9c6183311a281ed3c3d817fa0026ebdc7c6097a499a4f01bfa05a81ff25d55ec"
+
+[[files]]
 file = "kubejs/server_scripts/Recipes/Mods/The Aether/portal.js"
 hash = "b8c3db6e574bb6d4a1b80277336021c1a10217019e8e9d96041d22d9dfc22b89"
 
@@ -2311,6 +2363,10 @@ hash = "57351e796d272007bdf883bffd9a184e0bec48add14e0175034bfb8166cdaf3c"
 [[files]]
 file = "kubejs/startup_scripts/hide_crowns_creative.js"
 hash = "65f7169a6d5da172985440174218367332ca8f083dda7c2869d49cd4927870ac"
+
+[[files]]
+file = "kubejs/startup_scripts/jaopca_storage_blocks.js"
+hash = "6ddb8c9473bf8f29219d6ff2f674ce9fe55c35d94146a5a44c63a5089e5c2df2"
 
 [[files]]
 file = "mods/.index/aaron.pw.toml"
@@ -3289,7 +3345,7 @@ metafile = true
 
 [[files]]
 file = "mods/EI core-1.0.1.jar"
-hash = "1aa7c60d9fd6f92c329ac33f72cf889709d3634bc88ca8549a700ba27bdbcc60"
+hash = "f3664bb207f226b7190a46b72066db6ddac6aa97ac61b958973b0f80ff80cebd"
 
 [[files]]
 file = "mods/always-eat.pw.toml"
@@ -3312,6 +3368,10 @@ hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
 metafile = true
 
 [[files]]
+file = "mods/botania-neoforge-1.21.1-456-20260822.093314-4.jar"
+hash = "7ea12cdb4e0f855a94d9620b5325a7449b62a010d16c23284bd5191e8b788237"
+
+[[files]]
 file = "mods/champions-unofficial.pw.toml"
 hash = "6e761054d9e400e13c4ab5e412446b607fd6b5126c2792301a6c172867d60091"
 metafile = true
@@ -3327,13 +3387,12 @@ hash = "8310485bc08fa7d551385181e6156f7f52631bbedc8d101fe265cd9584d13699"
 metafile = true
 
 [[files]]
-file = "mods/farmers-delight.pw.toml"
-hash = "d9ed9ac8e0db9db29078dafa22bc2d86ac702f10863ae7cb1d5245111c5ea17b"
-metafile = true
+file = "mods/extrabotany-neoforge-1.21.1-2.0-scex.9-dev.jar"
+hash = "fd1337608ca04deda195ce5bf8fcd85355c3779bc8808c4c49a20c314557487a"
 
 [[files]]
-file = "mods/gensokyo-delight-youkais-feasts.pw.toml"
-hash = "f7e934e82890a87053fc63ba11b7381631e6775ff6f8cb0548547f995240a542"
+file = "mods/farmers-delight.pw.toml"
+hash = "d9ed9ac8e0db9db29078dafa22bc2d86ac702f10863ae7cb1d5245111c5ea17b"
 metafile = true
 
 [[files]]
@@ -3375,6 +3434,15 @@ hash = "797d170a0e0c910a518d0b50dc816c95434fd79a3ec33f89a12e110ba8c20bfb"
 metafile = true
 
 [[files]]
+file = "mods/youkais-homecoming-unofficial-port.pw.toml"
+hash = "098d12ceb7892e15ebc8f01078d3e5920cf0ae39f768590135c707a9be2d118f"
+metafile = true
+
+[[files]]
+file = "mods/youkaishomecoming-4.2.17.jar"
+hash = "fe4330a13732f5ce48e99080f58025e4ab4600cec5068f11fe1c6d640eaba3fc"
+
+[[files]]
 file = "options.txt"
 hash = "ec7ad4e7a97a81d119e2556977d91b6199f3c6a27bb551a2d5225509b74acede"
 
@@ -3393,54 +3461,3 @@ hash = "299a8f49b86c472812f27764cb3c7847828fa0f5e85b76e85a34486547b3a9ab"
 [[files]]
 file = "重建索引.bat"
 hash = "87b2313b331d3d96b61a7c7d043c262c1872853d1bae66f074b4458a53237074"
-[[files]]
-file = "config/paxi/resourcepacks/entropy_increase_zh_cn/assets/botania/lang/zh_cn.json"
-hash = "cfd3ed0c6ee014ec8c0dd3e8c62b3bdc069e20c0a2f41a392b7d4445b06383dd"
-
-[[files]]
-file = "config/paxi/resourcepacks/entropy_increase_zh_cn/assets/extrabotany/lang/zh_cn.json"
-hash = "da8b442fa98ea0b2b40b9d2a7539248f0a7e65c4c6a27deb65e4de081db6b94c"
-
-[[files]]
-file = "config/solapplepie-server.toml"
-hash = "018df8e150ce6e4b9bfc8eaeb05f0d376a72f79f06c6ee8e09fdccff5fd0c1e9"
-
-[[files]]
-file = "kubejs/data/ae2ltpp/recipe/packaged_core/botania_runic_altar_packaged_core.json"
-hash = "436b143cecd7b7a3250d8ffb4b0c70d093d88588dcf30d15f0fe13dc868ed44c"
-
-[[files]]
-file = "kubejs/data/ae2ltpp/recipe/packaged_core/botania_terra_plate_packaged_core.json"
-hash = "d5fd7f2d2a6a30e4b898633cceef7afde9534bff66ab675cb8c8f2c91c357876"
-
-[[files]]
-file = "kubejs/data/avaritia/recipe/botania_creative_pool.json"
-hash = "f03a2be1a863333409ef47ca1efdf4635eaf1a3c1e2af8f7422adb4bf108499d"
-
-[[files]]
-file = "kubejs/data/avaritia/recipe/botania_mana_tablet.json"
-hash = "02734946e2df3dbfaa91706305a78e8133c2e247f1edfaf459773a5c5f397f70"
-
-[[files]]
-file = "kubejs/data/immortalers_delight/tags/entity_type/mid_boss.json"
-hash = "ce716e738082e439a640b83f769e0e287c54a78923201ea6bac3812723c9fe52"
-
-[[files]]
-file = "kubejs/data/immortalers_delight/tags/entity_type/normal_mobs.json"
-hash = "d838e99d9cbd14c24d1f3e3c4caa47505ae2c0dd8fcd208db0cfb165660cbf6b"
-
-[[files]]
-file = "kubejs/data/pneumaticcraft/recipe/block_heat_properties/botania/blaze_block.json"
-hash = "11a776223716dbb9ff346f7bf3c55b82f68bc221eec9d35c4e13acb14de228f7"
-
-[[files]]
-file = "kubejs/startup_scripts/jaopca_storage_blocks.js"
-hash = "6ddb8c9473bf8f29219d6ff2f674ce9fe55c35d94146a5a44c63a5089e5c2df2"
-
-[[files]]
-file = "mods/botania-neoforge-1.21.1-456-20260822.093314-4.jar"
-hash = "7ea12cdb4e0f855a94d9620b5325a7449b62a010d16c23284bd5191e8b788237"
-
-[[files]]
-file = "mods/extrabotany-neoforge-1.21.1-2.0-scex.9-dev.jar"
-hash = "fd1337608ca04deda195ce5bf8fcd85355c3779bc8808c4c49a20c314557487a"

@@ -1,5 +1,6 @@
 {
 	chapter.03A1D73903FA6FEC.title: "第三章"
+	chapter.0EC020AE374B53AE.title: "妙妙小工具"
 	chapter.0F13ECE19CBEBEF0.title: "第六章"
 	chapter.19169E2187F4B9B9.title: "第二章"
 	chapter.3AF64A8D2E35B6B4.title: "资源"
@@ -36,6 +37,7 @@
 	quest.1661897BFFC6CA25.title: "神秘矿簇倍产"
 	quest.16DEAADC209D716E.quest_desc: ["你可以自由控制天镜的白天黑夜了 在黑夜可以放置lv0矿机进行挖掘天镜的全部矿石"]
 	quest.1784781D664074A3.title: "SFM"
+	quest.18DC9AF6247F5DF0.title: "大卫带！"
 	quest.1A283E48EC379423.quest_desc: ["或许是同族的......."]
 	quest.1A283E48EC379423.title: "不觉得幻影骑士很像精灵吗"
 	quest.1ABB4A061CF20212.quest_desc: [""]
@@ -44,6 +46,9 @@
 	quest.23D00422414A32B3.quest_desc: ["需要使用&5注魔&r制作"]
 	quest.23DA1960E2B48C55.title: "证明一下你的产能"
 	quest.25BF6039CFA26DEE.title: "mek倍产"
+	quest.2A28A070CF148DB0.title: "禁幻翼"
+	quest.2A94AF2829D357CA.quest_desc: ["各种可能有用的帽子"]
+	quest.2A94AF2829D357CA.title: "妖怪的帽子"
 	quest.2EF91022AD2FBA46.title: "工业先锋矿石发酵倍产"
 	quest.2F1A2867EC504BB6.title: "粉碎机"
 	quest.2F6AF5B48E001849.title: "优化你的石油线"
@@ -53,9 +58,16 @@
 	quest.36A6D619DD9C5D95.title: "蒸馏塔"
 	quest.36B64764AE909E32.title: "工业挤压机"
 	quest.38F1673B4154CF0A.title: "回家的钥匙！"
+	quest.3AA21B0322118408.quest_desc: ["这两种种子可以在暮色森林的树屋中找到 可以帮助玩家在前期快速积累血量"]
 	quest.3B0E2B868685E5A2.title: "烈阳巨灵"
 	quest.3EA85D4C8B58892F.quest_desc: ["ps：pip管道尽量不要过多使用下界合金升级"]
 	quest.3EA85D4C8B58892F.title: "物品管道"
+	quest.48D6EB874008DD0F.quest_desc: [
+		"佩戴蝴蝶结会有妖精化效果"
+		"&r佩戴翅膀在拥有妖精化的同时可以进行&b飞行&r "
+		"&e不要让妖精化变为二级会变成区（ ）&r"
+	]
+	quest.48D6EB874008DD0F.title: "妖怪的飞行"
 	quest.4CF6C86CD92C3279.quest_desc: ["这几种是你现在可以做获取压力的机器 "]
 	quest.4CF6C86CD92C3279.title: "获取你需要的压力"
 	quest.4D3F03124FF191D2.title: "任意能量导管"

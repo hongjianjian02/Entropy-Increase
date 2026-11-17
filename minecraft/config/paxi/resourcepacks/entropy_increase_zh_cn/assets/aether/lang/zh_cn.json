@@ -114,5 +114,7 @@
   "pack.aether.default_accessories.title": "默认配件覆盖",
   "pack.aether.imm_ptl_compat.description": "沉浸式门户的兼容性数据",
   "pack.aether.imm_ptl_compat.title": "沉浸式门户兼容性",
-  "subtitles.aether.entity.valkyrie_queen.interact": "女武神女王讲话"
+  "subtitles.aether.entity.valkyrie_queen.interact": "女武神女王讲话",
+  "structure.aether.large_aercloud": "大型以太云",
+  "structure.aether.silver_and_gold_dungeons": "白银与黄金地牢"
 }

@@ -1,0 +1,104 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0ec020ae374b53ae"
+	group: "4F34D8C283AFEFDA"
+	id: "0EC020AE374B53AE"
+	images: [ ]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "3AA21B0322118408"
+			tasks: [
+				{
+					id: "2A6480DB7EEA3309"
+					item: { count: 1, id: "eicore:baiwei_seeds" }
+					type: "item"
+				}
+				{
+					id: "1E2560AD25066C1D"
+					item: { count: 1, id: "eicore:youkai_feast_seeds" }
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			id: "2A28A070CF148DB0"
+			tasks: [{
+				id: "12CC220F982E9814"
+				item: { count: 1, id: "youkaishomecoming:camellia" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "youkaishomecoming:reimu_hairband"
+			}
+			id: "2A94AF2829D357CA"
+			tasks: [
+				{
+					id: "112A2E6B54A46C83"
+					item: { count: 1, id: "youkaishomecoming:straw_hat" }
+					type: "item"
+				}
+				{
+					id: "46E99352E1D066A9"
+					item: { count: 1, id: "youkaishomecoming:suwako_hat" }
+					type: "item"
+				}
+				{
+					id: "009109560516A923"
+					item: { count: 1, id: "youkaishomecoming:koishi_hat" }
+					type: "item"
+				}
+				{
+					id: "06674E47929A9AC1"
+					item: { count: 1, id: "youkaishomecoming:cirno_hairband" }
+					type: "item"
+				}
+				{
+					id: "237E5156214582A0"
+					item: { count: 1, id: "youkaishomecoming:rumia_hairband" }
+					type: "item"
+				}
+				{
+					id: "1EF7A776CCA6325D"
+					item: { count: 1, id: "youkaishomecoming:reimu_hairband" }
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			icon: {
+				id: "youkaishomecoming:cirno_wings"
+			}
+			id: "48D6EB874008DD0F"
+			tasks: [
+				{
+					id: "6B401ECC7E1F9A2E"
+					item: { count: 1, id: "youkaishomecoming:cirno_hairband" }
+					type: "item"
+				}
+				{
+					id: "2CC2F7CE71966445"
+					item: { count: 1, id: "youkaishomecoming:cirno_wings" }
+					type: "item"
+				}
+				{
+					id: "16EE9033E025A47F"
+					item: { count: 1, id: "youkaishomecoming:reimu_hairband" }
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: -4.0d
+		}
+	]
+}

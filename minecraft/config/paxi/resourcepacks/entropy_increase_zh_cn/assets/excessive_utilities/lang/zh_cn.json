@@ -108,5 +108,7 @@
   "tooltip.excessive_utilities.ender_frequency.private": "私人频率",
   "tooltip.excessive_utilities.ender_frequency.public": "公共频率",
   "tooltip.excessive_utilities.not_yet_implented": "尚未实现",
-  "tooltip.excessive_utilities.wardens_wake": "被放弃的典狱长留下"
+  "tooltip.excessive_utilities.wardens_wake": "被放弃的典狱长留下",
+  "structure.excessive_utilities.ancient_cities": "远古城市",
+  "structure.excessive_utilities.ancient_city": "远古城市"
 }

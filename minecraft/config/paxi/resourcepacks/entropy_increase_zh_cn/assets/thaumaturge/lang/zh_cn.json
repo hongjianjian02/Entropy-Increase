@@ -114,5 +114,9 @@
   "trim_material.thaumaturge.thaumium": "神秘金属材料",
   "trim_material.thaumaturge.void_metal": "虚空金属材料",
   "trim_pattern.thaumaturge.arcane": "奥术盔甲纹饰",
-  "trim_pattern.thaumaturge.occult": "秘仪盔甲纹饰"
+  "trim_pattern.thaumaturge.occult": "秘仪盔甲纹饰",
+  "structure.thaumaturge.eldritch_obelisk": "邪术方尖碑",
+  "structure.thaumaturge.eldritch_obelisks": "邪术方尖碑",
+  "structure.thaumaturge.mound": "古墓",
+  "structure.thaumaturge.mounds": "古墓"
 }

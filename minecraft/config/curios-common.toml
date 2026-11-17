@@ -1,4 +1,5 @@
 #List of slots to create or modify.
 #See documentation for syntax: https://docs.illusivesoulworks.com/curios/configuration#slot-configuration
 #
-slots = []
+# Disable generic curio and mount slots; retain the other specialized slots.
+slots = ["id=curio;size=0;operation=SET", "id=mount;size=0;operation=SET"]

@@ -32,5 +32,7 @@
   "item.tf_dnv.trader_token": "游商代币",
   "item.tf_dnv.twilight_trader_spawn_egg": "暮色游商刷怪蛋",
   "tab.tf_dnv.items": "暮色森林：村庄",
-  "tooltip.tf_dnv.miner_helmet": "潜行时可以在脚下放置一个火把，该操作不会消耗火把"
+  "tooltip.tf_dnv.miner_helmet": "潜行时可以在脚下放置一个火把，该操作不会消耗火把",
+  "structure.tf_dnv.dungeon_hedge": "树篱地牢",
+  "structure.tf_dnv.twilight_village": "暮色村庄"
 }
