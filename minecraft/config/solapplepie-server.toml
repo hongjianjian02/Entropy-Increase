@@ -25,7 +25,7 @@ benefitsUnparsed = [
     # 多样性 40
     "attribute,minecraft:generic.luck,1",
     # 多样性 44
-    "attribute,minecraft:generic.armor_toughness,4;effect,minecraft:resistance,2",
+    "attribute,minecraft:generic.armor_toughness,4;effect,minecraft:resistance,1",
     # 多样性 48
     "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.luck,1",
     # 多样性 52
