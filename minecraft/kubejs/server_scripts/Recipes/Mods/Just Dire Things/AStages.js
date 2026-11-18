@@ -1,8 +1,13 @@
 // JDT 第四章开放基础内容；时间系列沿用规划，在第六章（chapter5）开放。
 // 物品限制保留已有物品的持有和存储，限制阶段前的使用、放置及方块交互。
 // 工作台配方逐项限制；凝胶/流体反应与已运行自动化的覆盖需游戏内测试。
-ServerEvents.loaded(event => {
-  const timeItems = [
+// /reload 会清空 AStages 注册表：配方重载时重建，首次进世界由 loaded 兜底。
+// 按当前注册表判断是否已完成，不用跨重载保留的全局布尔标记。
+var registerEIJDTTimeRestrictions = event => {
+  if (Java.loadClass('com.alessandro.astages.engine.ARestrictionManager').RECIPE_INSTANCE
+    .getRestriction('ch5_jdt_time_recipe_upgrade_deathprotection') != null) return
+
+  var timeItems = [
     'justdirethings:time_crystal',
     'justdirethings:time_crystal_block',
     'justdirethings:time_crystal_budding_block',
@@ -29,8 +34,8 @@ ServerEvents.loaded(event => {
       .disableBlockInteraction()
   })
 
-  const jdtCraftingType = Java.loadClass('net.minecraft.world.item.crafting.RecipeType').CRAFTING
-  const timeCraftingRecipes = [
+  var jdtCraftingType = Java.loadClass('net.minecraft.world.item.crafting.RecipeType').CRAFTING
+  var timeCraftingRecipes = [
     'justdirethings:upgrade_time_protection',
     'justdirethings:time_wand',
     'justdirethings:upgrade_instabreak',
@@ -45,4 +50,7 @@ ServerEvents.loaded(event => {
   })
 
   console.info('[stages] JDT 时间系列限制已注册：14 个物品、8 条工作台配方，chapter5 开放')
-})
+}
+
+ServerEvents.recipes(registerEIJDTTimeRestrictions)
+ServerEvents.loaded(registerEIJDTTimeRestrictions)

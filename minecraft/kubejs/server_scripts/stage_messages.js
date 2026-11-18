@@ -1,7 +1,8 @@
 // 中文阶段聊天提示：说明当前阶段实际配置的解锁内容。
 // 只定制通知，不修改阶段 ID、授予范围、奖励或限制。
-ServerEvents.loaded(event => {
-  const stageMessages = [
+// /reload 会清空 AStages 注册表：配方重载时重建，首次进世界由 loaded 兜底。
+var registerEIStageMessages = event => {
+  var stageMessages = [
     {
       id: 'chapter1',
       name: '第二章',
@@ -72,14 +73,17 @@ ServerEvents.loaded(event => {
   ]
 
   stageMessages.forEach(definition => {
-    const addMessage = ['§a§l' + definition.name + '阶段已解锁§r']
+    var addMessage = ['§a§l' + definition.name + '阶段已解锁§r']
       .concat(definition.details.map(line => '§7' + line))
       .join('\n')
-    const removeMessage = '§c' + definition.name + '阶段已移除。'
+    var removeMessage = '§c' + definition.name + '阶段已移除。'
 
     AStages.customizeStage(definition.id, definition.name)
       .chatMessageOnAdd(stage => Text.literal(addMessage))
       .chatMessageOnRemove(stage => Text.literal(removeMessage))
   })
   console.info('[stages] 中文阶段聊天提示已注册')
-})
+}
+
+ServerEvents.recipes(registerEIStageMessages)
+ServerEvents.loaded(registerEIStageMessages)

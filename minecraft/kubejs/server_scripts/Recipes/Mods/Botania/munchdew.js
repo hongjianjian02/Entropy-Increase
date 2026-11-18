@@ -9,8 +9,7 @@ ServerEvents.recipes(event => {
       { tag: 'botania:petals/green' },
       { item: 'twilightforest:liveroot' },
       { item: 'botania:livingwood_twig' },
-      { item: 'botania:rune_of_earth' },
-      { item: 'botania:rune_of_water' }
+      { item: 'botania:rune_of_gluttony' }
     ],
     output: { count: 1, id: 'botania:munchdew' },
     reagent: { tag: 'botania:seed_apothecary_reagent' }

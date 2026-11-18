@@ -3,8 +3,12 @@
 // 第一章无进入阶段；chapterN 在完成第 N 章后取得，开放第 N+1 章。
 // 本轮补充模组配方入口；高阶配方分档、机器运行门禁仍需分别配置与实测。
 // 限制语义：没有对应阶段 → 该内容被锁
-ServerEvents.loaded(event => {
+// /reload 会清空 AStages 注册表：配方重载时重建，首次进世界由 loaded 兜底。
+// 按当前注册表判断是否已完成，不用跨重载保留的全局布尔标记。
+var registerEIChapterRestrictions = event => {
   try {
+    if (Java.loadClass('com.alessandro.astages.engine.ARestrictionManager').RECIPE_INSTANCE
+      .getRestriction('ch6_entry_avaritia') != null) return
 
     // ===== 第一章未完成时锁住：第二章内容 =====
     AStages.addRestrictionForModRecipe('ch1_thaumaturge', 'chapter1', 'thaumaturge') // 神秘时代
@@ -103,7 +107,10 @@ ServerEvents.loaded(event => {
   } catch (err) {
     console.error('[stages] 注册失败: ' + err)
   }
-})
+}
+
+ServerEvents.recipes(registerEIChapterRestrictions)
+ServerEvents.loaded(registerEIChapterRestrictions)
 
 // 天枢之星右键 → 给予 chapter2 阶段（第二章通关，开启第三章）
 ItemEvents.rightClicked('eicore:tianshu_star', event => {
