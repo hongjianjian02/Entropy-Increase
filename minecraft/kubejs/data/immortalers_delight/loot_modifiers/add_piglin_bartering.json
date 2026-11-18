@@ -1,0 +1,10 @@
+{
+  "type": "farmersdelight:add_loot_table",
+  "conditions": [
+    {
+      "condition": "neoforge:loot_table_id",
+      "loot_table_id": "minecraft:gameplay/piglin_bartering"
+    }
+  ],
+  "table": "immortalers_delight:gameplay/id_piglin_bartering"
+}
