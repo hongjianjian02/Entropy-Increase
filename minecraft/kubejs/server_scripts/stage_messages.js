@@ -8,7 +8,7 @@ ServerEvents.loaded(event => {
       details: [
         '解锁模组：神秘时代、沉浸工程、沉浸原油、气动工艺',
         '解锁模组：RFTools 基础 存储 能源、血魔法',
-        '解锁模组：实用拓展、额外植物学、Excessive Utilities、',
+        '解锁模组：实用拓展、额外植物学、Excessive Utilities',
         '解锁模组：神秘工匠、Building Gadgets 2',
         '解锁维度：天境、下界',
       ]

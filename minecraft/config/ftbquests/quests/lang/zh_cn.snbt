@@ -28,14 +28,14 @@
 	quest.0C42E80F859B8885.quest_desc: ["巫妖现在会掉落&e王冠碎片&r和概率掉落&e神秘王冠&r"]
 	quest.0C42E80F859B8885.title: "击败巫妖"
 	quest.0FF73CE7539C399D.title: "粉色小粉末的产物"
-	quest.100DB060C8AC126F.quest_desc: ["ps：用ME能量存储原件存储电量在再样板供应器放入感应卡会自动给机器发配电量"]
+	quest.100DB060C8AC126F.quest_desc: ["ps：用ME能量存储元件存储电量，再在样板供应器放入感应卡会自动给机器发配电量"]
 	quest.128A66B8CA3E3F08.title: "天境"
 	quest.1301F3F28736AD5F.quest_desc: ["跳入暮色传送门然后回家！ 但是真的是回家吗？"]
 	quest.1301F3F28736AD5F.title: "回家"
 	quest.144913CE171A67E8.title: "eio磨粉机倍产"
 	quest.156845B8FDE37E62.title: "维度存储"
 	quest.1661897BFFC6CA25.title: "神秘矿簇倍产"
-	quest.16DEAADC209D716E.quest_desc: ["你可以自由控制天镜的白天黑夜了 在黑夜可以放置lv0矿机进行挖掘天镜的全部矿石"]
+	quest.16DEAADC209D716E.quest_desc: ["你可以自由控制天境的白天黑夜了 在黑夜可以放置lv0矿机进行挖掘天境的全部矿石"]
 	quest.1784781D664074A3.title: "SFM"
 	quest.18DC9AF6247F5DF0.title: "大卫带！"
 	quest.1A283E48EC379423.quest_desc: ["或许是同族的......."]

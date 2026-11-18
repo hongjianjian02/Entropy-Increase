@@ -85,7 +85,7 @@
   "modonomicon.gui.category.index_list_title": "条目",
   "modonomicon.gui.hover.book_entry_link_locked_info": "您需要解锁此条目才能打开链接！",
   "modonomicon.gui.hover.book_entry_link_locked_info.hint": "提示：该条目属于类别：%s",
-  "modonomicon.gui.hover.book_link.error": "无效链接：%s。请联系本书作者或译者来解决此问题。更多信息可以在原木中找到，上下文为“无法解析书籍链接。”。",
+  "modonomicon.gui.hover.book_link.error": "无效链接：%s。请联系本书作者或译者。详细信息见日志中的“Failed to parse book link.”。",
   "modonomicon.gui.hover.book_page_link_locked_info": "您需要解锁此页面才能打开链接！",
   "modonomicon.gui.hover.book_page_link_locked_info.hint": "提示：该页面位于类别 %2$s 下的条目 %1$s 中",
   "modonomicon.gui.hover.command_link": "单击以运行链接命令。按住 Shift 键可显示命令。",

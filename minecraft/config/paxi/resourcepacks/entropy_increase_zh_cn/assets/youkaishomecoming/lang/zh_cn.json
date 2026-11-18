@@ -1,18 +1,7 @@
 {
-  "youkaishomecoming.configuration.smoothingHealingFactor": "呼吸治愈因子",
-  "youkaishomecoming.configuration.smoothingHealingFactor.tooltip": "默认值：1.5\n 范围：1.0 ~ 100.0",
-  "youkaishomecoming.configuration.food_effect": "食物的影响",
   "youkaishomecoming.configuration.section.youkaishomecoming.server.toml": "妖怪归家服务器配置",
   "youkaishomecoming.configuration.section.youkaishomecoming.server.toml.title": "妖怪归家服务器配置",
-  "youkaishomecoming.configuration.teaHealingPeriod": "茶疗愈间隔",
-  "youkaishomecoming.configuration.teaHealingPeriod.tooltip": "默认值：60\n 范围：0 ~ 10000",
   "youkaishomecoming.configuration.title": "妖怪归家配置",
-  "youkaishomecoming.configuration.udumbaraDuration": "优昙婆罗花期",
-  "youkaishomecoming.configuration.udumbaraDuration.tooltip": "默认值：200\n 范围：0 ~ 100000",
-  "youkaishomecoming.configuration.udumbaraFullMoonReduction": "优昙婆罗满月伤害减免",
-  "youkaishomecoming.configuration.udumbaraFullMoonReduction.tooltip": "默认值：4\n 范围：0 ~ 100",
-  "youkaishomecoming.configuration.udumbaraHealingPeriod": "优昙婆罗效应治疗间隔",
-  "youkaishomecoming.configuration.udumbaraHealingPeriod.tooltip": "默认值：60\n 范围：0 ~ 10000",
   "youkaishomecoming.title": "妖怪归家",
   "youkaishomecoming.configuration.section.l2configs.youkaishomecoming.server.toml": "妖怪归家服务器配置",
   "youkaishomecoming.configuration.section.l2configs.youkaishomecoming.server.toml.title": "妖怪归家服务器配置"

@@ -29,7 +29,7 @@
   "dungeonconfig.screen.detail.range": "范围",
   "dungeonconfig.screen.detail.reset_hint": "右键单击重置为默认值",
   "dungeonconfig.screen.ffmpeg.body1": "您的菜单背景或音乐需要 FFmpeg，这是一个可以播放视频和大多数音频格式的免费程序。 Dungeon Config 可以为您将其下载到 config/dungeonconfig/bin 中，每个 mod 的设置菜单都可以使用它。",
-  "dungeonconfig.screen.ffmpeg.disclaimer": "FFmpeg 是由 FFmpeg 项目制作的第三支软件，并在 GPL 下获得许可。它不是由 Dungeon Config 制作的，Dungeon Config 仅根据提供商发布的校验和检查下载。只有信任这个魔源才继续。您也可以自己安装 FFmpeg。",
+  "dungeonconfig.screen.ffmpeg.disclaimer": "FFmpeg 是由 FFmpeg 项目开发、采用 GPL 许可的第三方软件，并非由 Dungeon Config 制作。Dungeon Config 只会用发布者提供的校验和核对下载文件。请确认来源可信后再继续，也可以自行安装 FFmpeg。",
   "dungeonconfig.screen.ffmpeg.done": "FFmpeg 已安装",
   "dungeonconfig.screen.ffmpeg.download": "下载",
   "dungeonconfig.screen.ffmpeg.downloading": "正在下载 FFmpeg...%s MB",
