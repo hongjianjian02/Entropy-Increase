@@ -1717,6 +1717,10 @@ file = "config/paxi/resourcepacks/entropy_increase_zh_cn/assets/botania/lang/zh_
 hash = "cfd3ed0c6ee014ec8c0dd3e8c62b3bdc069e20c0a2f41a392b7d4445b06383dd"
 
 [[files]]
+file = "config/paxi/resourcepacks/entropy_increase_zh_cn/assets/explorerscompass/lang/zh_cn.json"
+hash = "aa0ee79ce6db366cbb671580836194484d096511ac5d9a4e2fae0e55bc39a22d"
+
+[[files]]
 file = "config/paxi/resourcepacks/entropy_increase_zh_cn/assets/extrabotany/lang/zh_cn.json"
 hash = "da8b442fa98ea0b2b40b9d2a7539248f0a7e65c4c6a27deb65e4de081db6b94c"
 
@@ -1775,6 +1779,14 @@ hash = "05c8ce9414ca8a4b7f5b53425dbfe84a100754d878a166d1638b63c9ea14c5ae"
 [[files]]
 file = "config/rpg_series/tag_cache.json"
 hash = "0ceb015923498284b5a19fe1660c842dcf3137e74207ddc8bb42e0f01488a8b3"
+
+[[files]]
+file = "config/serilum/configurablemobpotioneffects/ondamageeffects.txt"
+hash = "f906bc7ced89fa3b6707a1926945d2813f41e535504b137fb8e50152ad80977e"
+
+[[files]]
+file = "config/serilum/configurablemobpotioneffects/permanenteffects.txt"
+hash = "e3ba5c37cc3144a2a14fc54a9f3ab157a29ef3a29ebda47153be9d8448fb4e7f"
 
 [[files]]
 file = "config/sfm-client-program-editor.toml"
@@ -2005,6 +2017,10 @@ file = "kubejs/data/avaritia/recipe/botania_mana_tablet.json"
 hash = "02734946e2df3dbfaa91706305a78e8133c2e247f1edfaf459773a5c5f397f70"
 
 [[files]]
+file = "kubejs/data/botania/loot_table/entities/gaia_guardian.json"
+hash = "e66dd78bb2d21f6d285fedee11cd650d40aaf999699fab7cd73d16c7a7eb53a2"
+
+[[files]]
 file = "kubejs/data/c/tags/fluid/diesel.json"
 hash = "9a988bab4fa1626a54492820c32509a572293191a96462a4d6f1730d2f9eeb22"
 
@@ -2023,6 +2039,10 @@ hash = "ce716e738082e439a640b83f769e0e287c54a78923201ea6bac3812723c9fe52"
 [[files]]
 file = "kubejs/data/immortalers_delight/tags/entity_type/normal_mobs.json"
 hash = "d838e99d9cbd14c24d1f3e3c4caa47505ae2c0dd8fcd208db0cfb165660cbf6b"
+
+[[files]]
+file = "kubejs/data/kubejs/loot_table/entities/gaia_nether_bonus.json"
+hash = "6c052c2ea9876211c4dbe59552a3c6af5083f8b7ded5371b8de6cd15de723aeb"
 
 [[files]]
 file = "kubejs/data/mysterious/neoforge/biome_modifier/tf_mystical_flowers.json"
@@ -2273,6 +2293,10 @@ file = "kubejs/server_scripts/Recipes/Mods/Botania/Orderly.js"
 hash = "a86e6b72ee93a2e2f259f036eae40d6ee18aae288c0a7073af0d78d696dd0a7a"
 
 [[files]]
+file = "kubejs/server_scripts/Recipes/Mods/Botania/gaia.js"
+hash = "7c133ef3a7bf7d24aa362415ed4acac55905c435957514e51cc909e60501c8e5"
+
+[[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Botania/pure_daisy.js"
 hash = "332770f4e2e61276f94528296d1a71a05eabcc3bfc8a794da8ea132a492668a6"
 
@@ -2521,6 +2545,11 @@ hash = "3d64c34412503714a7362d4d0f23c414b2de004fce3ad0b7f70ff08e345ac358"
 metafile = true
 
 [[files]]
+file = "mods/.index/bad-mobs.pw.toml"
+hash = "c8a08191201ee2d3261b8493d308502068a6f3f0d92cc92f370389a3371c0a9a"
+metafile = true
+
+[[files]]
 file = "mods/.index/better-advanced-tooltips.pw.toml"
 hash = "9009bd5cdcdbc6bc47a7fbb203844d9a551accdd796877bdba5233ac14bbd513"
 metafile = true
@@ -2553,6 +2582,21 @@ metafile = true
 [[files]]
 file = "mods/.index/codechicken-lib-1-8.pw.toml"
 hash = "f25668c2e804d60a2495b26af9de55a741ad01f183241fad198c7a14e864115e"
+metafile = true
+
+[[files]]
+file = "mods/.index/collective.pw.toml"
+hash = "9d9802c9b8af95c7e98356371cad12a2d87b4609c7bafe36c63352e7d448b58c"
+metafile = true
+
+[[files]]
+file = "mods/.index/configurable-extra-mob-drops.pw.toml"
+hash = "6aeb661a5882b49444874c45be45fd90deb224c6097f2b371418ece5fa3b9c35"
+metafile = true
+
+[[files]]
+file = "mods/.index/configurable-mob-potion-effects.pw.toml"
+hash = "83aced716f76291e03d85a8d5cdd663c34fdc1742854e7650804c6a5deb9707f"
 metafile = true
 
 [[files]]
@@ -3385,6 +3429,16 @@ hash = "8db3f2a65c6a9577cd586e8b3ef4a486a4aef82d0f14556c29e45092eb689b17"
 metafile = true
 
 [[files]]
+file = "mods/applied-energistics-2.pw.toml"
+hash = "7ef227b056ff62f602db935025c9bf106b22bf1d4b77568d956b71c810c24c23"
+metafile = true
+
+[[files]]
+file = "mods/applied-thaumaturge.pw.toml"
+hash = "952713b82d9e47fbeff0bd4c065a7ca2c2d865c02fe8e757e4b4225899a15b46"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "9412ae80a3b8633c4b8507402610c4d8ad3e27809a27a9a76263d16fa7347b2e"
 metafile = true
@@ -3392,6 +3446,11 @@ metafile = true
 [[files]]
 file = "mods/attributefix.pw.toml"
 hash = "a445471ac6843bcf9fb76eabb4357de0357dfa7782be536a7827a26764fe45c1"
+metafile = true
+
+[[files]]
+file = "mods/better-advanced-tooltips.pw.toml"
+hash = "9009bd5cdcdbc6bc47a7fbb203844d9a551accdd796877bdba5233ac14bbd513"
 metafile = true
 
 [[files]]
@@ -3409,8 +3468,13 @@ hash = "6e761054d9e400e13c4ab5e412446b607fd6b5126c2792301a6c172867d60091"
 metafile = true
 
 [[files]]
+file = "mods/construction-wand-kots.pw.toml"
+hash = "b04a4a3292c14d7294d16cc110faaa68c6620d45a7e841b0f6b75e14856f544b"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
-hash = "6b6683fd8ec53d10d4fbef3b3d53922a1aaa8ef4d2e4b52bb819dc451f5d6b3d"
+hash = "982c4bedb0295d598d57cf92cf39abe81562c0f2142f5bc1f90a7e61bff71bb5"
 metafile = true
 
 [[files]]
@@ -3438,13 +3502,33 @@ hash = "d9ed9ac8e0db9db29078dafa22bc2d86ac702f10863ae7cb1d5245111c5ea17b"
 metafile = true
 
 [[files]]
+file = "mods/guideme.pw.toml"
+hash = "62637d9fa6059eee6042ffe48185a94621d4f45e0c3e77397b4e19cbbcbc59fb"
+metafile = true
+
+[[files]]
 file = "mods/immortalers-delight.pw.toml"
 hash = "a4085d9fbece293e93185a72415834701a52ad1e8e0ac8a358aaeefcf8cf6189"
 metafile = true
 
 [[files]]
+file = "mods/kubejs-thaumaturge.pw.toml"
+hash = "9922c52bb72c8ba4463252b413df7bb6ede6bd774ad35145bd27765dd27c60c2"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "031e809b62d4d70a66be3e68ab7deeffba17027bb785c83b95c6dcfd4a4e6a8d"
+metafile = true
+
+[[files]]
 file = "mods/l2library.pw.toml"
 hash = "0c6adf90e71fbcab8d915fd6c70b2645a5dd0249ef1aa782222f774a4da5d215"
+metafile = true
+
+[[files]]
+file = "mods/lightspeedre-launch-optimizations.pw.toml"
+hash = "1c99852eb30c899005fbf5d87fbc2b7b3a8b7effb343eaddae6616d1726e8916"
 metafile = true
 
 [[files]]
@@ -3481,6 +3565,16 @@ hash = "611f589f0874ce5db4a2241421ce4453f9efb5bedf57e3f24c039a16a0e604c5"
 metafile = true
 
 [[files]]
+file = "mods/re-avaritia.pw.toml"
+hash = "c2cebf7fccae8870eb4b4a57dc87be9e4352f6c06b6e0bb621d0ccbfa96074b4"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "985a99f7465b68e43b98f3dbe1081b7113d957c7926a8caab163503528910f42"
+metafile = true
+
+[[files]]
 file = "mods/solapplepie-1.21.1-2.2.0-neoforge.jar"
 hash = "7b7ae02489cfdb6f8180c1c4d54c49127bd8af61f0a7ea11f6c104a1dad8225b"
 
@@ -3502,6 +3596,16 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "4cdd3a94451efd61ad53cec5019557042cc9a3bc455632aa931663b70850958a"
+metafile = true
+
+[[files]]
+file = "mods/thaumaturge-tech-compats.pw.toml"
+hash = "7344d8cf4c889eb1745573d6874a71136c0238a5395114b1f9ff5b91af16447d"
+metafile = true
+
+[[files]]
+file = "mods/thaumaturge.pw.toml"
+hash = "2a69c51a520dea3c6446b38ec7f81f8e43b2bdbd4a5a9169e09e95835669ebe5"
 metafile = true
 
 [[files]]

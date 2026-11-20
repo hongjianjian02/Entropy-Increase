@@ -1,0 +1,1 @@
+# No additional on-damage effects are configured.

@@ -1,0 +1,13 @@
+name = "Configurable Mob Potion Effects"
+filename = "configurablemobpotioneffects-1.21.1-4.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FspL3NLJ/versions/97NOJvDD/configurablemobpotioneffects-1.21.1-4.1.jar"
+hash-format = "sha512"
+hash = "dfc663bb3d13fb037965277a4ff4dd39c1a55538d02abfd2cea35853dbf5d3709d9da2079384444887765ef249b32f17703a389425508975799c72d2d2f15955"
+
+[update]
+[update.modrinth]
+mod-id = "FspL3NLJ"
+version = "97NOJvDD"
