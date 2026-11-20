@@ -1,0 +1,31 @@
+# Inventory HUD+ potion effects HUD, adapted from Chapter of Yuusha Ⅲ (MC 1.20.1).
+# Keep this focused on the requested potion HUD; other HUD sections use mod defaults.
+[potionshud]
+# Enable potion effect HUD.
+Potions = true
+# Potion HUD alpha (0-100).
+potAlpha = 100
+# Gap between effect icons.
+potGap = 0
+# Compact mini layout.
+potMini = true
+# Arrange effects horizontally.
+potHor = true
+# Full bar duration.
+barDuration = 300
+# Show hidden effects.
+showHiddenEffects = true
+# Effects excluded from the HUD.
+effectsBlackList = []
+# Show with debug menu.
+potWithDebug = true
+# Display potion effect levels.
+potionLevels = true
+
+[positions]
+# Align to upper-left corner.
+potValign = "TOP"
+potHalign = "LEFT"
+# Match the reference pack's offsets.
+xPotionPos = 7
+yPotionPos = 69

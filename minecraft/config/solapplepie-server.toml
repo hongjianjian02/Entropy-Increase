@@ -1,51 +1,93 @@
 # Entropy-Increase / Minecraft 1.21.1 / Sol: Apple Pie 2.2.0
 
 [Benefits]
-# 保留仍有有效奖励的阈值；150、200 档的效果均未安装，删除空档。
-thresholds = [8.0, 12.0, 16.0, 20.0, 24.0, 28.0, 32.0, 36.0, 40.0, 44.0, 48.0, 52.0, 56.0, 60.0, 64.0, 68.0, 72.0, 76.0, 80.0, 100.0]
+# 保留用户指定的 40 档奖励，最高奖励档 200 分；104、150 等未指定分数不新增空档。
+thresholds = [8.0, 12.0, 16.0, 20.0, 24.0, 28.0, 32.0, 36.0, 40.0, 44.0, 48.0, 52.0, 56.0, 60.0, 64.0, 68.0, 72.0, 76.0, 80.0, 100.0, 108.0, 112.0, 116.0, 120.0, 124.0, 128.0, 132.0, 136.0, 140.0, 144.0, 148.0, 152.0, 156.0, 160.0, 164.0, 168.0, 172.0, 176.0, 180.0, 200.0]
 
-# 沿用原数值，属性奖励会逐档累加；原版 ID 显式添加 minecraft 命名空间。生命成长交由胡萝卜版。
+# 每档属性奖励逐档累加；效果数字是从 0 开始的 amplifier（I=0、II=1、VI=5）。
+# 四种毒抵抗及“燃起来了”未标等级，按 I 级；醇厚使用千古乐事环境减伤版。
+# 多样性 200：抗性提升 IV 按用户 2026-11-20 更正；普通可抵挡伤害减免 80%。
 benefitsUnparsed = [
-    # 多样性 8
+    # 多样性 8：护甲韧性 +4、攻击伤害 +4
     "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.attack_damage,4",
-    # 多样性 12
+    # 多样性 12：护甲韧性 +4、攻击伤害 +4
     "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.attack_damage,4",
-    # 多样性 16
-    "effect,minecraft:regeneration,1;attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.attack_damage,4",
-    # 多样性 20
-    "effect,minecraft:night_vision,0;attribute,minecraft:generic.attack_damage,4",
-    # 多样性 24
-    "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.attack_damage,4",
-    # 多样性 28
-    "effect,minecraft:regeneration,1;attribute,minecraft:generic.attack_damage,6",
-    # 多样性 32
+    # 多样性 16：幸运 +1
     "attribute,minecraft:generic.luck,1",
-    # 多样性 36
+    # 多样性 20：护甲韧性 +4、攻击伤害 +4
+    "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.attack_damage,4",
+    # 多样性 24：夜视 I
+    "effect,minecraft:night_vision,0",
+    # 多样性 28：护甲韧性 +4、攻击伤害 +4
+    "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.attack_damage,4",
+    # 多样性 32：幸运 +1
+    "attribute,minecraft:generic.luck,1",
+    # 多样性 36：护甲韧性 +4
     "attribute,minecraft:generic.armor_toughness,4",
-    # 多样性 40
+    # 多样性 40：幸运 +1
     "attribute,minecraft:generic.luck,1",
-    # 多样性 44
-    "attribute,minecraft:generic.armor_toughness,4;effect,minecraft:resistance,1",
-    # 多样性 48
+    # 多样性 44：再生 II
+    "effect,minecraft:regeneration,1",
+    # 多样性 48：护甲韧性 +4、幸运 +1
     "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.luck,1",
-    # 多样性 52
+    # 多样性 52：攻击伤害 +6
     "attribute,minecraft:generic.attack_damage,6",
-    # 多样性 56
+    # 多样性 56：护甲韧性 +4、幸运 +1
     "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.luck,1",
-    # 多样性 60
-    "attribute,minecraft:generic.attack_damage,6",
-    # 多样性 64
+    # 多样性 60：护甲韧性 +4、幸运 +1
     "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.luck,1",
-    # 多样性 68
+    # 多样性 64：羽翼 I
+    "effect,botania:feather_feet,0",
+    # 多样性 68：攻击伤害 +6
     "attribute,minecraft:generic.attack_damage,6",
-    # 多样性 72
+    # 多样性 72：护甲韧性 +4、幸运 +1
     "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.luck,1",
-    # 多样性 76
+    # 多样性 76：攻击伤害 +6
     "attribute,minecraft:generic.attack_damage,6",
-    # 多样性 80
+    # 多样性 80：幸运 +1、护甲韧性 +4
     "attribute,minecraft:generic.luck,1;attribute,minecraft:generic.armor_toughness,4",
-    # 多样性 100
-    "attribute,minecraft:generic.luck,1;attribute,minecraft:generic.attack_damage,10;effect,minecraft:resistance,3;effect,minecraft:saturation,0;effect,farmersdelight:nourishment,0",
+    # 多样性 100：幸运 +1、饱和 I、滋养 I
+    "attribute,minecraft:generic.luck,1;effect,minecraft:saturation,0;effect,farmersdelight:nourishment,0",
+    # 多样性 108：幸运 +2、护甲值 +4
+    "attribute,minecraft:generic.luck,2;attribute,minecraft:generic.armor,4",
+    # 多样性 112：幸运 +2、护甲值 +4
+    "attribute,minecraft:generic.luck,2;attribute,minecraft:generic.armor,4",
+    # 多样性 116：幸运 +4
+    "attribute,minecraft:generic.luck,4",
+    # 多样性 120：护甲韧性 +4、攻击伤害 +4
+    "attribute,minecraft:generic.armor_toughness,4;attribute,minecraft:generic.attack_damage,4",
+    # 多样性 124：暴怒 I、破烟 I
+    "effect,astralsorcery:rampage,0;effect,immortalers_delight:smoke_abstinence,0",
+    # 多样性 128：攻击伤害 +6
+    "attribute,minecraft:generic.attack_damage,6",
+    # 多样性 132：幸运 +2、抗击退 +0.2
+    "attribute,minecraft:generic.luck,2;attribute,minecraft:generic.knockback_resistance,0.2",
+    # 多样性 136：幸运 +4
+    "attribute,minecraft:generic.luck,4",
+    # 多样性 140：幸运 +2、护甲值 +4
+    "attribute,minecraft:generic.luck,2;attribute,minecraft:generic.armor,4",
+    # 多样性 144：妖怪化 I、洪荒之力 I、醇厚 VI（千古乐事）
+    "effect,youkaishomecoming:youkaified,0;effect,immortalers_delight:prehistoric_powers,0;effect,immortalers_delight:resistance_to_surroundings,5",
+    # 多样性 148：幸运 +2
+    "attribute,minecraft:generic.luck,2",
+    # 多样性 152：护甲韧性 +4
+    "attribute,minecraft:generic.armor_toughness,4",
+    # 多样性 156：幸运 +2
+    "attribute,minecraft:generic.luck,2",
+    # 多样性 160：攻击伤害 +6
+    "attribute,minecraft:generic.attack_damage,6",
+    # 多样性 164：渊毒抵抗 I、虫毒抵抗 I、厄毒抵抗 I、尸毒抵抗 I
+    "effect,immortalers_delight:resistance_to_abyssal,0;effect,immortalers_delight:resistance_to_arthropod,0;effect,immortalers_delight:resistance_to_illager,0;effect,immortalers_delight:resistance_to_undead,0",
+    # 多样性 168：幸运 +2、抗击退 +0.2
+    "attribute,minecraft:generic.luck,2;attribute,minecraft:generic.knockback_resistance,0.2",
+    # 多样性 172：幸运 +2、抗击退 +0.2
+    "attribute,minecraft:generic.luck,2;attribute,minecraft:generic.knockback_resistance,0.2",
+    # 多样性 176：幸运 +4
+    "attribute,minecraft:generic.luck,4",
+    # 多样性 180：幸运 +2、护甲值 +4
+    "attribute,minecraft:generic.luck,2;attribute,minecraft:generic.armor,4",
+    # 多样性 200：幸运 +1、抗性提升 IV、燃起来了 I、扭曲守护 I
+    "attribute,minecraft:generic.luck,1;effect,minecraft:resistance,3;effect,immortalers_delight:warm_current_surges,0;effect,thaumaturge:warp_ward,0",
 ]
 
 # 累计进食 30 次后才启用奖励（次数，不是 30 种食物）。

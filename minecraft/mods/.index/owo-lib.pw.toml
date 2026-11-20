@@ -1,5 +1,6 @@
 name = "oωo (owo-lib)"
 filename = "owo-lib-neoforge-0.12.15.6-beta.1+1.21.jar"
+side = "both"
 
 [download]
 hash-format = "sha1"
