@@ -1,0 +1,15 @@
+{
+  "attributeType": "minecraft:generic.attack_damage",
+  "conditions": {
+    "entity": [
+      "aether:valkyrie_queen"
+    ],
+    "permission": "whitelist",
+    "tier": 4
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "add_multiplied_total",
+    "value": -0.01
+  }
+}

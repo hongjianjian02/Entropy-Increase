@@ -15,6 +15,7 @@
 	quest.00527EE6B9A6669B.quest_desc: ["在地狱击败有额外掉落盖亚魂  小概率掉落盖亚魂锭"]
 	quest.0117471874399E00.title: "击败雪怪首领"
 	quest.021E0709C9A7D9EF.title: "滑行魔石"
+	quest.0300D16F9C9718DE.title: "下界"
 	quest.04262792602706AF.title: "这是樱花钢吗？"
 	quest.065E81BD2D5E4BD7.quest_desc: ["植物魔法真的是&#8AF5FF魔法&r吗？"]
 	quest.065E81BD2D5E4BD7.title: "植物魔法的开始"
@@ -29,6 +30,7 @@
 	quest.0C42E80F859B8885.title: "击败巫妖"
 	quest.0FF73CE7539C399D.title: "粉色小粉末的产物"
 	quest.100DB060C8AC126F.quest_desc: ["ps：用ME能量存储元件存储电量，再在样板供应器放入感应卡会自动给机器发配电量"]
+	quest.128A66B8CA3E3F08.quest_desc: ["使用&d世界盐&r开门"]
 	quest.128A66B8CA3E3F08.title: "天境"
 	quest.1301F3F28736AD5F.quest_desc: ["跳入暮色传送门然后回家！ 但是真的是回家吗？"]
 	quest.1301F3F28736AD5F.title: "回家"
@@ -38,6 +40,7 @@
 	quest.16DEAADC209D716E.quest_desc: ["你可以自由控制天境的白天黑夜了 在黑夜可以放置lv0矿机进行挖掘天境的全部矿石"]
 	quest.1784781D664074A3.title: "SFM"
 	quest.18DC9AF6247F5DF0.title: "大卫带！"
+	quest.18E87D454E189DFE.title: "塑料"
 	quest.1A283E48EC379423.quest_desc: ["或许是同族的......."]
 	quest.1A283E48EC379423.title: "不觉得幻影骑士很像精灵吗"
 	quest.1ABB4A061CF20212.quest_desc: [""]
@@ -62,6 +65,7 @@
 	quest.3B0E2B868685E5A2.title: "烈阳巨灵"
 	quest.3EA85D4C8B58892F.quest_desc: ["ps：pip管道尽量不要过多使用下界合金升级"]
 	quest.3EA85D4C8B58892F.title: "物品管道"
+	quest.438E115A3DD8E5F8.title: "lv0 &b天境&r矿机"
 	quest.48D6EB874008DD0F.quest_desc: [
 		"佩戴蝴蝶结会有妖精化效果"
 		"&r佩戴翅膀在拥有妖精化的同时可以进行&b飞行&r "
@@ -83,6 +87,7 @@
 	quest.578760D8D2797C28.title: "世界盐怎么做？"
 	quest.57BC34FCEAB6B2DD.quest_desc: ["Mek管道不做推荐"]
 	quest.57BC34FCEAB6B2DD.title: "物流管道"
+	quest.588A93C0945448CF.title: "第二章最后的物品"
 	quest.59C4DCBCFBBF5F82.quest_desc: ["送你几瓶&4治疗药水&r，至于有什么用你应该知道吧！"]
 	quest.59C4DCBCFBBF5F82.title: "击败娜迦"
 	quest.5A257762548719D9.title: "罐装机"
@@ -91,11 +96,13 @@
 	quest.5BF7DF8C072BD707.quest_desc: ["真的有人有更好用的管道不用，来用这个吗……"]
 	quest.5BF7DF8C072BD707.quest_subtitle: "？！区区！？"
 	quest.5F643373E30E6602.title: "任意加压管道"
+	quest.624C965C3E12B86E.title: "钻头"
 	quest.62A5D7E1722ECB2C.quest_desc: ["优化你的钢板配方"]
 	quest.62A5D7E1722ECB2C.title: "金属冲压机"
 	quest.6A36DF7F83FCC41F.title: "血魔法炼金炉倍产"
 	quest.6A9478B98AECA246.title: "任意能量线缆"
 	quest.6AEC9D71CCD30C34.title: "击败幻影骑士"
+	quest.6D7A7A6198817159.quest_desc: ["推荐叠点血吃一下食物多样性再进行攻略"]
 	quest.6D7A7A6198817159.title: "武神女王"
 	quest.6E10CC6301CBD39C.title: "储油罐"
 	quest.71652FC5565FC7A4.title: "击败米诺菇"
@@ -104,6 +111,8 @@
 	quest.73BE1F8E3643202D.quest_desc: ["在终焉城堡获取四色符文城堡砖每种至少一个"]
 	quest.73BE1F8E3643202D.title: "四色符文城堡砖"
 	quest.75A136B20D2FF7E3.quest_desc: ["在地狱击败有额外掉落盖亚魂  小概率掉落盖亚魂锭"]
+	quest.76726434946723A3.title: "液化石油气"
+	quest.78DF9D734B58FA39.title: "润滑油"
 	quest.7A0100D3DDCE5C56.title: "击败九头蛇"
 	quest.7A5ECE4F9F1DB23F.title: "路由器"
 	quest.7F1F590775232C74.quest_desc: ["相信你永远在RF/FE包离不开它，此外还加入了&n&e更多通量存储&r&r，让对应的能量存储设备(龙之研究的龙球、通用机械的感应矩阵、应用通量的磁盘)直接变成通量的缓存(性能问题待观望)"]

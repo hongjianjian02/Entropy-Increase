@@ -94,6 +94,42 @@
   affixList = ["champions:molten", "champions:plagued", "champions:lively"]
   affixPermission = "WHITELIST"
 
+# 滑行魔石固定4星和5条预设词条，由 aether_bosses.js 锁定星级。
+[[entities]]
+  entity = "aether:slider"
+  minTier = 4
+  maxTier = 4
+  presetAffixes = ["champions:knocking", "champions:wounding", "champions:infested", "champions:arctic", "champions:molten"]
+  affixList = ["champions:knocking", "champions:wounding", "champions:infested", "champions:arctic", "champions:molten"]
+  affixPermission = "WHITELIST"
+
+# 武神女王固定4星和5条预设词条，由 aether_bosses.js 锁定星级。
+[[entities]]
+  entity = "aether:valkyrie_queen"
+  minTier = 4
+  maxTier = 4
+  presetAffixes = ["dream_champions:royal", "champions:hasty", "champions:wounding", "champions:desecrating", "champions:lively"]
+  affixList = ["dream_champions:royal", "champions:hasty", "champions:wounding", "champions:desecrating", "champions:lively"]
+  affixPermission = "WHITELIST"
+
+# 烈阳巨灵固定4星和5条预设词条，由 aether_bosses.js 锁定星级。
+[[entities]]
+  entity = "aether:sun_spirit"
+  minTier = 4
+  maxTier = 4
+  presetAffixes = ["champions:enkindling", "champions:molten", "dream_champions:sun", "champions:magnetic", "champions:desecrating"]
+  affixList = ["champions:enkindling", "champions:molten", "dream_champions:sun", "champions:magnetic", "champions:desecrating"]
+  affixPermission = "WHITELIST"
+
+# 狂瞳龙卷主体固定4星和5条预设词条，由 aether_bosses.js 锁定星级。
+[[entities]]
+  entity = "deep_aether:eots_controller"
+  minTier = 4
+  maxTier = 4
+  presetAffixes = ["champions:arctic", "champions:magnetic", "champions:desecrating", "champions:infested", "champions:lively"]
+  affixList = ["champions:arctic", "champions:magnetic", "champions:desecrating", "champions:infested", "champions:lively"]
+  affixPermission = "WHITELIST"
+
 # 普通小怪随机词条限制：保护、共振、结晶、魔术。
 # 仅使用实体级黑名单，词条保持全局启用，Boss仍可自定义使用。
 # 必须显式填写星级字段；0到-1表示包含全部全局星级，保留原权重。

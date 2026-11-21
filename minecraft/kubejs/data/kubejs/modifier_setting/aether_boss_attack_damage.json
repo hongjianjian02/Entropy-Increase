@@ -1,0 +1,17 @@
+{
+  "attributeType": "minecraft:generic.attack_damage",
+  "conditions": {
+    "entity": [
+      "aether:slider",
+      "aether:sun_spirit",
+      "deep_aether:eots_controller"
+    ],
+    "permission": "whitelist",
+    "tier": 4
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "add_multiplied_total",
+    "value": 0.05
+  }
+}

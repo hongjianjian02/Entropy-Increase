@@ -2,7 +2,7 @@
   "ftbquests.overlay.astages.action.add": "行动：添加阶段",
   "ftbquests.overlay.astages.action.remove": "行动：删除阶段",
   "ftbquests.overlay.astages.placeholder": "在此插入阶段...",
-  "ftbquests.reward.astages.player": "AStages 播放器",
+  "ftbquests.reward.astages.player": "AStages 玩家",
   "ftbquests.reward.astages.player.remove": "删除",
   "ftbquests.reward.astages.player.stage": "游戏阶段",
   "ftbquests.reward.astages.server": "AStages 服务器",

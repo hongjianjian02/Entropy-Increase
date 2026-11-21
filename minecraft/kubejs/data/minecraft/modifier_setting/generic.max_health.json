@@ -1,0 +1,24 @@
+{
+  "attributeType": "minecraft:generic.max_health",
+  "conditions": {
+    "affixes": {
+      "count": {},
+      "matches": {},
+      "values": []
+    },
+    "entity": [
+      "minecraft:creeper",
+      "aether:slider",
+      "aether:sun_spirit",
+      "aether:valkyrie_queen",
+      "deep_aether:eots_controller"
+    ],
+    "permission": "blacklist",
+    "tier": {}
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "add_multiplied_total",
+    "value": 0.35
+  }
+}

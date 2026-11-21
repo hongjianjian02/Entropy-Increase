@@ -1,0 +1,15 @@
+{
+  "attributeType": "minecraft:generic.max_health",
+  "conditions": {
+    "entity": [
+      "deep_aether:eots_controller"
+    ],
+    "permission": "whitelist",
+    "tier": 4
+  },
+  "enable": true,
+  "modifier": {
+    "operation": "add_value",
+    "value": 98.0
+  }
+}

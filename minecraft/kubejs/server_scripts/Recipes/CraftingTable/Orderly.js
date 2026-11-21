@@ -34,4 +34,15 @@ ServerEvents.recipes(event => {
       'F': 'botania:terrasteel_ingot'
     }
   ).id('kubejs:unstable_rune_gem')
+
+  // baka的冰块
+  event.shaped(
+    Item.of('eicore:ice_cube', 16),
+    ['PRP', 'RZR', 'PRP'],
+    {
+      'P': 'youkaishomecoming:big_popsicle',
+      'R': 'aether:ice_ring',
+      'Z': 'extrabotany:zadkiel'
+    }
+  ).id('kubejs:ice_cube')
 })

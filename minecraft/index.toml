@@ -174,7 +174,7 @@ hash = "18894f2fb101d59d2740d60c8a630fda90edfc59700acad1ae012ceade58a5d5"
 
 [[files]]
 file = "config/aether-server.toml"
-hash = "5d0c8a82ec023751418bad0bd469b7e7ba65ca4cf22cb682b2b78d9f0f46f1e1"
+hash = "9ab1c5400061925cc20a7809c09579d99682e0e51147f95e77b36a62f565d40f"
 
 [[files]]
 file = "config/appflux-common.toml"
@@ -203,6 +203,10 @@ hash = "af1cf9017c612d171b16673ba1ee96e5587408448162296498851720a76f533d"
 [[files]]
 file = "config/botania-common.toml"
 hash = "7fc2c28868906d1d17fefaca3f998c5970627dda541fd17f2a89a9c4fadcc506"
+
+[[files]]
+file = "config/champions-entities.toml"
+hash = "42f50a9f60e7efcd55486f2acbabb64e8127be0c07bc974a9db69a248733e1d5"
 
 [[files]]
 file = "config/chloride-client.json"
@@ -1713,8 +1717,20 @@ file = "config/paxi/resourcepack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
+file = "config/paxi/resourcepacks/entropy_increase_zh_cn/assets/aether/lang/zh_cn.json"
+hash = "d4ba9088ebdf17422d7367e6512bfaf90bb7963419a555c649fc2baf2184dd46"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_increase_zh_cn/assets/aether_beyond_parity/lang/zh_cn.json"
+hash = "52f088c9d73fd1d75882b1eed5336b2ce72a316c66f5ca9057bbba05413b0966"
+
+[[files]]
 file = "config/paxi/resourcepacks/entropy_increase_zh_cn/assets/botania/lang/zh_cn.json"
 hash = "cfd3ed0c6ee014ec8c0dd3e8c62b3bdc069e20c0a2f41a392b7d4445b06383dd"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_increase_zh_cn/assets/deep_aether/lang/zh_cn.json"
+hash = "5c899855f0b67d644b819c80f5b56c1afadafb8b9804cde9846675c0058ea4b7"
 
 [[files]]
 file = "config/paxi/resourcepacks/entropy_increase_zh_cn/assets/explorerscompass/lang/zh_cn.json"
@@ -2025,6 +2041,10 @@ file = "kubejs/data/c/tags/fluid/diesel.json"
 hash = "9a988bab4fa1626a54492820c32509a572293191a96462a4d6f1730d2f9eeb22"
 
 [[files]]
+file = "kubejs/data/champions/tags/entity_type/allow_champions.json"
+hash = "20dbf9d8d3869177722f485f89ea341bf95b8d0c5ed479507bc78bbd062037b2"
+
+[[files]]
 file = "kubejs/data/curios/tags/item/head.json"
 hash = "4c8084b31eef5b8156ef01b6222f8b09968036e8c868d6dcc1c486a55321e55a"
 
@@ -2043,6 +2063,30 @@ hash = "d838e99d9cbd14c24d1f3e3c4caa47505ae2c0dd8fcd208db0cfb165660cbf6b"
 [[files]]
 file = "kubejs/data/kubejs/loot_table/entities/gaia_nether_bonus.json"
 hash = "6c052c2ea9876211c4dbe59552a3c6af5083f8b7ded5371b8de6cd15de723aeb"
+
+[[files]]
+file = "kubejs/data/kubejs/modifier_setting/aether_boss_attack_damage.json"
+hash = "dad65b7e54a734c703cb64007137a5f4ea7dcdcff58491f339d290511aee8faa"
+
+[[files]]
+file = "kubejs/data/kubejs/modifier_setting/aether_valkyrie_queen_attack_damage.json"
+hash = "e4da89f81e9aaea5963db5e93e4729863adac0ce04b85ba83a377b0d8a038fc3"
+
+[[files]]
+file = "kubejs/data/kubejs/modifier_setting/aether_valkyrie_queen_max_health.json"
+hash = "961160c1cdfe79d07beb5f45f9e4f28af90223fb9de2802cddd014b7993c1f87"
+
+[[files]]
+file = "kubejs/data/kubejs/modifier_setting/deep_aether_eots_max_health.json"
+hash = "5adee3acd642b9e5d4f63d5727127e4fc234541018ceaa6f02d1ba87b93ab326"
+
+[[files]]
+file = "kubejs/data/minecraft/modifier_setting/generic.attack_damage.json"
+hash = "c1aa4ad51b8d45cf1cf78569b1820ff5ff0ff560e73127c19c52497c7ce229d3"
+
+[[files]]
+file = "kubejs/data/minecraft/modifier_setting/generic.max_health.json"
+hash = "83695c4379d978865c188aea38dc0028650b72fca989a5e3529f6a4ebfcf4e53"
 
 [[files]]
 file = "kubejs/data/mysterious/neoforge/biome_modifier/tf_mystical_flowers.json"
@@ -2270,7 +2314,7 @@ hash = "99d866135ccda721fd7fcc1a843c6e26f3fed21700ab900d422d0d8a27b1147b"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/CraftingTable/Orderly.js"
-hash = "ab8bd47ee5e6a2a2feeec3c75ee287949147719ccc0550f73b0f1da5f2d5a60a"
+hash = "321063a3073d3c83ac80f25515c35c1312a39e33c13cf4eb66694b18b4cfcb12"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/CraftingTable/remove.js"
@@ -2307,6 +2351,10 @@ hash = "55f5826436b26c8fcd70a0e2bf15bdceae046c852abd69315261fb275e39e37b"
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Botania/terra plate.js"
 hash = "81c1d104e70dec83f7e17499f8a9a720e2557d2473f58f58a817419eb21ba87c"
+
+[[files]]
+file = "kubejs/server_scripts/Recipes/Mods/Champions/aether_bosses.js"
+hash = "7486f572c641744497998795db4e5c14c1e325a0d1d24b1d08bae924a919e999"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Explorerscompass/Orderly.js"
@@ -2417,6 +2465,11 @@ metafile = true
 [[files]]
 file = "mods/.index/accelerated-rendering.pw.toml"
 hash = "26939555964aac162f76475fd423809d2225cec9b2a39a306f36eed1570eea11"
+metafile = true
+
+[[files]]
+file = "mods/.index/accessories-to-curios.pw.toml"
+hash = "cbb88b86832be9ecd89488ddf500b3f68910c0953c7e5cbae10f49b4e71db642"
 metafile = true
 
 [[files]]
@@ -2720,8 +2773,8 @@ hash = "117f7f6f11bbe2459c3f8d08b7157799cac201c096de43bfbaec6d51a3b4e2c4"
 metafile = true
 
 [[files]]
-file = "mods/.index/explorers-compass-edited.pw.toml"
-hash = "4460e5b9e152be72749835d002507cbc92ad23d8e74e756d93a531da8829644f"
+file = "mods/.index/explorers-compass.pw.toml"
+hash = "0670ca65c7208aa8211883fae30c935f53cad38196aac46723b10e7bbc695113"
 metafile = true
 
 [[files]]
@@ -3355,11 +3408,6 @@ hash = "ff2fcad846dc89ed014a692e83251b78962e75e171b3a5e168af0d5a0759c5ab"
 metafile = true
 
 [[files]]
-file = "mods/.index/thaumaturge-tech-compats.pw.toml"
-hash = "7344d8cf4c889eb1745573d6874a71136c0238a5395114b1f9ff5b91af16447d"
-metafile = true
-
-[[files]]
 file = "mods/.index/thaumaturge.pw.toml"
 hash = "2a69c51a520dea3c6446b38ec7f81f8e43b2bdbd4a5a9169e09e95835669ebe5"
 metafile = true
@@ -3420,8 +3468,8 @@ hash = "8d4c36e3aac91377077f3c9e51173a669d6dbe445df94e926df0cea1581a975e"
 metafile = true
 
 [[files]]
-file = "mods/EI core-1.0.4.jar"
-hash = "9c9568d40418e5b433cfd0ab9f534e312c073203fea869363f114cb2f0c4ed95"
+file = "mods/EI core-1.0.7.jar"
+hash = "e074f8d012cdf7bdd44cee23dea49f4fb0f8d3b72bcf7ebb36c5fc39bbac4cb0"
 
 [[files]]
 file = "mods/aeroblender.pw.toml"
@@ -3556,6 +3604,11 @@ file = "mods/mmcece-26.11.7-beta.jar"
 hash = "9725a57a9c1f3f8968bc6a26260d864a833d8d5536f5cb364039f6cf17c66418"
 
 [[files]]
+file = "mods/mmmmmmmmmmmm.pw.toml"
+hash = "9f49c7407a38c6d066c22d315754378e3d1babb4673d62c1531a1453d74090e9"
+metafile = true
+
+[[files]]
 file = "mods/owo-lib.pw.toml"
 hash = "a7fd33e3171967cf90314c3a1147769b051315b7db4f30e7c51304d0d3ef4dee"
 metafile = true
@@ -3587,6 +3640,11 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "985a99f7465b68e43b98f3dbe1081b7113d957c7926a8caab163503528910f42"
+metafile = true
+
+[[files]]
+file = "mods/selene.pw.toml"
+hash = "6aba148930aeb000292b8862990ab4515ea033554b67b44dd3e59f16ef244778"
 metafile = true
 
 [[files]]
