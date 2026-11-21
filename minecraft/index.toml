@@ -2775,6 +2775,11 @@ hash = "ad8209e472d463c9fcd19ca708fcd9c1a4a1bc69c9f0ca22efeacb414e9ab7a8"
 metafile = true
 
 [[files]]
+file = "mods/.index/flywheel.pw.toml"
+hash = "d08faf6e907ae1f6e08ced93ed44cbf91e26489e346c41dd2ca494da4b916852"
+metafile = true
+
+[[files]]
 file = "mods/.index/forgified-fabric-api.pw.toml"
 hash = "f11442c6b81c3be9537a7faadefe0a21809ac0d410b98b00849861b77f99d21b"
 metafile = true
@@ -3225,6 +3230,11 @@ hash = "ad8615c021dc857d27ad994105a63a2266cde855691c94f80c910642679794f7"
 metafile = true
 
 [[files]]
+file = "mods/.index/ponder.pw.toml"
+hash = "03b48b231e998a43788294a2181009608a7e9e069844dfe8f6da6bf19118734a"
+metafile = true
+
+[[files]]
 file = "mods/.index/prism-lib.pw.toml"
 hash = "5c6e05e760971feeacf6a0102c2829a712c9e16e3fb6f3d6fece18a87a8381a4"
 metafile = true
@@ -3306,17 +3316,17 @@ metafile = true
 
 [[files]]
 file = "mods/.index/sophisticated-backpacks.pw.toml"
-hash = "eee1aaa1819c2e18f18645f167ac9ef973db106d622c67f34fcabb04aa00e95d"
+hash = "83d21080d0a0e1c6bcf633e74eb4e0fb50e161d2567759f6caf28d06a5ab6378"
 metafile = true
 
 [[files]]
 file = "mods/.index/sophisticated-core.pw.toml"
-hash = "3dfdea35816deee4fadfb2fdc55ff87e4929ae6db2bbe1c3a37fa1c3e85bd1f9"
+hash = "dc8a8471fe9b266098ef4c06f59f3c50dc310ed821d3b830721fde378cd5d4c6"
 metafile = true
 
 [[files]]
 file = "mods/.index/sophisticated-storage.pw.toml"
-hash = "ca8e3a0f1641ac4d15780c3044e4464c6d2be53c23e11efa26d8ce303e941e17"
+hash = "5263ebaf1ee6c9b86ff046261eeafecee58b11026cca5d06bf49ec502d80f445"
 metafile = true
 
 [[files]]
@@ -3342,6 +3352,11 @@ metafile = true
 [[files]]
 file = "mods/.index/tf-remastered.pw.toml"
 hash = "ff2fcad846dc89ed014a692e83251b78962e75e171b3a5e168af0d5a0759c5ab"
+metafile = true
+
+[[files]]
+file = "mods/.index/thaumaturge-tech-compats.pw.toml"
+hash = "7344d8cf4c889eb1745573d6874a71136c0238a5395114b1f9ff5b91af16447d"
 metafile = true
 
 [[files]]
@@ -3405,8 +3420,8 @@ hash = "8d4c36e3aac91377077f3c9e51173a669d6dbe445df94e926df0cea1581a975e"
 metafile = true
 
 [[files]]
-file = "mods/EI core-1.0.1.jar"
-hash = "f3664bb207f226b7190a46b72066db6ddac6aa97ac61b958973b0f80ff80cebd"
+file = "mods/EI core-1.0.4.jar"
+hash = "9c9568d40418e5b433cfd0ab9f534e312c073203fea869363f114cb2f0c4ed95"
 
 [[files]]
 file = "mods/aeroblender.pw.toml"
@@ -3575,8 +3590,8 @@ hash = "985a99f7465b68e43b98f3dbe1081b7113d957c7926a8caab163503528910f42"
 metafile = true
 
 [[files]]
-file = "mods/solapplepie-1.21.1-2.2.0-neoforge.jar"
-hash = "7b7ae02489cfdb6f8180c1c4d54c49127bd8af61f0a7ea11f6c104a1dad8225b"
+file = "mods/solapplepie Unofficial-1.1.0-1.21.1-neoforge.jar"
+hash = "5248059122af6255e897a6109b11788a6a293189ea63960a152e42abf54ded62"
 
 [[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
@@ -3596,11 +3611,6 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "4cdd3a94451efd61ad53cec5019557042cc9a3bc455632aa931663b70850958a"
-metafile = true
-
-[[files]]
-file = "mods/thaumaturge-tech-compats.pw.toml"
-hash = "7344d8cf4c889eb1745573d6874a71136c0238a5395114b1f9ff5b91af16447d"
 metafile = true
 
 [[files]]
