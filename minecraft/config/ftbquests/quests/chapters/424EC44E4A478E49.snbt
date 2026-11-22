@@ -508,7 +508,7 @@
 				permission_level: 2
 				type: "command"
 			}]
-			shape: "diamond"
+			shape: "gear"
 			size: 2.0d
 			tasks: [{
 				dimension: "minecraft:overworld"

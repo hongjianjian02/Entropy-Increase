@@ -9,7 +9,6 @@
 	id: "19169E2187F4B9B9"
 	images: [ ]
 	order_index: 1
-	preset: "normal"
 	quest_links: [ ]
 	quests: [
 		{
@@ -19,7 +18,7 @@
 				item: { count: 1, id: "thaumaturge:salis_mundus" }
 				type: "item"
 			}]
-			x: -7.0d
+			x: 1.0d
 			y: -0.5d
 		}
 		{
@@ -59,7 +58,7 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
+			x: -1.0d
 			y: -0.5d
 		}
 		{
@@ -104,7 +103,7 @@
 				item: { count: 1, id: "thaumaturge:smelter_basic" }
 				type: "item"
 			}]
-			x: -0.5d
+			x: -5.0d
 			y: -0.5d
 		}
 		{
@@ -198,7 +197,7 @@
 					type: "dimension"
 				}
 			]
-			x: -9.0d
+			x: 3.0d
 			y: -0.5d
 		}
 		{
@@ -209,19 +208,19 @@
 				item: { count: 1, id: "aether:bronze_dungeon_key" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 1.5d
+			x: 5.0d
+			y: -0.5d
 		}
 		{
-			dependencies: ["021E0709C9A7D9EF"]
+			dependencies: ["1D3FEB50ED6FF01A"]
 			id: "6D7A7A6198817159"
 			tasks: [{
 				id: "33524CCF23F2446F"
 				item: { count: 1, id: "aether:silver_dungeon_key" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 5.5d
+			x: 9.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["6D7A7A6198817159"]
@@ -231,8 +230,8 @@
 				item: { count: 1, id: "aether:gold_dungeon_key" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 7.5d
+			x: 11.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["3B0E2B868685E5A2"]
@@ -242,29 +241,8 @@
 				item: { count: 1, id: "aether:sun_altar" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: 7.5d
-		}
-		{
-			dependencies: [
-				"021E0709C9A7D9EF"
-				"1D3FEB50ED6FF01A"
-			]
-			id: "31D3EEE6F2B91EC5"
-			tasks: [
-				{
-					id: "10B15B61531BB536"
-					item: { count: 1, id: "aether:ambrosium_shard" }
-					type: "item"
-				}
-				{
-					id: "7E229A8BCD2F8D28"
-					item: { count: 1, id: "aether:zanite_gemstone" }
-					type: "item"
-				}
-			]
-			x: -10.5d
-			y: 2.5d
+			x: 11.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["6D7A7A6198817159"]
@@ -274,8 +252,8 @@
 				item: { count: 1, id: "aether:gravitite_ore" }
 				type: "item"
 			}]
-			x: -10.5d
-			y: 5.5d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["3B0E2B868685E5A2"]
@@ -285,8 +263,8 @@
 				item: { count: 1, id: "eicore:tianqing_ore" }
 				type: "item"
 			}]
-			x: -7.5d
-			y: 7.5d
+			x: 13.0d
+			y: -0.5d
 		}
 		{
 			dependencies: ["7ED320DC6F3B0B61"]
@@ -300,10 +278,7 @@
 			y: 9.5d
 		}
 		{
-			dependencies: [
-				"128A66B8CA3E3F08"
-				"578760D8D2797C28"
-			]
+			dependencies: ["578760D8D2797C28"]
 			icon: {
 				id: "minecraft:netherrack"
 			}
@@ -313,8 +288,8 @@
 				id: "1FE94B20B438DF98"
 				type: "dimension"
 			}]
-			x: -12.5d
-			y: -0.5d
+			x: 1.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["0300D16F9C9718DE"]
@@ -324,8 +299,8 @@
 				item: { count: 1, id: "botania:terrasteel_ingot" }
 				type: "item"
 			}]
-			x: -12.5d
-			y: 1.5d
+			x: 3.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["00527EE6B9A6669B"]
@@ -335,8 +310,8 @@
 				item: { count: 1, id: "botania:gaia_ingot" }
 				type: "item"
 			}]
-			x: -12.5d
-			y: 3.5d
+			x: 5.0d
+			y: -2.0d
 		}
 		{
 			dependencies: ["7FE76F3459489CAC"]
@@ -423,7 +398,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: -7.5d
 			y: -0.5d
 		}
 		{
@@ -446,7 +421,7 @@
 					type: "item"
 				}
 			]
-			x: 2.0d
+			x: -7.5d
 			y: -2.0d
 		}
 		{
@@ -689,7 +664,7 @@
 					type: "observation"
 				}
 			]
-			x: 6.0d
+			x: -10.0d
 			y: -0.5d
 		}
 		{
@@ -700,7 +675,7 @@
 				item: { count: 1, id: "thaumaturge:brain_box" }
 				type: "item"
 			}]
-			x: 6.0d
+			x: -10.0d
 			y: -2.0d
 		}
 		{
@@ -718,7 +693,7 @@
 					type: "item"
 				}
 			]
-			x: 8.0d
+			x: -12.0d
 			y: -0.5d
 		}
 		{
@@ -747,6 +722,10 @@
 			y: 2.5d
 		}
 		{
+			dependencies: [
+				"10C7603A8927D822"
+				"51209ED7030C9AF7"
+			]
 			id: "588A93C0945448CF"
 			rewards: [{
 				auto: "enabled"
@@ -758,25 +737,114 @@
 					id: "ftbquests:custom_icon"
 				}
 				id: "3F43B00EA679E895"
+				permission_level: 2
 				type: "command"
 			}]
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "2D9A0BB0999347B6"
 				item: { count: 1, id: "eicore:tianshu_star" }
 				type: "item"
 			}]
-			x: -17.5d
-			y: 12.0d
+			x: 16.0d
+			y: -0.5d
 		}
 		{
+			dependencies: ["021E0709C9A7D9EF"]
 			id: "1D3FEB50ED6FF01A"
 			tasks: [{
 				id: "2E764C4A7D5BDE19"
 				item: { count: 1, id: "deep_aether:brass_dungeon_key" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 3.5d
+			x: 7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["18E87D454E189DFE"]
+			icon: {
+				id: "pneumaticcraft:thermal_compressor"
+			}
+			id: "56BC9070CDA61477"
+			tasks: [
+				{
+					id: "5050638CD6590323"
+					item: { count: 1, id: "pneumaticcraft:thermal_compressor" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0A9F0BB406FA8E4B"
+					item: { count: 1, id: "pneumaticcraft:flux_compressor" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5D6908BDAFFA98E8"
+					item: { count: 1, id: "pneumaticcraft:electrostatic_compressor" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0366FC226ACE7B3C"
+					item: { count: 1, id: "pneumaticcraft:advanced_liquid_compressor" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "27F0F05314A3AEB5"
+					item: { count: 1, id: "pneumaticcraft:advanced_air_compressor" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3D89498A6861ECF4"
+					type: "checkmark"
+				}
+			]
+			x: 16.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["56BC9070CDA61477"]
+			id: "10C7603A8927D822"
+			tasks: [{
+				icon: {
+					id: "pneumaticcraft:pressure_chamber_interface"
+				}
+				id: "302EC741B13A077C"
+				observation_type: "block"
+				observe_type: 0
+				timer: 0L
+				to_observe: "pneumaticcraft:pressure_chamber_interface"
+				type: "observation"
+			}]
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1D3FEB50ED6FF01A"]
+			id: "613091D179E61576"
+			tasks: [
+				{
+					id: "51267A015906CDBC"
+					item: { count: 1, id: "deep_aether:skyjade" }
+					type: "item"
+				}
+				{
+					id: "4135000B0B13EA99"
+					item: { count: 1, id: "aether:ambrosium_shard" }
+					type: "item"
+				}
+				{
+					id: "65ED6BBE34FD89CA"
+					item: { count: 1, id: "aether:zanite_gemstone" }
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -2.0d
 		}
 	]
 }

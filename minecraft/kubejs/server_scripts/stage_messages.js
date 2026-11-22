@@ -21,6 +21,7 @@ var registerEIStageMessages = event => {
         '解锁模组：AE2、AdvancedAE、ExtendedAE、ExtendedAE Plus、MEGA Cells',
         '解锁附属：Applied Flux、Applied Pneumatics、ME Requester、ME Placement Tool',
         '解锁附属：WCWT、AE2 Lightning Tech、神秘能源学、Applied Construction Sticks',
+        '解锁附属：Applied Thaumaturge',
         '解锁模组：工业先锋、EnderIO、EnderIO Evolution、EnderIO 导管优化',
         '解锁模组：Mekanism、Mekanism Generators、Mekanism Tools、Mekanism Card',
         '解锁模组：星辉魔法、Hostile Neural Networks',

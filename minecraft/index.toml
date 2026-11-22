@@ -1998,7 +1998,7 @@ hash = "74e2eefb484acab9b1c0d036c1a7f78d6740bd32495a8d059e5c5f5d3fc808b4"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "faa36f43c7be7045cf7eb2188796eebee59485796c86d2eecb605010c5a6fa57"
+hash = "d9deb82cd6a0c4261e81ca9671a6b51e43129d5e3e609585bac2149f4c60cfa8"
 
 [[files]]
 file = "kubejs/config/client.json"
@@ -2403,6 +2403,10 @@ hash = "f319cfaf8b8892c7a7ac380c16517b83625d6169215adfe627623de5999109b6"
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Nuclearcraft/alloy_furnace.js"
 hash = "e393365a577b818ccc13e9b082a7013705b261a129ea78b01482c05a2d2400d9"
+
+[[files]]
+file = "kubejs/server_scripts/Recipes/Mods/PneumaticCraft/pressure_chamber.js"
+hash = "a686093abf48ecd171b2503c4a98fb94f5361e265cf47e89492ac644c5d26e05"
 
 [[files]]
 file = "kubejs/server_scripts/Recipes/Mods/Thaumaturge/arcane_workbench.js"
@@ -3468,8 +3472,8 @@ hash = "8d4c36e3aac91377077f3c9e51173a669d6dbe445df94e926df0cea1581a975e"
 metafile = true
 
 [[files]]
-file = "mods/EI core-1.0.16.jar"
-hash = "c516e21167577784ef4fe225d385a3d31439fb27c1b528c7c5604926362c85b3"
+file = "mods/EI core-1.0.17.jar"
+hash = "ea5682cb8080bcd4f86de291be76cca20d9887f016422b4e6229228b85a75135"
 
 [[files]]
 file = "mods/aeroblender.pw.toml"

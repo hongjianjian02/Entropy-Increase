@@ -1,15 +1,11 @@
 {
-	chapter.03A1D73903FA6FEC.title: "第三章"
+	chapter.04AF85FC91291AB7.title: "第三章"
 	chapter.0EC020AE374B53AE.title: "妙妙小工具"
-	chapter.0F13ECE19CBEBEF0.title: "第六章"
 	chapter.19169E2187F4B9B9.title: "第二章"
 	chapter.3AF64A8D2E35B6B4.title: "资源"
 	chapter.40304C220F7BCCE6.title: "物流"
 	chapter.40423503220CF0F0.title: "介绍页"
 	chapter.424EC44E4A478E49.title: "第一章"
-	chapter.58D00E42B7379E81.title: "第五章"
-	chapter.5C3F40131C469C9C.title: "第七章"
-	chapter.7635944B6A6416E4.title: "第四章"
 	chapter_group.323571BB47D0B746.title: "[主线]"
 	chapter_group.4F34D8C283AFEFDA.title: "【实用物品】"
 	quest.00527EE6B9A6669B.quest_desc: ["在地狱击败有额外掉落盖亚魂  小概率掉落盖亚魂锭"]
@@ -28,21 +24,28 @@
 	quest.0B83A320EA00A9B0.title: "神秘农业"
 	quest.0C42E80F859B8885.quest_desc: ["巫妖现在会掉落&e王冠碎片&r和概率掉落&e神秘王冠&r"]
 	quest.0C42E80F859B8885.title: "击败巫妖"
+	quest.0E7D52A1B8C83D62.title: "高压精炼装置"
 	quest.0FF73CE7539C399D.title: "粉色小粉末的产物"
 	quest.100DB060C8AC126F.quest_desc: ["ps：用ME能量存储元件存储电量，再在样板供应器放入感应卡会自动给机器发配电量"]
-	quest.128A66B8CA3E3F08.quest_desc: ["使用&d世界盐&r开门"]
+	quest.10C7603A8927D822.title: "压力室"
+	quest.128A66B8CA3E3F08.quest_desc: [
+		"使用&d世界盐&r进入天境"
+		""
+		"建议提升一下自身战力进行攻略"
+	]
 	quest.128A66B8CA3E3F08.title: "天境"
 	quest.1301F3F28736AD5F.quest_desc: ["跳入暮色传送门然后回家！ 但是真的是回家吗？"]
 	quest.1301F3F28736AD5F.title: "回家"
 	quest.144913CE171A67E8.title: "eio磨粉机倍产"
 	quest.156845B8FDE37E62.title: "维度存储"
 	quest.1661897BFFC6CA25.title: "神秘矿簇倍产"
-	quest.16DEAADC209D716E.quest_desc: ["你可以自由控制天境的白天黑夜了 在黑夜可以放置lv0矿机进行挖掘天境的全部矿石"]
+	quest.16DEAADC209D716E.quest_desc: ["[ \"你可以自由控制天境的白天黑夜了 在黑夜可以放置\", { \"text\": \"lv0天境矿机\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"438E115A3DD8E5F8\" } }, \"进行挖掘天境的全部矿石\" ]"]
 	quest.1784781D664074A3.title: "SFM"
 	quest.18DC9AF6247F5DF0.title: "大卫带！"
 	quest.18E87D454E189DFE.title: "塑料"
 	quest.1A283E48EC379423.quest_desc: ["或许是同族的......."]
 	quest.1A283E48EC379423.title: "不觉得幻影骑士很像精灵吗"
+	quest.1A8F47A4A83C71A9.title: "天镜稀有矿"
 	quest.1ABB4A061CF20212.quest_desc: [""]
 	quest.1ABB4A061CF20212.title: "&m附魔&r激活！"
 	quest.1F859657875F24FA.title: "流体管道"
@@ -76,18 +79,18 @@
 	quest.4CF6C86CD92C3279.title: "获取你需要的压力"
 	quest.4D3F03124FF191D2.title: "任意能量导管"
 	quest.5014C0B273E442CC.quest_desc: ["现在可以用&e巫妖奖杯&r在切石机切末影珍珠"]
+	quest.505F248C7299D00E.title: "精炼厂"
 	quest.51209ED7030C9AF7.quest_desc: ["在天境维度30-15的高度生成"]
 	quest.54643F6882F44234.quest_desc: ["探索自然！"]
+	quest.56BC9070CDA61477.quest_desc: ["几种推荐的压缩机"]
+	quest.56BC9070CDA61477.title: "压缩机"
 	quest.56E3C6A22E845015.title: "钻井"
-	quest.578760D8D2797C28.quest_desc: [
-		"冒险：地狱 天境"
-		"魔法：神秘"
-		"科技：沉浸工艺 沉浸原油"
-	]
+	quest.578760D8D2797C28.quest_desc: ["(本章不会用到血魔法但是可以提前发展一下)"]
 	quest.578760D8D2797C28.title: "世界盐怎么做？"
 	quest.57BC34FCEAB6B2DD.quest_desc: ["Mek管道不做推荐"]
 	quest.57BC34FCEAB6B2DD.title: "物流管道"
-	quest.588A93C0945448CF.title: "第二章最后的物品"
+	quest.588A93C0945448CF.quest_desc: ["看星星！"]
+	quest.588A93C0945448CF.title: "天枢之星！"
 	quest.59C4DCBCFBBF5F82.quest_desc: ["送你几瓶&4治疗药水&r，至于有什么用你应该知道吧！"]
 	quest.59C4DCBCFBBF5F82.title: "击败娜迦"
 	quest.5A257762548719D9.title: "罐装机"
@@ -96,6 +99,8 @@
 	quest.5BF7DF8C072BD707.quest_desc: ["真的有人有更好用的管道不用，来用这个吗……"]
 	quest.5BF7DF8C072BD707.quest_subtitle: "？！区区！？"
 	quest.5F643373E30E6602.title: "任意加压管道"
+	quest.60A6F14EEF80A97A.title: "蒸馏塔"
+	quest.613091D179E61576.title: "天境基础矿"
 	quest.624C965C3E12B86E.title: "钻头"
 	quest.62A5D7E1722ECB2C.quest_desc: ["优化你的钢板配方"]
 	quest.62A5D7E1722ECB2C.title: "金属冲压机"
@@ -125,6 +130,7 @@
 	quest.7F3614FDE1F0BED7.quest_desc: ["植魔的一小步，迈向精灵门的一大步"]
 	quest.7FE76F3459489CAC.quest_desc: ["有了钢你就可以制作改良高炉继续炼钢了"]
 	reward.1453C2DD633525DB.title: "游戏阶段：&echapter1"
+	reward.16DBFDD76A9C0F04.title: "游戏阶段：&echapter3"
 	reward.3F43B00EA679E895.title: "游戏阶段：&echapter2"
 	task.0711EE16841821C9.title: "任意化学品导管"
 	task.08EF6691F4EC3B5E.title: "任意流体导管"

@@ -42,6 +42,7 @@ var registerEIChapterRestrictions = event => {
     AStages.addRestrictionForModRecipe('ch2_ae2_wcwt', 'chapter2', 'wcwt') // AE2 WCWT
     AStages.addRestrictionForModRecipe('ch2_ae2_lt', 'chapter2', 'ae2lt') // AE2 闪电科技
     AStages.addRestrictionForModRecipe('ch2_ae2_thaumic', 'chapter2', 'thaumicenergistics_ce') // 神秘能源学
+    AStages.addRestrictionForModRecipe('ch2_ae2_appliedthaumaturge', 'chapter2', 'appliedthaumaturge') // Applied Thaumaturge
     AStages.addRestrictionForModRecipe('ch2_ae2_appliedsoul', 'chapter2', 'appliedsoul') // Applied Soul
     AStages.addRestrictionForModRecipe('ch2_ae2_sticks', 'chapter2', 'appliedsticks') // Applied 建筑棒
 

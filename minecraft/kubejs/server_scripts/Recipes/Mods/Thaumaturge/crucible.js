@@ -1,6 +1,5 @@
 // 神秘坩埚（Crucible）配方
-// 约定：复用原配方 ID 直接覆盖，不再单独 remove
-// 注意：ID 必须和原版数据包路径一致（data/thaumaturge/recipe/crucible/xxx.json → thaumaturge:crucible/xxx）
+// 覆盖原配方时沿用原配方 ID
 
 ServerEvents.recipes(event => {
 
@@ -28,5 +27,16 @@ ServerEvents.recipes(event => {
     research: { entry: 'thaumaturge:metallurgy', stage: 1 },
     result: { id: 'thaumaturge:ingot_thaumium', count: 1 }
   }).id('thaumaturge:crucible/ingot_thaumium')
+
+  // 天罡锭：先溶解恶魔灌注铁锭，再投入天青锭作为催化物
+  event.custom({
+    type: 'thaumaturge:crucible',
+    aspects: [
+      { aspect: 'thaumaturge:metallum', amount: 5 },
+      { aspect: 'thaumaturge:praecantatio', amount: 5 }
+    ],
+    catalyst: { item: 'eicore:tianqing_ingot' },
+    result: { id: 'eicore:tiangang_ingot', count: 1 }
+  }).id('thaumaturge:crucible/tiangang_ingot')
 
 })

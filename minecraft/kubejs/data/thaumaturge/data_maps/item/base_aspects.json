@@ -1,0 +1,8 @@
+{
+  "values": {
+    "excessive_utilities:evil_infused_iron_ingot": [
+      { "aspect": "thaumaturge:metallum", "amount": 5 },
+      { "aspect": "thaumaturge:praecantatio", "amount": 5 }
+    ]
+  }
+}
