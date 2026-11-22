@@ -100,5 +100,88 @@
 			x: -1.0d
 			y: -4.0d
 		}
+		{
+			icon: {
+				id: "eicore:immortal_feast_seeds"
+			}
+			id: "64D15744454EF749"
+			rewards: [{
+				id: "4F9B121DCF962CFA"
+				item: {
+					count: 1
+					id: "eicore:immortal_feast_seeds"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "06867E4617DEC145"
+					item: { count: 1, id: "immortalers_delight:oxygrape" }
+					type: "item"
+				}
+				{
+					id: "7E4BA10D4398F80F"
+					item: { count: 1, id: "immortalers_delight:evolutcorn_grains" }
+					type: "item"
+				}
+				{
+					id: "2FB89ADAE3F9ACC2"
+					item: { count: 1, id: "immortalers_delight:himekaido_seed" }
+					type: "item"
+				}
+				{
+					id: "7E7AE3C257634A1D"
+					item: { count: 1, id: "immortalers_delight:kwat_wheat_seeds" }
+					type: "item"
+				}
+				{
+					id: "26E5E6C2B7A5BF99"
+					item: { count: 1, id: "immortalers_delight:alfalfa_seeds" }
+					type: "item"
+				}
+				{
+					id: "42698EC958118167"
+					item: { count: 1, id: "immortalers_delight:warped_laurel_seeds" }
+					type: "item"
+				}
+				{
+					id: "567C45A7E73BD950"
+					item: { count: 1, id: "immortalers_delight:gelpitaya_seeds" }
+					type: "item"
+				}
+				{
+					id: "6E5938047FD9ED4B"
+					item: { count: 1, id: "immortalers_delight:sextlotus_seeds" }
+					type: "item"
+				}
+				{
+					id: "63CD959676A92B2C"
+					item: { count: 1, id: "immortalers_delight:pearlipearl" }
+					type: "item"
+				}
+				{
+					id: "680E48224AE1B636"
+					item: { count: 1, id: "immortalers_delight:travarice" }
+					type: "item"
+				}
+				{
+					id: "6369548F5CF51D3E"
+					item: { count: 1, id: "immortalers_delight:a_bush" }
+					type: "item"
+				}
+				{
+					id: "2464C582DE92BDC1"
+					item: { count: 1, id: "immortalers_delight:obsidian_walnut" }
+					type: "item"
+				}
+				{
+					id: "5628BA55C6FB66DD"
+					item: { count: 1, id: "immortalers_delight:contains_tea_leisamboo" }
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -4.0d
+		}
 	]
 }

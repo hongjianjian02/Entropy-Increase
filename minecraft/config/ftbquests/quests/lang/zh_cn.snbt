@@ -99,6 +99,7 @@
 	quest.624C965C3E12B86E.title: "钻头"
 	quest.62A5D7E1722ECB2C.quest_desc: ["优化你的钢板配方"]
 	quest.62A5D7E1722ECB2C.title: "金属冲压机"
+	quest.64D15744454EF749.title: "千古种子"
 	quest.6A36DF7F83FCC41F.title: "血魔法炼金炉倍产"
 	quest.6A9478B98AECA246.title: "任意能量线缆"
 	quest.6AEC9D71CCD30C34.title: "击败幻影骑士"
@@ -108,7 +109,10 @@
 	quest.71652FC5565FC7A4.title: "击败米诺菇"
 	quest.71CD3EF884A9EDB8.title: "焦煤塔"
 	quest.73A40657CC673DA0.title: "高炉"
-	quest.73BE1F8E3643202D.quest_desc: ["在终焉城堡获取四色符文城堡砖每种至少一个"]
+	quest.73BE1F8E3643202D.quest_desc: [
+		"        在终焉城堡获取四色符文城堡砖每种至少一个"
+		"{image:entropy_increase:textures/quests/aether_portal.png width:128 height:72 align:center click_action:none:}"
+	]
 	quest.73BE1F8E3643202D.title: "四色符文城堡砖"
 	quest.75A136B20D2FF7E3.quest_desc: ["在地狱击败有额外掉落盖亚魂  小概率掉落盖亚魂锭"]
 	quest.76726434946723A3.title: "液化石油气"
@@ -120,6 +124,8 @@
 	quest.7F1F590775232C74.title: "通量"
 	quest.7F3614FDE1F0BED7.quest_desc: ["植魔的一小步，迈向精灵门的一大步"]
 	quest.7FE76F3459489CAC.quest_desc: ["有了钢你就可以制作改良高炉继续炼钢了"]
+	reward.1453C2DD633525DB.title: "游戏阶段：&echapter1"
+	reward.3F43B00EA679E895.title: "游戏阶段：&echapter2"
 	task.0711EE16841821C9.title: "任意化学品导管"
 	task.08EF6691F4EC3B5E.title: "任意流体导管"
 	task.094E675641541306.title: "任意机械管道"

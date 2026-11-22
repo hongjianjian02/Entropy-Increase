@@ -497,11 +497,16 @@
 			id: "1301F3F28736AD5F"
 			rewards: [{
 				auto: "enabled"
-				id: "0C4BA4EBF1F39C51"
-				ignore_reward_blocking: true
-				remove: false
-				stage: "chapter 1"
-				type: "astages:server"
+				command: "/astages server add chapter1"
+				icon: {
+					components: {
+						"ftbquests:icon": "ftblibrary:icons/controller"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "1453C2DD633525DB"
+				permission_level: 2
+				type: "command"
 			}]
 			shape: "diamond"
 			size: 2.0d

@@ -8,6 +8,7 @@ ItemEvents.modifyTooltips(event => {
     event.add('eicore:tianshu_star', '§1据说是天上坠落的星星')
     event.add('eicore:baiwei_seeds', '§e可以在暮色树屋找到')
     event.add('eicore:youkai_feast_seeds', '§e可以在暮色树屋找到')
+    event.add('eicore:immortal_feast_seeds', '§e集齐全部千古乐事的种子获取')
     event.add('eicore:mystic_crown', '§7暮色森林深处的古老遗物，戴上后能窥见裂隙的脉动')
     event.add('eicore:mystic_crown', '§6+5 幸运')
     event.add('eicore:mystic_crown', '§b生命值低于 50% 时被攻击：展开一次护盾')
