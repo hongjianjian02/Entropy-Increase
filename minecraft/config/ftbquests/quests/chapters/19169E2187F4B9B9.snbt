@@ -9,10 +9,13 @@
 	id: "19169E2187F4B9B9"
 	images: [ ]
 	order_index: 1
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
 			id: "578760D8D2797C28"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "0177A2632844169C"
 				item: { count: 1, id: "thaumaturge:salis_mundus" }
@@ -24,6 +27,7 @@
 		{
 			dependencies: ["324612AF501C4D78"]
 			id: "19328B6E409A8BC8"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "16A53C016CFB3B0D"
@@ -45,6 +49,7 @@
 				id: "thaumaturge:thaumonomicon"
 			}
 			id: "3D25961A6C963D0D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "2F81D0CC03DC9DD1"
@@ -67,6 +72,7 @@
 				id: "thaumaturge:arcane_workbench"
 			}
 			id: "0FF73CE7539C399D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "685C9F77F40C2266"
 				item: { count: 1, id: "thaumaturge:arcane_workbench" }
@@ -78,6 +84,7 @@
 		{
 			dependencies: ["0FF73CE7539C399D"]
 			id: "4125116C8702CF71"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3D0D0C319D8288E4"
 				item: { count: 1, id: "thaumaturge:goggles_revealing" }
@@ -89,6 +96,7 @@
 		{
 			dependencies: ["0FF73CE7539C399D"]
 			id: "6E894B02A23ACDAD"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 3
 				id: "626082AA310ED31B"
@@ -113,6 +121,7 @@
 				"01D6299D694C147A"
 			]
 			id: "7FE76F3459489CAC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "28CF3720C94478F6"
 				item: { count: 1, id: "mekanism:ingot_steel" }
@@ -126,6 +135,7 @@
 				id: "immersiveengineering:blast_furnace"
 			}
 			id: "73A40657CC673DA0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 27L
 				id: "35A5E127CB3B1342"
@@ -138,6 +148,7 @@
 		{
 			dependencies: ["35F2F8CA26499EF0"]
 			id: "01D6299D694C147A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "16661968F4D59D33"
@@ -158,6 +169,7 @@
 				id: "immersiveengineering:coke_oven"
 			}
 			id: "35F2F8CA26499EF0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				count: 27L
 				id: "502C7ABE532C71B4"
@@ -170,6 +182,7 @@
 		{
 			dependencies: ["01D6299D694C147A"]
 			id: "7ED320DC6F3B0B61"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "21358BCC7A611893"
 				item: { count: 1, id: "immersiveengineering:workbench" }
@@ -184,6 +197,7 @@
 				id: "aether:cold_aercloud"
 			}
 			id: "128A66B8CA3E3F08"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					count: 10L
@@ -203,6 +217,7 @@
 		{
 			dependencies: ["128A66B8CA3E3F08"]
 			id: "021E0709C9A7D9EF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2AEA1451DBCB4DE8"
 				item: { count: 1, id: "aether:bronze_dungeon_key" }
@@ -214,6 +229,7 @@
 		{
 			dependencies: ["1D3FEB50ED6FF01A"]
 			id: "6D7A7A6198817159"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "33524CCF23F2446F"
 				item: { count: 1, id: "aether:silver_dungeon_key" }
@@ -225,6 +241,7 @@
 		{
 			dependencies: ["6D7A7A6198817159"]
 			id: "3B0E2B868685E5A2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "16FF8EB9FCAE1FB5"
 				item: { count: 1, id: "aether:gold_dungeon_key" }
@@ -236,6 +253,7 @@
 		{
 			dependencies: ["3B0E2B868685E5A2"]
 			id: "16DEAADC209D716E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "197989727FD58D94"
 				item: { count: 1, id: "aether:sun_altar" }
@@ -247,6 +265,7 @@
 		{
 			dependencies: ["6D7A7A6198817159"]
 			id: "1A8F47A4A83C71A9"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6CDD11829069FDEA"
 				item: { count: 1, id: "aether:gravitite_ore" }
@@ -258,6 +277,7 @@
 		{
 			dependencies: ["3B0E2B868685E5A2"]
 			id: "51209ED7030C9AF7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "68CCBE77F39AA4F0"
 				item: { count: 1, id: "eicore:tianqing_ore" }
@@ -269,6 +289,7 @@
 		{
 			dependencies: ["7ED320DC6F3B0B61"]
 			id: "23D00422414A32B3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "70C937B7C219D18C"
 				item: { components: { "immersiveengineering:blueprint": "components" }, count: 1, id: "immersiveengineering:blueprint" }
@@ -283,6 +304,7 @@
 				id: "minecraft:netherrack"
 			}
 			id: "0300D16F9C9718DE"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				dimension: "aether:the_aether"
 				id: "1FE94B20B438DF98"
@@ -294,6 +316,7 @@
 		{
 			dependencies: ["0300D16F9C9718DE"]
 			id: "00527EE6B9A6669B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4BBE293BDEF8C101"
 				item: { count: 1, id: "botania:terrasteel_ingot" }
@@ -305,6 +328,7 @@
 		{
 			dependencies: ["00527EE6B9A6669B"]
 			id: "75A136B20D2FF7E3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7377A0619932292D"
 				item: { count: 1, id: "botania:gaia_ingot" }
@@ -316,6 +340,7 @@
 		{
 			dependencies: ["7FE76F3459489CAC"]
 			id: "23DA1960E2B48C55"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "45C69C5F9FFBF097"
@@ -339,6 +364,7 @@
 		{
 			dependencies: ["23DA1960E2B48C55"]
 			id: "62A5D7E1722ECB2C"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				icon: {
 					id: "immersiveengineering:metal_press"
@@ -356,6 +382,7 @@
 		{
 			dependencies: ["23DA1960E2B48C55"]
 			id: "56E3C6A22E845015"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 64
 				id: "306FEFBCC8D70AA5"
@@ -385,6 +412,7 @@
 				id: "thaumaturge:infusion_matrix"
 			}
 			id: "608809FB6023E34D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "75484CFAAEB1F61E"
@@ -404,6 +432,7 @@
 		{
 			dependencies: ["608809FB6023E34D"]
 			id: "242C92B1F13A5B7B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "1C62A78E30DD4840"
@@ -427,6 +456,7 @@
 		{
 			dependencies: ["56E3C6A22E845015"]
 			id: "60A6F14EEF80A97A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				icon: {
 					id: "immersivepetroleum:distillation_tower"
@@ -444,6 +474,7 @@
 		{
 			dependencies: ["5BBD487CB33906D6"]
 			id: "0E7D52A1B8C83D62"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				icon: {
 					id: "immersivepetroleum:hydrotreater"
@@ -461,6 +492,7 @@
 		{
 			dependencies: ["0E7D52A1B8C83D62"]
 			id: "505F248C7299D00E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				icon: {
 					id: "immersiveengineering:refinery"
@@ -478,6 +510,7 @@
 		{
 			dependencies: ["60A6F14EEF80A97A"]
 			id: "5BBD487CB33906D6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7A8E29D45799A1A9"
 				item: { count: 1, id: "immersivepetroleum:naphtha_bucket" }
@@ -489,6 +522,7 @@
 		{
 			dependencies: ["60A6F14EEF80A97A"]
 			id: "3E43DC3D091D0D55"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "204591A65931E3C1"
 				item: { count: 1, id: "immersivepetroleum:kerosene_bucket" }
@@ -500,6 +534,7 @@
 		{
 			dependencies: ["60A6F14EEF80A97A"]
 			id: "78DF9D734B58FA39"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "7722F2846A196905"
 				item: { count: 1, id: "immersivepetroleum:lubricant_bucket" }
@@ -511,6 +546,7 @@
 		{
 			dependencies: ["505F248C7299D00E"]
 			id: "60CAC9CA6357CDC5"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "31B073F8E2EA2CD2"
 				item: { count: 1, id: "immersiveengineering:phenolic_resin_bucket" }
@@ -522,6 +558,7 @@
 		{
 			dependencies: ["3E43DC3D091D0D55"]
 			id: "374AE750756D67A7"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "4A53AC685FE10E19"
 				item: { count: 1, id: "immersivepetroleum:benzol_bucket" }
@@ -537,6 +574,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "2C3211D7C43630A6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "494E1BDEB3D5BF15"
 				item: { count: 1, id: "pneumaticcraft:gasoline_bucket" }
@@ -548,6 +586,7 @@
 		{
 			dependencies: ["2C3211D7C43630A6"]
 			id: "1AAAFDDE298BD3EE"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6B89CB0307A47CC4"
 				item: { count: 1, id: "pneumaticcraft:thermopneumatic_processing_plant" }
@@ -559,6 +598,7 @@
 		{
 			dependencies: ["76726434946723A3"]
 			id: "18E87D454E189DFE"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2F2C171B7C40B9D3"
 				item: { count: 1, id: "pneumaticcraft:plastic_bucket" }
@@ -570,6 +610,7 @@
 		{
 			dependencies: ["1AAAFDDE298BD3EE"]
 			id: "76726434946723A3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "00AF882C8757DFCD"
 				item: { count: 1, id: "pneumaticcraft:lpg_bucket" }
@@ -585,6 +626,7 @@
 			]
 			hide_dependency_lines: false
 			id: "624C965C3E12B86E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "5F628DC48C7685B8"
@@ -603,6 +645,7 @@
 		{
 			dependencies: ["624C965C3E12B86E"]
 			id: "438E115A3DD8E5F8"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "1FC79F9DD65A6890"
 				item: { count: 1, id: "mmcece:factory_controller" }
@@ -614,6 +657,7 @@
 		{
 			dependencies: ["62A5D7E1722ECB2C"]
 			id: "385DDEBDE6803049"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "72B391F499F7F875"
 				item: { count: 1, id: "immersiveengineering:graphite_electrode" }
@@ -625,6 +669,7 @@
 		{
 			dependencies: ["385DDEBDE6803049"]
 			id: "39C0734D5446D233"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				icon: {
 					id: "immersiveengineering:arc_furnace"
@@ -645,6 +690,7 @@
 				id: "thaumaturge:thaumatorium"
 			}
 			id: "2C224959560BE89B"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					count: 2L
@@ -670,6 +716,7 @@
 		{
 			dependencies: ["2C224959560BE89B"]
 			id: "3277A5D76D9C0E17"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "68E36D21CCFDE60D"
 				item: { count: 1, id: "thaumaturge:brain_box" }
@@ -681,6 +728,7 @@
 		{
 			dependencies: ["2C224959560BE89B"]
 			id: "1C5745448C94840E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "69AFF0537DFF835E"
@@ -699,6 +747,7 @@
 		{
 			dependencies: ["0FF73CE7539C399D"]
 			id: "324612AF501C4D78"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3EC193B3900D3ECC"
 				item: { count: 1, id: "thaumaturge:crucible" }
@@ -713,6 +762,7 @@
 				"19328B6E409A8BC8"
 			]
 			id: "2C8A163D91E7B159"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "65FAA42B68100F30"
 				item: { count: 1, id: "thaumaturge:smelter_thaumium" }
@@ -727,6 +777,7 @@
 				"51209ED7030C9AF7"
 			]
 			id: "588A93C0945448CF"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				auto: "enabled"
 				command: "/astages server add chapter2"
@@ -753,6 +804,7 @@
 		{
 			dependencies: ["021E0709C9A7D9EF"]
 			id: "1D3FEB50ED6FF01A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "2E764C4A7D5BDE19"
 				item: { count: 1, id: "deep_aether:brass_dungeon_key" }
@@ -767,6 +819,7 @@
 				id: "pneumaticcraft:thermal_compressor"
 			}
 			id: "56BC9070CDA61477"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "5050638CD6590323"
@@ -809,6 +862,7 @@
 		{
 			dependencies: ["56BC9070CDA61477"]
 			id: "10C7603A8927D822"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				icon: {
 					id: "pneumaticcraft:pressure_chamber_interface"
@@ -826,6 +880,7 @@
 		{
 			dependencies: ["1D3FEB50ED6FF01A"]
 			id: "613091D179E61576"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "51267A015906CDBC"
@@ -845,6 +900,18 @@
 			]
 			x: 7.0d
 			y: -2.0d
+		}
+		{
+			dependencies: ["23DA1960E2B48C55"]
+			id: "23FFEB0FB1627FF0"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2F45BB7C2759FA54"
+				item: { count: 1, id: "immersiveengineering:thermoelectric_generator" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: 4.0d
 		}
 	]
 }

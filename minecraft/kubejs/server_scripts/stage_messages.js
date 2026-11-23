@@ -24,11 +24,12 @@ var registerEIStageMessages = event => {
         '解锁附属：Applied Thaumaturge',
         '解锁模组：工业先锋、EnderIO、EnderIO Evolution、EnderIO 导管优化',
         '解锁模组：Mekanism、Mekanism Generators、Mekanism Tools、Mekanism Card',
-        '解锁模组：星辉魔法、Hostile Neural Networks',
+        '解锁模组：星辉魔法',
         '解锁物流：SFM、Pipez、模块化路由器、Flux Networks、DimStorage',
         '解锁模组：RFTools Builder、RFTools Utility、Rechiseled AE',
         '解锁附属：Neo ECO AE、Applied Mekanistics、AE2LT Packaged Pattern Provider、AE2 无线终端',
         '解锁维度：末地',
+        '击败末影龙后开放 Hostile Neural Networks 配方',
       ]
     },
     {

@@ -1,0 +1,13 @@
+[bridge]
+	#将服务端打开 Accessories 饰品界面的请求重定向到 Curios 饰品栏界面。
+	#Redirect server-side requests opening the Accessories menu to the Curios menu.
+	disableAccessoriesMenu = false
+	#自动检测被模组实际使用的 Accessories 槽位并同步注册绑定到 Curios。
+	#Automatically detect used Accessories slots and register/bind them into Curios.
+	autoRegisterUsedSlots = true
+	#自动将旧存档中已装备在 Accessories 容器内的饰品、装饰栏与持久槽位修饰符无损迁移到 Curios。
+	#Automatically migrate equipped items, cosmetics, and persistent slot modifiers from pre-bridge Accessories saves into Curios.
+	migrateLegacyData = true
+	#自定义槽位映射覆盖列表，格式为 accessories_slot=curios_slot（例如 shoes=feet）。
+	#Custom slot mapping overrides in the format accessories_slot=curios_slot (e.g. shoes=feet).
+	customSlotMappings = []

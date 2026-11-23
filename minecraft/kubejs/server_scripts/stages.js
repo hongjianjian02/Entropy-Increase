@@ -5,6 +5,8 @@
 // 限制语义：没有对应阶段 → 该内容被锁
 // /reload 会清空 AStages 注册表：配方重载时重建，首次进世界由 loaded 兜底。
 // 按当前注册表判断是否已完成，不用跨重载保留的全局布尔标记。
+const EI_HNN_DRAGON_STAGE = 'hostilenetworks_dragon_defeated'
+
 var registerEIChapterRestrictions = event => {
   try {
     if (Java.loadClass('com.alessandro.astages.engine.ARestrictionManager').RECIPE_INSTANCE
@@ -61,7 +63,6 @@ var registerEIChapterRestrictions = event => {
 
     // 第三章补充：星辉、材料工艺、资源与跨模组物流
     AStages.addRestrictionForModRecipe('ch2_entry_astralsorcery', 'chapter2', 'astralsorcery') // 星辉魔法
-    AStages.addRestrictionForModRecipe('ch2_entry_hostilenetworks', 'chapter2', 'hostilenetworks') // Hostile Neural Networks
     AStages.addRestrictionForModRecipe('ch2_entry_sfm', 'chapter2', 'sfm') // SFM
     AStages.addRestrictionForModRecipe('ch2_entry_pipez', 'chapter2', 'pipez') // Pipez
     AStages.addRestrictionForModRecipe('ch2_entry_modularrouters', 'chapter2', 'modularrouters') // 模块化路由器
@@ -103,6 +104,8 @@ var registerEIChapterRestrictions = event => {
     AStages.addRestrictionForModRecipe('ch6_entry_projecte', 'chapter6', 'projecte') // ProjectE
     AStages.addRestrictionForModRecipe('ch6_entry_avaritia', 'chapter6', 'avaritia') // Re-Avaritia
 
+    AStages.addRestrictionForModRecipe('hnn_dragon_entry', EI_HNN_DRAGON_STAGE, 'hostilenetworks')
+
     // NC / Mek 聚变、JDT 时间能力等同模组内分档，留待精确配方与使用入口配置。
     console.info('[stages] 七章模组入口限制已注册')
   } catch (err) {
@@ -112,6 +115,20 @@ var registerEIChapterRestrictions = event => {
 
 ServerEvents.recipes(registerEIChapterRestrictions)
 ServerEvents.loaded(registerEIChapterRestrictions)
+
+ServerEvents.tick(event => {
+  const server = event.server
+  if (server.getTickCount() % 20 !== 0 || AStages.serverHasStage(EI_HNN_DRAGON_STAGE)) return
+
+  const end = server.getLevel('minecraft:the_end')
+  if (!end) return
+
+  const dragonFight = end.getDragonFight()
+  if (!dragonFight || !dragonFight.hasPreviouslyKilledDragon()) return
+
+  AStages.addStageToServer(EI_HNN_DRAGON_STAGE, false, false, false)
+  server.tell('§a末影龙已被击败，Hostile Neural Networks 配方已全服解锁。')
+})
 
 // 天枢之星右键 → 给予 chapter2 阶段（第二章通关，开启第三章）
 ItemEvents.rightClicked('eicore:tianshu_star', event => {

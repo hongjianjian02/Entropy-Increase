@@ -1,0 +1,13 @@
+name = "HardcoreAstagesItem"
+filename = "hardcoreastagesitem-1.2.1-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "44012336993dd934c08a7fac5c122e51598885bc"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8031678
+project-id = 1377741

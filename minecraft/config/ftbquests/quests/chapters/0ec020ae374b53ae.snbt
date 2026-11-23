@@ -6,10 +6,13 @@
 	id: "0EC020AE374B53AE"
 	images: [ ]
 	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
 			id: "3AA21B0322118408"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "2A6480DB7EEA3309"
@@ -27,6 +30,7 @@
 		}
 		{
 			id: "2A28A070CF148DB0"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "12CC220F982E9814"
 				item: { count: 1, id: "youkaishomecoming:camellia" }
@@ -40,6 +44,7 @@
 				id: "youkaishomecoming:reimu_hairband"
 			}
 			id: "2A94AF2829D357CA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "112A2E6B54A46C83"
@@ -80,6 +85,7 @@
 				id: "youkaishomecoming:cirno_wings"
 			}
 			id: "48D6EB874008DD0F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "6B401ECC7E1F9A2E"
@@ -105,6 +111,7 @@
 				id: "eicore:immortal_feast_seeds"
 			}
 			id: "64D15744454EF749"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "4F9B121DCF962CFA"
 				item: {

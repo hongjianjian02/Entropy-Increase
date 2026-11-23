@@ -1,0 +1,156 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6f2d5b73ae130200"
+	group: "323571BB47D0B746"
+	icon: { id: "enderio:alloy_smelter" }
+	id: "6F2D5B73AE130200"
+	images: [ ]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["588A93C0945448CF"]
+			id: "6F2D5B73AE141001"
+			hide_dependency_lines: true
+			tasks: [{
+				id: "6F2D5B73AE142001"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F2D5B73AE141001"]
+			id: "6F2D5B73AE141002"
+			tasks: [{
+				id: "6F2D5B73AE142002"
+				item: { count: 1, id: "enderio:void_chassis" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F2D5B73AE141002"]
+			id: "6F2D5B73AE141003"
+			optional: true
+			rewards: [{
+				count: 8
+				id: "6F2D5B73AE144003"
+				item: { count: 1, id: "minecraft:coal" }
+				type: "item"
+			}]
+			tasks: [{
+				id: "6F2D5B73AE142003"
+				item: { count: 1, id: "enderio:stirling_generator" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6F2D5B73AE141001"]
+			id: "6F2D5B73AE141004"
+			tasks: [{
+				id: "6F2D5B73AE142004"
+				item: { count: 1, id: "enderio:basic_capacitor" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F2D5B73AE141002", "6F2D5B73AE141004"]
+			id: "6F2D5B73AE141005"
+			tasks: [{
+				id: "6F2D5B73AE142005"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F2D5B73AE141005"]
+			id: "6F2D5B73AE141006"
+			tasks: [{
+				count: 2L
+				id: "6F2D5B73AE142006"
+				item: { count: 1, id: "enderio:conductive_alloy_ingot" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F2D5B73AE141006"]
+			id: "6F2D5B73AE141007"
+			tasks: [{
+				count: 2L
+				id: "6F2D5B73AE142007"
+				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F2D5B73AE141007"]
+			id: "6F2D5B73AE141008"
+			rewards: [{
+				count: 8
+				id: "6F2D5B73AE144008"
+				item: { count: 1, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "6F2D5B73AE142008"
+				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6F2D5B73AE141001"]
+			id: "6F2D5B73AE141009"
+			optional: true
+			tasks: [{
+				count: 6L
+				id: "6F2D5B73AE142009"
+				item: { count: 1, id: "enderio:conduit_binder" }
+				type: "item"
+			}]
+			x: 9.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F2D5B73AE141006", "6F2D5B73AE141009"]
+			id: "6F2D5B73AE14100A"
+			optional: true
+			tasks: [{
+				id: "6F2D5B73AE14200A"
+				item: { components: { "enderio:conduit": "enderio:energy" }, count: 1, id: "enderio:conduit" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6F2D5B73AE141002", "6F2D5B73AE141004"]
+			id: "6F2D5B73AE14100B"
+			optional: true
+			tasks: [{
+				id: "6F2D5B73AE14200B"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
+	]
+}

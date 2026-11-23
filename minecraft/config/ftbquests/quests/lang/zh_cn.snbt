@@ -9,6 +9,8 @@
 	chapter_group.323571BB47D0B746.title: "[主线]"
 	chapter_group.4F34D8C283AFEFDA.title: "【实用物品】"
 	quest.00527EE6B9A6669B.quest_desc: ["在地狱击败有额外掉落盖亚魂  小概率掉落盖亚魂锭"]
+	quest.0081DDEA80EC9AB6.quest_desc: ["在古陵击败一次无名守卫者，并拾取守卫者核心。下一任务要用这枚核心合成首台 ME 控制器。"]
+	quest.0081DDEA80EC9AB6.title: "无名守卫者"
 	quest.0117471874399E00.title: "击败雪怪首领"
 	quest.021E0709C9A7D9EF.title: "滑行魔石"
 	quest.0300D16F9C9718DE.title: "下界"
@@ -46,6 +48,8 @@
 	quest.1A283E48EC379423.quest_desc: ["或许是同族的......."]
 	quest.1A283E48EC379423.title: "不觉得幻影骑士很像精灵吗"
 	quest.1A8F47A4A83C71A9.title: "天镜稀有矿"
+	quest.1A97254B72199906.quest_desc: ["给 ME 控制器供电，接上 ME 线缆、终端和装有存储元件的 ME 驱动器，就能通过终端存取物品。"]
+	quest.1A97254B72199906.title: "ME 存储网络"
 	quest.1ABB4A061CF20212.quest_desc: [""]
 	quest.1ABB4A061CF20212.title: "&m附魔&r激活！"
 	quest.1F859657875F24FA.title: "流体管道"
@@ -63,11 +67,19 @@
 	quest.35F2F8CA26499EF0.title: "焦炉"
 	quest.36A6D619DD9C5D95.title: "蒸馏塔"
 	quest.36B64764AE909E32.title: "工业挤压机"
+	quest.37B75DF31D476C21.quest_desc: [
+		"在末地打开探险家指南针，搜索古陵（eeeabsmobs:guling），跟随指针抵达并进入建筑。"
+		""
+		"若古陵悬在主岛边缘的虚空上，从岛边搭桥或用当前可用的飞行手段抵达。若指南针指向外岛，准备跨越虚空的路线。击败末影龙后利用末地折跃门，是前往外岛的一种选择。"
+	]
+	quest.37B75DF31D476C21.title: "寻找古陵"
 	quest.38F1673B4154CF0A.title: "回家的钥匙！"
 	quest.3AA21B0322118408.quest_desc: ["这两种种子可以在暮色森林的树屋中找到 可以帮助玩家在前期快速积累血量"]
 	quest.3B0E2B868685E5A2.title: "烈阳巨灵"
 	quest.3EA85D4C8B58892F.quest_desc: ["ps：pip管道尽量不要过多使用下界合金升级"]
 	quest.3EA85D4C8B58892F.title: "物品管道"
+	quest.432DA3192FEFEF0E.quest_desc: ["在配方查看器查找首台 ME 控制器的配方，以守卫者核心、远古驱动晶体和 NeoEcoAE 的充能福鲁伊克斯水晶制作控制器。取得控制器后即可继续 ME 支线。"]
+	quest.432DA3192FEFEF0E.title: "首台 ME 控制器"
 	quest.438E115A3DD8E5F8.title: "lv0 &b天境&r矿机"
 	quest.48D6EB874008DD0F.quest_desc: [
 		"佩戴蝴蝶结会有妖精化效果"
@@ -105,12 +117,48 @@
 	quest.62A5D7E1722ECB2C.quest_desc: ["优化你的钢板配方"]
 	quest.62A5D7E1722ECB2C.title: "金属冲压机"
 	quest.64D15744454EF749.title: "千古种子"
+	quest.66591E711609D902.quest_desc: ["穿过末地传送门，准备挑战末影龙，为深度学习的末影人模型任务开启后续路线。想探索古陵的话，可以从这里直接走 ME 支线。"]
+	quest.66591E711609D902.title: "踏入末地"
+	quest.1FFF061D8DF8CC89.title: "星环之路"
+	quest.1FFF061D8DF8CC89.quest_desc: ["天枢之星开启了第三章。魔法线通向虚空金属与星辉透镜，末地探索和工业产线可以同时推进。"]
+	quest.2DCA9C2DB6F10EA2.title: "星环"
+	quest.2DCA9C2DB6F10EA2.quest_desc: ["推进星辉共振透镜、通用机械、末影接口和工业先锋四条路线。取得星环并提交后，完成第三章并解锁后续阶段。"]
+	quest.54B3A9C7EE031001.title: "炼金炉的恶魔金属"
+	quest.54B3A9C7EE031001.quest_desc: ["在无尽领域开采粗恶魔金属，先加工成恶魔金属碎块，再取得 2 枚狱锻锭。"]
+	quest.54B3A9C7EE031002.title: "炫彩境云"
+	quest.54B3A9C7EE031002.quest_desc: ["让寒风境云在深池毒素中转化为银青境云，再放入魔凝机加工为炫彩境云。"]
+	quest.54B3A9C7EE031003.title: "星辉共振"
+	quest.54B3A9C7EE031003.quest_desc: ["将启明工作台升级为共振祭坛，并用共振祭坛制作流明结晶器。下一步用它培育摧灭流明水晶石。"]
+	quest.54B3A9C7EE031004.title: "摧灭流明水晶石"
+	quest.54B3A9C7EE031004.quest_desc: ["以石头作催化剂，为流明结晶器供给摧灭流明与星能液。等水晶簇长成后取下摧灭流明水晶石。"]
+	quest.54B3A9C7EE031005.title: "悖论物质"
+	quest.54B3A9C7EE031005.quest_desc: ["用神秘之眼扫描腐化裂隙，完成裂隙关闭研究。将摧灭流明水晶石作为核心，用注魔矩阵制作悖论物质。"]
+	quest.54B3A9C7EE031006.title: "从裂隙中取种"
+	quest.54B3A9C7EE031006.quest_desc: ["将悖论物质投向腐化裂隙，等裂隙坍塌后收集虚空种子。拿到种子后记得扫描，继续解锁邪术研究。"]
+	quest.54B3A9C7EE031007.title: "虚空金属锭"
+	quest.54B3A9C7EE031007.quest_desc: ["完成虚空种子研究，在坩埚投入 1 枚虚空种子、10 点金属要素和 5 点腐化要素，得到 1 枚虚空金属锭。"]
+	quest.54B3A9C7EE031008.title: "准备星辉共振透镜"
+	quest.54B3A9C7EE031008.quest_desc: ["完成恶魔金属与虚空金属路线，取得星辉共振透镜。"]
+	quest.54B3A9C7EE031009.title: "解放末地"
+	quest.54B3A9C7EE031009.quest_desc: ["击败末影龙并取得原版进度「解放末地」，开启任务书中的末影人数据模型路线。"]
+	quest.54B3A9C7EE03100A.title: "末影人数据模型"
+	quest.54B3A9C7EE03100A.quest_desc: ["用空白数据模型采集末影人的资料，再把模型装进深度学习装置。击杀末影人为模型积累数据，直到模型能够送进模拟室。"]
+	quest.54B3A9C7EE03100B.title: "末地基础预测"
+	quest.54B3A9C7EE03100B.quest_desc: ["给模拟室供电，投入训练好的末影人模型和预测矩阵，取出末地基础预测。工业先锋的简陋机器框架会用到它。"]
+	quest.54B3A9C7EE03100C.title: "通用机械 · 高级控制电路"
+	quest.54B3A9C7EE03100C.quest_desc: ["用冶金灌注机制作灌注合金和基础控制电路，再合成高级控制电路。第三章的通用机械目标是高级（Advanced）设备。"]
+	quest.54B3A9C7EE03100D.title: "末影接口 · 生动合金"
+	quest.54B3A9C7EE03100D.quest_desc: ["在合金炉里依次制作导电合金和充能合金，再用充能合金、末影珍珠与萤石粉炼出生动合金。"]
+	quest.54B3A9C7EE03100E.title: "工业先锋 · 高级框架"
+	quest.54B3A9C7EE03100E.quest_desc: ["用乳胶生产塑料，并用屠宰工厂收集粉红黏液。在溶解室做出简单框架，再用它加工高级框架。"]
 	quest.6A36DF7F83FCC41F.title: "血魔法炼金炉倍产"
 	quest.6A9478B98AECA246.title: "任意能量线缆"
 	quest.6AEC9D71CCD30C34.title: "击败幻影骑士"
 	quest.6D7A7A6198817159.quest_desc: ["推荐叠点血吃一下食物多样性再进行攻略"]
 	quest.6D7A7A6198817159.title: "武神女王"
 	quest.6E10CC6301CBD39C.title: "储油罐"
+	quest.708C2FDFCDE8DDBB.quest_desc: ["在神秘学的研究中解锁 Applied Thaumaturge 的要素终端，随后用奥术工作台制作。要素终端可用于查看与 ME 网络相连的要素存储。"]
+	quest.708C2FDFCDE8DDBB.title: "Applied Thaumaturge：要素终端"
 	quest.71652FC5565FC7A4.title: "击败米诺菇"
 	quest.71CD3EF884A9EDB8.title: "焦煤塔"
 	quest.73A40657CC673DA0.title: "高炉"
@@ -148,4 +196,92 @@
 	task.743312AF9815BA12.title: "物品管道"
 	task.7666B965756525A8.title: "无线"
 	task.7AC6E6092B3F56BF.title: "任意通用线缆"
+	chapter.6F2D5B73AE130100.title: "通用机械"
+	quest.6F2D5B73AE131001.title: "第一批锇锭"
+	quest.6F2D5B73AE131001.quest_desc: ["开采锇矿石，把粗锇熔炼成锇锭。至少备好两枚，分别用来制作热力发电机和冶金灌注机。"]
+	quest.6F2D5B73AE131002.title: "热力发电"
+	quest.6F2D5B73AE131002.quest_desc: ["制作热力发电机，放在冶金灌注机旁，放入煤炭发电。也可让流动熔岩接触发电机外侧供热。若你已有其他 FE 电源，可直接为灌注机供电。"]
+	quest.6F2D5B73AE131003.title: "冶金灌注机"
+	quest.6F2D5B73AE131003.quest_desc: ["把锇锭、铁、红石和熔炉合成冶金灌注机。接入 FE 后，灌注材料放到专用槽，待处理物品放进输入槽。先做红石配方，换碳源前留意机器中剩下的红石灌注物。"]
+	quest.6F2D5B73AE131004.title: "灌注合金"
+	quest.6F2D5B73AE131004.quest_desc: ["给冶金灌注机装入红石粉，再投入铜锭做灌注合金。用工作台做高级控制电路时每枚需要两份灌注合金，高级富集工厂也会用到它。"]
+	quest.6F2D5B73AE131005.title: "基础控制电路"
+	quest.6F2D5B73AE131005.quest_desc: ["在有红石灌注物的冶金灌注机中投入锇锭，获得基础控制电路。它是富集仓和高级控制电路的零件。"]
+	quest.6F2D5B73AE131006.title: "本包的通用机械炼钢"
+	quest.6F2D5B73AE131006.quest_desc: ["清空灌注机内剩余的红石灌注物，改用煤炭或木炭提供碳。按本包魔改配方投入神秘锭制成钢粉，再把钢粉熔炼成钢锭。神秘锭来自神秘坩埚，用植物魔法的魔力钢锭作催化物。已有沉浸工程炼钢线的玩家也可用对应钢材做机壳。"]
+	quest.6F2D5B73AE131007.title: "基础通用线缆"
+	quest.6F2D5B73AE131007.quest_desc: ["用钢锭和红石合成基础通用线缆，将已有的 FE 电源连到机器。检查发电设备的输出面和线路两端的连接。"]
+	quest.6F2D5B73AE131008.title: "高级控制电路"
+	quest.6F2D5B73AE131008.quest_desc: ["在工作台将一枚基础控制电路夹在两份灌注合金之间，做出高级控制电路。它也能完成第三章同名材料任务。"]
+	quest.6F2D5B73AE131009.title: "富集仓"
+	quest.6F2D5B73AE131009.quest_desc: ["先用钢锭、玻璃和锇锭做钢质机壳，再用机壳、铁锭、基础控制电路和红石合成富集仓。接入 FE 后就能处理矿石。它能将一块铁矿石处理成两份铁粉。用粗铁时，配方是三份粗铁变四份铁粉。"]
+	quest.6F2D5B73AE13100A.title: "从富集仓取出铁粉"
+	quest.6F2D5B73AE13100A.quest_desc: ["把铁矿石或三份粗铁放进富集仓，取出铁粉，再用熔炉炼成铁锭。任务以持有铁粉为目标。"]
+	quest.6F2D5B73AE13100B.title: "扩成高级富集工厂"
+	quest.6F2D5B73AE13100B.quest_desc: ["先把富集仓合成基础富集工厂，再用高级控制电路等材料升级为高级富集工厂。若用升级安装器，基础富集工厂可以直接装高级升级安装器。工厂可并行处理多份原料。"]
+	chapter.6F2D5B73AE130200.title: "末影接口"
+	quest.6F2D5B73AE141001.title: "从火里取无限粉"
+	quest.6F2D5B73AE141001.quest_desc: ["在主世界点燃深板岩上方，等火自然熄灭后捡无限粉。每次都有概率落空，准备多几块深板岩。燃烧后的深板岩会变成圆石。无限粉将用来做虚空框架和基础电容。"]
+	quest.6F2D5B73AE141002.title: "虚空框架"
+	quest.6F2D5B73AE141002.quest_desc: ["用铁锭与无限粉制作虚空框架。合金炉、斯特林发电机与半自磨机各需要一块，可以按自己的供电方案备料。"]
+	quest.6F2D5B73AE141003.title: "斯特林发电机"
+	quest.6F2D5B73AE141003.quest_desc: ["把斯特林发电机放在机器旁边，投入煤炭等炉用燃料发电。已有其他 FE 电源时可沿用；需要远距离供电时再做能量导管。"]
+	quest.6F2D5B73AE141004.title: "基础电容"
+	quest.6F2D5B73AE141004.quest_desc: ["用铜锭、金粒和无限粉组装基础电容。打开合金炉或半自磨机界面，把电容装到电容槽里。多做几枚可以给多台机器分别安装。"]
+	quest.6F2D5B73AE141005.title: "启动合金炉"
+	quest.6F2D5B73AE141005.quest_desc: ["用虚空框架、铁齿轮和熔炉等材料制作合金炉，接入 FE 并装上基础电容。铁齿轮可用四枚铁锭按本包的通用齿轮配方制作。合金配方的原料分开摆进输入槽；如果模式切到了仅熔炼，把它切回允许合金的模式。"]
+	quest.6F2D5B73AE141006.title: "导电合金锭"
+	quest.6F2D5B73AE141006.quest_desc: ["将铁锭与铜锭分别放进合金炉，得到导电合金锭。留一些做充能合金，也可拿它接出能量导管。"]
+	quest.6F2D5B73AE141007.title: "充能合金锭"
+	quest.6F2D5B73AE141007.quest_desc: ["把导电合金锭、红石粉和金锭放进合金炉，做出充能合金锭。下一步会用到末影珍珠和萤石粉。"]
+	quest.6F2D5B73AE141008.title: "振动合金锭"
+	quest.6F2D5B73AE141008.quest_desc: ["用充能合金锭、末影珍珠和萤石粉炼出振动合金锭，就是第三章任务所写的生动合金。它还可用于更高一级的能量导管。"]
+	quest.6F2D5B73AE141009.title: "导管粘合剂"
+	quest.6F2D5B73AE141009.quest_desc: ["用沙子、砂砾和黏土球合成导管粘合剂复合材料，再烧成粘合剂。每批基础能量导管需要六份粘合剂和三枚导电合金锭。"]
+	quest.6F2D5B73AE14100A.title: "铺设能量导管"
+	quest.6F2D5B73AE14100A.quest_desc: ["用导电合金锭和导管粘合剂制作基础能量导管，连接发电设备与机器。右击导管连接端检查输入和输出方向。"]
+	quest.6F2D5B73AE14100B.title: "半自磨机"
+	quest.6F2D5B73AE14100B.quest_desc: ["制作半自磨机，接入 FE 并装好电容。可以先投入圆石试跑，查看砂砾等产出的概率；加工其他材料前先在 EMI 看对应配方。"]
+	chapter.6F2D5B73AE130300.title: "工业先锋"
+	quest.6F2D5B73AE151001.title: "简陋机器框架"
+	quest.6F2D5B73AE151001.quest_desc: ["击败末影龙解锁模拟室配方。给模拟室供电，用训练好的末影人模型和预测矩阵取得末地基础预测（通用末地预测产物）。合成框架时，中央放一份末地基础预测，四角放原木，四边中格放铁锭。提取机、加工机、屠宰场和溶解成型机都需要这个框架。"]
+	quest.6F2D5B73AE151002.title: "低端火力发电机"
+	quest.6F2D5B73AE151002.quest_desc: ["没有现成电源时，可以制作低端火力发电机，以煤炭等燃料发电。把发电机紧贴待供电机器，也可使用已经做好的 FE 线缆。"]
+	quest.6F2D5B73AE151003.title: "从原木取胶乳"
+	quest.6F2D5B73AE151003.quest_desc: ["放置液体提取机，让工作面贴着原木的一面。先用金合欢原木或红树原木试做，原木剥皮后要更换。把胶乳存起来，稍后供给加工机和溶解成型机。"]
+	quest.6F2D5B73AE151004.title: "胶乳加工机"
+	quest.6F2D5B73AE151004.quest_desc: ["给胶乳加工机接入 FE，再分别输入胶乳和水。每消耗 750 mB 胶乳和 500 mB 水，产出一份干橡胶。可用桶供液，也可将提取机的胶乳接到加工机的输入面。"]
+	quest.6F2D5B73AE151005.title: "第一批塑料片"
+	quest.6F2D5B73AE151005.quest_desc: ["将胶乳加工机产出的干橡胶放进熔炉烧成塑料片。多备一些，溶解成型机、屠宰场和后续的机器框架都会用到。"]
+	quest.6F2D5B73AE151006.title: "溶解成型机"
+	quest.6F2D5B73AE151006.quest_desc: ["用塑料片、简陋机器框架和钻石齿轮等材料制作溶解成型机。给它接入 FE，先清空之前的液体，再输入本次需要的液体和整份配方。齿轮可用本包通用齿轮配方制作。"]
+	quest.6F2D5B73AE151007.title: "基础机器框架"
+	quest.6F2D5B73AE151007.quest_desc: ["向溶解成型机输入 250 mB 胶乳，再放入两份塑料片、一块简陋机器框架、两块下界砖物品、两枚铁锭和一个金齿轮。金齿轮请用本包 JAOPCA 通用配方。"]
+	quest.6F2D5B73AE151008.title: "屠宰场的粉红黏液"
+	quest.6F2D5B73AE151008.quest_desc: ["制作屠宰场，接入 FE，让牛或羊等动物进入工作范围。打开界面检查粉红黏液和液态肉两个储罐，把粉红黏液留给高级机器框架。"]
+	quest.6F2D5B73AE151009.title: "高级机器框架"
+	quest.6F2D5B73AE151009.quest_desc: ["给溶解成型机换入 500 mB 粉红黏液，不够一桶时可用流体管直接输送。投入基础机器框架、两份塑料片、两枚下界合金碎片、两枚金锭和一个钻石齿轮。下界合金碎片可烧炼远古残骸取得。这也是第三章所需的工业先锋材料。"]
+	quest.6F2D5B73AE15100A.title: "播种与收割自动化"
+	quest.6F2D5B73AE15100A.quest_desc: ["把播种机装在耕地下面，收割机朝向作物区域。分别供电，再把收割出的种子送回播种机，多余的作物送进箱子。先用小麦测试两台机器的工作范围。"]
+	quest.6F2D5B73AE15100B.title: "屠宰机收集战利品"
+	quest.6F2D5B73AE15100B.quest_desc: ["用高级机器框架做屠宰机，接电后让目标怪物进入工作范围，并留出物品输出空间。它负责掉落物路线，做框架时所需的粉红黏液仍由屠宰场提供。"]
+	quest.03CB9D5247B0DD54.quest_desc: ["建议搞个自动化捏！"]
+	quest.1CD4F24C2B5D2859.quest_desc: ["在手札中仪式一栏可以找到&b穿破狱界&r 开启仪式需要80000EV"]
+	quest.23FFEB0FB1627FF0.quest_desc: ["热传导似乎是个不错的选择"]
+	quest.27DC9E9E808BEE02.quest_desc: ["可以使用血魔法自带的炼金炉或者使用科技mod的倍矿机器"]
+	quest.3D6E0C0662E78D65.quest_desc: ["3&mbaka&r倍矿"]
+	quest.4DB1FFF0AE897617.quest_desc: [
+		"魂结斑粒可以击杀魂结恶魔获取"
+		"魂结恶魔在无尽级地城中刷新"
+	]
+	quest.4F6C0AFA2EE91443.quest_desc: ["异教徒的心脏是个不错的生命源质来源"]
+	quest.64D15744454EF749.quest_desc: ["千古乐事的部分食物有十分强大的buff"]
+	quest.657F8558681E9762.quest_desc: [
+		"将祭坛升级到二级制作巫师宝珠"
+		"各种仪式石需要制作铭文工具"
+	]
+	quest.75EA3FDA123CE0FA.quest_desc: ["右键祭坛可以给10B的生命源质"]
+	reward.40B30976FBEA579C.title: "游戏阶段：&ehostilenetworks_dragon_defeated"
+	task.2EBE1B9F0DF7AC44.title: "灵质宝石"
+	task.4A32FC0FF313DC44.title: "冶金灌注工厂"
 }

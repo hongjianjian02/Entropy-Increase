@@ -4,33 +4,1094 @@
 	filename: "04af85fc91291ab7"
 	group: "323571BB47D0B746"
 	icon: {
-		id: "ae2:controller"
+		id: "eicore:star_ring"
 	}
 	id: "04AF85FC91291AB7"
 	images: [ ]
 	order_index: 2
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
-	quests: [{
-		id: "2DCA9C2DB6F10EA2"
-		rewards: [{
-			auto: "enabled"
-			command: "/astages server add chapter3"
-			icon: {
-				components: {
-					"ftbquests:icon": "ftblibrary:icons/controller"
+	quests: [
+		{
+			dependencies: [
+				"54B3A9C7EE031008"
+				"24823A0F776CE517"
+				"1B438B76795525D1"
+				"08A5BC4F018F207F"
+			]
+			id: "2DCA9C2DB6F10EA2"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "enabled"
+				command: "/astages server add chapter3"
+				icon: {
+					components: {
+						"ftbquests:icon": "ftblibrary:icons/controller"
+					}
+					id: "ftbquests:custom_icon"
 				}
-				id: "ftbquests:custom_icon"
+				id: "16DBFDD76A9C0F04"
+				permission_level: 2
+				type: "command"
+			}]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "4DF7AB0D3D187CFF"
+				item: { count: 1, id: "eicore:star_ring" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["588A93C0945448CF"]
+			icon: {
+				id: "eicore:tianshu_star"
 			}
-			id: "16DBFDD76A9C0F04"
-			permission_level: 2
-			type: "command"
-		}]
-		tasks: [{
-			id: "4DF7AB0D3D187CFF"
-			item: { count: 1, id: "eicore:star_ring" }
-			type: "item"
-		}]
-		x: -14.0d
-		y: 6.5d
-	}]
+			id: "1FFF061D8DF8CC89"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "75C727ECA8A417D5"
+				type: "checkmark"
+			}]
+			x: -36.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["27DC9E9E808BEE02"]
+			id: "54B3A9C7EE031001"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				count: 2L
+				id: "54B3A9C7EE032001"
+				item: { count: 1, id: "neovitae:ingot_hellforged" }
+				type: "item"
+			}]
+			x: -26.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["09A9B342BFFBFB43"]
+			id: "54B3A9C7EE031003"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "54B3A9C7EE032003"
+				item: { count: 1, id: "astralsorcery:lumen_crystallizer" }
+				type: "item"
+			}]
+			x: -31.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5B27B514C130C476"]
+			id: "54B3A9C7EE031005"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "54B3A9C7EE032005"
+				item: { count: 1, id: "thaumaturge:causality_collapser" }
+				type: "item"
+			}]
+			x: -26.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["54B3A9C7EE031005"]
+			id: "54B3A9C7EE031006"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "54B3A9C7EE032006"
+				item: { count: 1, id: "thaumaturge:void_seed" }
+				type: "item"
+			}]
+			x: -23.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["54B3A9C7EE031006"]
+			id: "54B3A9C7EE031007"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "54B3A9C7EE032007"
+				item: { count: 1, id: "thaumaturge:ingot_void" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"54B3A9C7EE031007"
+				"54B3A9C7EE031001"
+			]
+			id: "54B3A9C7EE031008"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1C89E46CF2F609A5"
+				item: { count: 1, id: "eicore:starlight_resonance_lens" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["45948A485EA00916"]
+			id: "54B3A9C7EE03100D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "54B3A9C7EE03200D"
+				item: { count: 1, id: "enderio:vibrant_alloy_ingot" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1FFF061D8DF8CC89"]
+			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			id: "66591E711609D902"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "01BB0C0C18692731"
+				type: "dimension"
+			}]
+			x: -18.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["66591E711609D902"]
+			icon: {
+				id: "minecraft:dragon_egg"
+			}
+			id: "54B3A9C7EE031009"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				auto: "enabled"
+				command: "/astages server add hostilenetworks_dragon_defeated"
+				icon: {
+					components: {
+						"ftbquests:icon": "ftblibrary:icons/controller"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "40B30976FBEA579C"
+				permission_level: 2
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/kill_dragon"
+				criterion: ""
+				id: "54B3A9C7EE032009"
+				type: "advancement"
+			}]
+			x: -18.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["54B3A9C7EE031009"]
+			id: "54B3A9C7EE03100A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "54B3A9C7EE03200A"
+				item: { components: { "hostilenetworks:data_model": "hostilenetworks:enderman" }, count: 1, id: "hostilenetworks:data_model" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -18.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54B3A9C7EE03100A"]
+			id: "54B3A9C7EE03100B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "54B3A9C7EE03200B"
+				item: { count: 1, id: "hostilenetworks:end_prediction" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4F6C0AFA2EE91443"]
+			icon: {
+				id: "eeeabsmobs:guardian_core"
+			}
+			id: "0081DDEA80EC9AB6"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					entity: "eeeabsmobs:nameless_guardian"
+					id: "54B3A9C7EE03200F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "237DB367A05CC4B8"
+					item: { count: 1, id: "eeeabsmobs:guardian_core" }
+					type: "item"
+				}
+			]
+			x: -23.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["0081DDEA80EC9AB6"]
+			id: "432DA3192FEFEF0E"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6C71E58A9E70050D"
+				item: { count: 1, id: "ae2:controller" }
+				type: "item"
+			}]
+			x: -23.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["432DA3192FEFEF0E"]
+			id: "1A97254B72199906"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "2963A2290CB1B3DE"
+				item: { count: 1, id: "ae2:terminal" }
+				type: "item"
+			}]
+			x: -23.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["432DA3192FEFEF0E"]
+			id: "708C2FDFCDE8DDBB"
+			optional: true
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "196989DD52581DF8"
+				item: { count: 1, id: "appliedthaumaturge:essentia_terminal" }
+				type: "item"
+			}]
+			x: -25.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["67E73D6AB5798CD7"]
+			id: "09A9B342BFFBFB43"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "53B71E41722C9D69"
+				item: { count: 1, id: "astralsorcery:altar_resonance" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -33.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1FFF061D8DF8CC89"]
+			id: "67E73D6AB5798CD7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7BC051D8AD091D33"
+				item: { count: 1, id: "astralsorcery:altar_illumination" }
+				type: "item"
+			}]
+			x: -36.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["54B3A9C7EE031003"]
+			id: "5B27B514C130C476"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "046A555812F587FF"
+				item: { components: { "astralsorcery:lumen": "astralsorcery:evorsio" }, count: 1, id: "astralsorcery:lumen_crystal" }
+				type: "item"
+			}]
+			x: -28.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["66591E711609D902"]
+			icon: {
+				id: "eeeabsmobs:heart_of_pagan"
+			}
+			id: "4F6C0AFA2EE91443"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				entity: "eeeabsmobs:corpse_warlock"
+				id: "73786F2FBEA3E1D6"
+				type: "kill"
+				value: 1L
+			}]
+			x: -20.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1FFF061D8DF8CC89"]
+			icon: {
+				id: "neovitae:ara_vitae"
+			}
+			id: "3E54D69791E386CB"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "7FD3D2A0A0D9E281"
+					item: { count: 1, id: "neovitae:ara_vitae" }
+					type: "item"
+				}
+				{
+					id: "03FF5CC4128403EC"
+					item: { components: { "modonomicon:book_id": "neovitae:guide" }, count: 1, id: "neovitae:guide_book" }
+					type: "item"
+				}
+				{
+					id: "1C135689479673FB"
+					item: { count: 1, id: "neovitae:tabula_vitae" }
+					type: "item"
+				}
+				{
+					id: "5D2CDB60C2C53042"
+					item: { count: 1, id: "neovitae:hellfire_forge" }
+					type: "item"
+				}
+			]
+			x: -36.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["3E54D69791E386CB"]
+			id: "657F8558681E9762"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "559F190A391344F4"
+					item: { count: 1, id: "neovitae:blood_orb_magician" }
+					type: "item"
+				}
+				{
+					id: "4792864B33DA4BBA"
+					item: { count: 1, id: "neovitae:activation_crystal_weak" }
+					type: "item"
+				}
+				{
+					id: "72210DBE194CC034"
+					item: { count: 1, id: "neovitae:ritual_diviner" }
+					type: "item"
+				}
+			]
+			x: -33.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["657F8558681E9762"]
+			id: "1CD4F24C2B5D2859"
+			quest_enhance_disable_scroll_paging: false
+			rewards: [{
+				count: 10
+				id: "5221C0DE568B977C"
+				item: {
+					count: 1
+					id: "neovitae:simple_key"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				dimension: "neovitae:dungeon"
+				icon: {
+					id: "neovitae:inversion_pillar"
+				}
+				id: "20D50BD6BF11AF3F"
+				type: "dimension"
+			}]
+			x: -31.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1CD4F24C2B5D2859"]
+			id: "27DC9E9E808BEE02"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "670424C31FE2FD14"
+				item: { count: 1, id: "neovitae:raw_demonite" }
+				type: "item"
+			}]
+			x: -28.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1CD4F24C2B5D2859"]
+			id: "1FA30C430A3CC9E8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "3C9F7C630313DEA3"
+					item: { count: 1, id: "neovitae:strong_tau" }
+					type: "item"
+				}
+				{
+					id: "7CB404EDF47A58E1"
+					item: { count: 1, id: "neovitae:weak_tau" }
+					type: "item"
+				}
+			]
+			x: -31.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["657F8558681E9762"]
+			id: "7B7476BF6773226B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "25556E8CCBA720C9"
+				item: { count: 1, id: "neovitae:athanor" }
+				type: "item"
+			}]
+			x: -33.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7B7476BF6773226B"]
+			id: "2490FAB1A551AC68"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7EB5B06579211529"
+				item: { count: 1, id: "neovitae:weak_blood_shard" }
+				type: "item"
+			}]
+			x: -31.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3E54D69791E386CB"]
+			icon: {
+				id: "eeeabsmobs:heart_of_pagan"
+			}
+			id: "75EA3FDA123CE0FA"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "712263F70CB88369"
+				item: { count: 1, id: "eeeabsmobs:heart_of_pagan" }
+				type: "item"
+			}]
+			x: -36.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["657F8558681E9762"]
+			icon: {
+				id: "neovitae:raw_crystal_shard"
+			}
+			id: "38B36EC6471975E3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "00EDD4E13E2E25B4"
+					item: { count: 1, id: "neovitae:crystallarium_maleficum" }
+					type: "item"
+				}
+				{
+					id: "7F3C6FFCF46CFA80"
+					item: { count: 1, id: "neovitae:vas_maleficum" }
+					type: "item"
+				}
+				{
+					id: "2EBE1B9F0DF7AC44"
+					item: { components: { "ftbfiltersystem:filter": "only_one(item(neovitae:spiritus_gem_lesser)item(neovitae:spiritus_gem_common))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+					type: "item"
+				}
+			]
+			x: -33.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["38B36EC6471975E3"]
+			icon: {
+				id: "neovitae:animus_mote"
+			}
+			id: "4DB1FFF0AE897617"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "015041E85824D035"
+					item: { count: 1, id: "neovitae:raw_spiritus_catalyst" }
+					type: "item"
+				}
+				{
+					id: "4CEA1980134EF9C5"
+					item: { count: 1, id: "neovitae:spiritus_ruina_catalyst" }
+					type: "item"
+				}
+				{
+					id: "3E61059A3F5FEB82"
+					item: { count: 1, id: "neovitae:spiritus_nihilum_catalyst" }
+					type: "item"
+				}
+				{
+					id: "48B0739A509028B1"
+					item: { count: 1, id: "neovitae:spiritus_vindicta_catalyst" }
+					type: "item"
+				}
+				{
+					id: "4AC66DE9C85A3C1A"
+					item: { count: 1, id: "neovitae:spiritus_invictus_catalyst" }
+					type: "item"
+				}
+				{
+					id: "7F57E5C572BD6991"
+					item: { count: 1, id: "neovitae:animus_mote" }
+					type: "item"
+				}
+			]
+			x: -33.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0081DDEA80EC9AB6"]
+			icon: {
+				id: "eeeabsmobs:chain_gear"
+			}
+			id: "249A5B3963C1E776"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					entity: "eeeabsmobs:relic_annihilator"
+					id: "5BFBA1DC99BA70A4"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "52A57E2DF12BE6B6"
+					item: { count: 1, id: "eeeabsmobs:chain_gear" }
+					type: "item"
+				}
+			]
+			x: -25.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["249A5B3963C1E776"]
+			id: "3DE70E0FDE45B51B"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					entity: "eeeabsmobs:realm_warden"
+					id: "387633136F4E149A"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2C99906ECA84B832"
+					item: { count: 1, id: "eeeabsmobs:guardian_cube" }
+					type: "item"
+				}
+			]
+			x: -28.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["1FFF061D8DF8CC89"]
+			hide_dependency_lines: true
+			icon: {
+				id: "mekanism:metallurgic_infuser"
+			}
+			id: "2AE9F15D2067330F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4A32FC0FF313DC44"
+				item: { components: { "ftbfiltersystem:filter": "only_one(item(mekanism:ultimate_infusing_factory)item(mekanism:elite_infusing_factory)item(mekanism:advanced_infusing_factory)item(mekanism:basic_infusing_factory)item(mekanism:metallurgic_infuser))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["2AE9F15D2067330F"]
+			id: "405002DF7221C6C2"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "76147FADA39B0310"
+				item: { count: 1, id: "mekanism:basic_control_circuit" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["405002DF7221C6C2"]
+			icon: {
+				id: "mekanism:advanced_control_circuit"
+			}
+			id: "76EB82EB12EE18F7"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "08157347CCAABE68"
+					item: { count: 1, id: "mekanism:alloy_infused" }
+					type: "item"
+				}
+				{
+					id: "1852903857E49BCE"
+					item: { count: 1, id: "mekanism:advanced_control_circuit" }
+					type: "item"
+				}
+			]
+			x: -18.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["405002DF7221C6C2"]
+			id: "1F23013AE2D39546"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "54041D37A780A340"
+				item: { count: 1, id: "mekanism:enrichment_chamber" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -20.0d
+		}
+		{
+			dependencies: ["405002DF7221C6C2"]
+			id: "5D031130A1B48A32"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3E9D85AF5D5B6DF3"
+				item: { count: 1, id: "mekanism:crusher" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -20.0d
+		}
+		{
+			dependencies: ["405002DF7221C6C2"]
+			id: "69E5C6D880677333"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "41882EDFE587B95A"
+				item: { count: 1, id: "mekanism:energized_smelter" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["405002DF7221C6C2"]
+			id: "36E01ECE9FAA1E63"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "33C10BAFC92D9054"
+				item: { count: 1, id: "mekanism:rotary_condensentrator" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["76EB82EB12EE18F7"]
+			id: "1507B6FD390A1190"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4CEA54A3D35458F9"
+				item: { count: 1, id: "mekanism:osmium_compressor" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["76EB82EB12EE18F7"]
+			id: "3D6E0C0662E78D65"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1AA6D89E71FACD24"
+				item: { count: 1, id: "mekanism:purification_chamber" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["76EB82EB12EE18F7"]
+			id: "23F5386581B4E9D3"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "16F94C68DED127BF"
+				item: { count: 1, id: "mekanism:precision_sawmill" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["76EB82EB12EE18F7"]
+			id: "552110ECC3F9992D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "609389649D01025C"
+				item: { count: 1, id: "mekanism:pressurized_reaction_chamber" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["76EB82EB12EE18F7"]
+			id: "6C39AD9F52E5AA56"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "633432B91ADBC9AB"
+				item: { count: 1, id: "mekanism:chemical_infuser" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["76EB82EB12EE18F7"]
+			id: "3F768BEFAC584F10"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "537480FC0257A062"
+				item: { count: 1, id: "mekanism:chemical_oxidizer" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["76EB82EB12EE18F7"]
+			id: "55F96180E2FE62BD"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "424CC800C9098655"
+					item: { count: 1, id: "mekanismgenerators:gas_burning_generator" }
+					type: "item"
+				}
+				{
+					id: "4EA4C38DB70C6DD3"
+					item: { count: 1, id: "mekanismgenerators:bio_generator" }
+					type: "item"
+				}
+			]
+			x: -13.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["76EB82EB12EE18F7"]
+			id: "24823A0F776CE517"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "668EFE05B0187C4F"
+				item: { count: 1, id: "mekanism:alloy_reinforced" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["54B3A9C7EE03100D"]
+			id: "1B438B76795525D1"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3167AE8CE9D4AAA6"
+				item: { count: 1, id: "enderio_evolution:crystalline_alloy_ingot" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3731A1A4D667D01C"]
+			id: "45948A485EA00916"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "58127A5E80E8F8DF"
+				item: { count: 1, id: "enderio:energetic_alloy_ingot" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["64311A69FF9C400F"]
+			id: "3731A1A4D667D01C"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "27B1350C3EB51DA3"
+				item: { count: 1, id: "enderio:conductive_alloy_ingot" }
+				type: "item"
+			}]
+			x: -7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["65525F9260C45022"]
+			id: "64311A69FF9C400F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "24C1BAE18E3B24FD"
+				item: { count: 1, id: "enderio:alloy_smelter" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["03CB9D5247B0DD54"]
+			id: "65525F9260C45022"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "450AEE7B56434B1A"
+				item: { count: 1, id: "enderio:void_chassis" }
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1FFF061D8DF8CC89"]
+			hide_dependency_lines: true
+			id: "03CB9D5247B0DD54"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "408FF1BB0DC18E30"
+				item: { count: 1, id: "enderio:grains_of_infinity" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["65525F9260C45022"]
+			id: "662BCC7654BC866F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7F4F333FF77BC6D7"
+				item: { count: 1, id: "enderio:sag_mill" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["64311A69FF9C400F"]
+			id: "5007CF84AA716A40"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "6FBB96263D26F391"
+				item: { count: 1, id: "enderio:ensouled_chassis" }
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5007CF84AA716A40"]
+			id: "1980C4B9925D3F77"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "4F0BDB64B4C65262"
+				item: { count: 1, id: "enderio:powered_spawner" }
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5007CF84AA716A40"]
+			id: "6869D5D698727A1A"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "7B573F8514EF300E"
+				item: { count: 1, id: "enderio:slice_and_splice" }
+				type: "item"
+			}]
+			x: -5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5007CF84AA716A40"]
+			id: "3EDDBF87F6B4C48F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "5BE552D4539E088F"
+				item: { count: 1, id: "enderio:soul_binder" }
+				type: "item"
+			}]
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5007CF84AA716A40"]
+			id: "44E72FA3154A3A99"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "546B4B4485153D28"
+				item: { count: 1, id: "enderio:xp_obelisk" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6B1714535A673C6D"]
+			id: "08A5BC4F018F207F"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "434DEF6B1A576847"
+				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+				type: "item"
+			}]
+			x: -18.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7D2BCAF550097334"]
+			id: "6B1714535A673C6D"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3CB199525B92D0AB"
+				item: { count: 1, id: "industrialforegoing:machine_frame_simple" }
+				type: "item"
+			}]
+			x: -15.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["68F487A73095D572"]
+			id: "7D2BCAF550097334"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [
+				{
+					id: "673925B04BD57DEF"
+					item: { count: 1, id: "industrialforegoing:dissolution_chamber" }
+					type: "item"
+				}
+				{
+					id: "39BCA92B551CFC04"
+					item: { count: 1, id: "industrialforegoing:mob_slaughter_factory" }
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["54B3A9C7EE03100B"]
+			id: "77C73E04AE16A930"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "481953EE2062D81E"
+				item: { count: 1, id: "industrialforegoing:machine_frame_pity" }
+				type: "item"
+			}]
+			x: -12.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77C73E04AE16A930"]
+			id: "3A14F0EDBACA1E21"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1BB38B2ADCE9BBE6"
+				item: { count: 1, id: "industrialforegoing:latex_processing_unit" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3A14F0EDBACA1E21"]
+			id: "68F487A73095D572"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "3ED722930E44D4A2"
+				item: { count: 1, id: "industrialforegoing:plastic" }
+				type: "item"
+			}]
+			x: -10.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2AE9F15D2067330F"]
+			id: "78CD7AB7ADE92CE8"
+			quest_enhance_disable_scroll_paging: false
+			tasks: [{
+				id: "1D951B69909634D5"
+				item: { count: 1, id: "mekanism:dust_steel" }
+				type: "item"
+			}]
+			x: -21.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["1FFF061D8DF8CC89"]
+			id: "54B3A9C7EE031002"
+			tasks: [{
+				id: "54B3A9C7EE032002"
+				item: { count: 1, id: "deep_aether:chromatic_aercloud" }
+				type: "item"
+			}]
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["54B3A9C7EE031003"]
+			id: "54B3A9C7EE031004"
+			tasks: [{
+				id: "54B3A9C7EE032004"
+				item: {
+					components: { "astralsorcery:lumen": "astralsorcery:evorsio" }
+					count: 1
+					id: "astralsorcery:lumen_crystal"
+				}
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1FFF061D8DF8CC89"]
+			id: "54B3A9C7EE03100C"
+			tasks: [{
+				id: "54B3A9C7EE03200C"
+				item: { count: 1, id: "mekanism:advanced_control_circuit" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1FFF061D8DF8CC89"]
+			id: "54B3A9C7EE03100E"
+			tasks: [{
+				id: "54B3A9C7EE03200E"
+				item: { count: 1, id: "industrialforegoing:machine_frame_advanced" }
+				type: "item"
+			}]
+			x: -12.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["66591E711609D902"]
+			icon: { id: "explorerscompass:explorerscompass" }
+			id: "37B75DF31D476C21"
+			optional: true
+			tasks: [{
+				id: "35DA1C8447EF211C"
+				structure: "eeeabsmobs:guling"
+				type: "structure"
+			}]
+			x: -13.0d
+			y: 16.5d
+		}
+	]
 }

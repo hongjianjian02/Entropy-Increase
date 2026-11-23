@@ -1,0 +1,13 @@
+name = "FTB Quest Enhance"
+filename = "quest_enhance-1.21.1-neoforge-3.16.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "33e3612bd50fae0090a37a83fd122b166264137c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9747884
+project-id = 1610171

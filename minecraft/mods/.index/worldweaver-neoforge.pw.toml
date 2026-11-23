@@ -1,0 +1,13 @@
+name = "WorldWeaver: New Dawn"
+filename = "worldweaver-21.0.32.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "af3cbb5e1c85c7739a299a959e8cd7dfd9079587"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9750251
+project-id = 1422284

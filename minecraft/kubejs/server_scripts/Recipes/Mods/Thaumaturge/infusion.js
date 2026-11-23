@@ -30,4 +30,53 @@ ServerEvents.recipes(event => {
     }
   }).id('kubejs:infusion_engineer_blueprint')
 
+  // 悖论物质：将中央的 TNT 替换为摧灭流明水晶石。
+  event.custom({
+    type: 'thaumaturge:infusion',
+    aspects: [
+      { aspect: 'thaumaturge:alienis', amount: 50 },
+      { aspect: 'thaumaturge:vitium', amount: 50 }
+    ],
+    catalyst: {
+      type: 'neoforge:components',
+      items: 'astralsorcery:lumen_crystal',
+      components: { 'astralsorcery:lumen': 'astralsorcery:evorsio' }
+    },
+    components: [
+      { item: 'thaumaturge:morphic_resonator' },
+      { tag: 'c:storage_blocks/redstone' },
+      { item: 'thaumaturge:alumentum' },
+      { tag: 'thaumaturge:nitors' },
+      { item: 'thaumaturge:vis_resonator' },
+      { tag: 'c:storage_blocks/redstone' },
+      { item: 'thaumaturge:alumentum' },
+      { tag: 'thaumaturge:nitors' }
+    ],
+    instability: 8,
+    research: { entry: 'thaumaturge:rift_closer' },
+    result: { id: 'thaumaturge:causality_collapser', count: 1 }
+  }).id('thaumaturge:infusion/causality_collapser')
+
+  // 星环：外围基座按截图从上方起顺时针排列。
+  event.custom({
+    type: 'thaumaturge:infusion',
+    aspects: [
+      { aspect: 'thaumaturge:victus', amount: 32 },
+      { aspect: 'thaumaturge:praecantatio', amount: 32 },
+      { aspect: 'thaumaturge:metallum', amount: 32 }
+    ],
+    catalyst: { item: 'eicore:starlight_resonance_lens' },
+    components: [
+      { item: 'neovitae:weak_blood_shard' },
+      { item: 'enderio_evolution:crystalline_alloy_ingot' },
+      { item: 'mekanism:alloy_reinforced' },
+      { item: 'industrialforegoing:machine_frame_advanced' },
+      { item: 'mekanism:alloy_reinforced' },
+      { item: 'enderio_evolution:crystalline_alloy_ingot' }
+    ],
+    instability: 2,
+    research: { entry: 'thaumaturge:base_infusion', stage: 0 },
+    result: { id: 'eicore:star_ring', count: 1 }
+  }).id('kubejs:infusion/star_ring')
+
 })

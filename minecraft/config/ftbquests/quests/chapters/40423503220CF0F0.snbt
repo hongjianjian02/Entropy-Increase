@@ -9,9 +9,12 @@
 	id: "40423503220CF0F0"
 	images: [ ]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [{
 		id: "542A7C73AD102F5E"
+		quest_enhance_disable_scroll_paging: false
 		tasks: [{
 			id: "7280B6FE57C3EF24"
 			type: "checkmark"

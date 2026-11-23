@@ -9,6 +9,8 @@
 	id: "424EC44E4A478E49"
 	images: [ ]
 	order_index: 0
+	quest_enhance_decorative_lines: [ ]
+	quest_enhance_hidden_dependency_lines: [ ]
 	quest_links: [ ]
 	quests: [
 		{
@@ -16,6 +18,7 @@
 				id: "twilightforest:twilight_oak_wood"
 			}
 			id: "08959F40967AC768"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					id: "391D570ED9999895"
@@ -134,6 +137,7 @@
 		{
 			dependencies: ["08959F40967AC768"]
 			id: "59C4DCBCFBBF5F82"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [
 				{
 					count: 8
@@ -178,6 +182,7 @@
 				id: "botania:lexica_botania"
 			}
 			id: "065E81BD2D5E4BD7"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "23FE27A49067DA74"
 				item: {
@@ -204,6 +209,7 @@
 		{
 			dependencies: ["59C4DCBCFBBF5F82"]
 			id: "0C42E80F859B8885"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "1B0ECA3E8014B1C6"
 				item: {
@@ -223,6 +229,7 @@
 		{
 			dependencies: ["0C42E80F859B8885"]
 			id: "6AEC9D71CCD30C34"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "76AF4CC06A3033DE"
 				item: { count: 1, id: "twilightforest:knight_phantom_trophy" }
@@ -234,6 +241,7 @@
 		{
 			dependencies: ["0C42E80F859B8885"]
 			id: "71652FC5565FC7A4"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "17959CF09858E92E"
 				item: { count: 1, id: "twilightforest:minoshroom_trophy" }
@@ -245,6 +253,7 @@
 		{
 			dependencies: ["0C42E80F859B8885"]
 			id: "0117471874399E00"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "308FCFD413F45001"
 				item: { count: 1, id: "twilightforest:alpha_yeti_trophy" }
@@ -256,6 +265,7 @@
 		{
 			dependencies: ["71652FC5565FC7A4"]
 			id: "7A0100D3DDCE5C56"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6F324822F4927ABB"
 				item: { count: 1, id: "twilightforest:hydra_trophy" }
@@ -267,6 +277,7 @@
 		{
 			dependencies: ["6AEC9D71CCD30C34"]
 			id: "75BB933025FAD657"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3CDB11832FCAF178"
 				item: { count: 1, id: "twilightforest:ur_ghast_trophy" }
@@ -278,6 +289,7 @@
 		{
 			dependencies: ["0117471874399E00"]
 			id: "1747B64A0F031F9E"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "651B8DC933F5F64A"
 				item: { count: 1, id: "twilightforest:snow_queen_trophy" }
@@ -293,6 +305,7 @@
 				"75BB933025FAD657"
 			]
 			id: "0B6B55D50FCF91C1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5B2CDA30BE3499CC"
 				item: { count: 1, id: "twilightforest:magic_beans" }
@@ -307,6 +320,7 @@
 				id: "twilightforest:giant_obsidian"
 			}
 			id: "0D4DA2A006C180E6"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "6E9B3BBF51F55B35"
@@ -328,6 +342,7 @@
 				id: "twilightforest:lamp_of_cinders"
 			}
 			id: "08A7B05E4DDDF0B1"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "121F1F482E423AB2"
@@ -347,6 +362,7 @@
 		{
 			dependencies: ["065E81BD2D5E4BD7"]
 			id: "7F3614FDE1F0BED7"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 7
 				id: "3FBDBB4F826B1DE3"
@@ -367,6 +383,7 @@
 		{
 			dependencies: ["59C4DCBCFBBF5F82"]
 			id: "1C2638CF7098C4C5"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3F789BD8A17B79DF"
 				item: { count: 1, id: "twilightforest:root" }
@@ -381,6 +398,7 @@
 				"7F3614FDE1F0BED7"
 			]
 			id: "459D34B2E07079C6"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				count: 16
 				id: "0D7C18C504C86ADB"
@@ -401,6 +419,7 @@
 		{
 			dependencies: ["459D34B2E07079C6"]
 			id: "43AAF2EDEA4FB8B4"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "52022E3D9FA44A8E"
 				item: { count: 1, id: "twilightforest:ironwood_ingot" }
@@ -415,6 +434,7 @@
 				"5014C0B273E442CC"
 			]
 			id: "4B5E83E5302F1BC2"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "18A74CCFDE01475D"
@@ -441,6 +461,7 @@
 				"4A0B37422ED3E672"
 			]
 			id: "2AD1FCEACBF4587F"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "5D793D300232D163"
 				item: { count: 1, id: "botania:terrasteel_ingot" }
@@ -455,6 +476,7 @@
 				"6AEC9D71CCD30C34"
 			]
 			id: "1A283E48EC379423"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "12C9A19B7F8242BD"
 				item: { count: 1, id: "botania:elven_gateway_core" }
@@ -466,6 +488,7 @@
 		{
 			dependencies: ["1A283E48EC379423"]
 			id: "04262792602706AF"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "0255716A5A20FDF5"
@@ -495,6 +518,7 @@
 				id: "minecraft:grass_block"
 			}
 			id: "1301F3F28736AD5F"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				auto: "enabled"
 				command: "/astages server add chapter1"
@@ -521,6 +545,7 @@
 		{
 			dependencies: ["0C42E80F859B8885"]
 			id: "5014C0B273E442CC"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "76CFEC3B097A799C"
 				item: { count: 1, id: "minecraft:ender_pearl" }
@@ -535,6 +560,7 @@
 				"4C2702E0F9D1440C"
 			]
 			id: "5F4BF79F031DA9B3"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "16894C0F816E93E1"
@@ -553,6 +579,7 @@
 		{
 			dependencies: ["4B5E83E5302F1BC2"]
 			id: "4A0B37422ED3E672"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "6D1C8FBD0BA9B6F3"
 				item: { count: 1, id: "botania:terrestrial_agglomeration_plate" }
@@ -564,6 +591,7 @@
 		{
 			dependencies: ["08A7B05E4DDDF0B1"]
 			id: "73BE1F8E3643202D"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [
 				{
 					id: "44E33F8FF9C282DC"
@@ -592,6 +620,7 @@
 		{
 			dependencies: ["08959F40967AC768"]
 			id: "54643F6882F44234"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "032188651A8B1107"
 				item: { count: 1, id: "naturescompass:naturescompass" }
@@ -603,6 +632,7 @@
 		{
 			dependencies: ["54643F6882F44234"]
 			id: "72467A62EB164AAA"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "59B7C9534309BF1C"
 				item: { count: 1, id: "twilightforest:quest_ram_trophy" }
@@ -614,6 +644,7 @@
 		{
 			dependencies: ["72467A62EB164AAA"]
 			id: "4C2702E0F9D1440C"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "37A3C641E1C9CB16"
 				item: {
@@ -636,6 +667,7 @@
 		{
 			dependencies: ["04262792602706AF"]
 			id: "38F1673B4154CF0A"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "14DE5682FC4BD968"
 				item: { count: 1, id: "eicore:unstable_rune_gem" }
@@ -651,6 +683,7 @@
 			]
 			dependency_requirement: "all_started"
 			id: "1ABB4A061CF20212"
+			quest_enhance_disable_scroll_paging: false
 			tasks: [{
 				id: "3E0B2ACC743E9666"
 				item: { count: 1, id: "eicore:activated_rune_gem" }
@@ -662,6 +695,7 @@
 		{
 			dependencies: ["54643F6882F44234"]
 			id: "18DC9AF6247F5DF0"
+			quest_enhance_disable_scroll_paging: false
 			rewards: [{
 				id: "7EACB2F4FCBD225B"
 				item: {
