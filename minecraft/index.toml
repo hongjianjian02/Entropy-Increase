@@ -414,7 +414,7 @@ hash = "7c2cf9f342c562010cdc4ed16cc804269bcb0795c5b85a77cbe155f50f2f2ec7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/04af85fc91291ab7.snbt"
-hash = "2a7251a74c870cdea0ff0393c1513c0fc4a75c9a04055c223af4a16f0a1ac24c"
+hash = "fd9133a31a9dab3e662aed2cc0a33fe8c5ba38866702bc6436ac8621839f1b25"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/0ec020ae374b53ae.snbt"
@@ -426,7 +426,7 @@ hash = "1a9895b606f574792c998df63e04e1fdc79950eef9c8198611ed6357b6c0bc40"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3af64a8d2e35b6b4.snbt"
-hash = "5660ee75711e7e2ebc081ee05db4683501c7a41edacf2337cd7abc0fa983b277"
+hash = "5a9ff3d05f6c9f3de108966d38e46586a6a8389878403b89f1aaad8a999f1704"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/40304C220F7BCCE6.snbt"
@@ -441,18 +441,6 @@ file = "config/ftbquests/quests/chapters/424EC44E4A478E49.snbt"
 hash = "00850a5f2b9ef795c00525deb3bfb6d491055dfa72afd85ee35eab56c0784790"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/6f2d5b73ae130100.snbt"
-hash = "d23f7203673657e174193e5b6221bff098bd3014cdaa59f674faa1c36cadae68"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/6f2d5b73ae130200.snbt"
-hash = "788d5d2477404d3209e421d367efcc54ba924a10c44649b878402119593a6638"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/6f2d5b73ae130300.snbt"
-hash = "e0071405d670fb8bced010bf4c6dae0c06fcd10471041f9818fd0c582e5f2629"
-
-[[files]]
 file = "config/ftbquests/quests/data.snbt"
 hash = "2dc29726292437b6a7aef7fff20b4f75f19678d8b018ac0709c4eac8ad41bb24"
 
@@ -462,7 +450,7 @@ hash = "1d6faa9e1a76d13f3ab8558a3640158b1f0a54f624a4e37ddc3ef41ed4191058"
 
 [[files]]
 file = "config/ftbquests/quests/lang/zh_cn.snbt"
-hash = "ca633c2f9474eb18d0cff2e282787a4d628af5755dfd44d18d95250f1d5a4a22"
+hash = "2155f5bd2509d9e4efd3ed35fb17b8671417d37807b55638f07cbc317f1fb828"
 
 [[files]]
 file = "config/guideme.toml"

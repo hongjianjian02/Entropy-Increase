@@ -135,16 +135,6 @@
 			y: 2.0d
 		}
 		{
-			id: "0B83A320EA00A9B0"
-			tasks: [{
-				id: "7436ADFAEC68721A"
-				item: { components: { "ftbquests:missing_item": "mysticalagriculture:iron_seeds" }, count: 1, id: "ftbquests:missing_item" }
-				type: "item"
-			}]
-			x: 13.5d
-			y: -0.5d
-		}
-		{
 			icon: {
 				id: "immersiveengineering:arc_furnace"
 			}
