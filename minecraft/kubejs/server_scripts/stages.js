@@ -47,6 +47,12 @@ var registerEIChapterRestrictions = event => {
     AStages.addRestrictionForModRecipe('ch2_ae2_appliedthaumaturge', 'chapter2', 'appliedthaumaturge') // Applied Thaumaturge
     AStages.addRestrictionForModRecipe('ch2_ae2_appliedsoul', 'chapter2', 'appliedsoul') // Applied Soul
     AStages.addRestrictionForModRecipe('ch2_ae2_sticks', 'chapter2', 'appliedsticks') // Applied 建筑棒
+    AStages.addRestrictionForModRecipe('ch2_ae2_appliedas', 'chapter2', 'appliedas') // 应用星辉
+    AStages.addRestrictionForModRecipe('ch2_entry_neoecoae', 'chapter2', 'neoecoae') // Neo ECO AE
+    AStages.addRestrictionForModRecipe('ch2_entry_appmek', 'chapter2', 'appmek') // Applied Mekanistics
+    AStages.addRestrictionForModRecipe('ch2_entry_ae2ltpp', 'chapter2', 'ae2ltpp') // AE2LT Packaged Pattern Provider
+    AStages.addRestrictionForModRecipe('ch2_entry_ae2wtlib', 'chapter2', 'ae2wtlib') // AE2 无线终端
+    AStages.addRestrictionForModRecipe('ch2_entry_rechiseledae', 'chapter2', 'rechiseledae') // Rechiseled AE
 
     AStages.addRestrictionForModRecipe('ch2_if', 'chapter2', 'industrialforegoing') // 工业先锋
     // EIO 本体 + 附属
@@ -58,6 +64,7 @@ var registerEIChapterRestrictions = event => {
     AStages.addRestrictionForModRecipe('ch2_mek', 'chapter2', 'mekanism') // 通用机械 MEK
     AStages.addRestrictionForModRecipe('ch2_mek_generators', 'chapter2', 'mekanismgenerators') // MEK 发电机
     AStages.addRestrictionForModRecipe('ch2_mek_tools', 'chapter2', 'mekanismtools') // MEK 工具
+    AStages.addRestrictionForModRecipe('ch2_entry_mekanism_card', 'chapter2', 'mekanism_card') // Mekanism Card
 
     AStages.addRestrictionForDimension('ch2_dim_end', 'chapter2', 'minecraft:the_end') // 末地维度
 
@@ -70,15 +77,9 @@ var registerEIChapterRestrictions = event => {
     AStages.addRestrictionForModRecipe('ch2_entry_dimstorage', 'chapter2', 'dimstorage') // DimStorage
     AStages.addRestrictionForModRecipe('ch2_entry_rftoolsbuilder', 'chapter2', 'rftoolsbuilder') // RFTools Builder
     AStages.addRestrictionForModRecipe('ch2_entry_rftoolsutility', 'chapter2', 'rftoolsutility') // RFTools Utility
-    AStages.addRestrictionForModRecipe('ch2_entry_neoecoae', 'chapter2', 'neoecoae') // Neo ECO AE
-    AStages.addRestrictionForModRecipe('ch2_entry_appmek', 'chapter2', 'appmek') // Applied Mekanistics
-    AStages.addRestrictionForModRecipe('ch2_entry_ae2ltpp', 'chapter2', 'ae2ltpp') // AE2LT Packaged Pattern Provider
-    AStages.addRestrictionForModRecipe('ch2_entry_ae2wtlib', 'chapter2', 'ae2wtlib') // AE2 无线终端
-    AStages.addRestrictionForModRecipe('ch2_entry_rechiseledae', 'chapter2', 'rechiseledae') // Rechiseled AE
-    AStages.addRestrictionForModRecipe('ch2_entry_mekanism_card', 'chapter2', 'mekanism_card') // Mekanism Card
-
+    
     // ===== 第三章未完成时锁住：第四章内容 =====
-    AStages.addRestrictionForModRecipe('ch2_entry_justdirethings', 'chapter3', 'justdirethings') // Just Dire Things；时间系列另需 chapter5
+    AStages.addRestrictionForModRecipe('ch2_entry_justdirethings', 'chapter3', 'justdirethings') // Just Dire Things，时间系列另需 time_series
     AStages.addRestrictionForModRecipe('ch3_nc', 'chapter3', 'nuclearcraftneohaul') // 核电工艺 NC
 
     AStages.addRestrictionForModRecipe('ch3_draconic', 'chapter3', 'draconicevolution') // 龙之研究

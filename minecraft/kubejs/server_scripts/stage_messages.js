@@ -37,7 +37,7 @@ var registerEIStageMessages = event => {
       name: '第四章',
       details: [
         '解锁模组：NuclearCraft Neohaul 核电工艺、永恒星光、龙之研究、龙研附属',
-        '解锁模组：Just Dire Things（时间系列在第六章开放）',
+        '解锁模组：Just Dire Things（时间相关内容需要「时间系列」阶段）',
         '解锁维度：永恒星光(可以在永恒星光发现龙矿)',
       ]
     },
@@ -54,7 +54,6 @@ var registerEIStageMessages = event => {
       name: '第六章',
       details: [
         '解锁模组：ExtraHNN、MekanismExtras、AE2 Overclocked',
-        '解锁内容：JDT 时间水晶、时间流体、时间手杖、悖论机及相关升级',
       ]
     },
     {
@@ -63,6 +62,13 @@ var registerEIStageMessages = event => {
       details: [
         '解锁模组：ProjectE、AppliedE、Re-Avaritia 无尽贪婪',
         '解锁附属：Applied Extended Crafting',
+      ]
+    },
+    {
+      id: 'time_series',
+      name: '时间系列',
+      details: [
+        '解锁内容：JDT 时间水晶、时间流体桶、时间手杖、悖论机及相关升级',
       ]
     },
     {

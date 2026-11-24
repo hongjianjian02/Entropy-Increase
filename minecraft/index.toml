@@ -3460,8 +3460,8 @@ hash = "8d4c36e3aac91377077f3c9e51173a669d6dbe445df94e926df0cea1581a975e"
 metafile = true
 
 [[files]]
-file = "mods/EI core-1.0.25.jar"
-hash = "201b5efd029f10adf3926a15d56d1608bf1786616cba3923a7c03b2731dbe5e2"
+file = "mods/EI core-1.0.31.jar"
+hash = "03d1da07a41d8a5d51b613a5025fe4fef0088ed20691af42b988c7c6f029383c"
 
 [[files]]
 file = "mods/aeroblender.pw.toml"
@@ -3587,7 +3587,7 @@ hash = "62637d9fa6059eee6042ffe48185a94621d4f45e0c3e77397b4e19cbbcbc59fb"
 metafile = true
 
 [[files]]
-file = "mods/hardcoreastagesitem.pw.toml"
+file = "mods/.index/hardcoreastagesitem.pw.toml"
 hash = "6a8b7a366c9af77cc7008d99c5fbfd9bbd204741404ab7b2f3b895d7815ce901"
 metafile = true
 
