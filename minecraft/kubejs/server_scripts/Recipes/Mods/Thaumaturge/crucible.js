@@ -3,14 +3,14 @@
 
 ServerEvents.recipes(event => {
 
-  // 炼金黄铜：铜锭 → 魔力钢锭
+  // 炼金黄铜：青铜锭 + 工具要素5 → 炼金黄铜锭
   // 覆盖原版 thaumaturge:crucible/ingot_brass
   event.custom({
     type: 'thaumaturge:crucible',
     aspects: [
       { aspect: 'thaumaturge:instrumentum', amount: 5 }
     ],
-    catalyst: { item: 'botania:manasteel_ingot' },
+    catalyst: { tag: 'c:ingots/bronze' },
     research: { entry: 'thaumaturge:metallurgy', stage: 0 },
     result: { id: 'thaumaturge:ingot_brass', count: 1 }
   }).id('thaumaturge:crucible/ingot_brass')

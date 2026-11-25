@@ -3481,8 +3481,8 @@ hash = "8d4c36e3aac91377077f3c9e51173a669d6dbe445df94e926df0cea1581a975e"
 metafile = true
 
 [[files]]
-file = "mods/EI core-1.0.33.jar"
-hash = "2b200a3a30af2998735081cc711a354e97368cdbefc2256023f62a3bd2da8241"
+file = "mods/EI core-1.0.36.jar"
+hash = "fbae99d20087cb1513f356a272bbd2eb091f74f918f132f348f046f8478a78c9"
 
 [[files]]
 file = "mods/aeroblender.pw.toml"

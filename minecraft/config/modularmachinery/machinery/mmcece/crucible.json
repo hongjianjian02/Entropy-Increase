@@ -1,0 +1,869 @@
+{
+  "translation_key": "machine.mmcece.crucible",
+  "requires_blueprint": false,
+  "has_factory": false,
+  "factory_only": false,
+  "color": "606060",
+  "orientation": {
+    "policy": "horizontal"
+  },
+  "parts": [
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        2,
+        -1,
+        4
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        1,
+        -1,
+        4
+      ]
+    },
+    {
+      "block": [
+        "mmcece:parallel_controller_normal",
+        "mmcece:parallel_controller_reinforced",
+        "mmcece:parallel_controller_elite",
+        "mmcece:parallel_controller_super",
+        "mmcece:parallel_controller_ultimate",
+        "mmcece:parallel_controller_transcend",
+        "mmcece:parallel_controller_dark_extreme",
+        "mmcece:parallel_controller_photon",
+        "mmcece:parallel_controller_daydream",
+        "mmcece:parallel_controller_infinite"
+      ],
+      "offset": [
+        0,
+        -1,
+        4
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        -1,
+        -1,
+        4
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        -2,
+        -1,
+        4
+      ]
+    },
+    {
+      "block": "thaumaturge:fence_silverwood",
+      "properties": {
+        "east": "false",
+        "north": "true",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "true"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        2,
+        0,
+        4
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        1,
+        0,
+        4
+      ]
+    },
+    {
+      "block": [
+        "mmcece:upgrade_bus_normal",
+        "mmcece:upgrade_bus_reinforced",
+        "mmcece:upgrade_bus_elite",
+        "mmcece:upgrade_bus_super",
+        "mmcece:upgrade_bus_ultimate"
+      ],
+      "offset": [
+        0,
+        0,
+        4
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        -1,
+        0,
+        4
+      ]
+    },
+    {
+      "block": "thaumaturge:fence_silverwood",
+      "properties": {
+        "east": "true",
+        "north": "true",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "false"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        -2,
+        0,
+        4
+      ]
+    },
+    {
+      "block": "thaumaturge:fence_silverwood",
+      "properties": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "false"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        2,
+        1,
+        4
+      ]
+    },
+    {
+      "block": "botania:bifrost_pane",
+      "properties": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "true"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        1,
+        1,
+        4
+      ]
+    },
+    {
+      "block": "botania:bifrost_pane",
+      "properties": {
+        "east": "true",
+        "north": "false",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "true"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        0,
+        1,
+        4
+      ]
+    },
+    {
+      "block": "botania:bifrost_pane",
+      "properties": {
+        "east": "true",
+        "north": "false",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "false"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        -1,
+        1,
+        4
+      ]
+    },
+    {
+      "block": "thaumaturge:fence_silverwood",
+      "properties": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "false"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        -2,
+        1,
+        4
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        2,
+        2,
+        4
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        -1,
+        2,
+        4
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        -2,
+        2,
+        4
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        2,
+        -1,
+        3
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        1,
+        -1,
+        3
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        0,
+        -1,
+        3
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        -1,
+        -1,
+        3
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        -2,
+        -1,
+        3
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        2,
+        0,
+        3
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        -2,
+        0,
+        3
+      ]
+    },
+    {
+      "block": "botania:bifrost_pane",
+      "properties": {
+        "east": "false",
+        "north": "true",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "false"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        2,
+        1,
+        3
+      ]
+    },
+    {
+      "block": "botania:bifrost_pane",
+      "properties": {
+        "east": "false",
+        "north": "true",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "false"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        -2,
+        1,
+        3
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        2,
+        2,
+        3
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        -2,
+        2,
+        3
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        2,
+        -1,
+        2
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        1,
+        -1,
+        2
+      ]
+    },
+    {
+      "block": "twilightforest:fiery_block",
+      "offset": [
+        0,
+        -1,
+        2
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        -1,
+        -1,
+        2
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        -2,
+        -1,
+        2
+      ]
+    },
+    {
+      "block": [
+        "mmcece:essentia_input_hatch",
+        "mmcece:me_essentia_input_bus",
+        "mmcece:me_essentia_stock_bus"
+      ],
+      "offset": [
+        2,
+        0,
+        2
+      ]
+    },
+    {
+      "block": "thaumaturge:crucible",
+      "offset": [
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        -2,
+        0,
+        2
+      ]
+    },
+    {
+      "block": "botania:bifrost_pane",
+      "properties": {
+        "east": "false",
+        "north": "true",
+        "south": "true",
+        "waterlogged": "false",
+        "west": "false"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        2,
+        1,
+        2
+      ]
+    },
+    {
+      "block": "botania:corporea_index",
+      "properties": {
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "block": "botania:bifrost_pane",
+      "properties": {
+        "east": "false",
+        "north": "true",
+        "south": "true",
+        "waterlogged": "false",
+        "west": "false"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        -2,
+        1,
+        2
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        -2,
+        2,
+        2
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        2,
+        -1,
+        1
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        1,
+        -1,
+        1
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        0,
+        -1,
+        1
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        -1,
+        -1,
+        1
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        -2,
+        -1,
+        1
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        -2,
+        0,
+        1
+      ]
+    },
+    {
+      "block": "botania:bifrost_pane",
+      "properties": {
+        "east": "false",
+        "north": "false",
+        "south": "true",
+        "waterlogged": "false",
+        "west": "false"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "block": "botania:bifrost_pane",
+      "properties": {
+        "east": "false",
+        "north": "false",
+        "south": "true",
+        "waterlogged": "false",
+        "west": "false"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        -2,
+        1,
+        1
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        -2,
+        2,
+        1
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        2,
+        -1,
+        0
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        1,
+        -1,
+        0
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        -1,
+        -1,
+        0
+      ]
+    },
+    {
+      "block": "mmcece:machine_casing_plain",
+      "offset": [
+        -2,
+        -1,
+        0
+      ]
+    },
+    {
+      "block": "thaumaturge:fence_silverwood",
+      "properties": {
+        "east": "false",
+        "north": "false",
+        "south": "true",
+        "waterlogged": "false",
+        "west": "true"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        2,
+        0,
+        0
+      ]
+    },
+    {
+      "block": "item_input",
+      "offset": [
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "block": "item_output",
+      "offset": [
+        -1,
+        0,
+        0
+      ]
+    },
+    {
+      "block": "thaumaturge:fence_silverwood",
+      "properties": {
+        "east": "true",
+        "north": "false",
+        "south": "true",
+        "waterlogged": "false",
+        "west": "false"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        -2,
+        0,
+        0
+      ]
+    },
+    {
+      "block": "thaumaturge:fence_silverwood",
+      "properties": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "false"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "block": "botania:bifrost_pane",
+      "properties": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "true"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        1,
+        1,
+        0
+      ]
+    },
+    {
+      "block": "botania:bifrost_pane",
+      "properties": {
+        "east": "true",
+        "north": "false",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "true"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "block": "botania:bifrost_pane",
+      "properties": {
+        "east": "true",
+        "north": "false",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "false"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        -1,
+        1,
+        0
+      ]
+    },
+    {
+      "block": "thaumaturge:fence_silverwood",
+      "properties": {
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "waterlogged": "false",
+        "west": "false"
+      },
+      "properties_space": "legacy",
+      "offset": [
+        -2,
+        1,
+        0
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        2,
+        2,
+        0
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        0,
+        2,
+        0
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        -1,
+        2,
+        0
+      ]
+    },
+    {
+      "block": "botania:corporea_slab",
+      "properties": {
+        "type": "bottom",
+        "waterlogged": "false"
+      },
+      "properties_space": "local",
+      "offset": [
+        -2,
+        2,
+        0
+      ]
+    }
+  ]
+}
