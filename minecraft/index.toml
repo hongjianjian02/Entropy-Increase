@@ -261,6 +261,10 @@ file = "config/emi.css"
 hash = "ed97f382cabfb2668d25dd96d5a7c0ce5a6e26d08cf8a3bf92db911911c0f0db"
 
 [[files]]
+file = "config/enchantmentinsights-client.toml"
+hash = "aab72170904747c959bdc16b026f7a063f3c564264665c181866a5246ffa5f64"
+
+[[files]]
 file = "config/enderio/base-client.toml"
 hash = "b22410545e89a313193cc65e2b2946dd9fa5194d22ffc97e6999882427ee9b3a"
 
@@ -1705,6 +1709,18 @@ file = "config/paxi/resourcepack_load_order.json"
 hash = "d0aaf3172f34275479f0669aa5b0a94b85788ae638f3062b948ec49d31c38293"
 
 [[files]]
+file = "config/paxi/resourcepacks/enchantment_insights_zh_cn/assets/enchantmentinsights/lang/zh_cn.json"
+hash = "f3e13bbd53855c316097a4e304cecc5743000d4d7dbc95272984f60455942dfd"
+
+[[files]]
+file = "config/paxi/resourcepacks/enchantment_insights_zh_cn/assets/tooltipinsights/lang/zh_cn.json"
+hash = "8069cdfd4924992e27c6521fa92c19263de898f3621f489ac6228ff5645c816c"
+
+[[files]]
+file = "config/paxi/resourcepacks/enchantment_insights_zh_cn/pack.mcmeta"
+hash = "d78e8d0f5284d2d46ba6e78b9bab30b0aa5816228bb699f4843228a3d9c0b45c"
+
+[[files]]
 file = "config/paxi/resourcepacks/entropy_increase_zh_cn/assets/aether/lang/zh_cn.json"
 hash = "d4ba9088ebdf17422d7367e6512bfaf90bb7963419a555c649fc2baf2184dd46"
 
@@ -2735,6 +2751,11 @@ hash = "fcd6da44ff5b5991813487553b5db5dfedfdf09e24c8aa5e81572894da14723e"
 metafile = true
 
 [[files]]
+file = "mods/.index/enchantment-insights.pw.toml"
+hash = "54d276ab2b79563d34d8634e574b7d72a65f20069ff783a73ed732cc5329b0b0"
+metafile = true
+
+[[files]]
 file = "mods/.index/ender-io-conduit-optimizer.pw.toml"
 hash = "206f7450a248e60b4a11b1735bfd33def1dfb12ba4bb47d5e4881cf272db6f24"
 metafile = true
@@ -3296,7 +3317,7 @@ metafile = true
 
 [[files]]
 file = "mods/.index/puzzles-lib.pw.toml"
-hash = "27dc3e884de78c57f359c7ae714e980bca81f2655c6317ca6edd89aa0aa608a0"
+hash = "611f589f0874ce5db4a2241421ce4453f9efb5bedf57e3f24c039a16a0e604c5"
 metafile = true
 
 [[files]]
@@ -3460,8 +3481,8 @@ hash = "8d4c36e3aac91377077f3c9e51173a669d6dbe445df94e926df0cea1581a975e"
 metafile = true
 
 [[files]]
-file = "mods/EI core-1.0.31.jar"
-hash = "03d1da07a41d8a5d51b613a5025fe4fef0088ed20691af42b988c7c6f029383c"
+file = "mods/EI core-1.0.32.jar"
+hash = "ae8aab391bc26b460c3c4d35ddfb3b5016bb69d48b9545d289bea2805945e6f6"
 
 [[files]]
 file = "mods/aeroblender.pw.toml"
@@ -3534,7 +3555,7 @@ hash = "4237401ed9eb9c3e44cd056664e784cf2c35f238ff65cd8796f3ded6bafb0ed8"
 metafile = true
 
 [[files]]
-file = "mods/bookshelf.pw.toml"
+file = "mods/.index/bookshelf.pw.toml"
 hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
 metafile = true
 
@@ -3656,17 +3677,8 @@ hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
 metafile = true
 
 [[files]]
-file = "mods/prickle-neoforge-1.21.1-21.1.11.jar"
-hash = "ccf46c442ed3c7fe41ad056f0940560829ec4dd88360985dfacd78f4614eb167"
-
-[[files]]
-file = "mods/prickle.pw.toml"
+file = "mods/.index/prickle.pw.toml"
 hash = "eab2f56ff9135b3b7253ea5a73deae2f887e2876f5f0432936044a6e926937b4"
-metafile = true
-
-[[files]]
-file = "mods/puzzles-lib.pw.toml"
-hash = "611f589f0874ce5db4a2241421ce4453f9efb5bedf57e3f24c039a16a0e604c5"
 metafile = true
 
 [[files]]

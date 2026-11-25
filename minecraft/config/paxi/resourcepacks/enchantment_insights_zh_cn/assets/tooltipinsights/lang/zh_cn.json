@@ -1,0 +1,6 @@
+{
+  "gui.tooltipinsights.tooltip.alt": "Alt",
+  "gui.tooltipinsights.tooltip.control": "Ctrl",
+  "gui.tooltipinsights.tooltip.shift": "Shift",
+  "gui.tooltipinsights.tooltip.view_descriptions": "按住 %s 查看说明。"
+}

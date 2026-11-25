@@ -1,0 +1,10 @@
+# 附魔书默认显示 Enchantment Insights 介绍；装备保留 L2Core 的 Shift 动态说明。
+[enchanted_item_tooltips]
+tooltip_descriptions = "ALWAYS"
+
+[enchanted_item_tooltips.item_tooltip_lines]
+value_description = true
+
+[enchanted_item_tooltips.item_description_targets]
+stored_enchantments = true
+enchantments = false
