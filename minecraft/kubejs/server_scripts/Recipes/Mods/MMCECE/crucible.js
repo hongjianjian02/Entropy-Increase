@@ -11,6 +11,12 @@ const EI_RING_CONDITIONAL_OPS = Java.loadClass('net.neoforged.neoforge.common.co
 const EI_RING_SERVER_HOOKS = Java.loadClass('net.neoforged.neoforge.server.ServerLifecycleHooks')
 const EI_RING_STAGE_HOLDER = Java.loadClass('com.alessandro.astages.api.holder.AHolder')
 const EI_RING_STAGES = Java.loadClass('com.alessandro.astages.api.util.AStagesUtils')
+const EI_RING_ITEM_REGISTRY = Java.loadClass('net.minecraft.core.registries.BuiltInRegistries').ITEM
+const EI_RING_REGISTRIES = Java.loadClass('net.minecraft.core.registries.Registries')
+const EI_RING_RESOURCE_LOCATION = Java.loadClass('net.minecraft.resources.ResourceLocation')
+const EI_RING_REPLACEMENT_LOADER = Java.loadClass('com.mafuyu404.oneenoughitem.util.MixinUtils$ReplacementLoader')
+const EI_RING_REPLACEMENT_INDEX = Java.loadClass('com.mafuyu404.oneenoughitem.util.ReplacementIndex')
+const EI_RING_IDENTITY_MAP = Java.loadClass('java.util.IdentityHashMap')
 
 const EI_RING_MACHINE = 'mmcece:crucible'
 const EI_RING_RECIPE_PREFIX = 'kubejs:ring_crucible/'
@@ -88,28 +94,117 @@ function eiRingAccessHandler(research) {
   }
 }
 
-function eiRingAddCatalyst(builder, catalyst, source) {
-  let catalystJson = source.json.get('catalyst').getAsJsonObject()
-  if (!catalyst.isCustom()) {
-    let itemSelector = catalystJson.get('item')
-    if (itemSelector !== null && itemSelector.isJsonPrimitive() && itemSelector.getAsJsonPrimitive().isString()) {
-      // MMCE 的配方页只把普通物品输入行绘制成物品槽。
-      builder.addItemInput(Item.of(itemSelector.getAsString()))
-      return
+function eiRingItemReplacements(event, itemTags) {
+  // OEI 的 prepare 映射尚未展开标签；MMCE staging 前才会切换到已展开的缓存。
+  // 用本轮数据包和标签提前解析最终物品，避免同一 JSON 在两次解码时产生不同输入/输出。
+  let replacements = new EI_RING_IDENTITY_MAP()
+  let entries = EI_RING_REPLACEMENT_LOADER.loadCurrentSnapshot(event.resourceManager).dataMap().entrySet().iterator()
+  while (entries.hasNext()) {
+    let entry = entries.next()
+    let sourceId = String(entry.getKey())
+    let targetId = EI_RING_RESOURCE_LOCATION.parse(String(entry.getValue()))
+    if (!EI_RING_ITEM_REGISTRY.containsKey(targetId)) {
+      continue
     }
+    let target = EI_RING_ITEM_REGISTRY.get(targetId)
+    if (sourceId.startsWith('#')) {
+      let holders = itemTags.get(EI_RING_RESOURCE_LOCATION.parse(sourceId.substring(1)))
+      if (holders !== null) {
+        let iterator = holders.iterator()
+        while (iterator.hasNext()) {
+          eiRingPutReplacement(replacements, iterator.next().value(), target)
+        }
+      }
+    } else {
+      let id = EI_RING_RESOURCE_LOCATION.parse(sourceId)
+      if (EI_RING_ITEM_REGISTRY.containsKey(id)) {
+        eiRingPutReplacement(replacements, EI_RING_ITEM_REGISTRY.get(id), target)
+      }
+    }
+  }
+  return new EI_RING_REPLACEMENT_INDEX(replacements)
+}
 
-    let ordinary = IngredientArrayBuilder.newBuilder()
-    ordinary['addIngredient(net.minecraft.world.item.crafting.Ingredient,java.lang.Number)'](catalyst, 1)
-    builder.addIngredientArrayInput(ordinary.build())
-    let tagSelector = catalystJson.get('tag')
-    if (tagSelector !== null && tagSelector.isJsonPrimitive() && tagSelector.getAsJsonPrimitive().isString()) {
-      builder.addRecipeTooltip('催化材料标签：#' + tagSelector.getAsString())
+function eiRingPutReplacement(replacements, source, target) {
+  if (replacements.containsKey(source) && replacements.get(source) !== target) {
+    throw new Error('[环形炼金坩埚] OEI 对同一物品指定了不同统一目标：' + String(EI_RING_ITEM_REGISTRY.getKey(source)))
+  }
+  replacements.put(source, target)
+}
+
+function eiRingUnifiedStack(stack, replacements) {
+  let target = replacements.replacementOf(stack.getItem())
+  // transmuteCopy 保留数量与数据组件补丁，不把带组件的产物重建为默认物品栈。
+  return target === null ? stack : stack.transmuteCopy(target)
+}
+
+function eiRingCatalystCandidates(catalyst, source, itemTags, replacements) {
+  let catalystJson = source.json.get('catalyst').getAsJsonObject()
+  let candidates = []
+  let seen = Object.create(null)
+
+  function addCandidate(itemId, stack, needsChecker) {
+    stack = eiRingUnifiedStack(stack, replacements)
+    itemId = String(EI_RING_ITEM_REGISTRY.getKey(stack.getItem()))
+    if (!seen[itemId]) {
+      seen[itemId] = true
+      candidates.push({ id: itemId, stack: stack, needsChecker: needsChecker })
     }
-    return
   }
 
-  // MMCE 不接受自定义 Ingredient 快照；从原配方 JSON 取基础物品候选，再用原生 test 保留完整谓词。
-  let group = IngredientArrayBuilder.newBuilder()
+  if (!catalyst.isCustom()) {
+    let tagSelector = catalystJson.get('tag')
+    if (tagSelector !== null && tagSelector.isJsonPrimitive() && tagSelector.getAsJsonPrimitive().isString()) {
+      let tagId = tagSelector.getAsString()
+      let holders = itemTags.get(EI_RING_RESOURCE_LOCATION.parse(tagId))
+      if (holders !== null) {
+        let iterator = holders.iterator()
+        while (iterator.hasNext()) {
+          let itemId = String(EI_RING_ITEM_REGISTRY.getKey(iterator.next().value()))
+          let stack = Item.of(itemId)
+          if (stack.isEmpty()) {
+            throw new Error('催化材料标签包含无法创建的物品：' + itemId + '（' + source.id + '）')
+          }
+          addCandidate(itemId, stack, false)
+        }
+      }
+      if (candidates.length === 0) {
+        throw new Error('催化材料标签没有可显示的物品候选：#' + tagId + '（' + source.id + '）')
+      }
+      return { candidates: candidates, tooltip: '催化材料标签：#' + tagId }
+    }
+
+    let itemSelector = catalystJson.get('item')
+    if (itemSelector !== null && itemSelector.isJsonPrimitive() && itemSelector.getAsJsonPrimitive().isString()) {
+      let itemId = itemSelector.getAsString()
+      let item = Item.of(itemId)
+      if (item.isEmpty()) {
+        throw new Error('催化材料物品不存在：' + itemId + '（' + source.id + '）')
+      }
+      addCandidate(itemId, item, false)
+    } else {
+      // MMCE 配方页不绘制 IngredientArray；展开当前 registry 中的原 Ingredient 候选。
+      let ingredientArray = IngredientArrayBuilder.newBuilder()
+      ingredientArray['addIngredient(net.minecraft.world.item.crafting.Ingredient,java.lang.Number)'](catalyst, 1)
+      let alternatives = ingredientArray.snapshot().alternatives()
+      for (let i = 0; i < alternatives.size(); i++) {
+        let item = alternatives.get(i).item()
+        if (!item.isPresent() || item.get().isEmpty()) {
+          throw new Error('催化材料包含无法显示的非物品候选：' + source.id)
+        }
+        let stack = item.get().copyWithCount(1)
+        let itemId = String(EI_RING_ITEM_REGISTRY.getKey(stack.getItem()))
+        addCandidate(itemId, stack, true)
+      }
+      if (candidates.length === 0) {
+        throw new Error('催化材料没有可显示的物品候选：' + source.id)
+      }
+    }
+
+    return { candidates: candidates, tooltip: null }
+  }
+
+  // 自定义 Ingredient 不能转成 MMCE 的原生候选快照；JSON 提供基础 ID，原 test 保留组件谓词。
   let itemSelector = catalystJson.get('items')
   let candidateIds = []
   if (itemSelector === null) {
@@ -129,27 +224,23 @@ function eiRingAddCatalyst(builder, catalyst, source) {
     throw new Error('自定义催化材料的 items 必须是物品 ID 或 ID 列表：' + source.id)
   }
 
-  let seen = Object.create(null)
-  let count = 0
   for (let i = 0; i < candidateIds.length; i++) {
     let itemId = candidateIds[i]
     if (!seen[itemId]) {
-      seen[itemId] = true
       let candidate = Ingredient.of(itemId)
       if (candidate.isEmpty()) {
         throw new Error('自定义催化材料候选物品不存在：' + itemId + '（' + source.id + '）')
       }
-      group['addIngredient(net.minecraft.world.item.crafting.Ingredient,java.lang.Number)'](
-        candidate, 1
-      ).setChecker((context, stack) => catalyst.test(stack))
-      count++
+      let stack = Item.of(itemId)
+      if (stack.isEmpty()) {
+        throw new Error('自定义催化材料候选物品无法创建输入栈：' + itemId + '（' + source.id + '）')
+      }
+      addCandidate(itemId, stack, true)
     }
   }
-  if (count === 0) {
+  if (candidates.length === 0) {
     throw new Error('自定义催化材料没有可展示的基础物品候选：' + source.id)
   }
-  builder.addIngredientArrayInput(group.build())
-
   let catalystTooltip
   if (source.id === 'thaumaturge:crucible/bottle_taint') {
     catalystTooltip = '催化材料：含 10 点污染源质的小瓶；空瓶不能代替'
@@ -158,11 +249,18 @@ function eiRingAddCatalyst(builder, catalyst, source) {
   } else {
     catalystTooltip = '催化材料须满足原坩埚配方的特殊条件'
   }
-  builder.addRecipeTooltip(catalystTooltip + '；候选物品：' + candidateIds.join('、'))
+  return { candidates: candidates, tooltip: catalystTooltip + '；候选物品：' + candidates.map(candidate => candidate.id).join('、') }
 }
 
-function eiRingAddOutput(builder, recipe) {
-  let result = recipe.rawResult().copy()
+function eiRingAddCatalyst(builder, catalyst, candidate) {
+  let input = builder.addItemInputIgnoringComponents(candidate.stack)
+  if (candidate.needsChecker) {
+    input.setNBTChecker((context, stack) => catalyst.test(stack))
+  }
+}
+
+function eiRingAddOutput(builder, recipe, replacements) {
+  let result = eiRingUnifiedStack(recipe.rawResult().copy(), replacements)
   let crystalAspect = result.get(EI_RING_CRYSTAL_ASPECT)
   if (crystalAspect !== null) {
     let aspectKey = crystalAspect.aspect().unwrapKey()
@@ -215,9 +313,13 @@ function eiRingCreditHandler(recipeId, result) {
 
 ServerEvents.recipes(event => {
   let finalRecipes = eiRingFinalCrucibleRecipes(event)
+  let itemTags = event.registries.getAllTags(EI_RING_REGISTRIES.ITEM)
+  let replacements = eiRingItemReplacements(event, itemTags)
   let codec = EI_RING_CONDITIONAL_OPS.createConditionalCodec(EI_RING_CRUCIBLE.MAP_CODEC.codec())
   let plans = []
   let conditionalSkipped = 0
+  let generatedIds = Object.create(null)
+  let generatedCount = 0
 
   // 先解码所有声明，出错时明确指出来源，避免默默漏掉某条配方。
   finalRecipes.crucible.forEach(source => {
@@ -228,7 +330,13 @@ ServerEvents.recipes(event => {
     try {
       let decoded = codec.parse(event.ops.json(), source.json).getOrThrow()
       if (decoded.isPresent()) {
-        plans.push({ id: recipeId, source: source, recipe: decoded.get() })
+        let recipe = decoded.get()
+        plans.push({
+          id: recipeId,
+          source: source,
+          recipe: recipe,
+          catalyst: eiRingCatalystCandidates(recipe.catalyst(), source, itemTags, replacements)
+        })
       } else {
         conditionalSkipped++
       }
@@ -241,28 +349,43 @@ ServerEvents.recipes(event => {
     try {
       let recipe = plan.recipe
       let access = eiRingAccessHandler(recipe.researchGate())
-      let builder = RecipeBuilder.newBuilder(event, plan.id, EI_RING_MACHINE, EI_RING_DURATION_TICKS)
-      eiRingAddCatalyst(builder, recipe.catalyst(), plan.source)
-      let output = eiRingAddOutput(builder, recipe)
+      plan.catalyst.candidates.forEach((candidate, index) => {
+        let variantId = index === 0 ? plan.id : plan.id + '/catalyst/' + candidate.id.replace(':', '/')
+        if (finalRecipes.all[variantId] || generatedIds[variantId]) {
+          throw new Error('机器配方 ID 已被占用：' + variantId)
+        }
+        generatedIds[variantId] = true
 
-      let aspects = recipe.aspects().entries()
-      for (let i = 0; i < aspects.size(); i++) {
-        let aspect = aspects.get(i)
-        builder.addAspectInput(String(aspect.aspect().unwrapKey().get().location()), aspect.amount())
-      }
-      builder.setParallelized(true)
-        .setFailureAction('still')
-        .addPreCheckHandler(access)
-        .addPreTickHandler(access)
-        .addFinishHandler(eiRingCreditHandler(plan.id, output.copy()))
-        .addRecipeTooltip('自动炼金：催化材料 + 源质，基准耗时 5 秒')
-        .addRecipeTooltip('需要完成第四章；含研究的配方需要控制器所有者在线并满足研究')
-        .addRecipeTooltip('源配方：' + plan.source.id)
-        .build()
+        let builder = RecipeBuilder.newBuilder(event, variantId, EI_RING_MACHINE, EI_RING_DURATION_TICKS)
+        eiRingAddCatalyst(builder, recipe.catalyst(), candidate)
+        let output = eiRingAddOutput(builder, recipe, replacements)
+
+        let aspects = recipe.aspects().entries()
+        for (let i = 0; i < aspects.size(); i++) {
+          let aspect = aspects.get(i)
+          builder.addAspectInput(String(aspect.aspect().unwrapKey().get().location()), aspect.amount())
+        }
+        builder.setParallelized(true)
+          .setFailureAction('still')
+          .addPreCheckHandler(access)
+          .addPreTickHandler(access)
+          .addFinishHandler(eiRingCreditHandler(variantId, output.copy()))
+          .addRecipeTooltip('自动炼金：催化材料 + 源质，基准耗时 5 秒')
+          .addRecipeTooltip('需要完成第四章；含研究的配方需要控制器所有者在线并满足研究')
+          .addRecipeTooltip('源配方：' + plan.source.id)
+        if (plan.catalyst.tooltip !== null) {
+          builder.addRecipeTooltip(plan.catalyst.tooltip)
+        }
+        if (plan.catalyst.candidates.length > 1) {
+          builder.addRecipeTooltip('当前候选：' + candidate.id)
+        }
+        builder.build()
+        generatedCount++
+      })
     } catch (error) {
       throw new Error('[环形炼金坩埚] 无法转换 ' + plan.source.id + '：' + String(error))
     }
   })
 
-  console.info('[环形炼金坩埚] 已从最终坩埚声明导入 ' + plans.length + ' 条配方；条件未满足跳过 ' + conditionalSkipped + ' 条')
+  console.info('[环形炼金坩埚] 已从最终坩埚声明导入 ' + plans.length + ' 条源配方，展开为 ' + generatedCount + ' 条可显示配方；条件未满足跳过 ' + conditionalSkipped + ' 条')
 })
