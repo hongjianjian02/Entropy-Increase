@@ -1,0 +1,23 @@
+{
+  "name": "输出物品组件",
+  "icon": "pneumaticcraft:textures/progwidgets/inventory_export_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此组件与$(l:programming/inventory_import)输入物品/$组件相反：$(l:tools/drone)无人机/$会前往指定$(l:programming/area)区域/$内最近的物品容器，把$(item)无人机/$物品栏中的物品放入其中。$(p)$(thing)右击/$组件可打开设置 GUI，在其中指定容器从哪些面接收无人机输出的物品，还可设定最多输出多少物品。"
+    },
+    {
+      "type": "text",
+      "text": "可以连接任意数量（包括零个）的$(l:programming/item_filter)物品过滤器/$组件，以限制允许输出的物品。请记住：连接在$(italic)右侧/$的过滤器是白名单，连接在$(italic)左侧/$的过滤器是黑名单。$(p)当$(item)无人机/$的物品栏已空，或区域内没有任何物品容器能够接收待输出物品时，此组件执行完毕。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/inventory_export_piece.png"
+      ],
+      "text": "$(italic)不用谢/$"
+    }
+  ]
+}

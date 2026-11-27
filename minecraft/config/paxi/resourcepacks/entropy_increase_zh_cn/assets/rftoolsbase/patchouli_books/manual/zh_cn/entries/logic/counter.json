@@ -1,0 +1,20 @@
+{
+  "name": "计数器",
+  "icon": "rftoolsutility:counter",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:counter": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "计数器会统计红石脉冲，到达指定次数后输出红石信号，然后重新计数。$(br2)界面中有两个数值：“计数上限”指定最多计到多少，“当前值”显示目前的计数。"
+    },
+    {
+      "type": "crafting",
+      "heading": "计数器",
+      "recipe": "rftoolsutility:counter",
+      "text": "当前值等于计数上限时，输出红石信号。再次收到脉冲后，输出关闭，计数归零。"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "name": "气动胸甲",
+  "icon": "pneumaticcraft:pneumatic_chestplate",
+  "category": "pneumaticcraft:armor",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)气动胸甲/$是四件$(thing)气动护甲/$之一。$(p)它的$(l:base_concepts/pressure)储气容积/$大于其他三个部位。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pneumatic_chestplate",
+      "text": "制作气动胸甲"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:security_upgrade",
+      "text": "安装$(l:base_concepts/upgrades#security)安全升级/$后，胸甲可保护你免受火焰和熔岩伤害，但会大量消耗气量：胸甲会迅速排出压缩空气，扑灭附近火焰并为你降温，甚至会缓慢凝固附近的熔岩。"
+    },
+    {
+      "type": "text",
+      "title": "安全升级（续）",
+      "text": "注意：此保护只会在你即将受到火焰伤害时启用。若已有其他效果提供保护（例如药水效果），安全升级不会动作，也不会消耗气量。"
+    },
+    {
+      "type": "spotlight",
+      "flag": "mod:immersiveengineering",
+      "title": "Immersive Engineering",
+      "item": "immersiveengineering:wirecoil_copper",
+      "text": "$(item)安全升级/$还能防止未绝缘的$(l:https://minecraft.curseforge.com/projects/immersive-engineering)Immersive Engineering/$电线造成伤害。胸甲会消耗与抵消伤害量成正比的气量，使你免受电击，但无法免除击退效果。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:magnet_upgrade",
+      "text": "安装一个或多个$(l:base_concepts/upgrades#magnet)磁铁升级/$后，会以极少的气量消耗吸引附近物品与经验球。基础范围为 5 格；增加升级可把范围提高至 10 格。"
+    },
+    {
+      "type": "text",
+      "title": "磁铁升级（续）",
+      "text": "磁铁升级会遵守 Botania 的$(item)Solegnolia/$花所划定的范围，也不会尝试从 Immersive Engineering 的$(item)传送带/$上吸取物品。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:charging_upgrade",
+      "text": "安装一个或多个$(l:base_concepts/upgrades#charging)充气升级/$后，胸甲可以给物品栏中携带或穿戴的其他气动物品充气，但最多只能充至胸甲自身的压力。增加充气升级可提高充气速率，最多安装 6 个。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:dispenser_upgrade",
+      "text": "安装$(l:base_concepts/upgrades#dispenser)发射器升级/$后，按住再松开$(thing)$(k:pneumaticcraft.chestplate.launcher)/$可从副手发射物品或方块，效果类似$(l:machines/air_cannon)空气炮/$。完全蓄力需要 15 刻（0.75 秒）；提前松开会降低发射速度。"
+    },
+    {
+      "type": "text",
+      "title": "发射器升级（续）",
+      "text": "$(li)某些方块或物品会像被$(item)发射器/$发射时一样产生特殊行为，例如$(item)TNT/$和$(item)箭/$……$(li)其他方块（例如$(item)火把/$）会以“翻滚方块”的形式射出，并在撞到目标后重新变为方块。$(li)其他物品则只会以物品实体的形式射出。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:range_upgrade",
+      "text": "在胸甲中安装$(l:base_concepts/upgrades#range)范围升级/$并启用后，方块交互距离增加 3.5 格；近战攻击距离不受影响。此功能会持续消耗少量气量。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:air_conditioning_upgrade",
+      "flag": "mod:toughasnails",
+      "title": "空调升级",
+      "text": "安装最多四个$(l:base_concepts/upgrades#air_conditioning)空调升级/$后，你将获得一定程度的保护，抵御$(l:https://minecraft.curseforge.com/projects/tough-as-nails)Tough As Nails/$模组加入的极端环境温度。检测到体温高于或低于正常值时，空调会自动启动；体温恢复平衡后则会关闭。"
+    },
+    {
+      "type": "text",
+      "flag": "mod:toughasnails",
+      "title": "空调升级（续）",
+      "text": "不过，空调会消耗一定气量，消耗程度取决于所需的加热或冷却强度以及安装的升级数量。根据所处环境，你未必需要装满四个升级就能维持舒适体温。"
+    }
+  ]
+}

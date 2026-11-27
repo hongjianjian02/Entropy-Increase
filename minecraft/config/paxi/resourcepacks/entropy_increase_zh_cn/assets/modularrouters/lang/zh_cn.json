@@ -1,8 +1,8 @@
 {
-  "item.modularrouters.creative_module": "创意模块",
+  "item.modularrouters.creative_module": "创造模块",
   "item.modularrouters.energy_distributor_module": "能量分配器模块",
   "item.modularrouters.energy_output_module": "能量输出模块",
-  "item.modularrouters.energy_upgrade": "能源升级",
+  "item.modularrouters.energy_upgrade": "能量升级",
   "item.modularrouters.filter_round_robin_augment": "过滤器循环增强",
   "item.modularrouters.tag_filter": "标签过滤器",
   "modularrouters._comment": "JEI 文本",
@@ -126,5 +126,14 @@
   "modularrouters.itemText.usage.item.energy_output_module": "从路由器的能量缓冲区或项目缓冲区中任何包含能量的项目中推送 FE 能量",
   "modularrouters.itemText.usage.item.energy_upgrade": "将路由器的能量缓冲容量增加 %1$d FE，将传输速率增加 %2$d FE/路由器游戏刻",
   "modularrouters.itemText.usage.item.filter_round_robin_augment": "模块将在每次执行游戏刻时与其过滤器中的单个项目进行匹配，而不是默认的任何/所有行为。要匹配的项目按升序循环顺序选取。\n 用于按特定顺序处理一系列项目。",
-  "modularrouters.itemText.usage.item.tag_filter": "按项目所属的项目标签过滤项目。"
+  "modularrouters.itemText.usage.item.tag_filter": "按项目所属的项目标签过滤项目。",
+  "modularrouters.itemText.activator.action.item_or_block": "右键点击",
+  "modularrouters.itemText.misc.holdShiftKey": "▶ 按住 [%s] 查看设置，按住 [%s] 查看更多信息",
+  "item.modularrouters.vacuum_module": "真空模块",
+  "modularrouters.itemText.fluid.maxTransfer": "流体速率：每次操作最多 %s mB",
+  "modularrouters.itemText.misc.configureHint": "▶ 按 [%s] 或 [%s] 进行配置",
+  "modularrouters.itemText.misc.flingerDetails": "速度：%s | 俯仰角：%s | 偏航角：%s",
+  "modularrouters.itemText.misc.rangeInfo": "范围：%s [基础 %s，最大 %s]",
+  "modularrouters.itemText.misc.upgradeCount": "▶ %d x %s",
+  "modularrouters.itemText.sync.tuning": "调谐值：%s"
 }

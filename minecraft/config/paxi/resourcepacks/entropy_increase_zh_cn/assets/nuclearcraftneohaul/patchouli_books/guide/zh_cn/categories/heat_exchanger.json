@@ -1,0 +1,7 @@
+{
+  "name": "热交换器",
+  "description": "$(l)“在具有普适性的物理理论中，唯有经典热力学令我确信永远不会被推翻……”$(br2)—— Albert Einstein",
+  "icon": "nuclearcraftneohaul:heat_exchanger_controller",
+  "parent": "nuclearcraftneohaul:multiblocks",
+  "sortnum": 2
+}

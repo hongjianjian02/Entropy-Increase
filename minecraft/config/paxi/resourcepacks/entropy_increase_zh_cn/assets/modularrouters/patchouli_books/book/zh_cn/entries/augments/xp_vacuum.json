@@ -1,0 +1,19 @@
+{
+  "name": "经验吸收拓展",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:xp_vacuum_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此拓展只能装入$(l:modules/vacuum)真空模块/$。$(p)安装后，真空模块会吸收经验球，而非物品。每 7 点经验会转化为一瓶$(item)附魔之瓶/$，这个数值等于打碎一瓶附魔之瓶获得的平均经验。"
+    },
+    {
+      "type": "text",
+      "text": "根据安装的其他模组，也可能支持把经验球转化为经验流体。路由器缓冲区中或路由器旁必须放有能够容纳流体的储罐。采用后一种方式时，需在真空模块界面中启用$(bold)排出/$按钮。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:xp_vacuum_augment"
+    }
+  ]
+}

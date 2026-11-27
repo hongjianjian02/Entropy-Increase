@@ -1,0 +1,51 @@
+{
+  "name": "空气接口",
+  "icon": "pneumaticcraft:aerial_interface",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)空气接口/$是一种可直接连接玩家物品栏的强大设备。只要达到足够的$(l:base_concepts/pressure)压力/$，其他设备就能像与普通物品容器交互一样与它交互。物品不会进入接口本身，而会$(italic)直接/$送到接口所属玩家的物品栏。例如，可在接口上安装$(l:logistics/frames#requester)物流请求框架/$，让自己的物品栏始终保有 64 根火把。"
+    },
+    {
+      "type": "text",
+      "text": "默认情况下，接口的任意侧面连接玩家的主物品栏，顶面和底面连接护甲槽位。可在 GUI 的$(bold)侧面配置/$标签页中重新设置。$(p)每个面均可连接至以下任一位置：$(li)主物品栏$(li)护甲槽位$(li)副手槽位$(li)末影物品栏（即原版$(item)末影箱/$访问的物品栏）。"
+    },
+    {
+      "type": "text",
+      "title": "水下呼吸",
+      "text": "既然设备能连接玩家，又以$(l:base_concepts/pressure)气量/$驱动，自然也可以在需要时把空气传给玩家。消耗 80mL 气量/刻，即可在水下无限呼吸。$(p)这比安装$(l:base_concepts/upgrades#scuba)水肺升级/$的$(l:armor/pneumatic_helmet)气动头盔/$略微高效，但不能提供清晰的水下视野。"
+    },
+    {
+      "type": "text",
+      "title": "接入 FE",
+      "text": "$(item)空气接口/$可接收$(thing)FE（Forge Energy）/$，并兼容 RF 及多种其他模组的能源系统。内部缓存中储存的能量（100,000）会用于给玩家物品栏和护甲槽位中所有可接收 FE 的物品充电。"
+    },
+    {
+      "type": "text",
+      "title": "自动进食",
+      "text": "安装$(l:base_concepts/upgrades#dispenser)发射器升级/$后，$(item)空气接口/$可充当远程自动进食器。接口只接收食物，而且只有当你的饥饿程度足以完整消耗所提供的食物时才会接收。若输入容器提供的食物堆叠数量 >1，接口会等到你能一次消耗相应数量。要让它每次只提供尽可能少的食物，请使用$(item)漏斗/$等速度较慢的输入装置。"
+    },
+    {
+      "type": "text",
+      "title": "经验处理",
+      "text": "$(l:base_concepts/upgrades#dispenser)发射器升级/$还允许向接口输入或从中输出$(thing)XP 经验流体/$。若存在多种经验流体，可在 GUI 的$(bold)经验/$标签页中选择使用哪一种；该标签页还会显示检测到的各模组经验流体。$(l:base_concepts/memory_essence)记忆源质/$始终可用。"
+    },
+    {
+      "type": "text",
+      "title": "经验处理（续）",
+      "text": "请注意，接口没有内部流体缓存，会直接把你的经验当作“储罐”。因此，输入或输出 XP 时，所用设备的流体传输速率必须高于每个经验点所对应的液态 XP 量。编写本页时，所有已知经验流体的这一速率均为 20mB/刻。"
+    },
+    {
+      "type": "text",
+      "title": "自动充气",
+      "text": "将$(l:tubes/charging_module)充气管道模块/$指向$(item)空气接口/$，即可给物品栏中所有$(l:base_concepts/pressure)可充气/$物品充气。$(p)若要给已穿戴的$(l:armor/overview)气动护甲/$充气，充气管道模块必须指向接口上连接护甲槽位的那一面。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作空气接口",
+      "recipe": "pneumaticcraft:aerial_interface"
+    }
+  ]
+}

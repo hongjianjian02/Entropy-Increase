@@ -1,0 +1,28 @@
+{
+  "name": "蓄电池",
+  "icon": "nuclearcraftneohaul:basic_lithium_ion_battery",
+  "category": "nuclearcraftneohaul:multiblocks",
+  "sortnum": 1,
+  "pages": [
+    {
+      "anchor": "voltaic_pile",
+      "type": "blocks/4",
+      "header": "伏打电堆",
+      "block1": "nuclearcraftneohaul:basic_voltaic_pile",
+      "block2": "nuclearcraftneohaul:advanced_voltaic_pile",
+      "block3": "nuclearcraftneohaul:du_voltaic_pile",
+      "block4": "nuclearcraftneohaul:elite_voltaic_pile",
+      "text": "$(item)伏打电堆$()用于储存能量。将多个电堆相邻放置后，它们会组成多方块结构，共享一个能量存储池。"
+    },
+    {
+      "anchor": "lithium_ion_battery",
+      "type": "blocks/4",
+      "header": "锂离子电池",
+      "block1": "nuclearcraftneohaul:basic_lithium_ion_battery",
+      "block2": "nuclearcraftneohaul:advanced_lithium_ion_battery",
+      "block3": "nuclearcraftneohaul:du_lithium_ion_battery",
+      "block4": "nuclearcraftneohaul:elite_lithium_ion_battery",
+      "text": "$(item)锂离子电池$()与伏打电堆一样用于储存能量，但能量密度更高。将多个电池相邻放置后，它们会组成多方块结构，共享一个能量存储池。"
+    }
+  ]
+}

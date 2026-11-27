@@ -1,0 +1,19 @@
+{
+  "name": "去往位置组件",
+  "icon": "pneumaticcraft:textures/progwidgets/goto_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)前往位置/$很直观：$(l:tools/drone)无人机/$会前往指定$(l:programming/area)区域/$内最近且可到达的位置。$(p)当无人机抵达该区域时，$(ttcolor)$(t:可将组件配置为立即“完成”；右击打开设置 GUI)此组件即视为完成/$；区域不可到达时也会完成。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/goto_piece.png"
+      ],
+      "text": "$(italic)去往位置组件/$"
+    }
+  ]
+}

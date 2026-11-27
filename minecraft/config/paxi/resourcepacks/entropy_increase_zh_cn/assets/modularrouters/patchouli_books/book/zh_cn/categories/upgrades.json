@@ -1,0 +1,6 @@
+{
+  "name": "升级",
+  "description": "将升级装入物品路由器，可以增强或调整其功能。",
+  "icon": "modularrouters:speed_upgrade",
+  "sortnum": 3
+}

@@ -1,0 +1,23 @@
+{
+  "name": "输入物品组件",
+  "icon": "pneumaticcraft:textures/progwidgets/inventory_import_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "该组件会让$(l:tools/drone)无人机/$移动到指定$(l:programming/area)区域/$内最近的物品容器，从中取出物品并放入$(item)无人机/$的物品栏。$(p)$(thing)右击/$组件可打开设置 GUI，在其中指定$(item)无人机/$应从容器的哪一面取出物品，还可指定最多导入多少物品。"
+    },
+    {
+      "type": "text",
+      "text": "可以连接任意数量（包括零个）的$(l:programming/item_filter)物品过滤器/$组件，以限制允许输入的物品。请记住：连接在$(italic)右侧/$的过滤器是白名单，连接在$(italic)左侧/$的过滤器是黑名单。$(p)当$(item)无人机/$的物品栏已满，或相关物品容器中再也找不到符合条件的物品时，此组件执行完毕。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/inventory_import_piece.png"
+      ],
+      "text": "$(italic)这些我收下了，谢谢/$"
+    }
+  ]
+}

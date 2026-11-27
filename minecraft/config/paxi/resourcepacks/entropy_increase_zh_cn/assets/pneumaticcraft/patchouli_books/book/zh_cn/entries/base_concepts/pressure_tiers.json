@@ -1,0 +1,20 @@
+{
+  "name": "压力等级",
+  "icon": "pneumaticcraft:advanced_pressure_tube",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(pncr) 的气动机器目前分为三个$(thing)压力等级（Tier）/$：$(li)$(thing)一级/$机器的额定耐压为 5 bar。$(li)$(thing)一点五级/$机器最高可承受 10 bar。$(li)$(thing)二级/$机器最高可承受 20 bar。"
+    },
+    {
+      "type": "text",
+      "text": "1.5 级是 $(pncr) 在 Minecraft 1.18 版本中新增的可选等级，主要用于提前开放一些原本只有 2 级设备才能使用的功能：$(li)把工具充气至 10 bar$(li)获得$(item)钻石钻头/$，从而进行 3x3 方块挖掘；旧版本需要$(item)下界合金钻头/$才能做到"
+    },
+    {
+      "type": "text",
+      "title": "表压",
+      "text": "请注意，$(thing)bar/$ 在 $(pncr) 中表示高于标准大气压的$(bold)相对压力/$：0 bar 代表未加压空气，-1 bar 代表真空。这种表示方式也称为$(thing)表压（Gauge Pressure）/$。"
+    }
+  ]
+}

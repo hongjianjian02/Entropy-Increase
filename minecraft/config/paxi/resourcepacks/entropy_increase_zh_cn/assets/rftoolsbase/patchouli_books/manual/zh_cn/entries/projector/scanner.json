@@ -1,0 +1,19 @@
+{
+  "name": "扫描仪",
+  "icon": "rftoolsbuilder:scanner",
+  "category": "rftoolsbase:category_rftoolsbuilder_projector",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:scanner": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "扫描仪会扫描世界中的一片区域，并将结果存入塑形卡片。"
+    },
+    {
+      "type": "text",
+      "text": "左上角放入控制扫描范围的塑形卡片，指定区域尺寸与偏移量。$(br2)按$(thing)扫描$()按钮，将扫描结果写入左下角的塑形卡片。"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "放置流体塑形卡片",
+  "icon": "rftoolsbuilder:shape_card_liquid",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_liquid": 1
+  },
+  "sortnum": 40,
+  "pages": [
+    {
+      "type": "text",
+      "text": "放置流体卡片会让建造机在所选形状中放置流体。需要通过与建造机连接的储罐提供流体。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_liquid"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "维度标记卡",
+  "icon": "rftoolspower:powercell_card",
+  "category": "rftoolsbase:category_rftoolspower_powerstorage",
+  "extra_recipe_mappings": {
+    "rftoolspower:powercell_card": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "此卡用于连接多个$(l:rftoolsbase:powerstorage/dimensionalcell)维度能量单元$(/l)。新卡尚未绑定，将其放入维度能量单元即可创建或复制链接。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:powercell_card"
+    },
+    {
+      "type": "text",
+      "text": "在其他维度能量单元上使用已绑定的卡片，可将它们加入同一远程储能网络。"
+    }
+  ]
+}

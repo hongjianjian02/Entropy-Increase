@@ -1,0 +1,15 @@
+{
+  "name": "入门",
+  "icon": "minecraft:experience_bottle",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:builder": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "建造机是一种多用途方块，可以采掘、建造、泵送流体、收集经验和物品等。使用不同的塑形卡片，即可指定工作内容。"
+    }
+  ]
+}

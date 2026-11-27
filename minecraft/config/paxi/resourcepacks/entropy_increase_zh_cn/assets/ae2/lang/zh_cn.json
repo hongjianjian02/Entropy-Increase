@@ -3,5 +3,7 @@
   "gui.ae2.Resume": "简历",
   "gui.ae2.SearchTooltipToolTips": "使用 $ 在工具提示中搜索 ($looting)",
   "gui.ae2.Suspend": "暂停",
-  "structure.ae2.meteorite": "陨石"
+  "structure.ae2.meteorite": "陨石",
+  "dimension.ae2.spatial_storage": "空间存储",
+  "exported_setting.ae2.exported_level_emitter_value": "标准发信器阈值"
 }

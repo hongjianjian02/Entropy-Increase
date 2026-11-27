@@ -1,0 +1,19 @@
+{
+  "name": "无人机条件：RF 组件",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_drone_rf_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是一个$(l:programming/conditions)条件/$组件。$(p)$(thing)无人机条件：RF/$组件用于检查$(thing)FE（Forge Energy）/$的数量，即这台$(l:tools/drone)无人机/$当前携带的 FE。$(p)$(italic)尽管名称仍为 RF，此组件实际检测 FE；“RF（红石通量，Redstone Flux）”仅为历史遗留命名。/$"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_drone_rf_piece.png"
+      ],
+      "text": "$(italic)无人机条件：RF 组件/$"
+    }
+  ]
+}

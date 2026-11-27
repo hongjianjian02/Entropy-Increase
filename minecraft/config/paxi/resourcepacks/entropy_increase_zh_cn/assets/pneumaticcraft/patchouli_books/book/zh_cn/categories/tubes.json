@@ -1,0 +1,6 @@
+{
+  "name": "压力管道与模块",
+  "description": "压力管道用于在 $(pncr) 中输送压缩空气。",
+  "icon": "pneumaticcraft:pressure_tube",
+  "sortnum": 2
+}

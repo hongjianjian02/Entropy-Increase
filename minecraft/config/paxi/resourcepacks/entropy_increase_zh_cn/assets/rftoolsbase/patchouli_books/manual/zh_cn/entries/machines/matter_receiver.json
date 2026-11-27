@@ -1,0 +1,19 @@
+{
+  "name": "物质接收器",
+  "icon": "rftoolsutility:matter_receiver",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:matter_receiver": 0,
+    "rftoolsutility:matter_booster": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "物质接收器是玩家从$(l:rftoolsbase:machines/matter_transmitter)物质传输器$(/l)传送到达的位置。使用$(l:rftoolsbase:machines/dialing_device)传送控制器$(/l)，将传输器连接到此接收器。$(br2)为机器$(5)注能$()可以降低能耗。"
+    },
+    {
+      "type": "text",
+      "text": "务必确保物质接收器有足够能量，否则玩家传送时可能遭受不良效果。"
+    }
+  ]
+}

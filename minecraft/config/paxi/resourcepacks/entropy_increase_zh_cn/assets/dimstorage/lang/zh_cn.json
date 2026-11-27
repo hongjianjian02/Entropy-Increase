@@ -4,5 +4,9 @@
   "message.dimstorage.bind_dimchest": "右键绑定DimChest",
   "message.dimstorage.for_details": "了解详情",
   "message.dimstorage.hold": "按住",
-  "message.dimstorage.press": "按键"
+  "message.dimstorage.press": "按键",
+  "gui.dimstorage.amount": "储量：%s mB",
+  "gui.dimstorage.liquid": "液体：%s",
+  "gui.dimstorage.luminosity": "亮度：%s",
+  "gui.dimstorage.temperature": "温度：%s °C"
 }

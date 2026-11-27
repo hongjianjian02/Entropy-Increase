@@ -1,0 +1,15 @@
+{
+  "name": "流体传输升级",
+  "category": "modularrouters:upgrades",
+  "icon": "modularrouters:fluid_upgrade",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此升级仅影响$(l:modules/fluid)流体模块 Mk1/$和$(l:modules/fluid_2)流体模块 Mk2/$。$(p)$(l:router/modular_router)路由器/$的基础总流体传输速率为 50 mB/游戏刻，每个升级使其增加 10 mB/游戏刻，输入与输出方向分别计算，最高为 400 mB/游戏刻。因此，一个路由器最多可以安装 35 个流体传输升级。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:fluid_upgrade"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "球床反应堆（开发中）",
+  "icon": "nuclearcraftneohaul:fuel_uranium",
+  "category": "nuclearcraftneohaul:fission",
+  "sortnum": 1,
+  "pages": [
+    {
+      "anchor": "intro",
+      "type": "text",
+      "text": "球床裂变反应堆使用多层包覆颗粒形式的固态裂变燃料，将产生的热量传递给气体冷却剂，再由内部热电发电机转化为可用能量。球床反应堆尚未实现。"
+    }
+  ]
+}

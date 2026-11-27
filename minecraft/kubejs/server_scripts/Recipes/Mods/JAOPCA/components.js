@@ -3,7 +3,8 @@ ServerEvents.recipes(event => {
   const forms = [
     { name: 'gears', pattern: [' M ', 'M M', ' M '] },
     { name: 'plates', pattern: ['H', 'M', 'M'] },
-    { name: 'rods', pattern: ['M', 'M'], count: 4 }
+    // 杆材横排，避免与竖排的板材锤制配方重合。
+    { name: 'rods', pattern: ['MMH'] }
   ]
 
   forms.forEach(definition => {
@@ -24,6 +25,9 @@ ServerEvents.recipes(event => {
             'immersiveengineering.material_to_plate_hammer', materialName
           ))
         })
+      }
+
+      if (definition.name === 'plates' || definition.name === 'rods') {
         // 工程师锤自带合成剩余物：返回锤子并扣 1 点耐久。
         ingredients.H = 'immersiveengineering:hammer'
       }

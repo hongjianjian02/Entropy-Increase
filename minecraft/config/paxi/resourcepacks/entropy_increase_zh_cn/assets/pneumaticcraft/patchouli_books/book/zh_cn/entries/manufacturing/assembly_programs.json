@@ -1,0 +1,18 @@
+{
+  "name": "装配程序",
+  "icon": "pneumaticcraft:assembly_program_laser",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)装配程序/$必须插入$(l:manufacturing/assembly_system)装配台/$，用于指定装配系统要执行的加工类型。装配程序无法合成，只能通过交易获得：可向$(thing)压力技工/$村民购买，或使用$(l:tools/amadron_tablet)亚马龙平板电脑/$订购。"
+    },
+    {
+      "type": "spotlight",
+      "title": "钻头与激光",
+      "item": "pneumaticcraft:assembly_program_drill_laser",
+      "text": "$(item)装配程序：钻头&激光/$较为特殊。它用一个程序依次完成同时包含钻孔$(italic)和/$激光步骤的两段加工，例如制作$(l:tubes/pressure_tubes#advanced)高级压力管道/$；单独的钻孔或激光配方仍需使用对应程序。"
+    }
+  ]
+}

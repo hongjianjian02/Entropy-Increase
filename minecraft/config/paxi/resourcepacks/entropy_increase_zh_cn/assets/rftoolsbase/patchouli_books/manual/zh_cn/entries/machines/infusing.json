@@ -1,0 +1,49 @@
+{
+  "name": "注能",
+  "icon": "rftoolsbase:machine_infuser",
+  "category": "rftoolsbase:category_machines",
+  "extra_recipe_mappings": {
+    "rftoolsbase:machine_infuser": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)机器注能机$()使用$(l:rftoolsbase:basics/dimensional_shards)维度碎片$()，来$(thing)提高多种机器的效率$()。大多数机器在注能后会降低能耗，部分设备还会获得额外增益。$(br2)对注能机本身进行$(thing)注能$()，也会降低其能耗。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbase:machine_infuser",
+      "text": "根据已安装的其他模组，机器注能机还有更多用途，详见后续页面。"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsutility",
+      "title": "RFTools Utility",
+      "text": "$(li)$(l:rftoolsutility:machines/environmental)环境控制器$() $(li)$(l:rftoolsutility:machines/dialing_device)传送控制器$() $(li)$(l:rftoolsutility:machines/matter_receiver)物质接收器$() $(li)$(l:rftoolsutility:machines/matter_transmitter)物质传输器$()（提高速度） $(li)$(l:rftoolsutility:machines/spawner)刷怪笼$() $(li)$(l:rftoolsutility:machines/matter_beamer)物质投影仪$()（提高速度、减少所需物品） $(li)$(l:rftoolsutility:machines/screen_controller)屏幕控制器$()（扩大范围） $(li)$(l:rftoolsutility:machines/crafter)自动合成机$()"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsstorage",
+      "title": "RFTools Storage",
+      "text": "$(li)$(l:rftoolsstorage:scanner/scanner)存储检测器$()"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolspower",
+      "title": "RFTools Power",
+      "text": "$(li)$(l:rftoolspower:powergeneration/coalgenerator)燃煤发电机$() $(li)$(l:rftoolspower:powergeneration/endergenic)末影能发电机$()（提高发电量，减少持有珍珠时的能量损失） $(li)$(l:rftoolspower:powerstorage/dimensionalcell)维度能量单元$()（降低远距离抽取 RF 的损耗，提高 RF/t 输出） $(li)$(l:rftoolspower:powergeneration/blazingagitator)烈焰激活器$()（提高烈焰棒品质） $(li)$(l:rftoolspower:powergeneration/blazinggenerator)烈焰发电机$()（提高发电量）"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsdim",
+      "title": "RFTools Dimensions",
+      "text": "$(li)$(l:rftoolsdim:dimlets/researcher)研究器$()（提高速度） $(li)$(l:rftoolsdim:dimensions/dimension_builder)维度建造器$()（提高速度）"
+    },
+    {
+      "type": "text",
+      "flag": "mod:rftoolsbuilder",
+      "title": "RFTools Builder",
+      "text": "$(li)$(l:rftoolsbuilder:shield/shield_intro)护盾投射仪$()（提高伤害） $(li)$(l:rftoolsbuilder:builder/builder_intro)建造机$()（提高速度）"
+    }
+  ]
+}

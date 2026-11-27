@@ -1,0 +1,23 @@
+{
+  "name": "基础塑形卡片",
+  "icon": "rftoolsbuilder:shape_card_def",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_def": 1
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "基础塑形卡片保存形状、尺寸、偏移量，以及实心或空心模式。放入建造机可用来放置方块，放入护盾投射仪则可定义护盾的形状。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_def"
+    },
+    {
+      "type": "text",
+      "text": "右键卡片可编辑形状，包括长方体、球体、圆柱、圆锥、圆环、棱柱、扫描形状或组合形状等。潜行使用可辅助选取世界中的位置。"
+    }
+  ]
+}

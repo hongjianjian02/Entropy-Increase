@@ -1,0 +1,29 @@
+{
+  "name": "屏幕链接",
+  "icon": "rftoolsutility:screen_link",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:screen_link": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "屏幕链接会保存$(l:rftoolsbase:machines/screen)屏幕$(/l)的位置，让$(l:rftoolsbase:tools/tablet)平板电脑$(/l)能够远程访问它。"
+    },
+    {
+      "type": "crafting",
+      "heading": "屏幕链接",
+      "recipe": "rftoolsutility:screen_link"
+    },
+    {
+      "type": "text",
+      "title": "绑定",
+      "text": "手持屏幕链接右键屏幕，即可记录其位置。右键非屏幕方块会清除已保存的目标。"
+    },
+    {
+      "type": "text",
+      "title": "平板电脑",
+      "text": "将链接放入平板电脑。目标屏幕所在区块已加载时，使用平板即可打开远程屏幕；潜行使用则打开平板自身的界面。"
+    }
+  ]
+}

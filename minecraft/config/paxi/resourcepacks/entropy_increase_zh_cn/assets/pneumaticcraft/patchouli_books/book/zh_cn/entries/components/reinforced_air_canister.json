@@ -1,0 +1,21 @@
+{
+  "name": "强化空气罐",
+  "icon": "pneumaticcraft:reinforced_air_canister",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "与较小的$(l:components/air_canister)空气罐/$一样，$(thing)强化空气罐/$可以储存气量，并可在$(l:machines/charging_station)充气站/$中充气或放气。不过，它的容积提升至 6000mL，最高可充至 20 bar，且不会爆炸。"
+    },
+    {
+      "type": "text",
+      "text": "$(thing)强化空气罐/$的一种有趣用途，是配合箱子等物品容器，以及装有$(l:tubes/charging_module)充气管道模块/$的$(l:tubes/pressure_tubes)压力管道/$，构建大容量气量存储系统。再加入$(l:machines/aerial_interface)空气接口/$和原版$(thing)末影箱/$，还能实现更有趣的用途……"
+    },
+    {
+      "type": "crafting",
+      "text": "制作强化空气罐",
+      "recipe": "pneumaticcraft:reinforced_air_canister"
+    }
+  ]
+}

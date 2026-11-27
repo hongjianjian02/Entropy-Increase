@@ -1,0 +1,18 @@
+{
+  "description.config.wover.main.log.verbose": "向日志写入更多信息，便于排查问题。",
+  "description.config.wover.main.server.force_default_world_preset": "在服务器上创建新世界时，默认选择 BetterX 世界类型。可在 server-properties 文件中更改此设置。",
+  "description.config.wover.client.general.prefere_modrinth": "显示更新下载链接时，启用此选项可优先使用 Modrinth 链接。",
+  "title.config.group.wover.general": "常规",
+  "title.config.group.wover.loading": "世界加载与创建",
+  "title.config.group.wover.server": "服务器设置",
+  "title.config.group.wover.structure": "结构",
+  "title.config.group.wover.performance": "性能",
+  "title.config.group.wover.entity": "生物与玩家",
+  "title.config.group.wover.ui": "用户界面",
+  "title.config.group.wover.rendering": "渲染",
+  "title.config.group.wover.cosmetic": "外观",
+  "title.config.wover.main.log.verbose": "详细日志",
+  "title.config.wover.main.server.force_default_world_preset": "新服务器世界默认使用 BetterX 世界类型",
+  "title.config.wover.client.general.prefere_modrinth": "链接至 Modrinth",
+  "wover.mainmenu.title": "WorldWeaver 配置"
+}

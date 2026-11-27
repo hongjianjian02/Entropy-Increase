@@ -307,5 +307,9 @@
   "mob_category.water_creature": "水生物",
   "sidebar_button.ftbchunks.claim_chunks": "FTB 区块：认领经理",
   "tag.item.ftbchunks.right_click_blacklist": "右键单击黑名单",
-  "tag.item.ftbchunks.right_click_whitelist": "右键白名单"
+  "tag.item.ftbchunks.right_click_whitelist": "右键白名单",
+  "ftbchunks.minimap.pointer_icon_mode.both": "两者",
+  "ftbchunks.minimap.pointer_icon_mode.pointer": "指针",
+  "ftbchunks.gui.teleport": "传送",
+  "ftbchunks.gui.delete": "删除"
 }

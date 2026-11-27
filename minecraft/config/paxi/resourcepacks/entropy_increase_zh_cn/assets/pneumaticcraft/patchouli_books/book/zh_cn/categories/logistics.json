@@ -1,0 +1,6 @@
+{
+  "name": "物流",
+  "description": "物流系统可以高效运输物品和流体，并维持物品容器与流体储罐中的库存。",
+  "icon": "pneumaticcraft:logistics_drone[pneumaticcraft:air=120000]",
+  "sortnum": 8
+}

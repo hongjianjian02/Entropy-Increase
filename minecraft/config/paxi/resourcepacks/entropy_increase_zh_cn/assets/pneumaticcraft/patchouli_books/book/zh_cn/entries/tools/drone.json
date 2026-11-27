@@ -1,0 +1,52 @@
+{
+  "name": "无人机",
+  "icon": "pneumaticcraft:drone[pneumaticcraft:air=120000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "无人机是功能强大的可编程飞行机器人，可用于实现各种自动化。使用前必须先为其编写程序；为此还需要一台$(l:programming/programmer)编程器/$和若干$(l:programming/puzzle_pieces)编程拼图/$。$(p)把已写入程序并完成$(l:base_concepts/pressure)充气/$的无人机放入世界后，它便会执行预设任务。"
+    },
+    {
+      "type": "entity",
+      "entity": "pneumaticcraft:drone",
+      "offset": -0.3
+    },
+    {
+      "type": "text",
+      "anchor": "charging",
+      "title": "自动充气",
+      "text": "无人机具有自动补充气量的能力：气量不足时，它会暂停主程序并寻找$(l:machines/charging_station)充气站/$。该充气站必须装有$(l:base_concepts/upgrades#dispenser)发射器升级/$、压力至少达到 1 bar，且距离无人机不超过$(ttcolor)$(t:参见模组配置中的 'max_drone_charging_station_search_range')80 个方块/$。$(p)找到后，$(item)无人机/$会前往该$(item)充气站/$并持续充气，直到充气站无法再提供气量；随后$(item)无人机/$会恢复执行主程序。"
+    },
+    {
+      "type": "text",
+      "title": "自动充气（续）",
+      "text": "在多人服务器中，你可能只想允许自己的无人机使用自己的充气站。可把$(item)充气站/$设为私用，让$(l:machines/security_station)安全站/$的保护范围覆盖它。$(p)此后，只有由$(item)安全站/$白名单中的玩家放置的$(item)无人机/$，才获准在此充气。"
+    },
+    {
+      "type": "text",
+      "text": "$(item)无人机/$的气量耗尽时，螺旋桨会停止转动，无人机将直落地面。注意：无人机会受到摔落伤害！被摧毁的$(item)无人机/$会以物品形式掉落。$(p)可将$(item)无人机/$与一份$(item)染料/$合成来染色；也可对世界中的$(item)无人机/$执行$(thing)右击/$，此时手中需持有一份$(item)染料/$。颜色只影响外观，但有助于快速区分无人机。"
+    },
+    {
+      "type": "text",
+      "title": "程序调试",
+      "text": "$(item)无人机/$为什么会这样行动，或者为什么完全不动？可以使用$(l:armor/pneumatic_helmet)气动头盔/$调试程序；头盔必须装有$(l:base_concepts/upgrades#dispenser)发射器升级/$和$(l:base_concepts/upgrades#entity_tracker)实体追踪升级/$。瞄准$(item)无人机/$、启用$(thing)实体追踪/$后，按下$(thing)$(k:pneumaticcraft.helmet.debugging.drone)/$键。随后打开气动护甲 GUI 中的$(thing)无人机调试/$页面，即可查看该无人机的程序、当前执行的组件及所有错误。"
+    },
+    {
+      "type": "text",
+      "title": "程序调试（续）",
+      "text": "还有两个实用技巧：$(li)手持$(l:tools/gps_tool)定位工具/$右击无人机，可命令它前往工具中保存的方块坐标，适合用于测试寻路。$(li)使用气动头盔中的$(l:base_concepts/upgrades#security)安全升级/$入侵无人机，会暂停其程序并将其召回到你身边；程序使无人机停在难以到达的位置时尤其有用。再次入侵即可恢复程序。"
+    },
+    {
+      "type": "text",
+      "title": "跨维度移动",
+      "text": "默认情况下，无人机不能切换维度，例如不能穿过下界传送门。这是因为无人机程序使用方块坐标，而同一坐标在另一维度中通常没有意义。但只要程序中包含$(l:programming/condition_dimension)条件：维度/$组件，无人机就能切换维度。$(p)程序本身仍须正确支持多个维度：从维度条件组件分出的各段程序必须使用各自维度对应的坐标空间。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成无人机",
+      "recipe": "pneumaticcraft:drone"
+    }
+  ]
+}

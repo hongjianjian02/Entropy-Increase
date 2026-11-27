@@ -1,0 +1,12 @@
+{
+  "name": "托卡马克反应堆（开发中）",
+  "icon": "nuclearcraftneohaul:tokamak_fusion_controller",
+  "category": "nuclearcraftneohaul:fusion",
+  "sortnum": 0,
+  "pages": [
+    {
+      "type": "text",
+      "text": "托卡马克反应堆尚未实现。"
+    }
+  ]
+}

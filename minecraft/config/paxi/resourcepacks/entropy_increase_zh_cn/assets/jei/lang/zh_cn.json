@@ -350,5 +350,17 @@
   "key.jei.transferRecipeBookmark.context": "悬停在 JEI 书签上",
   "key.jei.transferRecipeBookmark.description": "当配方传输可用时，从该书签传输一个配方。",
   "key.jei.transferRecipeGui.context": "将鼠标悬停在 JEI 中的菜谱上",
-  "key.jei.transferRecipeGui.description": "当配方传输可用时，传输悬停的配方一次。"
+  "key.jei.transferRecipeGui.description": "当配方传输可用时，传输悬停的配方一次。",
+  "jei.tooltip.config.open.quick": "点击打开 JEI 快捷配置菜单。",
+  "jei.tooltip.config.open.full": "再次点击打开配置界面。",
+  "jei.tooltip.config.open.full.direct": "点击打开配置界面。",
+  "jei.config.client.quickMenu": "JEI 快捷菜单",
+  "jei.config.client.bookmarkList.bookmarkPreviewMode": "配方收藏预览",
+  "jei.config.client.bookmarkList.bookmarkPreviewMode.description": "选择何时为收藏的配方显示预览与详细信息。“按住 Shift 时显示”使用配置的收藏详情键。",
+  "jei.config.client.bookmarkList.bookmarkPreviewMode.value.DISABLED": "禁用",
+  "jei.config.client.bookmarkList.bookmarkPreviewMode.value.DISABLED.description": "隐藏收藏配方的预览。",
+  "jei.config.client.bookmarkList.bookmarkPreviewMode.value.SHIFT": "按住 Shift 时显示",
+  "jei.config.client.bookmarkList.bookmarkPreviewMode.value.SHIFT.description": "按住收藏详情键（默认为 Shift）时显示配方预览与详细信息。",
+  "jei.config.client.bookmarkList.bookmarkPreviewMode.value.ALWAYS": "始终显示",
+  "jei.config.client.bookmarkList.bookmarkPreviewMode.value.ALWAYS.description": "直接显示配方预览与详细信息，无需按键。"
 }

@@ -1,0 +1,15 @@
+{
+  "description.config.wover.client.general.check_for_new_versions": "WorldWeaver 内置了简单的版本检查器，可在本系列模组有更新时通知你。为此，我们需要从一台网络服务器读取资源。处理请求时，除你的 IP 地址（用于返回响应）外，还会发送 Minecraft 版本（用于选择对应的模组版本）。我们不会将这些数据用于或处理为其他用途，但出于法律要求，必须在日志中保留 4 周。",
+  "description.config.wover.client.general.force_betterx_world_type": "世界类型决定世界的生成方式。通常应保留 BetterX 为默认类型（也可在创建世界界面随时更改）。此类型旨在尽可能兼容数据包、本系列模组及其他 NeoForge 模组，并为 BetterNether 和 BetterEnd 提供一些独有功能。仅在确有需要时禁用此选项！",
+  "description.config.wover.client.loading.disable_experimental_warning": "世界未使用原版版本设置时会显示警告，例如在预览版中创建世界，或使用模组修改世界生成方式。启用此选项后，加载已有世界时会跳过警告；创建新世界时仍会显示警告作为提醒。",
+  "title.config.wover.client.general.check_for_new_versions": "检查新版本并通知",
+  "title.config.wover.client.general.force_betterx_world_type": "新世界默认使用 BetterX 世界类型",
+  "title.config.wover.client.loading.disable_experimental_warning": "隐藏实验性设置警告",
+  "warning.config.wover.client.general.force_betterx_world_type": "通常建议保持此选项启用。\n",
+  "wover.welcome.description": "……衷心**感谢**你下载并游玩我们的模组。希望你也能和我们一样享受其中的乐趣。\n\n开始之前还有几项需要设置，请继续阅读下面稍显枯燥的内容。",
+  "wover.welcome.title": "欢迎使用 ",
+  "wover.updates.description": "部分已安装的模组已有新版本。我们会持续改进、扩充内容，并提供重要的问题修复。\n如需更新模组，可使用下方链接。",
+  "wover.updates.download_link": "下载",
+  "wover.updates.title": "模组更新",
+  "wover.updates.disable_check": "禁用更新检查"
+}

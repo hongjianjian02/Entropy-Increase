@@ -1,0 +1,22 @@
+{
+  "name": "辐射检测",
+  "icon": "nuclearcraftneohaul:radiation_badge",
+  "category": "nuclearcraftneohaul:items",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "geiger-counter",
+      "type": "items/1",
+      "header": "盖革计数器",
+      "item": "nuclearcraftneohaul:geiger_counter",
+      "text": "$(item)盖革计数器$()可以检测辐射，显示使用者当前受到的辐射量，也能检查其他实体受到的辐射量。不放在快捷栏中时，计数器不会发声。此外还有方块形式的盖革计数器，可显示所在区块的辐射读数。"
+    },
+    {
+      "anchor": "radiation-badge",
+      "type": "items/1",
+      "header": "辐射徽章",
+      "item": "nuclearcraftneohaul:radiation_badge",
+      "text": "佩戴$(item)辐射徽章$()后，可以了解这段时间内受到的辐射量变化。每当累计辐射量增加到指定间隔，它就会提醒使用者，直到达到可记录的辐射变化上限。"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "name": "批量物品过滤器",
+  "category": "modularrouters:filters",
+  "icon": "modularrouters:bulk_item_filter",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此过滤器可高效匹配最多 54 种物品，并可选择是否匹配 NBT。有几种配置方式：$(p)$(li)手持过滤器，对任意容器$(thing)潜行并右键/$，即可将该容器中物品的副本合并到过滤器。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(thing)右键/$过滤器，可打开界面查看已添加的物品。在此可以添加物品的虚拟副本、点击已有物品将其移除，或按红色 $(bold)$(4)X/$ 按钮清空整个过滤器。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)若过滤器已装入路由器中的模块，可用鼠标中键点击它，或悬停后按 $(bold)$(4)[$(k:modularrouters.configure)]/$ 打开过滤器界面。$(p)$(bold)如果/$模块已指定有效的目标容器，界面中会多出两个按钮：绿色 $(bold)$(2)+/$ 用于$(italic)合并/$目标容器中的物品，蓝色 $(bold)$(1)=/$ 用于$(italic)载入/$目标容器中的物品，并覆盖过滤器的现有内容。"
+    },
+    {
+      "type": "text",
+      "text": "最后一种配置方式很适合与$(l:modules/sender_2)发送模块/$搭配制作分拣系统。即使容器之后被清空，批量物品过滤器仍会记住这个容器应该存放哪些物品。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:bulk_item_filter"
+    }
+  ]
+}

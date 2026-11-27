@@ -1,0 +1,19 @@
+{
+  "name": "造桥模块 Mk2",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:extruder_module_2",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此模块与$(l:modules/extruder_1)造桥模块 Mk1/$类似，但有几项重要区别：$(li)Mk2 不使用缓冲区中的物品，而是按模块内部定义的模板放置方块。$(li)模板位于模块界面右侧，有 9 个槽，每槽可设置多个物品。模板中的物品都是虚拟物品。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)伸出的方块是凭空创建的“虚拟”方块，破坏后不会掉落，也无法通过普通合成获得。$(li)因此，它不像 Mk1 那样适合用于农业，但可制作图案更复杂的门、桥等结构。$(li)Mk2 默认范围为 24 格，使用范围升级可增至 48 格。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:extruder_module_2"
+    }
+  ]
+}

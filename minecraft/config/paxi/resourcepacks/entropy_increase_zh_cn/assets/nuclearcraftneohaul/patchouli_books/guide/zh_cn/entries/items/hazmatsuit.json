@@ -1,0 +1,18 @@
+{
+  "name": "防护服",
+  "icon": "nuclearcraftneohaul:hazmat_helmet",
+  "category": "nuclearcraftneohaul:items",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "hazmat",
+      "type": "items/4",
+      "header": "防护服",
+      "item1": "nuclearcraftneohaul:hazmat_helmet",
+      "item2": "nuclearcraftneohaul:hazmat_chestplate",
+      "item3": "nuclearcraftneohaul:hazmat_leggings",
+      "item4": "nuclearcraftneohaul:hazmat_boots",
+      "text": "$(item)防护服$()可以降低受到的辐射。套装的每个部位都有各自的辐射抗性，决定其提供的辐射防护能力。"
+    }
+  ]
+}

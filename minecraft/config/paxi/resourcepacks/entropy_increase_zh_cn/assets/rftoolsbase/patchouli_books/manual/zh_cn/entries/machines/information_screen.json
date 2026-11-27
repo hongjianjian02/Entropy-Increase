@@ -1,0 +1,18 @@
+{
+  "name": "信息屏幕",
+  "icon": "rftoolsbase:information_screen",
+  "category": "rftoolsbase:category_machines",
+  "extra_recipe_mappings": {
+    "rftoolsbase:information_screen": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "信息屏幕是一块可放在机器旁的小型屏幕，用于显示信息。默认显示能量信息，但部分机器（例如 RFTools Power 的能量单元）还提供其他显示选项。"
+    },
+    {
+      "type": "text",
+      "text": "使用扳手点击信息屏幕可以切换显示模式（需要相连的机器支持）。"
+    }
+  ]
+}

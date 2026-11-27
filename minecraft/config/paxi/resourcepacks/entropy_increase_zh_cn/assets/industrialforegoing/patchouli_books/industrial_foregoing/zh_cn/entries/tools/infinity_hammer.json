@@ -1,0 +1,21 @@
+{
+  "name": "无限之锤",
+  "icon": "industrialforegoing:infinity_hammer",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "无限之锤可以对范围内的敌人造成伤害。提高等级可获得不同等级的$(6)斩首$()效果，轻松收集生物头颅。"
+    },
+    {
+      "type": "text",
+      "text": "右击地面，会在使用者前方的锥形区域造成$(6)震裂$()效果。"
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_hammer"
+    }
+  ]
+}

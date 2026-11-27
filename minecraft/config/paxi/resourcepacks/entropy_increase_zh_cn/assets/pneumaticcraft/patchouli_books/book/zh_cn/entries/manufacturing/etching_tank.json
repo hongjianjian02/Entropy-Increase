@@ -1,0 +1,27 @@
+{
+  "name": "蚀刻器",
+  "icon": "pneumaticcraft:etching_tank",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:etchacid_bucket",
+  "pages": [
+    {
+      "type": "text",
+      "text": "先向$(thing)蚀刻器/$中注入$(l:manufacturing/etching_acid)蚀刻酸/$，再放入最多 25 个已在$(l:manufacturing/uv_light_box)紫外线灯箱/$中部分或完全曝光的$(thing)空印刷电路板/$。$(p)也可以把蚀刻酸倒在世界中，再把 PCB 扔进液池；但使用蚀刻器更安全，速度也更快。"
+    },
+    {
+      "type": "text",
+      "title": "自动化",
+      "text": "可从任意一侧输入$(thing)空印刷电路板/$。蚀刻成功的$(thing)未组装的印刷电路板/$会进入右上输出槽，$(thing)失效的印刷电路板/$则进入右下槽。自动提取时，从机器侧面抽取未组装的印刷电路板，从顶部或底部抽取失效品。还可把失效品送入$(thing)高炉/$，回收成未曝光的空印刷电路板并重新加工。"
+    },
+    {
+      "type": "text",
+      "title": "加热",
+      "text": "不施加$(l:base_concepts/heat)热量/$时，蚀刻器完全蚀刻一块 PCB 需要 150 秒（最多可同时处理 25 块）。加热可进一步缩短时间，最低可至 30 秒；温度越高，加工越快。注意：加热加工时会消耗少量蚀刻酸。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作蚀刻器",
+      "recipe": "pneumaticcraft:etching_tank"
+    }
+  ]
+}

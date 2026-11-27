@@ -1,0 +1,23 @@
+{
+  "name": "输入流体组件",
+  "icon": "pneumaticcraft:textures/progwidgets/liquid_import_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)输入流体/$组件会让$(l:tools/drone)无人机/$前往指定$(l:programming/area)区域/$内最近的储罐，从中抽取流体并存入自身储罐。$(p)它还可吸取世界中的流体方块，使$(item)无人机/$发挥便携式泵的作用。"
+    },
+    {
+      "type": "text",
+      "text": "$(thing)右击/$组件可打开设置 GUI，在其中指定无人机从储罐的哪些面抽取流体，以及每次操作最多输入多少流体（单位为 mB）。$(p)可以$(ttcolor)$(t:连接在右侧为白名单，连接在左侧为黑名单)连接/$$(l:programming/liquid_filter)流体过滤器/$组件，以限制无人机允许输入的流体。$(p)当$(item)无人机/$的储罐已满，或目标储罐中再也找不到符合条件的流体时，此组件执行完毕。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/liquid_import_piece.png"
+      ],
+      "text": "$(italic)咕噜/$"
+    }
+  ]
+}

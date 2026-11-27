@@ -1,0 +1,16 @@
+{
+  "name": "FTB Filter System",
+  "category": "modularrouters:filters",
+  "icon": "ftbfiltersystem:smart_filter",
+  "flag": "|mod:ftbfiltersystem",
+  "pages": [
+    {
+      "type": "text",
+      "text": "FTB Filter System 是一个功能强大的模组，可通过直观界面灵活组合多种过滤条件。如果安装了 FFS（能看到本页就说明已经安装），就可以将其$(item)智能过滤器/$放入模块过滤槽，按设定条件过滤物品。"
+    },
+    {
+      "type": "text",
+      "text": "限制：FFS 智能过滤器不像 Modular Routers 的过滤器那样支持安装后直接配置。需要重新配置时，必须先将其取回物品栏。"
+    }
+  ]
+}

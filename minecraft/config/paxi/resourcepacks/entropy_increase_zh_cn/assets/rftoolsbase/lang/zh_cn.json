@@ -52,5 +52,7 @@
   "message.rftoolsbase.tablet.gold": "平板电脑（空）：打开GUI与可用存储控制模块相结合",
   "message.rftoolsbase.tablet.header": "可用于链接远程GUI和信息的平板电脑",
   "message.rftoolsbase.tablet_filled.gold": "含有存储模块平板电脑：右击打开GUI，潜行右击打开配置界面",
-  "message.rftoolsbase.tablet_filled.header": "可用于链接远程GUI和信息的平板电脑"
+  "message.rftoolsbase.tablet_filled.header": "可用于链接远程GUI和信息的平板电脑",
+  "Technology Guide": "科技指南",
+  "This manual is your guide to all things McJty, from the RFTools Suite to xNet, Deep Resonance, and (probably) beyond! $(br)If you find a bug, please report it $(l:rftoolsbase:basics/bugs)here.$()": "本手册介绍 McJty 的各项科技，从 RFTools 系列到 XNet、Deep Resonance，以及更多内容！$(br)如果发现问题，请在$(l:rftoolsbase:basics/bugs)此处$()反馈。"
 }

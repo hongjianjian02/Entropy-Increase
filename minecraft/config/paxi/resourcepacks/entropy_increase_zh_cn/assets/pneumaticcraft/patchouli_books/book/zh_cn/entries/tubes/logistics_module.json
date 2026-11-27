@@ -1,0 +1,37 @@
+{
+  "name": "物流管道模块",
+  "icon": "pneumaticcraft:logistics_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此模块用于把物品容器接入$(l:logistics/overview)物流系统/$，使物品和流体能够通过压力管道受控传输。$(p)模块朝向的物品容器或流体储罐必须安装$(l:logistics/frames)物流框架/$。$(p)物流管道模块不能安装$(l:tubes/module_expansion_card)模块拓展卡/$。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/logistics_module.png"
+      ],
+      "border": "true",
+      "text": "两个物流管道模块分别连接装有$(l:logistics/frames#passive_provider)物流被动供应框架/$与$(l:logistics/frames#requester)物流请求框架/$的箱子。"
+    },
+    {
+      "type": "text",
+      "text": "所有通过$(l:tubes/pressure_tubes)压力管道/$互相连接的物流管道模块组成一个网络；耗气机器$(italic)不属于/$物流网络。$(p)可在模块 GUI 中选择频道，也可手持任意$(item)染料/$右击模块改变颜色。只有同色模块会互相通信，因此每个管网最多可划分为 16 个$(thing)频道/$。"
+    },
+    {
+      "type": "text",
+      "text": "物流管道模块需要$(l:base_concepts/pressure)压力/$才能工作，最低工作压力为 3 bar。气量消耗等于运输距离、运输数量与固定系数的乘积，因此整组物品或长距离运输会消耗更多气量。气量由$(italic)接收端/$物流管道模块消耗，因为空气流向该模块。"
+    },
+    {
+      "type": "text",
+      "text": "指示灯表示当前状态：$(p)$(li)$(#f00)红色/$：压力不足，至少需要 3 bar。$(li)$(#f80)橙色/$：压力高于 3 bar，但不足以把物品或流体运送到目标距离。$(li)$(#0f0)绿色/$：压力充足，正在待机。$(li)$(#00f)蓝色（闪烁）/$：正在运输物品或流体。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作物流管道模块",
+      "recipe": "pneumaticcraft:logistics_module"
+    }
+  ]
+}

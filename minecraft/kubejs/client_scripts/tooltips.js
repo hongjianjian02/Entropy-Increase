@@ -9,7 +9,7 @@ ItemEvents.modifyTooltips(event => {
     event.add('eicore:baiwei_seeds', '§e可以在暮色树屋找到')
     event.add('eicore:youkai_feast_seeds', '§e可以在暮色树屋找到')
     event.add('eicore:immortal_feast_seeds', '§e完成「千古种子」任务后领取')
-    event.add('deep_aether:sterling_aercloud', '§e可以在天镜y200+获取')
+    event.add('deep_aether:sterling_aercloud', '§e可以在天境 Y=200 以上区域获取')
     event.add('deep_aether:sterling_aercloud', '§e可以在云洋群系获取')
     event.add('eeeabsmobs:heart_of_pagan', '§e可以献祭给命血祭坛')
     event.add('immortalers_delight:evolutcorn_grains', '§e使用寻种铲在平原、雪原、草甸、向日葵平原挖掘获得')

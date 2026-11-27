@@ -1,0 +1,19 @@
+{
+  "name": "无人机条件：流体组件",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_drone_liquid_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是一个$(l:programming/conditions)条件/$组件。$(p)$(thing)无人机条件：流体/$组件用于检查这台$(l:tools/drone)无人机/$储罐中的流体量。它只统计所连接$(l:programming/liquid_filter)流体过滤器/$组件允许的流体；不连接过滤器则统计任意流体。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_drone_liquid_piece.png"
+      ],
+      "text": "$(italic)无人机条件：流体组件/$"
+    }
+  ]
+}

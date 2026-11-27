@@ -1,0 +1,19 @@
+{
+  "name": "右击实体组件",
+  "icon": "pneumaticcraft:textures/progwidgets/entity_right_click_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)无人机/$会用第一个物品栏槽位中的物品执行一次$(thing)右击/$，对象为指定$(l:programming/area)区域/$内的每个实体。这可用于给羊剪毛、挤牛奶、繁殖动物等许多操作！$(p)请注意，与此组件相连的$(l:programming/area)区域/$组件必须使用$(thing)盒型/$；这是唯一直接支持的形状。不过，可以通过组合区域白名单和黑名单来构造其他形状。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/entity_right_click_piece.png"
+      ],
+      "text": "$(italic)戳一下/$"
+    }
+  ]
+}

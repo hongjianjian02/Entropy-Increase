@@ -1,0 +1,15 @@
+{
+  "name": "延迟拾取拓展",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:pickup_delay_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此拓展只能装入$(l:modules/dropper)投掷器模块/$和$(l:modules/flinger)投掷模块/$。$(p)可以堆叠安装，每个拓展使丢出或抛出的物品的拾取延迟增加 10 游戏刻（0.5 秒）。例如，不想让玩家意外捡起附近丢出的物品时，就可以使用它。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:pickup_delay_augment"
+    }
+  ]
+}

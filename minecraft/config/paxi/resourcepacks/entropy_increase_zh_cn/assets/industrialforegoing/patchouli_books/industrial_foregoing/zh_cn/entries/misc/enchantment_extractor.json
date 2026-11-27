@@ -1,0 +1,17 @@
+{
+  "name": "附魔提取机",
+  "icon": "industrialforegoing:enchantment_extractor",
+  "category": "industrialforegoing:misc",
+  "sortnum": 4,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "提供书后，即可从物品上提取附魔。$(br2)有 2 种工作方式：将提取出的附魔存入书中，或将其转化为$(l:agr_husb/essence)精华液$()。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:enchantment_extractor"
+    }
+  ]
+}

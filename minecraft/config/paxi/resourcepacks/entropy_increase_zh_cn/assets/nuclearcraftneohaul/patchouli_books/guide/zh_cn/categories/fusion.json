@@ -1,0 +1,7 @@
+{
+  "name": "核聚变（开发中）",
+  "description": "$(l)聚合原子，收获乐趣与无上荣耀。",
+  "icon": "nuclearcraftneohaul:copper_solenoid",
+  "parent": "nuclearcraftneohaul:multiblocks",
+  "sortnum": 1
+}

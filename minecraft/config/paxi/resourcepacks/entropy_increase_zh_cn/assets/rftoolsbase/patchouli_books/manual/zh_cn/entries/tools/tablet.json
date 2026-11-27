@@ -1,0 +1,19 @@
+{
+  "name": "平板电脑",
+  "icon": "rftoolsbase:tablet",
+  "category": "rftoolsbase:category_tools",
+  "extra_recipe_mappings": {
+    "rftoolsbase:tablet": 0,
+    "rftoolsbase:tablet_filled": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "平板电脑可以远程访问多种机器。$(5)潜行右键点击$()可打开平板电脑的内部界面，最多安装 6 个模块。右键点击平板电脑可打开当前模块的界面。使用 $(k:prevDestination) 和 $(k:nextDestination) 键可以切换已安装的模块。"
+    },
+    {
+      "type": "text",
+      "text": "要远程访问机器，该机器必须足够近，或位于保持加载的区块中。如果区块已正确保持加载，平板电脑也能跨维度工作。"
+    }
+  ]
+}

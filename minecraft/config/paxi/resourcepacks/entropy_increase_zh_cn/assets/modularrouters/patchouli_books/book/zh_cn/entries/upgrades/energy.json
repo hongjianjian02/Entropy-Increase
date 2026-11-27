@@ -1,0 +1,35 @@
+{
+  "name": "能量升级",
+  "category": "modularrouters:upgrades",
+  "icon": "modularrouters:energy_upgrade",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此升级为路由器增加内部能量缓冲区。每个升级使容量增加 50,000 FE，传输速率增加每个$(italic)路由器运行周期/$ 1,000 FE。这些数值可在模组配置中调整。$(p)能量升级的几种用途见后续页面。"
+    },
+    {
+      "type": "text",
+      "title": "1. 输送能量",
+      "text": "$(l:modules/energy_output)能量输出模块/$和$(l:modules/energy_distributor)能量分配器模块/$都能主动将路由器缓冲区中的能量输出到相邻或附近的方块。$(p)使用这些模块，就能搭建一个具备有限无线供能能力的储能单元。"
+    },
+    {
+      "type": "text",
+      "title": "2. 为模块供能",
+      "text": "默认情况下，除处于攻击模式的$(l:modules/activator)执行模块/$外，路由器模块运行不消耗能量。$(p)不过，能耗可以配置，因此当前整合包中的其他模块也可能需要能量。需要能量的模块会在工具提示中列出能耗。"
+    },
+    {
+      "type": "text",
+      "title": "3. 为物品充电",
+      "text": "放在路由器缓冲区中的储能物品，可以按设置与内部能量缓冲区双向传输能量。$(p)物品缓冲区中有储能物品时，路由器界面会在物品槽与能量条之间显示一个切换按钮，用于设置能量传输方向。"
+    },
+    {
+      "type": "text",
+      "title": "传输速率",
+      "text": "注意，工具提示中的传输速率以每个$(italic)路由器运行周期/$的 FE 数量表示，并不等同于 FE/t。路由器的运行频率取决于$(l:upgrades/speed)速度升级/$；没有速度升级时，每 20 个服务端游戏刻才运行一次。因此，实际总传输速率可能低于你的预期。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:energy_upgrade"
+    }
+  ]
+}

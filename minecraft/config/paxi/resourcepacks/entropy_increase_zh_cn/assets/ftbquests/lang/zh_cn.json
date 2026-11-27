@@ -125,5 +125,8 @@
   "key.ftbquests.gui_quest_panel.edit_desc": "编辑说明",
   "key.ftbquests.gui_quest_panel.edit_quest_props": "编辑任务属性",
   "key.ftbquests.gui_quest_panel.edit_subtitle": "编辑副标题",
-  "key.ftbquests.gui_quest_panel.edit_title": "编辑标题"
+  "key.ftbquests.gui_quest_panel.edit_title": "编辑标题",
+  "ftbquests.image.text_align.start": "起始端",
+  "ftbquests.image.text_align.end": "末端",
+  "ftbquests.reward.blocked": "队伍“%2$s”的 %1$d 个奖励被封锁"
 }

@@ -1,0 +1,170 @@
+{
+  "name": "涡轮机",
+  "icon": "nuclearcraftneohaul:turbine_controller",
+  "category": "nuclearcraftneohaul:multiblocks",
+  "sortnum": 2,
+  "pages": [
+    {
+      "anchor": "intro",
+      "type": "text",
+      "text": "涡轮机从高压蒸汽中提取能量，并在此过程中排出废流体。"
+    },
+    {
+      "anchor": "casing",
+      "type": "blocks/2",
+      "header": "涡轮机外壳",
+      "block1": "nuclearcraftneohaul:turbine_casing",
+      "block2": "nuclearcraftneohaul:turbine_glass",
+      "text": "涡轮机的内部部件封装在一个长方体结构中。棱边必须使用$(item)涡轮机外壳$()；各个面则可以使用$(item)涡轮机观察窗$()、涡轮机外壳，或两者混用。使用观察窗时会渲染涡轮机内部，可能影响性能。"
+    },
+    {
+      "anchor": "controller",
+      "type": "blocks/1",
+      "header": "涡轮机控制器",
+      "block": "nuclearcraftneohaul:turbine_controller",
+      "text": "$(item)涡轮机控制器$()用于显示涡轮机信息并控制其启停，必须安装在涡轮机壁上。没有控制器，多方块结构就无法成型。只有控制器收到红石信号时，涡轮机才会运行。"
+    },
+    {
+      "anchor": "rotor_shaft",
+      "type": "blocks/1",
+      "header": "涡轮机转子轴",
+      "block": "nuclearcraftneohaul:turbine_rotor_shaft",
+      "text": "$(item)涡轮机转子轴$()是涡轮机的核心。转子轴必须位于涡轮机中央，两端都要连接$(item)涡轮机转子轴承$()。轴的粗细可以调整，其最大直径为涡轮机直径减2格。"
+    },
+    {
+      "anchor": "rotor_bearing",
+      "type": "blocks/1",
+      "header": "涡轮机转子轴承",
+      "block": "nuclearcraftneohaul:turbine_rotor_bearing",
+      "text": "$(item)涡轮机转子轴承$()将转子轴连接到外壳。在涡轮机两端，轴承都必须完整覆盖转子轴的端面。"
+    },
+    {
+      "anchor": "rotor_blades",
+      "type": "blocks/3",
+      "header": "涡轮机转子叶片",
+      "block1": "nuclearcraftneohaul:steel_turbine_rotor_blade",
+      "block2": "nuclearcraftneohaul:extreme_alloy_turbine_rotor_blade",
+      "block3": "nuclearcraftneohaul:sic_turbine_rotor_blade",
+      "text": "$(item)涡轮机转子叶片$()利用蒸汽的能量推动转子轴旋转。转子轴的每一层只能使用一种$(o)类型$()的叶片。轴的每一侧都要布满叶片，且叶片必须一直延伸到涡轮机壁。"
+    },
+    {
+      "type": "text",
+      "title": "涡轮机叶片（续）",
+      "text": "每个涡轮机叶片能处理的蒸汽量有限。如果输入的蒸汽超过叶片的处理能力，涡轮机就会损坏。蒸汽每经过一组叶片，都会膨胀一定程度。每层转子轴的$(thing)膨胀系数$()越接近$(thing)理想膨胀系数$()，涡轮机效率就越高。"
+    },
+    {
+      "anchor": "stator",
+      "type": "blocks/1",
+      "header": "涡轮机转子定子",
+      "block": "nuclearcraftneohaul:standard_turbine_rotor_stator",
+      "text": "$(item)涡轮机转子定子$()与叶片相似，但蒸汽流经定子时会收缩，而非膨胀。定子不处理蒸汽，也不会提高涡轮机的蒸汽处理上限。它的放置规则与转子叶片相同。"
+    },
+    {
+      "anchor": "dynamo_coil",
+      "type": "blocks/1",
+      "header": "涡轮机发电机线圈",
+      "block": "nuclearcraftneohaul:magnesium_turbine_dynamo_coil,nuclearcraftneohaul:beryllium_turbine_dynamo_coil,nuclearcraftneohaul:aluminum_turbine_dynamo_coil,nuclearcraftneohaul:gold_turbine_dynamo_coil,nuclearcraftneohaul:copper_turbine_dynamo_coil,nuclearcraftneohaul:silver_turbine_dynamo_coil",
+      "text": "$(item)涡轮机发电机线圈$()将转子轴的旋转转化为能量，安装在与转子轴承同侧的涡轮机端面上。"
+    },
+    {
+      "type": "text",
+      "title": "发电机线圈（续）",
+      "text": "应在满足放置规则的前提下搭配各种发电机线圈，尽可能提高效率。计算时，先分别求出两端所有线圈的平均$(thing)导电乘数$()，再将两端的平均值相乘。"
+    },
+    {
+      "anchor": "inlet",
+      "type": "blocks/1",
+      "header": "涡轮机流体输入口",
+      "block": "nuclearcraftneohaul:turbine_inlet",
+      "text": "蒸汽通过$(item)涡轮机流体输入口$()进入涡轮机。输入口必须安装在带有转子轴承的某个端面上。"
+    },
+    {
+      "anchor": "outlet",
+      "type": "blocks/1",
+      "header": "涡轮机流体输出口",
+      "block": "nuclearcraftneohaul:turbine_outlet",
+      "text": "废蒸汽通过$(item)涡轮机流体输出口$()排出。输出口必须安装在带有转子轴承、且与流体输入口相对的另一个端面上。"
+    },
+    {
+      "type": "text",
+      "title": "设计建议",
+      "text": "涡轮机结构较复杂，设计时建议使用$(l:https://github.com/ThizThizzyDizzy/nc-reactor-generator/releases)支持涡轮机设计的反应堆规划工具$()，或专门的涡轮机规划工具。这类工具可以检查放置规则，分析膨胀情况，并预测效率。"
+    },
+    {
+      "type": "text",
+      "text": "为使内容简明，这里省略了涡轮机工作原理的完整说明。想了解更多，可以观看$(l:https://youtu.be/p555h2peays)这个视频$()。"
+    },
+    {
+      "anchor": "examples",
+      "type": "text",
+      "title": "涡轮机示例",
+      "text": "这里展示了一个可以成型并正常运行的涡轮机示例。它的低效率是刻意设计的。如何建造更大、更高效的涡轮机，就留给读者自行实践了。"
+    },
+    {
+      "type": "multiblock",
+      "name": "小型涡轮机示例",
+      "multiblock": {
+        "mapping": {
+          "F": "nuclearcraftneohaul:turbine_casing",
+          "G": "nuclearcraftneohaul:turbine_glass",
+          "M": "nuclearcraftneohaul:magnesium_turbine_dynamo_coil",
+          "B": "nuclearcraftneohaul:turbine_rotor_bearing",
+          "S": "nuclearcraftneohaul:turbine_rotor_shaft",
+          "I": "nuclearcraftneohaul:turbine_inlet",
+          "O": "nuclearcraftneohaul:turbine_outlet",
+          "C": "nuclearcraftneohaul:turbine_controller",
+          "b": "nuclearcraftneohaul:steel_turbine_rotor_blade",
+          "s": "nuclearcraftneohaul:standard_turbine_rotor_stator",
+          "0": "nuclearcraftneohaul:turbine_casing"
+        },
+        "pattern": [
+          [
+            "FFFFF",
+            "FGGGF",
+            "FGGGF",
+            "FGGGF",
+            "FGGGF",
+            "FGGGF",
+            "FFFFF"
+          ],
+          [
+            "FFMFF",
+            "G b G",
+            "G b G",
+            "G s G",
+            "G b G",
+            "G b G",
+            "FFMFF"
+          ],
+          [
+            "FMBMF",
+            "GbSbG",
+            "GbSbG",
+            "GsSsG",
+            "GbSbG",
+            "GbSbG",
+            "FMBMF"
+          ],
+          [
+            "FIMFF",
+            "C b G",
+            "G b G",
+            "G s G",
+            "G b G",
+            "G b G",
+            "FFMOF"
+          ],
+          [
+            "FFFF0",
+            "FFFFF",
+            "FFFFF",
+            "FFFFF",
+            "FFFFF",
+            "FFFFF",
+            "FFFFF"
+          ]
+        ]
+      }
+    }
+  ]
+}

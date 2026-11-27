@@ -1,0 +1,33 @@
+{
+  "name": "模拟器",
+  "icon": "rftoolsutility:analog",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:analog": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)模拟器$()会根据 A、B 两路输入的比较结果，对主输入信号进行运算。$(br2)右键方块打开界面，其中图示标出了输出端 (O)、输入端 (I)，以及两路侧面输入 (A)、(B)。"
+    },
+    {
+      "type": "crafting",
+      "heading": "模拟器",
+      "recipe": "rftoolsutility:analog",
+      "text": "界面图示与说明见后续页面。"
+    },
+    {
+      "type": "text",
+      "title": "界面",
+      "text": "界面会显示输出面、输入面和 A/B 比较输入。可为每种比较结果设置乘数和偏移量，用来计算主输入信号的输出。"
+    },
+    {
+      "type": "text",
+      "text": "模拟器图示下方有三种条件：A = B、A 小于 B，以及 A 大于 B。$(br2)每种条件下都可以对输入做基本运算，包括乘法和加法。例如，将输入强度翻倍，再加 10。"
+    },
+    {
+      "type": "text",
+      "text": "要除以某个数或减去强度，可以乘以小于 1 的数，或加上负数。例如，乘以 '0.5' 等于除以二，加上 '-10' 等于减去 10。$(br2)由于处理的是红石信号，大于 15 的结果会限制为满强度，小于 0 则视为无信号。$(br2)$(i)数学是不是很有趣？$()"
+    }
+  ]
+}

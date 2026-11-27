@@ -1,0 +1,16 @@
+{
+  "name": "发送模块 Mk1",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:sender_module_1",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此模块会将缓冲区中的物品发送到$(l:intro/modules#direction)指定方向/$上的容器：$(li)目标最远 8 格，使用$(l:augments/range_up)范围升级拓展/$后可达 16 格。$(li)目标容器$(italic)必须/$与路由器位于同一条 X、Y 或 Z 轴直线上。$(li)路由器与目标之间$(italic)必须/$视线畅通，不可有不透明方块阻挡，但玻璃、栅栏和铁栏杆等可以。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:sender_module_1",
+      "recipe2": "modularrouters:sender_module_1_alt"
+    }
+  ]
+}

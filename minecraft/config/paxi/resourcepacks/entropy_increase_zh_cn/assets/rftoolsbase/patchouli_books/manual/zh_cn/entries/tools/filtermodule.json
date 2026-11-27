@@ -1,0 +1,18 @@
+{
+  "name": "过滤模块",
+  "icon": "rftoolsbase:filter_module",
+  "category": "rftoolsbase:category_tools",
+  "extra_recipe_mappings": {
+    "rftoolsbase:filter_module": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "过滤模块用途广泛，可以为机器设置物品白名单或黑名单。建造机、模块化存储器、自动合成机等多种机器都支持此模块。$(br2)它支持方块、物品和标签，可以设置黑名单或白名单，也能要求匹配 NBT 和损伤值。"
+    },
+    {
+      "type": "text",
+      "text": "对容器（如箱子）$(5)潜行右键点击$()，可将容器中的所有物品和方块加入过滤器。$(br)对世界中的方块$(5)潜行右键点击$()，可将该方块加入过滤器。$(br2)在过滤模块界面中，也可以添加标签，或将方块、物品转换为对应标签。"
+    }
+  ]
+}

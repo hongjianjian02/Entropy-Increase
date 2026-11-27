@@ -1,0 +1,30 @@
+{
+  "name": "发电机器",
+  "icon": "nuclearcraftneohaul:solar_panel_basic",
+  "category": "nuclearcraftneohaul:machines",
+  "sortnum": 1,
+  "pages": [
+    {
+      "anchor": "intro",
+      "type": "text",
+      "text": "这些机器发电量相对较小，但操作也很简单。"
+    },
+    {
+      "anchor": "solar_panel",
+      "type": "blocks/4",
+      "header": "太阳能电池板",
+      "block1": "nuclearcraftneohaul:solar_panel_basic",
+      "block2": "nuclearcraftneohaul:solar_panel_advanced",
+      "block3": "nuclearcraftneohaul:solar_panel_du",
+      "block4": "nuclearcraftneohaul:solar_panel_elite",
+      "text": "$(item)太阳能电池板$()在白天以固定速率发电。"
+    },
+    {
+      "anchor": "decay_generator",
+      "type": "blocks/1",
+      "header": "衰变产能器",
+      "block": "nuclearcraftneohaul:decay_generator",
+      "text": "$(item)衰变产能器$()利用相邻放射性方块的衰变产生能量。"
+    }
+  ]
+}

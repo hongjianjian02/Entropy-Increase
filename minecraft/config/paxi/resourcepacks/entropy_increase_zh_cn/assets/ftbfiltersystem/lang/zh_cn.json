@@ -60,5 +60,8 @@
   "ftbfiltersystem.message.parse_failed": "过滤器解析失败：%s",
   "item.ftbfiltersystem.smart_filter": "智能过滤器",
   "item.ftbfiltersystem.smart_filter.tooltip.1": "右键：配置过滤器",
-  "item.ftbfiltersystem.smart_filter.tooltip.2": "潜行并右键：使用副手物品测试过滤器"
+  "item.ftbfiltersystem.smart_filter.tooltip.2": "潜行并右键：使用副手物品测试过滤器",
+  "ftbfiltersystem.gui.delete": "删除",
+  "ftbfiltersystem.gui.percentage": "百分比",
+  "ftbfiltersystem.gui.item_source.creative": "创造模式"
 }

@@ -1,0 +1,19 @@
+{
+  "name": "清空塑形卡片",
+  "icon": "rftoolsbuilder:shape_card_void",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_void": 1
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "清空卡片会让建造机移除所选区域内的方块，且不产生掉落物，适合快速清理空间。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_void"
+    }
+  ]
+}

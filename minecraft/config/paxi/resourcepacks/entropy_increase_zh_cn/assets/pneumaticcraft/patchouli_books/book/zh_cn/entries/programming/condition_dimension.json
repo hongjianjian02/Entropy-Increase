@@ -1,0 +1,23 @@
+{
+  "name": "条件：维度组件",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_dimension_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是一个$(l:programming/conditions)条件/$组件。$(p)$(thing)条件：维度/$组件用于检查无人机当前所在的维度。若要允许可编程无人机切换维度（例如穿过下界传送门），程序中$(o)必须/$包含此组件。"
+    },
+    {
+      "type": "text",
+      "text": "连接一个包含目标维度 ID 的$(l:programming/text)文本/$组件，即可筛选要检查的维度，例如$(thing)minecraft:overworld/$或$(thing)minecraft:the_nether/$。连接在右侧的文本组件构成白名单，连接在左侧的文本组件构成黑名单。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_dimension_piece.png"
+      ],
+      "text": "$(italic)这是一个崭新的世界/$"
+    }
+  ]
+}

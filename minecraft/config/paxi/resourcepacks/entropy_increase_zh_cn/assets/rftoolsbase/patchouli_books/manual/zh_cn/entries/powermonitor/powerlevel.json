@@ -1,0 +1,20 @@
+{
+  "name": "能量等级监测器",
+  "icon": "rftoolspower:power_level",
+  "category": "rftoolsbase:category_rftoolspower_monitor",
+  "extra_recipe_mappings": {
+    "rftoolspower:power_level": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "将此逻辑方块的输入面朝向$(thing)储能方块$()，它会显示代表该方块储能量的数字，同时输出相应强度的红石信号，范围为 0 至 9。"
+    },
+    {
+      "type": "crafting",
+      "heading": "能量等级监测器",
+      "recipe": "rftoolspower:power_level"
+    }
+  ]
+}

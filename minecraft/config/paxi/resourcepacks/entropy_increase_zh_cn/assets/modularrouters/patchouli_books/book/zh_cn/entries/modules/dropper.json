@@ -1,0 +1,15 @@
+{
+  "name": "投掷器模块",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:dropper_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此模块会将缓冲区中的物品作为掉落物丢入世界，位置在路由器旁、模块$(l:intro/modules#direction)指定方向/$的一侧。掉落物初速度为零，与会施加随机速度的原版$(item)投掷器/$不同。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:dropper_module"
+    }
+  ]
+}

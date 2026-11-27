@@ -1,0 +1,27 @@
+{
+  "name": "其他机器",
+  "icon": "nuclearcraftneohaul:universal_bin",
+  "category": "nuclearcraftneohaul:machines",
+  "sortnum": 3,
+  "pages": [
+    {
+      "anchor": "intro",
+      "type": "text",
+      "text": "这些辅助方块可以帮助你建造整洁、高效的核工业工厂。"
+    },
+    {
+      "anchor": "machine_interface",
+      "type": "blocks/1",
+      "header": "机器控制界面",
+      "block": "nuclearcraftneohaul:machine_interface",
+      "text": "$(item)机器控制界面$()可以从一侧扩展加工机器的接口空间，适合没有空间直接连接管道或电缆时使用。"
+    },
+    {
+      "anchor": "universal_bin",
+      "type": "blocks/1",
+      "header": "通用垃圾桶",
+      "block": "nuclearcraftneohaul:universal_bin",
+      "text": "$(item)通用垃圾桶$()可以轻松处理各种废弃物，会销毁输入的所有材料与能量。"
+    }
+  ]
+}

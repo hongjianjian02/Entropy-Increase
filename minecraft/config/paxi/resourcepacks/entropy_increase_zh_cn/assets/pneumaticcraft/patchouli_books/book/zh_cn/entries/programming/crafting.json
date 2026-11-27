@@ -1,0 +1,29 @@
+{
+  "name": "合成组件",
+  "icon": "pneumaticcraft:textures/progwidgets/craft_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)无人机/$会使用自身物品栏中的物品进行合成。要指定合成配方，请按照配方形状，把$(l:programming/item_filter)物品过滤器/$组件排列在合成组件右侧。$(p)不必正好使用 9 个$(thing)物品过滤器/$；只要能排列出配方形状即可。"
+    },
+    {
+      "type": "text",
+      "text": "默认情况下，合成组件会尽可能多地合成物品；可在组件 GUI 中启用$(thing)使用数量/$选项来限制合成数量。$(p)建议安装一些$(l:base_concepts/upgrades#dispenser)物品栏升级/$，以扩大$(item)无人机/$的物品栏容量。"
+    },
+    {
+      "type": "text",
+      "flag": "mod:jei",
+      "title": "JEI 集成",
+      "text": "借助 JEI，可以快速设置合成组件所需的物品过滤器；更多信息请参阅$(l:programming/programmer#jei)此页/$。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/craft_piece.png"
+      ],
+      "text": "$(italic)合成组件/$"
+    }
+  ]
+}

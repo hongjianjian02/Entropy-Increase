@@ -1,0 +1,16 @@
+{
+  "name": "范围升级拓展",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:range_up_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此拓展适用于具有作用范围的模块：发送模块 $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$、抽取模块 $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$、造桥模块 $(l:modules/extruder_1)Mk1/$ / $(l:modules/extruder_2)Mk2/$、$(l:modules/fluid_2)流体模块 Mk2/$和$(l:modules/vacuum)真空模块/$。$(p)可以堆叠安装，每个拓展使模块的作用范围增加一格。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:range_up_augment",
+      "recipe2": "modularrouters:range_up_from_down"
+    }
+  ]
+}

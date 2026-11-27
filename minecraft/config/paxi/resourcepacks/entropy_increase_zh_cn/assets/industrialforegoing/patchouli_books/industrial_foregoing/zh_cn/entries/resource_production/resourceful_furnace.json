@@ -1,0 +1,17 @@
+{
+  "name": "高级熔炉",
+  "icon": "industrialforegoing:resourceful_furnace",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 6,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "3 台熔炉合而为 1。$(br2)每烧炼一件物品可返还 $(6)2$()mb 精华液，需要 $(6)40$()RF/t。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:resourceful_furnace"
+    }
+  ]
+}

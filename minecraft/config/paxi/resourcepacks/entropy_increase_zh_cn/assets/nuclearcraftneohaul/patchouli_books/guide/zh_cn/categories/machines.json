@@ -1,0 +1,6 @@
+{
+  "name": "机器",
+  "description": "$(l)运转顺畅，井井有条。",
+  "icon": "nuclearcraftneohaul:machine_interface",
+  "sortnum": 1
+}

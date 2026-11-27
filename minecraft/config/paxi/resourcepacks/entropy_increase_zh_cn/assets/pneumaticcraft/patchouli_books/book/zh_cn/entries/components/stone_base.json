@@ -1,0 +1,17 @@
+{
+  "name": "石头基座",
+  "icon": "pneumaticcraft:stone_base",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是用于制作其他设备的组件，单独使用没有作用。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作石头基座",
+      "recipe": "pneumaticcraft:stone_base"
+    }
+  ]
+}

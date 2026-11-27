@@ -1,0 +1,74 @@
+{
+  "name": "条件",
+  "icon": "minecraft:comparator",
+  "category": "pneumaticcraft:programming",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)条件/$是一组用于执行检查的组件；检查成立时，程序可跳转到其他位置。$(p)每个$(thing)条件/$组件都接受一个$(l:programming/text)文本/$组件作为参数（始终是最下方的参数），其中填写要跳转到的$(thing)标签名称/$。"
+    },
+    {
+      "type": "text",
+      "text": "条件结果为$(thing)真/$时，$(l:programming/flow_control)程序流程/$会跳转到$(l:programming/label)标签/$组件，其名称与条件$(italic)右侧/$的$(thing)文本/$参数相同。结果为$(thing)假/$时，则跳转到名称与$(thing)文本/$参数相同、位于$(italic)左侧/$分支的$(thing)标签/$。$(p)若$(thing)条件/$组件找不到有效的$(thing)文本/$参数，程序会直接继续执行连接在$(italic)下方/$的下一个组件。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/condition_widget.png"
+      ],
+      "border": "true",
+      "text": "$(italic)红石条件组件：信号 >= 10 时使无人机自毁/$"
+    },
+    {
+      "type": "text",
+      "text": "大多数$(thing)条件/$组件都可$(thing)右击/$打开配置 GUI。GUI 通常包含“=”/“>=”模式和一个数值输入框。$(p)例如，可把箱中物品数量条件设为：恰好 10（“=”模式，数值 10）、大于 20（“>=”模式，数值“21”），或小于 12（“>=”模式，数值“12”，但沿条件为$(thing)假/$的分支执行）。"
+    },
+    {
+      "type": "text",
+      "title": "测量",
+      "text": "除$(l:programming/condition_item)条件：物品过滤器/$外，所有$(thing)条件/$组件的 GUI 都有$(thing)测量/$文本框，可在其中填写$(l:programming/variables)变量/$名称。填写后，无人机测得的数值会存入该变量的 X 分量。$(p)之后可像其他变量一样使用，例如测量流体储罐的液量并写到告示牌上。"
+    },
+    {
+      "type": "text",
+      "title": "测量（续）",
+      "text": "填写测量变量后，条件组件即使没有连接用于分支的文本组件也不再报错（通常至少需要一个分支）。这样便可只用条件组件测量数值，程序会照常向下继续。$(p)注意：压力条件以毫巴存储测量结果，例如 5.5 bar 会存为 5500。"
+    },
+    {
+      "type": "text",
+      "title": "条件类型",
+      "text": "条件分为两类：$(thing)世界条件/$与$(thing)无人机条件/$。$(p)世界条件检查世界中的对象，例如$(item)箱子/$中是否有指定数量的物品，或某处是否存在某种方块。$(p)$(thing)无人机条件/$则专门检查$(l:tools/drone)无人机/$自身，例如它是否携带某种物品，或当前压力是否达到要求。"
+    },
+    {
+      "type": "text",
+      "text": "所有基于方块的$(thing)世界条件/$都有$(thing)任意/全部/$选项，用于同时检查多个方块。$(li)在$(thing)任意/$模式下，所选$(l:programming/area)区域/$内只需有$(italic)一个/$方块匹配，条件即为$(thing)真/$。$(li)在$(thing)全部/$模式下，必须$(italic)所有/$方块都匹配，条件才为$(thing)真/$。"
+    },
+    {
+      "type": "relations",
+      "title": "世界条件",
+      "entries": [
+        "pneumaticcraft:programming/condition_block",
+        "pneumaticcraft:programming/condition_coordinate",
+        "pneumaticcraft:programming/condition_entity",
+        "pneumaticcraft:programming/condition_item",
+        "pneumaticcraft:programming/condition_item_inventory",
+        "pneumaticcraft:programming/condition_liquid_inventory",
+        "pneumaticcraft:programming/condition_pressure",
+        "pneumaticcraft:programming/condition_redstone",
+        "pneumaticcraft:programming/condition_rf",
+        "pneumaticcraft:programming/condition_dimension"
+      ]
+    },
+    {
+      "type": "relations",
+      "title": "无人机条件",
+      "entries": [
+        "pneumaticcraft:programming/drone_condition_item",
+        "pneumaticcraft:programming/drone_condition_liquid",
+        "pneumaticcraft:programming/drone_condition_entity",
+        "pneumaticcraft:programming/drone_condition_pressure",
+        "pneumaticcraft:programming/drone_condition_rf"
+      ]
+    }
+  ]
+}

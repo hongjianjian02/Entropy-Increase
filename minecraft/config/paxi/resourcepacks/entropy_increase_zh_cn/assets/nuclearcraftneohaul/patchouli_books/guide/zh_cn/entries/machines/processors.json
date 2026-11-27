@@ -1,0 +1,153 @@
+{
+  "name": "加工机器",
+  "icon": "nuclearcraftneohaul:manufactory",
+  "category": "nuclearcraftneohaul:machines",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "intro",
+      "type": "text",
+      "text": "这些机器通常消耗能量来加工材料，将其转化为其他形式。"
+    },
+    {
+      "anchor": "nuclear_furnace",
+      "type": "blocks/1",
+      "header": "核熔炉",
+      "block": "nuclearcraftneohaul:nuclear_furnace",
+      "text": "$(item)核熔炉$()以铀锭或铀粉为燃料，快速熔炼物品。"
+    },
+    {
+      "anchor": "manufactory",
+      "type": "blocks/1",
+      "header": "小制造机",
+      "block": "nuclearcraftneohaul:manufactory",
+      "text": "$(item)小制造机$()用途广泛，主要用于加工材料。"
+    },
+    {
+      "anchor": "separator",
+      "type": "blocks/1",
+      "header": "分离器",
+      "block": "nuclearcraftneohaul:separator",
+      "text": "$(item)分离器$()将材料分离为其组成成分。"
+    },
+    {
+      "anchor": "decay_hastener",
+      "type": "blocks/1",
+      "header": "衰变加速器",
+      "block": "nuclearcraftneohaul:decay_hastener",
+      "text": "$(item)衰变加速器$()使放射性材料加速衰变，形成其他同位素或材料。衰变过程中会释放辐射。"
+    },
+    {
+      "anchor": "fuel_reprocessor",
+      "type": "blocks/1",
+      "header": "燃料再处理机",
+      "block": "nuclearcraftneohaul:fuel_reprocessor",
+      "text": "$(item)燃料再处理机$()从枯竭燃料中提取并分离出有用的材料。"
+    },
+    {
+      "anchor": "alloy_furnace",
+      "type": "blocks/1",
+      "header": "合金炉",
+      "block": "nuclearcraftneohaul:alloy_furnace",
+      "text": "$(item)合金炉$()将基础金属熔合成合金。"
+    },
+    {
+      "anchor": "fluid_infuser",
+      "type": "blocks/1",
+      "header": "流体灌注器",
+      "block": "nuclearcraftneohaul:fluid_infuser",
+      "text": "$(item)流体灌注器$()将流体灌注到材料中。"
+    },
+    {
+      "anchor": "melter",
+      "type": "blocks/1",
+      "header": "熔化机",
+      "block": "nuclearcraftneohaul:melter",
+      "text": "$(item)熔化机$()将材料熔化为液体。"
+    },
+    {
+      "anchor": "supercooler",
+      "type": "blocks/1",
+      "header": "超冷却机",
+      "block": "nuclearcraftneohaul:supercooler",
+      "text": "$(item)超冷却机$()用于降低流体温度。"
+    },
+    {
+      "anchor": "electrolyzer",
+      "type": "blocks/1",
+      "header": "电解池",
+      "block": "nuclearcraftneohaul:electrolyzer",
+      "text": "$(item)电解池$()将流体分解为其组成成分。"
+    },
+    {
+      "anchor": "assembler",
+      "type": "blocks/1",
+      "header": "组合机",
+      "block": "nuclearcraftneohaul:assembler",
+      "text": "$(item)组合机$()将部件组装为复杂的产品。"
+    },
+    {
+      "anchor": "ingot_former",
+      "type": "blocks/1",
+      "header": "冷却器",
+      "block": "nuclearcraftneohaul:ingot_former",
+      "text": "$(item)冷却器$()将熔融材料冷却成锭或宝石。"
+    },
+    {
+      "anchor": "pressurizer",
+      "type": "blocks/1",
+      "header": "压缩机",
+      "block": "nuclearcraftneohaul:pressurizer",
+      "text": "$(item)压缩机$()在极高压力下加工材料。"
+    },
+    {
+      "anchor": "chemical_reactor",
+      "type": "blocks/1",
+      "header": "化学反应器",
+      "block": "nuclearcraftneohaul:chemical_reactor",
+      "text": "$(item)化学反应器$()为流体之间的化学反应提供场所。"
+    },
+    {
+      "anchor": "fluid_mixer",
+      "type": "blocks/1",
+      "header": "流体混合器",
+      "block": "nuclearcraftneohaul:fluid_mixer",
+      "text": "$(item)流体混合器$()将多种流体混合在一起。"
+    },
+    {
+      "anchor": "crystallizer",
+      "type": "blocks/1",
+      "header": "结晶器",
+      "block": "nuclearcraftneohaul:crystallizer",
+      "text": "$(item)结晶器$()使流体中的固体析出。"
+    },
+    {
+      "anchor": "fluid_enricher",
+      "type": "blocks/1",
+      "header": "流体富集器",
+      "block": "nuclearcraftneohaul:fluid_enricher",
+      "text": "$(item)流体富集器$()将材料加入流体中。"
+    },
+    {
+      "anchor": "fluid_extractor",
+      "type": "blocks/1",
+      "header": "流体提取器",
+      "block": "nuclearcraftneohaul:fluid_extractor",
+      "text": "$(item)流体提取器$()从材料中提取流体。"
+    },
+    {
+      "anchor": "centrifuge",
+      "type": "blocks/1",
+      "header": "离心机",
+      "block": "nuclearcraftneohaul:centrifuge",
+      "text": "$(item)离心机$()从流体材料中分离出不同的同位素。"
+    },
+    {
+      "anchor": "rock_crusher",
+      "type": "blocks/1",
+      "header": "岩石粉碎机",
+      "block": "nuclearcraftneohaul:rock_crusher",
+      "text": "$(item)岩石粉碎机$()粉碎岩石，产出矿物粉末。"
+    }
+  ]
+}

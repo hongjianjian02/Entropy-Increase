@@ -1,0 +1,17 @@
+{
+  "name": "无限核弹",
+  "icon": "industrialforegoing:infinity_nuke",
+  "category": "industrialforegoing:tools",
+  "sortnum": 3,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "无限核弹是一种大规模破坏工具，爆炸半径随等级和所储生物燃料的数量增加。核弹不会破坏已声明区块中的内容。$(br2)将它放在地面，右击使其进入待发状态，再用打火石右击即可引爆。"
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/infinity_nuke"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "印刷电路板蓝图",
+  "icon": "pneumaticcraft:pcb_blueprint",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)印刷电路板蓝图/$是一种特殊组件，是制作$(l:manufacturing/uv_light_box)紫外线灯箱/$的必需材料。$(p)它无法通过常规合成获得，必须进行交易；通常可通过$(l:tools/amadron_tablet)亚马龙平板电脑/$购买，也可能从$(l:base_concepts/villagers)压力技工/$处获得。"
+    },
+    {
+      "type": "pneumaticcraft:amadron_trade",
+      "recipe": "pneumaticcraft:amadron/pcb_blueprint",
+      "text": "交易获得$(item)印刷电路板蓝图/$。"
+    }
+  ]
+}

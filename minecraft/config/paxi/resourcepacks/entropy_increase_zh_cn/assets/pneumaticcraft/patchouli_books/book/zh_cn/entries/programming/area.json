@@ -1,0 +1,31 @@
+{
+  "name": "区域组件",
+  "icon": "pneumaticcraft:textures/progwidgets/area_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)区域/$组件仅作为其他组件的参数，用于指定这些组件的作用区域（也可以只有一个方块）。使用此组件需要$(l:tools/gps_tool)定位工具/$和/或$(l:tools/gps_area_tool)区域定位工具/$。$(p)通常有三种方式设置区域组件："
+    },
+    {
+      "type": "text",
+      "text": "1. $(thing)右击/$$(l:programming/programmer)编程器/$ GUI 中的区域组件，打开配置 GUI 并完成设置。可用两个$(thing)GPS/$按钮设定区域范围；点击按钮会打开另一个 GUI，可从物品栏中选择$(l:tools/gps_tool)定位工具/$。再通过下方的单选按钮选择$(thing)区域类型/$及其参数。"
+    },
+    {
+      "type": "text",
+      "text": "2. 先在世界中设置好$(l:tools/gps_tool)定位工具/$或$(l:tools/gps_area_tool)区域定位工具/$。随后可在$(l:programming/programmer)编程器/$ GUI 中进行以下操作：$(li)用$(item)定位工具（或区域定位工具）/$$(thing)左击/$已有的$(thing)区域/$组件，将工具中的设置复制到该组件$(li)用$(item)定位工具/$$(thing)左击/$编程区空白处，创建新的$(l:programming/coordinate)坐标/$组件$(li)用$(item)定位工具/$$(thing)Shift+左击/$编程区空白处，创建新的$(thing)区域/$组件$(li)用$(item)区域定位工具/$$(thing)左击/$编程区空白处，创建新的$(thing)区域/$组件。"
+    },
+    {
+      "type": "text",
+      "text": "3. 高级方式：使用由$(l:programming/coordinate_operator)坐标运算符/$组件创建的$(thing)变量/$。只有将$(l:programming/programmer)编程器/$切换到$(thing)高级/$模式后，才可使用变量；此时 GPS 按钮旁会出现下拉选择框。可从中选择一个已知变量，该区域对应角点的位置便会取自该变量。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/area_piece.png"
+      ],
+      "text": "$(italic)区域组件/$"
+    }
+  ]
+}

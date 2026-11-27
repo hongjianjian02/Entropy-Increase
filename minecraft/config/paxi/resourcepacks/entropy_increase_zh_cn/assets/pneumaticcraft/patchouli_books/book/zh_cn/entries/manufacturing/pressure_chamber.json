@@ -1,0 +1,87 @@
+{
+  "name": "压力室",
+  "icon": "pneumaticcraft:pressure_chamber_wall",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)压力室/$是一种多方块结构，用于把各种材料压缩成其他材料。由于储气容积很大，它也可充当实用的“气动电池”。$(p)搭建多方块结构时须遵守以下规则：$(li)整体必须是中空的 3x3x3、4x4x4 或 5x5x5 结构。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(thing)棱边/$和$(thing)角落/$必须由$(item)压力室墙壁/$或$(item)压力室玻璃/$组成。$(li)$(thing)表面/$可由$(item)压力室墙壁/$、$(item)压力室玻璃/$、$(item)压力室气阀/$或$(l:manufacturing/pressure_chamber#interface)压力室接口/$组成。$(li)至少需要一个$(item)压力室气阀/$。$(li)建议至少安装两个$(item)压力室接口/$（一个朝内，一个朝外）。"
+    },
+    {
+      "type": "multiblock",
+      "name": "压力室",
+      "multiblock_id": "pneumaticcraft:pressure_chamber_3",
+      "text": "一种可行的 3x3x3 压力室，包含 1 个$(item)气阀/$和 2 个$(item)接口/$"
+    },
+    {
+      "type": "multiblock",
+      "name": "压力室",
+      "multiblock_id": "pneumaticcraft:pressure_chamber_4",
+      "text": "一种可行的 4x4x4 压力室，包含 2 个$(item)气阀/$和 2 个$(item)接口/$"
+    },
+    {
+      "type": "multiblock",
+      "name": "压力室",
+      "multiblock_id": "pneumaticcraft:pressure_chamber_5",
+      "text": "一种可行的 5x5x5 压力室，包含 4 个$(item)气阀/$和 4 个$(item)接口/$"
+    },
+    {
+      "type": "spotlight",
+      "anchor": "interface",
+      "item": "pneumaticcraft:pressure_chamber_interface",
+      "text": "$(item)压力室接口/$用于自动向$(thing)压力室/$输入物品或从中输出物品。物品$(italic)必须/$通过$(item)漏斗/$或其他模组的管道系统输送。建议至少安装两个接口：一个让“I”面朝外（$(thing)输入接口/$），另一个让“O”面朝外（$(thing)输出接口/$）。"
+    },
+    {
+      "type": "text",
+      "text": "输入模式的接口只接收压力室配方所需的原料。输出模式的接口默认只输出加工成品；如有需要，可在 GUI 中通过按钮允许输出$(italic)全部/$物品。$(p)$(italic)请注意：这一行为与 1.12.2 时相比已经改变，现在对玩家友好得多。/$"
+    },
+    {
+      "type": "text",
+      "text": "输出模式的$(item)接口/$会自动把物品送入相邻物品容器；其他模组的管道能否接收，取决于接口是否把它识别为物品容器。$(p)每传输一个物品会消耗 1000mL $(l:base_concepts/pressure)气量/$。因此，传输完整一组物品时，$(item)接口/$需要 64000mL 气量（对基础 3x3x3 压力室而言相当于 4 bar）。若接口看似“卡住”，它其实只是在等待压力继续升高。"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)提示/$$(li)压缩$(item)铁/$时，最好改为压缩$(item)铁块/$；这样把物品送入和取出压力室所耗的气量仅为原来的 1/9。$(li)若要快速给大型压力室加压，增加气阀会有所帮助（前提是压缩机能产生足够的气量）。"
+    },
+    {
+      "type": "crafting",
+      "title": "墙壁与玻璃",
+      "recipe": "pneumaticcraft:pressure_chamber_wall",
+      "recipe2": "pneumaticcraft:pressure_chamber_glass"
+    },
+    {
+      "type": "crafting",
+      "title": "接口与气阀",
+      "recipe": "pneumaticcraft:pressure_chamber_interface",
+      "recipe2": "pneumaticcraft:pressure_chamber_valve_x1"
+    },
+    {
+      "type": "crafting",
+      "title": "气阀",
+      "recipe": "pneumaticcraft:pressure_chamber_valve_x4",
+      "recipe2": "pneumaticcraft:pressure_chamber_valve"
+    },
+    {
+      "type": "spotlight",
+      "title": "强化压力室气阀",
+      "item": "pneumaticcraft:reinforced_pressure_chamber_valve",
+      "text": "$(item)强化压力室气阀/$是一种高级方块，可把压力室的最大压力从默认 5 bar 提升到 20 bar，使压力室可储存 4 倍气量，并可能解锁$(ttcolor)$(t:默认情况下，所有压力室配方最高只需 5 bar，但整合包可能修改此设置)新配方/$。"
+    },
+    {
+      "type": "crafting",
+      "title": "未组装强化气阀",
+      "recipe": "pneumaticcraft:unassembled_reinforced_pressure_chamber_valve",
+      "text": "请注意，你不需要升级任何$(item)接口/$、$(item)墙壁/$或$(item)玻璃/$。"
+    },
+    {
+      "type": "pneumaticcraft:assembly_system",
+      "title": "强化压力室气阀",
+      "recipe": "pneumaticcraft:assembly/reinforced_pressure_chamber_valve"
+    }
+  ]
+}

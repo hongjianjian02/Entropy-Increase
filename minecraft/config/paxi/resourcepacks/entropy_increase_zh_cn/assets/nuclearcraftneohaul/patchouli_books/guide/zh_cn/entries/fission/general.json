@@ -1,0 +1,145 @@
+{
+  "name": "基本信息",
+  "icon": "nuclearcraftneohaul:solid_fuel_fission_controller",
+  "category": "nuclearcraftneohaul:fission",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "intro",
+      "type": "text",
+      "text": "$(thing)裂变反应堆$()利用裂变燃料自持的核反应产生热量，最终将热量转化为电能。具体的发电方式取决于所建造的反应堆类型。"
+    },
+    {
+      "anchor": "casing",
+      "type": "blocks/2",
+      "header": "反应堆外壳",
+      "block1": "nuclearcraftneohaul:fission_reactor_casing",
+      "block2": "nuclearcraftneohaul:fission_glass",
+      "text": "反应堆的内部部件封装在一个长方体结构中。棱边必须使用$(item)反应堆外壳$()；各个面则可以使用$(item)反应堆观察窗$()、反应堆外壳，或两者混用。"
+    },
+    {
+      "anchor": "controller",
+      "type": "blocks/2",
+      "header": "反应堆控制器",
+      "block1": "nuclearcraftneohaul:solid_fuel_fission_controller",
+      "block2": "nuclearcraftneohaul:molten_salt_fission_controller",
+      "text": "反应堆类型由安装在反应堆壁上的$(item)反应堆控制器$()决定。没有控制器，多方块结构就无法成型。控制器的界面会显示反应堆信息，例如相关部件的平均参数。"
+    },
+    {
+      "anchor": "clusters",
+      "type": "text",
+      "title": "反应堆集群",
+      "text": "$(thing)集群$()由相互连接的导热部件组成。这些部件有工作和闲置两种状态，处于工作状态时才会导热。$(l:fission/general#conductor)导体$()等被动方块始终导热，而$(l:fission/general#moderator)减速剂$()和$(l:fission/general#reflector)中子反射器$()不属于集群的组成部分。"
+    },
+    {
+      "type": "text",
+      "title": "反应堆集群（续）",
+      "text": "同一集群中的部件共享热量，温度过高时会一起过热。如果反应堆中有集群未连接到外壳，多方块结构就无法成型。"
+    },
+    {
+      "anchor": "conductor",
+      "type": "blocks/1",
+      "header": "导体方块",
+      "block": "nuclearcraftneohaul:fission_conductor",
+      "text": "可以用$(item)导体方块$()将这些部件连接到反应堆壁上，也可以用它们连接不同的集群。"
+    },
+    {
+      "anchor": "monitor",
+      "type": "blocks/1",
+      "header": "反应堆显示器",
+      "block": "nuclearcraftneohaul:fission_monitor",
+      "text": "$(item)反应堆显示器$()用于查看单个集群的详细参数。"
+    },
+    {
+      "anchor": "fuel_component",
+      "type": "blocks/2",
+      "header": "燃料部件",
+      "block1": "nuclearcraftneohaul:fission_fuel_cell",
+      "block2": "nuclearcraftneohaul:fission_fuel_vessel",
+      "text": "每种反应堆都有对应的$(item)燃料部件$()，用于容纳裂变燃料。燃料发生裂变时会产生一定热量。手持燃料右击燃料部件，还可以设置燃料过滤，以便在同一反应堆中使用多种燃料。"
+    },
+    {
+      "anchor": "criticality",
+      "type": "text",
+      "title": "临界系数",
+      "text": "燃料必须接收一定的中子通量才能发生裂变，中子通量的单位为 N/t。当进入$(l:fission/general#fuel_component)燃料部件$()的中子通量超过燃料的临界系数时，燃料就会开始裂变。这不仅会产生热量，还会释放更多中子。"
+    },
+    {
+      "type": "text",
+      "text": "如果燃料单元中的中子通量超过其临界系数的两倍，反应堆效率就会降低。中子通量还可以在$(l:fission/general#irradiator)辐照器$()中用于加工配方。"
+    },
+    {
+      "anchor": "moderator",
+      "type": "blocks/3",
+      "header": "减速剂",
+      "block1": "nuclearcraftneohaul:graphite_block",
+      "block2": "nuclearcraftneohaul:beryllium_block",
+      "block3": "nuclearcraftneohaul:heavy_water_moderator",
+      "text": " $(item)减速剂$()能够减慢$(l:fission/general#fuel_component)燃料部件$()产生的高能中子，使其更容易在其他燃料部件中引发裂变。减速剂必须排成直线，长度最多为4格，且该直线的一端必须有一个$(o)正在工作$()的燃料部件。"
+    },
+    {
+      "type": "text",
+      "title": "减速剂（续）",
+      "text": "直线另一端产生的中子通量，等于线上所有减速剂的通量增加量之和。如果减速剂直线的两端都有正在工作的燃料单元，那么两端单元都会获得上述总量的中子通量。有些放置规则会提到“活跃”减速剂，指的是紧邻正在工作的燃料单元的减速剂。"
+    },
+    {
+      "anchor": "heatsink",
+      "type": "blocks/2",
+      "block1": "nuclearcraftneohaul:iron_fission_heat_sink,nuclearcraftneohaul:redstone_fission_heat_sink,nuclearcraftneohaul:quartz_fission_heat_sink,nuclearcraftneohaul:obsidian_fission_heat_sink,nuclearcraftneohaul:nether_brick_fission_heat_sink,nuclearcraftneohaul:glowstone_fission_heat_sink,nuclearcraftneohaul:lapis_fission_heat_sink,nuclearcraftneohaul:gold_fission_heat_sink,nuclearcraftneohaul:prismarine_fission_heat_sink,nuclearcraftneohaul:slime_fission_heat_sink,nuclearcraftneohaul:end_stone_fission_heat_sink,nuclearcraftneohaul:purpur_fission_heat_sink,nuclearcraftneohaul:diamond_fission_heat_sink,nuclearcraftneohaul:emerald_fission_heat_sink,nuclearcraftneohaul:copper_fission_heat_sink",
+      "block2": "nuclearcraftneohaul:tin_fission_heat_sink, nuclearcraftneohaul:lead_fission_heat_sink,nuclearcraftneohaul:boron_fission_heat_sink,nuclearcraftneohaul:lithium_fission_heat_sink,nuclearcraftneohaul:magnesium_fission_heat_sink,nuclearcraftneohaul:manganese_fission_heat_sink,nuclearcraftneohaul:aluminum_fission_heat_sink,nuclearcraftneohaul:silver_fission_heat_sink,nuclearcraftneohaul:fluorite_fission_heat_sink,nuclearcraftneohaul:villiaumite_fission_heat_sink,nuclearcraftneohaul:carobbiite_fission_heat_sink,nuclearcraftneohaul:arsenic_fission_heat_sink,nuclearcraftneohaul:liquid_nitrogen_fission_heat_sink,nuclearcraftneohaul:liquid_helium_fission_heat_sink,nuclearcraftneohaul:enderium_fission_heat_sink,nuclearcraftneohaul:cryotheum_fission_heat_sink",
+      "header": "散热器",
+      "text": "设计反应堆时，需要使用$(item)散热器$()，或在$(l:fission/molten_salt#intro)熔盐反应堆$()中使用对应的主动部件$(item)冷却剂加热器$()，来平衡反应堆的$(thing)净产热$()。完全稳定的反应堆应以净产热达到0HU/t为目标。每种散热器都必须满足各自的放置规则。"
+    },
+    {
+      "type": "text",
+      "text": "散热器用于移除反应堆中的热量。燃料单元工作时，产热量等于基础产热量乘以$(thing)热量乘数$()。单元的热量乘数取决于减速剂直线的数量。因此，连接一条减速剂直线的单元产热比例为100%，连接两条的则为200%。"
+    },
+    {
+      "type": "text",
+      "title": "散热器（续）",
+      "text": "在集群中放置满足规则的散热器后，它会按自身的冷却能力移除集群的热量。不同散热器的冷却能力各不相同，应组合使用，将净产热控制在0HU/t附近，误差不超过±5 HU/t。"
+    },
+    {
+      "anchor": "fission_source",
+      "type": "blocks/3",
+      "block1": "nuclearcraftneohaul:radium_beryllium_source",
+      "block2": "nuclearcraftneohaul:polonium_beryllium_source",
+      "block3": "nuclearcraftneohaul:californium_source",
+      "header": "中子源",
+      "text": "$(item)中子源$()用于启动反应堆中的裂变反应，必须安装在反应堆壁上。收到红石信号时，中子源会“引发”其指向的燃料部件，使其开始裂变，并产生更多中子来激活其他燃料单元。"
+    },
+    {
+      "type": "text",
+      "title": "中子源（续）",
+      "text": "中子源与要引发的燃料部件之间不能有任何遮挡。中子源的效率乘数会影响该燃料单元的效率。"
+    },
+    {
+      "anchor": "reflector",
+      "type": "blocks/2",
+      "header": "中子反射器",
+      "block1": "nuclearcraftneohaul:beryllium_carbon_reflector",
+      "block2": "nuclearcraftneohaul:lead_steel_reflector",
+      "text": " $(item)中子反射器$()会将中子通量反射回来源方向。因此，反射率为100%的反射器能使燃料单元中的通量翻倍，因为中子会毫无损失地再次穿过$(l:fission/general#moderator)减速剂$()返回。反射器与正在工作的燃料部件之间最多只能隔两格减速剂。"
+    },
+    {
+      "anchor": "irradiator",
+      "type": "blocks/1",
+      "header": "辐照器",
+      "block": "nuclearcraftneohaul:fission_irradiator",
+      "text": "将$(l:fission/general#moderator)减速剂$()直线的一端连接到$(item)辐照器$()，即可利用中子通量进行配方加工。中子通量越高，加工速度越快。辐照器工作时会产生热量，并向周围环境释放辐射。"
+    },
+    {
+      "anchor": "shield",
+      "type": "blocks/1",
+      "header": "中子防护屏",
+      "block": "nuclearcraftneohaul:boron_silver_shield",
+      "text": "$(item)中子防护屏$()相当于可切换的$(l:fission/general#moderator)减速剂$()。关闭时，它会阻挡中子通量并产生热量；开启时，它会让中子通量通过，但不会像减速剂那样增加通量。利用它可以在不拆除反应堆的情况下关闭减速剂通道。"
+    },
+    {
+      "anchor": "planner",
+      "type": "text",
+      "title": "设计建议",
+      "text": "设计反应堆时，建议使用$(l:https://github.com/ThizThizzyDizzy/nc-reactor-generator/releases)反应堆规划工具$()。这类工具可以检查放置规则，分析热量控制，并预测输出，帮助你完成设计。"
+    }
+  ]
+}

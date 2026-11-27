@@ -1,0 +1,6 @@
+{
+  "name": "半方块与装置",
+  "description": "$(thing)半方块/$是一类特殊物品：它们不完全属于方块，但能像方块一样放置，并可与普通方块占据同一空间。$(p)另请参阅$(l:logistics/frames)物流框架/$；严格来说，它们也属于半方块。",
+  "icon": "pneumaticcraft:transfer_gadget",
+  "sortnum": 7
+}

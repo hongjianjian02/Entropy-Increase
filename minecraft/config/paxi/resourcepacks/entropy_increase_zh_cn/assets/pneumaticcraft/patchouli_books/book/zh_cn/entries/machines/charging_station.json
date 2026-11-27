@@ -1,0 +1,60 @@
+{
+  "name": "充气站",
+  "icon": "pneumaticcraft:charging_station",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)充气站/$可为$(l:base_concepts/pressure)气动物品/$充气或放气。$(item)充气站/$与气动物品之间的气量交换和管道、机器之间相同：空气会流动，直至双方压力趋于一致。因此，要把物品充满，$(item)充气站/$本身必须具有足够高的压力。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:charging_station",
+      "text": "大多数可充气物品的最大压力为 10 bar。不必担心爆炸：物品不会因过度充气而爆炸，只会在达到 10 bar 后停止充气。$(p)可使用$(l:tools/camo_applicator)伪装涂覆器/$给$(thing)充气盘/$添加伪装。"
+    },
+    {
+      "type": "text",
+      "title": "充气盘",
+      "text": "给$(item)充气站/$安装$(l:base_concepts/upgrades#dispenser)发射器升级/$，即可将其变为$(thing)充气盘/$。它会为以下目标充气或放气：$(li)掉落在充气站顶面的物品$(li)站在充气站上的玩家所携带的物品$(li)位于充气站正上方的所有类型$(l:tools/drone)无人机/$"
+    },
+    {
+      "type": "text",
+      "title": "升级管理",
+      "text": "$(item)充气站/$还可管理能够安装$(l:base_concepts/upgrades)升级/$的物品。照常把物品放入$(item)充气站/$，再点击物品槽正上方的$(thing)向上箭头/$按钮，即可打开升级管理 GUI 并装入升级。该物品可用的每种升级及其作用都会显示在 GUI 侧边标签中。"
+    },
+    {
+      "type": "relations",
+      "title": "可充气物品",
+      "entries": [
+        "pneumaticcraft:components/air_canister",
+        "pneumaticcraft:tools/pneumatic_wrench",
+        "pneumaticcraft:logistics/logistics_configurator",
+        "pneumaticcraft:tools/camo_applicator",
+        "pneumaticcraft:tools/vortex_cannon",
+        "pneumaticcraft:tools/minigun",
+        "pneumaticcraft:tools/manometer",
+        "pneumaticcraft:armor/pneumatic_helmet",
+        "pneumaticcraft:armor/pneumatic_chestplate",
+        "pneumaticcraft:armor/pneumatic_leggings",
+        "pneumaticcraft:armor/pneumatic_boots"
+      ]
+    },
+    {
+      "type": "relations",
+      "title": "可充气物品（续）",
+      "entries": [
+        "pneumaticcraft:tools/drone",
+        "pneumaticcraft:tools/collector_drone",
+        "pneumaticcraft:tools/guard_drone",
+        "pneumaticcraft:tools/harvesting_drone",
+        "pneumaticcraft:logistics/logistics_drone"
+      ]
+    },
+    {
+      "type": "crafting",
+      "text": "制作充气站",
+      "recipe": "pneumaticcraft:charging_station"
+    }
+  ]
+}

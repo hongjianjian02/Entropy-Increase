@@ -1,0 +1,15 @@
+{
+  "name": "快速拾取拓展",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:fast_pickup_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此拓展只能装入$(l:modules/vacuum)真空模块/$。它能让真空模块忽略掉落物通常具有的拾取延迟，在发现物品后立即拾取。玩家丢出的物品通常有 40 游戏刻延迟，其他方式产生的掉落物（如剪羊毛）通常有 10 游戏刻延迟。$(p)最多可安装 1 个快速拾取拓展。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:fast_pickup_augment"
+    }
+  ]
+}

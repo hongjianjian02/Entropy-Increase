@@ -1,0 +1,22 @@
+{
+  "name": "气动能源炉",
+  "icon": "pneumaticcraft:pneumatic_dynamo",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)气动能源炉/$将$(l:base_concepts/pressure)压缩空气/$转换为$(thing)FE 能量/$；这种能量与$(thing)RF 能量/$及其他模组的能量系统兼容。默认产能为 40 FE/刻，也可安装$(l:base_concepts/upgrades#speed)速度升级/$提高。$(item)通量压缩机/$的 FE 输入速率是当前 FE 产量的两倍：默认为 80 FE/刻，也可通过速度升级提高。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:pneumatic_dynamo",
+      "text": "影响效率的重要因素是气动能源炉的$(l:base_concepts/heat)温度/$。气动能源炉必须通过$(thing)冷却/$散热；温度越高，效率越低，最终会完全停止发电。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作气动能源炉",
+      "recipe": "pneumaticcraft:pneumatic_dynamo"
+    }
+  ]
+}

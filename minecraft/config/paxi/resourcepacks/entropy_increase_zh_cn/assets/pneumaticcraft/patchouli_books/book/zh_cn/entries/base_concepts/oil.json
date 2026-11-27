@@ -1,0 +1,31 @@
+{
+  "name": "原油",
+  "icon": "pneumaticcraft:oil_bucket",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(pncr) 唯一新增的世界生成资源是$(thing)原油/$。油湖的生成方式与水湖相似，但更常出现在地下深处，地表较为少见。因此，强烈建议使用$(l:tools/seismic_sensor)地震传感器/$等工具协助寻找。"
+    },
+    {
+      "type": "text",
+      "text": "原油有两个用途：一是通过$(l:manufacturing/refinery)炼油厂精炼/$成可供$(l:compressors/liquid_compressor)液体压缩机/$使用的优质燃料；二是用于制造$(l:components/plastic)塑料/$和$(l:components/lubricant)润滑油/$。$(p)$(item)塑料/$用于 $(pncr) 的许多配方，而$(item)润滑油/$则是制作$(l:base_concepts/upgrades#speed)速度升级/$的必需材料。"
+    },
+    {
+      "type": "text",
+      "text": "找到原油后，还需要抽取并运输。$(pncr) 推荐使用$(l:machines/gas_lift)气举/$抽油，其他模组的流体泵也可以使用。若油田离基地很远，前期可用$(l:machines/tanks)小型流体储罐/$运输；它最多容纳 32,000mB 流体，破坏后仍保留内容物。气举本身也保留内部流体，因此同样可以临时用于运输。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/oil_pumping.png"
+      ],
+      "text": "$(italic)使用气举抽取原油，上方连接流体漏斗/$"
+    },
+    {
+      "type": "text",
+      "title": "模组兼容",
+      "text": "$(pncr) 并非唯一添加$(thing)原油/$的模组；$(thing)BuildCraft/$和$(thing)沉浸原油（Immersive Petroleum）/$等模组也会生成原油。$(p)根据世界生成配置，$(pncr) 的原油可能不会出现；但$(l:manufacturing/refinery)炼油厂/$也能处理其他模组注册为“oil”的流体。"
+    }
+  ]
+}

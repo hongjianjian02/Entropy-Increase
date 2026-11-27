@@ -1,0 +1,5 @@
+{
+  "name": "RFTools Power",
+  "description": "$(thing)RFTools Power$() 是一个提供发电和储能功能的模组。",
+  "icon": "rftoolspower:dimensionalcell"
+}

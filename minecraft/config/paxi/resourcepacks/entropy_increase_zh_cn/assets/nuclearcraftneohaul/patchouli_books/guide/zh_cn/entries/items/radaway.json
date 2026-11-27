@@ -1,0 +1,16 @@
+{
+  "name": "抗辐宁",
+  "icon": "nuclearcraftneohaul:radaway",
+  "category": "nuclearcraftneohaul:items",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "radaway",
+      "type": "items/2",
+      "header": "抗辐宁",
+      "item1": "nuclearcraftneohaul:radaway",
+      "item2": "nuclearcraftneohaul:radaway_slow",
+      "text": "$(item)抗辐宁$()及其缓效版本$(item)缓效抗辐宁$()，能够以固定速率清除使用者体内的辐射。普通抗辐宁的清除速度更快，但持续时间比缓效抗辐宁短。"
+    }
+  ]
+}

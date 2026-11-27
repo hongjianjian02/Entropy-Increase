@@ -1,0 +1,17 @@
+{
+  "name": "低端火力发电机",
+  "icon": "industrialforegoing:pitiful_generator",
+  "category": "industrialforegoing:generators",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "效率极低的发电机，使用煤等可燃物作为燃料。$(br2)低效到即使机器的储能已满，也仍会继续消耗燃料。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:pitiful_generator"
+    }
+  ]
+}

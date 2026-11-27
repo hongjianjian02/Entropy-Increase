@@ -1,0 +1,15 @@
+{
+  "name": "伪装升级",
+  "category": "modularrouters:upgrades",
+  "icon": "modularrouters:camouflage_upgrade",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此升级可将路由器伪装成其他方块。手持升级对方块$(thing)潜行并右键/$，即可记录该方块。装入路由器后，路由器就会呈现记录的方块外观。$(p)注意：手持$(thing)物品路由器/$时，附近已伪装的路由器会被高亮显示。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:camouflage_upgrade"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "堆叠拓展",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:stack_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此拓展可装入任何处理$(italic)物品/$的模块，处理$(italic)方块/$、$(italic)流体/$或$(italic)能量/$的模块除外。$(p)堆叠拓展能增加模块每次运行处理的物品数量。每个拓展使数量翻倍，最多达到该物品本身的堆叠上限，大多数物品为 64。"
+    },
+    {
+      "type": "text",
+      "text": "如果$(l:router/modular_router)路由器/$还装有$(l:upgrades/stack)堆叠升级/$，模块中的堆叠拓展会覆盖其效果。例如，路由器装有 6 个堆叠升级，模块装有 2 个堆叠拓展，那么此模块每次处理 4 个物品，而非 64 个。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:stack_augment"
+    }
+  ]
+}

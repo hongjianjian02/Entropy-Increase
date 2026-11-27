@@ -271,8 +271,10 @@ function eiRingAddOutput(builder, recipe, replacements) {
     let amount = crystalAspect.amount()
 
     // MMCE snapshots output prototypes against a different registry set during compilation.
+    let preview = result.copy()
     result.remove(EI_RING_CRYSTAL_ASPECT)
     builder['addOutput(net.minecraft.world.item.ItemStack)'](result)
+      .setPreviewStack(preview)
       ['addItemModifier(com.lw.modularmachine.api.recipe.RecipeItemCallbacks$Modifier)']((context, stack) => {
         let server = EI_RING_SERVER_HOOKS.getCurrentServer()
         if (server === null) {

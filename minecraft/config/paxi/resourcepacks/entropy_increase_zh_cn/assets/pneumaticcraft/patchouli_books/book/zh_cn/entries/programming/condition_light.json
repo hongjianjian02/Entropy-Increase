@@ -1,0 +1,19 @@
+{
+  "name": "条件：光照强度组件",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_light_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是一个$(l:programming/conditions)条件/$组件。$(p)$(thing)条件：光照强度/$组件可远程检查所连接$(l:programming/area)区域/$组件内方块的光照等级是否符合设定的光照阈值。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_light_piece.png"
+      ],
+      "text": "$(italic)条件：光照强度组件/$"
+    }
+  ]
+}

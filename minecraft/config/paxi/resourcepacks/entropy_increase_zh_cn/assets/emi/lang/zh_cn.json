@@ -210,5 +210,9 @@
   "tag.item.c.storage_blocks.zirconiums": "锆块",
   "tooltip.emi.synfav.batches_remaining": "%s个批量剩余",
   "tooltip.emi.synfav.obtained": "%s/%s已获得",
-  "tooltip.emi.synfav.remaining": "剩余%s"
+  "tooltip.emi.synfav.remaining": "剩余%s",
+  "tag.item.c.ores.lead": "铅矿石",
+  "tag.item.c.ores.tin": "锡矿石",
+  "tag.item.c.ores.uranium": "铀矿石",
+  "tag.item.c.raw_materials.leads": "粗铅"
 }

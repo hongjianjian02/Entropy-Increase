@@ -1,0 +1,15 @@
+{
+  "name": "销毁模块",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:void_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此模块会永久销毁路由器缓冲区中的物品，请谨慎使用！强烈建议配置$(l:intro/modules#filter)白名单过滤器/$，避免意外删除贵重物品。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:void_module"
+    }
+  ]
+}

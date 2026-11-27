@@ -1,0 +1,17 @@
+{
+  "name": "通量压缩机",
+  "icon": "pneumaticcraft:flux_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:advanced_pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)通量压缩机/$把$(thing)FE 能量/$（兼容$(thing)RF 能量/$及多种其他模组的能源系统）转换为$(l:base_concepts/pressure)压缩空气/$。其基础耗能为 40 FE/刻，并可安装$(l:base_concepts/upgrades#speed)速度升级/$。$(p)通量压缩机可储存 100,000 FE，最大输入速率为实际耗能速率的两倍。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成$(item)通量压缩机/$$(p)此机器必须通过$(l:base_concepts/heat)冷却/$来散热；温度越高，效率越低，最终甚至会完全停止产生压缩空气。",
+      "recipe": "pneumaticcraft:flux_compressor"
+    }
+  ]
+}

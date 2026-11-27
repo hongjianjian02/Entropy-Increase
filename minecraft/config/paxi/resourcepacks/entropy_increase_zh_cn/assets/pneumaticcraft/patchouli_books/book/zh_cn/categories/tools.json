@@ -1,0 +1,6 @@
+{
+  "name": "工具",
+  "description": "具有各种实用用途的手持工具与武器。",
+  "icon": "pneumaticcraft:pneumatic_wrench[pneumaticcraft:air=30000]",
+  "sortnum": 6
+}

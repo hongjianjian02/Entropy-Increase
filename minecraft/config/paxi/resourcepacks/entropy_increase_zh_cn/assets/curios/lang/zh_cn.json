@@ -5,5 +5,7 @@
   "curios.networking.failed": "饰品网络故障",
   "curios.tooltip.inactive": "未激活",
   "gui.curios.page": "页码 %d / %d",
-  "gui.curios.toggle.cosmetics": "切换时装"
+  "gui.curios.toggle.cosmetics": "切换时装",
+  "commands.curios.add.success": "已为 %3$s 添加 %1$d 个 %2$s 类型的栏位",
+  "commands.curios.remove.success": "已从 %3$s 移除 %1$d 个 %2$s 类型的栏位"
 }

@@ -46,5 +46,6 @@
   "mod_menu.opencollective": "开放集体",
   "mod_menu.paypal": "贝宝",
   "mod_menu.twitch": "抽搐",
-  "option.modmenu.use_catalogue_icon": "使用 Catalogue 的图标"
+  "option.modmenu.use_catalogue_icon": "使用 Catalogue 的图标",
+  "mod_menu.original": "原项目"
 }

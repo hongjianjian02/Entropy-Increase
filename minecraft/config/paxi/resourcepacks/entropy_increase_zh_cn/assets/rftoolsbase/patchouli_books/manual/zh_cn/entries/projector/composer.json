@@ -1,0 +1,15 @@
+{
+  "name": "组合器",
+  "icon": "rftoolsbuilder:composer",
+  "category": "rftoolsbase:category_rftoolsbuilder_projector",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:composer": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "组合器可以将多个塑形卡片中的形状合为一个。$(br2)每个输入形状都可进行并集、差集或交集运算，从简单卡片组合出更复杂的形状。"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "刷怪笼激活器",
+  "icon": "pneumaticcraft:spawner_agitator",
+  "category": "pneumaticcraft:spawning",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "把本物品放到原版$(item)刷怪笼/$上，会$(thing)搅动/$刷怪笼：$(li)附近没有玩家时仍会继续生成生物$(li)玩家离开区域后，阻止已生成的实体消失$(p)谁不想要一个刷怪场呢？$(p)$(thing)潜行右击/$可将其移除；手中需持有$(l:logistics/logistics_configurator)物流配置器/$或另一个刷怪笼激活器。"
+    },
+    {
+      "type": "text",
+      "flag": "mod:apotheosis",
+      "title": "Apotheosis",
+      "text": "$(thing)Apotheosis（神化）/$模组能够强力定制原版刷怪笼，但它对内部机制的改动使刷怪笼激活器无法完整控制这些刷怪笼。由于当前已安装 Apotheosis，刷怪笼激活器只能防止生物在玩家远离后消失；若要让附近没有玩家时仍可生成生物，请使用 Apotheosis 自身的功能。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成刷怪笼激活器",
+      "recipe": "pneumaticcraft:spawner_agitator"
+    }
+  ]
+}

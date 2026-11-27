@@ -1,0 +1,39 @@
+{
+  "name": "流体储罐",
+  "icon": "pneumaticcraft:small_tank",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "共有四种流体储罐，名称直白地分别是$(item)小型流体储罐/$、$(item)中型流体储罐/$、$(item)大型流体储罐/$和$(item)巨型流体储罐/$。$(l:machines/liquid_hopper)流体漏斗/$也能储存流体，但这些储罐的储存密度更高，并支持实用的堆叠功能。储罐不会自动传输流体，不过安装$(l:base_concepts/upgrades#dispenser)发射器升级/$后可以主动输出流体。"
+    },
+    {
+      "type": "text",
+      "title": "堆叠",
+      "text": "四种储罐都可以彼此纵向$(thing)堆叠/$，组成一种类似多方块结构的装置。操作时先用$(l:tools/pneumatic_wrench)气动扳手/$右击储罐；扳动上半部分会尝试把它与上方储罐连接，扳动下半部分则会尝试连接下方储罐。$(p)储罐堆叠后，$(ttcolor)$(t:流体密度 < 0 时向上流动；否则向下流动)较高储罐/$中的流体会在有空间时自动流入较低储罐。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/small_tanks.png"
+      ],
+      "border": "true",
+      "text": "三个竖直堆叠的小型流体储罐"
+    },
+    {
+      "type": "text",
+      "text": "堆叠有以下限制：$(li)连接两个储罐时，两者必须装有相同流体（或都不含流体），或者其中一个必须为空。$(li)流体$(italic)不会/$向上流动；因此最好从整组最上方的储罐输入流体，从最下方的储罐抽出流体。$(li)储罐 GUI 只显示被右击的那一个储罐中的流体量。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:small_tank",
+      "recipe2": "pneumaticcraft:medium_tank"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:large_tank",
+      "recipe2": "pneumaticcraft:huge_tank"
+    }
+  ]
+}

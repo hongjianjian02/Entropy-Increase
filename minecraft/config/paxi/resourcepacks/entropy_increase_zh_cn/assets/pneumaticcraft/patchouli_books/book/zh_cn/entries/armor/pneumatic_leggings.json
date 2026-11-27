@@ -1,0 +1,37 @@
+{
+  "name": "气动护腿",
+  "icon": "pneumaticcraft:pneumatic_leggings",
+  "category": "pneumaticcraft:armor",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)气动护腿/$是四件$(thing)气动护甲/$之一。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pneumatic_leggings",
+      "text": "制作气动护腿"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:speed_upgrade",
+      "text": "气动护腿中的$(l:base_concepts/upgrades#speed)速度升级/$除了缩短启动时间，还能以极少的$(l:base_concepts/pressure)气量消耗/$提高$(thing)奔跑速度/$；最多安装 4 个。"
+    },
+    {
+      "type": "text",
+      "title": "速度升级（续）",
+      "text": "护甲配置 GUI 可让你随时调低速度增幅，无需为了改变移动速度而寻找$(l:machines/charging_station)充气站/$更换升级。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:jumping_upgrade_1",
+      "text": "$(l:base_concepts/upgrades#jumping_1)跳跃升级/$会消耗少量气量来提高跳跃能力，共有 4 个等级。$(p)跳跃时按住$(thing)$(k:key.sneak)/$，可把跳跃高度暂时降至只安装一个升级时的水平。"
+    },
+    {
+      "type": "text",
+      "title": "跳跃升级（续）",
+      "text": "护甲配置 GUI 可让你随时调低跳跃增幅，无需为了改变跳跃高度而寻找$(l:machines/charging_station)充气站/$更换升级。"
+    }
+  ]
+}

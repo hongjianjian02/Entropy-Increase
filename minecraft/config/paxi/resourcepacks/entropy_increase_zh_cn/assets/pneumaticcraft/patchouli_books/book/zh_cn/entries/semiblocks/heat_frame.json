@@ -1,0 +1,25 @@
+{
+  "name": "导热框架",
+  "icon": "pneumaticcraft:heat_frame",
+  "category": "pneumaticcraft:semiblocks",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "导热框架可安装在任意$(thing)物品容器/$上。被相邻$(l:base_concepts/heat)热源/$加热时，它会尝试熔炼容器内的物品；被冷却时则会尝试冻结物品。容器必须有空间存放产物。输入热量越多，熔炼越快，最高为每秒 1 个物品；输入冷量越多，冻结速度也越快。"
+    },
+    {
+      "type": "link",
+      "flag": "mod:crafttweaker",
+      "title": "CraftTweaker",
+      "text": "$(thing)导热框架/$支持通过$(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$添加或移除冷却配方；熔炼则直接使用普通$(item)熔炉/$配方。更多信息请访问下方链接。",
+      "url": "https://crafttweaker.readthedocs.io/en/latest/#Mods/PneumaticCraft_Repressurized/Heat_Frame_Cooling/",
+      "link_text": "CraftTweaker 文档"
+    },
+    {
+      "type": "crafting",
+      "text": "合成导热框架",
+      "recipe": "pneumaticcraft:heat_frame"
+    }
+  ]
+}

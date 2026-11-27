@@ -1,0 +1,59 @@
+{
+  "name": "实体过滤器",
+  "icon": "minecraft:player_head",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)实体过滤器/$用于 $(pncr) 中的多种机器和工具，用来指定它们应影响哪些$(thing)实体/$。$(p)在大多数可输入过滤器的位置，按住$(thing)F1/$键即可显示弹出帮助。"
+    },
+    {
+      "type": "text",
+      "text": "若要按实体类型匹配，只需输入类型名称。例如，$(#800)creeper/$会匹配$(thing)minecraft:creeper/$。若要按自定义名称匹配实体（包括玩家），请用引号括住名称，例如$(#800)'Minemaarten'/$或$(#800)'desht'/$。$(p)若要指定一类实体$(italic)类型/$，例如动物、敌对生物或所有玩家，请在前面加上 '@'。下文列出了完整示例，包括可用的$(thing)@ 说明符/$。"
+    },
+    {
+      "type": "text",
+      "title": "示例",
+      "text": "$(li)$(#800)@player/$：匹配所有玩家$(li)$(#800)@mob/$：匹配所有敌对生物$(li)$(#800)@animal/$：匹配所有友好生物（动物）$(li)$(#800)@animal(age=adult)/$：匹配所有成年动物$(li)$(#800)@animal(age=baby)/$：匹配所有幼年动物$(li)$(#800)@animal(breedable=yes)/$：匹配当前可以繁殖的所有动物$(li)$(#800)sheep(shearable=yes)/$：匹配所有可剪毛的绵羊"
+    },
+    {
+      "type": "text",
+      "title": "示例（续）",
+      "text": "$(li)$(#800)sheep(shearable=yes,color=black)/$：匹配所有可剪毛的黑色绵羊$(li)$(#800)wolf(color=blue)/$：匹配所有戴蓝色项圈的狼/狗$(li)$(#800)cat(color=white)/$：匹配所有戴白色项圈的猫$(li)$(#800)@minecart/$：匹配矿车$(li)$(#800)@boat/$：匹配船$(li)$(#800)@living/$：匹配所有生物实体$(li)$(#800)@item/$：匹配物品实体$(li)$(#800)@orb/$：匹配经验球"
+    },
+    {
+      "type": "text",
+      "title": "示例（续）",
+      "text": "$(li)$(#800)@drone/$：匹配$(l:tools/drone)无人机/$$(li)$(#800)@mob(mod=minecraft)/$：仅匹配$(thing)minecraft/$命名空间中的敌对生物$(li)$(#800)Creeper/$：匹配苦力怕$(li)$(#800)'MineMaarten'/$（或$(#800)\"Minemaarten\"/$）：匹配名为 'MineMaarten' 的实体$(li)$(#800)c*/$：匹配名称以字母 'c' 开头的任何实体，例如 Creeper（苦力怕）或 Cow（牛）$(li)$(#800)*pig*/$：匹配名称中包含 'pig' 的任何实体，例如 Pig（猪）或 Zombie Pigman（僵尸猪人）"
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(#800)@player(team=team1)/$ 匹配原版计分板队伍“team1”中的玩家$(li)$(#800)@player(holding=stick)/$ 匹配当前手持木棍的玩家$(li)$(#800)@player(holding=#minecraft:planks)/$ 匹配手持$(thing)minecraft:planks/$物品标签中任意物品的玩家"
+    },
+    {
+      "type": "text",
+      "flag": "mod:ftbteams",
+      "text": "$(li)$(#800)@player(ftbteam=<uuid>|<shortname>)/$：匹配属于$(l:https://www.curseforge.com/minecraft/mc-mods/ftb-teams-forge)FTB Teams/$团队的玩家；团队可用给定 UUID 或短名称指定。$(p)还可以使用玩家修饰符$(#800)ftbteam_officer/$、$(#800)ftbteam_owner/$和$(#800)ftbteam_ally/$，分别匹配至少为团队官员、团队所有者或团队盟友的玩家；$(#800)ftbteam_enemy/$则匹配被明确标记为团队敌人的玩家。"
+    },
+    {
+      "type": "text",
+      "text": "所有匹配均不区分大小写，例如$(#800)zombie/$和$(#800)Zombie/$都会匹配僵尸。$(p)可以用 ';'（分号）分隔一$(thing)系列/$过滤器；其逻辑为$(italic)任一匹配/$：$(li)$(#800)creeper;zombie/$会同时匹配苦力怕$(italic)和/$僵尸。"
+    },
+    {
+      "type": "text",
+      "text": "可以在过滤器最前面加上 '!' 以取反：$(li)$(#800)!@player/$：匹配任何$(italic)不是/$玩家的实体$(li)$(#800)!Creeper;Zombie/$：匹配任何既不是苦力怕$(italic)也不是/$僵尸的实体$(li)$(#800)Creeper;!Zombie/$是$(#f00)无效的/$：'!' 只能位于整个过滤器的最开头/$$(p)$(bold)注意：/$为$(l:tools/drone)无人机/$设置实体过滤器并使用$(l:programming/text)文本/$编程拼图时，不支持 '!'；请像通常一样把文本拼图连接到左侧。"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "pneumaticcraft:tools/micromissiles",
+        "pneumaticcraft:tubes/air_grate_module",
+        "pneumaticcraft:armor/pneumatic_helmet",
+        "pneumaticcraft:machines/sentry_turret",
+        "pneumaticcraft:machines/universal_sensor",
+        "pneumaticcraft:programming/text"
+      ],
+      "text": "$(italic)使用实体过滤功能的机器与工具/$"
+    }
+  ]
+}

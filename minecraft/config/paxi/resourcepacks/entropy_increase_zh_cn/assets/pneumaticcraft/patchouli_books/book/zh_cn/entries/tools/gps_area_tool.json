@@ -1,0 +1,25 @@
+{
+  "name": "区域定位工具",
+  "icon": "pneumaticcraft:gps_area_tool",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)区域定位工具/$是$(l:tools/gps_tool)定位工具/$的高级版本，可以保存世界中的$(italic)两个/$坐标。对方块执行$(thing)右击/$可设置第一个坐标（$(#f00)P1/$），执行$(thing)左击/$可设置第二个坐标（$(#0f0)P2/$）。$(p)按住潜行键并滚动鼠标滚轮可快速调整坐标；被调整的是最后一次点击所选择的坐标。"
+    },
+    {
+      "type": "text",
+      "text": "按住潜行键并对空气执行右击或左击，只会选择“当前坐标”而不会保存位置；滚动鼠标滚轮时将调整这个坐标。$(p)对空气执行$(thing)右击/$或$(thing)左击/$可打开 GUI，输入精确的方块坐标；根据需要点击$(#f00)P1/$或$(#0f0)P2/$按钮。$(p)还可在 GUI 中更改工具的$(thing)区域类型/$，预览不同形状的区域。"
+    },
+    {
+      "type": "text",
+      "text": "与基础$(l:tools/gps_tool#variables)定位工具/$一样，$(item)区域定位工具/$支持$(l:programming/variables#global)全局变量/$，但可以同时使用$(italic)两个/$变量。$(p)在$(l:programming/programmer)编程器/$中，手持$(item)区域定位工具/$$(thing)左击/$编程区空白处，可新建一个$(l:programming/area)区域/$组件；$(thing)左击/$已有的$(l:programming/area)区域/$组件，则会用此工具的设置更新该组件。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成区域定位工具",
+      "recipe": "pneumaticcraft:gps_area_tool"
+    }
+  ]
+}

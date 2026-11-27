@@ -1,0 +1,27 @@
+{
+  "name": "调节拓展",
+  "category": "modularrouters:augments",
+  "icon": "modularrouters:regulator_augment",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此拓展能精确控制向容器或路由器缓冲区输入、从中抽取物品时的数量限制。$(p)装入调节拓展后，模块界面会多出一个数字输入框，用于设置限制值。不同模块对这个值的解释如下："
+    },
+    {
+      "type": "text",
+      "text": "$(li)发送模块 $(l:modules/sender_1)Mk1/$ / $(l:modules/sender_2)Mk2/$ / $(l:modules/sender_3)Mk3/$以及处于输入模式的$(l:modules/player)玩家模块/$，只在目标容器中该物品的数量低于设定值时，才会向其中发送。$(li)抽取模块 $(l:modules/puller_1)Mk1/$ / $(l:modules/puller_2)Mk2/$以及处于抽取模式的$(l:modules/player)玩家模块/$，只在目标容器中该物品的数量高于设定值时，才会从中抽取。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(l:modules/dropper)投掷器模块/$、$(l:modules/flinger)投掷模块/$、$(l:modules/placer)放置模块/$和$(l:modules/void)销毁模块/$，只在路由器缓冲区中该物品的数量高于设定值时运行。$(li)$(l:modules/breaker)破坏模块/$和$(l:modules/vacuum)真空模块/$，只在路由器缓冲区中该物品的数量低于设定值时运行。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)流体模块 $(l:modules/fluid)Mk1/$ / $(l:modules/fluid_2)Mk2/$的限制值不是物品数量，而是目标储罐容量的百分比或以 mB 为单位的绝对数量，可在界面中切换。抽取流体时，只有目标中的流体量$(italic)高于/$设定值才运行；输入流体时，只有目标中的流体量$(italic)低于/$设定值才运行。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:regulator_augment"
+    }
+  ]
+}

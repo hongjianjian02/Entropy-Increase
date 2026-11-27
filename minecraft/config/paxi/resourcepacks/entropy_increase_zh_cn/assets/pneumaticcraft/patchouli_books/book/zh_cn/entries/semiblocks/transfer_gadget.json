@@ -1,0 +1,25 @@
+{
+  "name": "传输装置",
+  "icon": "pneumaticcraft:transfer_gadget",
+  "category": "pneumaticcraft:semiblocks",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)传输装置/$是一种较为基础的物品/流体传输设备。它可放在两个物品容器或储罐$(italic)之间/$，在二者间传输内容。最佳放置方式是先放下一个容器，再手持$(item)传输装置/$右击该方块的一侧，最后放置第二个容器。"
+    },
+    {
+      "type": "text",
+      "text": "传输装置有两种颜色：$(li)$(6)橙色/$——输出模式$(li)$(9)蓝色/$——输入模式$(p)$(6)输出模式/$会从所附着的物品容器或流体储罐中抽取资源，并送入相邻方块；$(9)输入模式/$则反向传输。传输速率为每 2 秒 1 个物品或 100mB 流体。"
+    },
+    {
+      "type": "text",
+      "text": "$(thing)右击/$$(item)传输装置/$可切换输入/输出模式；操作时可空手或手持$(l:tools/logistics_configurator)物流配置器/$。$(thing)潜行右击/$（或左击，即攻击）可移除$(item)传输装置/$。$(p)它速度较慢、配方成本低，非常适合游戏前期空间受限处的物品/流体传输。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成传输装置",
+      "recipe": "pneumaticcraft:transfer_gadget"
+    }
+  ]
+}

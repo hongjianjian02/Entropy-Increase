@@ -1,0 +1,18 @@
+{
+  "name": "计时器",
+  "icon": "rftoolsutility:timer",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:timer": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "计时器会按设定间隔反复输出红石脉冲。延迟可输入任意数值，因此也能设置很长的超时时间。"
+    },
+    {
+      "type": "text",
+      "text": "特别之处在于，输入端每收到一次红石脉冲，计时就会重新开始。因此，只要输入脉冲及时到来，它就不会自行输出。利用这一点，可以检测某项活动是否超时。"
+    }
+  ]
+}

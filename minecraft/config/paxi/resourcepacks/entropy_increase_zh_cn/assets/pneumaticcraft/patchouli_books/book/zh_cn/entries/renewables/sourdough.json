@@ -1,0 +1,33 @@
+{
+  "name": "酸面团",
+  "icon": "pneumaticcraft:sourdough",
+  "category": "pneumaticcraft:renewables",
+  "advancement": "pneumaticcraft:yeast_culture",
+  "pages": [
+    {
+      "type": "text",
+      "text": "可以用$(l:renewables/yeast_culture)酵母菌/$和$(thing)小麦粉/$合成$(thing)酸面团/$。酸面团可烘烤成$(item)酵母面包/$，营养价值（还有味道！）胜过乏味的原版$(item)面包/$；也可用来制作$(item)鲑鱼天妇罗/$。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:sourdough",
+      "text": "$(italic)记得把它揉成团/$"
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/wheat_flour"
+    },
+    {
+      "type": "smelting",
+      "recipe": "pneumaticcraft:sourdough_bread"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:raw_salmon_tempura"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/salmon_tempura"
+    }
+  ]
+}

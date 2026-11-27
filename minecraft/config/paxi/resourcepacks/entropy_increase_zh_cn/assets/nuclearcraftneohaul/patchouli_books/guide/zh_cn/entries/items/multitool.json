@@ -1,0 +1,15 @@
+{
+  "name": "多功能工具",
+  "icon": "nuclearcraftneohaul:multitool",
+  "category": "nuclearcraftneohaul:items",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "multitool",
+      "type": "items/1",
+      "header": "多功能工具",
+      "item": "nuclearcraftneohaul:multitool",
+      "text": "$(item)多功能工具$()可以用多种方式操作和配置多方块结构，强烈建议随身携带。"
+    }
+  ]
+}

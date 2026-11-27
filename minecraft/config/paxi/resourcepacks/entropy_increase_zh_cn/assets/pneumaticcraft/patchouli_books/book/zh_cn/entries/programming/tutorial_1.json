@@ -1,0 +1,57 @@
+{
+  "name": "无人机基础教程 #1",
+  "icon": "minecraft:knowledge_book",
+  "category": "pneumaticcraft:programming",
+  "priority": "true",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "本教程将创建一个简单程序，让$(l:tools/drone)无人机/$挖掘一片区域。开始前需要准备："
+    },
+    {
+      "type": "text",
+      "text": "$(li)一台$(l:programming/programmer)编程器/$（当然）$(li)（非创造模式时）一个与编程器相邻的$(item)箱子/$，内含至少六个$(l:programming/puzzle_pieces)编程拼图/$$(li)一个$(item)箱子/$或其他任意物品容器，内含任意种类的$(item)锹/$$(li)一个基础$(l:tools/gps_tool)定位工具/$$(li)一个$(l:tools/gps_area_tool)区域定位工具/$"
+    },
+    {
+      "type": "text",
+      "text": "打开$(l:programming/programmer)编程器/$ GUI。右侧是存放$(ttcolor)$(t:拼图在 GUI 中的虚拟表示称为编程组件)编程组件/$的$(thing)组件栏/$。组件有多个页面，可用组件栏下方的箭头翻页，也可按$(thing)Space/$或$(thing)Tab/$展开。$(p)展开后，组件栏上方会出现用于搜索的$(thing)筛选/$文本框。现在输入“start”；此时只有一个组件不会呈$(7)灰色/$。"
+    },
+    {
+      "type": "text",
+      "text": "把$(l:programming/start)开始/$组件拖入主编程区。它会显示$(4)红色边框/$，表示存在问题；将鼠标悬停在上面可查看原因。$(p)这是因为下方尚未连接其他组件，接下来搭建程序即可解决。$(p)找到$(l:programming/inventory_import)输入物品/$组件，并把它拖到$(thing)开始/$组件正下方。"
+    },
+    {
+      "type": "text",
+      "text": "距离足够近时，输入物品组件会自动吸附到$(thing)开始/$组件下方。连接口像拼图一样互相吻合，$(thing)编程拼图/$也因此得名。$(p)接着拖出一个$(l:programming/area)区域/$组件，选择$(ttcolor)$(t:连接在其他组件右侧的组件作为白名单，左侧的则作为黑名单)右侧/$连接口，将它接到$(thing)输入物品/$组件上；不要接到左侧。再把一个$(l:programming/item_filter)物品过滤器/$组件也连接到$(thing)输入物品/$组件右侧。请确保各组件都已吸附连接。"
+    },
+    {
+      "type": "text",
+      "text": "你会注意到，$(thing)区域/$组件起初也带有$(4)红色边框/$，因为尚未定义区域。拿出$(item)定位工具/$，并$(thing)潜行右击/$先前放置的$(item)箱子/$，箱中装有$(item)锹/$；你会看到该位置被高亮。$(p)回到编程器 GUI，$(thing)左击/$$(thing)区域/$组件，此时光标上应拿着$(item)定位工具/$；该位置就会复制到$(thing)区域/$组件中！"
+    },
+    {
+      "type": "text",
+      "text": "接下来设置$(thing)物品过滤器/$：$(thing)右击/$它以打开选项 GUI。点击$(bold)搜索物品.../$按钮，在搜索窗口中输入“shovel”。选择先前放入箱子的锹，再按$(thing)Escape/$关闭搜索窗口。$(p)回到$(thing)物品过滤器/$窗口，确保$(italic)未勾选/$“物品耐久度”，使已使用过的锹也能匹配。再次按$(thing)Escape/$返回主 GUI。"
+    },
+    {
+      "type": "text",
+      "text": "现在，无人机已被设定为从箱子中拿取一把锹；接下来让它挖掘。$(p)拖出一个$(l:programming/dig)区域挖掘/$组件，吸附到$(thing)输入物品/$组件下方。$(p)再拖出一个$(thing)区域/$组件，吸附到$(thing)区域挖掘/$组件右侧。"
+    },
+    {
+      "type": "text",
+      "text": "接下来定义挖掘区域。手持$(thing)区域定位工具/$，$(thing)右击/$一个方块设定区域的一角，再$(thing)左击/$对角处的方块。无人机将使用锹，因此建议选择泥土或沙子区域。$(p)确认高亮区域为$(thing)实心盒型/$；这通常是默认设置，也可手持工具对空气$(thing)左击/右击/$打开配置 GUI 并选择区域形状。"
+    },
+    {
+      "type": "text",
+      "text": "返回编程器 GUI，光标拿着$(thing)区域定位工具/$时，$(thing)左击/$之前放置的$(thing)区域/$组件；该组件应连接在$(thing)区域挖掘/$组件右侧。和之前一样，工具设置会复制到区域组件。$(p)此时程序中应不再出现表示错误的红色高亮；程序已经有效。"
+    },
+    {
+      "type": "text",
+      "text": "最后，拿出一个$(l:tools/drone)无人机/$，确认它已在$(l:machines/charging_station)充气站/$中加压。把无人机物品放入编程器 GUI 右上角槽位，再点击$(thing)⟶（导出）/$按钮；如有需要，可在左侧文本框中命名无人机。$(p)听到提示音后，无人机程序即写入成功。"
+    },
+    {
+      "type": "text",
+      "text": "现在只需部署无人机：在箱子附近对世界$(thing)右击/$，然后观察它开始工作。"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "name": "攻击实体组件",
+  "icon": "pneumaticcraft:textures/progwidgets/attack_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)无人机/$会攻击区域内的任意生物。$(p)请注意，与此组件相连的$(l:programming/area)区域/$组件必须使用$(thing)盒型/$；这是唯一直接支持的形状。不过，可以在白名单（右侧）或黑名单（左侧）连接多个区域组件，以组合出其他形状。"
+    },
+    {
+      "type": "text",
+      "title": "过滤实体",
+      "text": "可将$(l:programming/text)文本/$组件用作$(l:base_concepts/entity_filter)实体过滤器/$，指定允许攻击的生物。例如，要让$(thing)无人机/$攻击所有玩家，请连接一个$(thing)文本/$组件，把它放在$(italic)右侧/$，即$(thing)攻击实体/$组件右侧，并填入$(#600)@player/$。$(p)若不想让自己受到攻击，则连接一个写有自己玩家名称的$(thing)文本/$组件，并放在$(italic)左侧/$。"
+    },
+    {
+      "type": "spotlight",
+      "item": "minecraft:diamond_sword",
+      "title": "近战攻击",
+      "text": "$(l:tools/drone)无人机/$会装备并使用物品栏中的任意近战武器进行攻击。若$(thing)无人机/$物品栏中有多件武器，它会装备伤害最高的一件。$(p)强烈建议使用$(l:programming/inventory_import)输入物品/$组件为无人机提供武器，因为无人机徒手近战攻击的伤害很低。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:minigun_upgrade",
+      "text": "把$(l:base_concepts/upgrades#minigun)机枪升级/$安装到$(l:tools/drone)无人机/$中，即可为其配备$(l:tools/minigun)转管机枪/$。再提供$(l:tools/minigun_ammo)机枪弹药/$（可用$(l:programming/inventory_import)输入物品/$组件）后，$(thing)无人机/$便会用转管机枪进行远程攻击。$(p)默认射程为 16 格；最多安装 16 个$(l:base_concepts/upgrades#range_upgrade)范围升级/$后，最大射程为 32 格。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:micromissiles",
+      "text": "无人机还会发射$(l:tools/micromissiles)微型导弹/$：执行此组件时，如果$(thing)无人机/$正手持$(item)微型导弹/$，便会向当前目标发射一枚导弹。无人机会把所有相连的$(l:base_concepts/entity_filter)实体过滤器/$复制到微型导弹自身的实体过滤器中。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/attack_piece.png"
+      ],
+      "text": "$(italic)我还会回来的/$"
+    }
+  ]
+}

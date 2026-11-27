@@ -1,0 +1,23 @@
+{
+  "name": "条件：实体组件",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_entity_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是一个$(l:programming/conditions)条件/$组件。$(p)$(thing)条件：实体/$组件用于统计所连接$(l:programming/area)区域/$组件内的实体数量。还可连接一个可选的$(l:programming/text)文本/$组件，并将其内容用作$(l:base_concepts/entity_filter)实体过滤器/$，以筛选需要统计的实体。"
+    },
+    {
+      "type": "text",
+      "text": "请注意，连接到此组件的$(l:programming/area)区域/$组件必须使用$(thing)盒型/$；这是唯一直接支持的区域形状。不过，可以通过组合区域白名单和黑名单来构造其他形状。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_entity_piece.png"
+      ],
+      "text": "$(italic)条件：实体组件/$"
+    }
+  ]
+}

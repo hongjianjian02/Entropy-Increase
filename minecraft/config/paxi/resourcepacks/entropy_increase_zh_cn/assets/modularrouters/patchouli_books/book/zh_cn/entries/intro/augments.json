@@ -1,0 +1,19 @@
+{
+  "name": "拓展",
+  "icon": "modularrouters:augment_core",
+  "category": "modularrouters:intro",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)拓展/$与$(l:intro/upgrades)升级/$相似，但它安装在$(l:intro/modules)模块/$中，而非$(l:intro/modular_router)物品路由器/$里。每个模块有 4 个拓展槽，部分拓展可以堆叠。拓展能从不同方面增强或扩展模块的功能。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "modularrouters:textures/patchouli/augments.png"
+      ],
+      "text": "$(italic)装有 6 个范围升级拓展和 1 个经验吸收拓展的真空模块/$",
+      "border": true
+    }
+  ]
+}

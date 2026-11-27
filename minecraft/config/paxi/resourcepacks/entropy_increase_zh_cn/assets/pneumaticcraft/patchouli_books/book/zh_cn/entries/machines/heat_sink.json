@@ -1,0 +1,30 @@
+{
+  "name": "散热片",
+  "icon": "pneumaticcraft:heat_sink",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)散热片/$用于排出$(l:base_concepts/heat)热量/$。$(p)注意：温度高于 60°C 或低于 -60°C 的$(item)散热片/$会在接触时伤害玩家。$(p)$(item)散热片/$只会排出与其直接连接方块的热量。若要连接多个$(item)散热片/$，可用$(l:machines/heat_pipe)热管/$提供更多安装表面。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/heat_sinks.png"
+      ],
+      "border": "true",
+      "text": "$(italic)一台$(l:compressors/advanced_liquid_compressor)高级液体压缩机/$$(italic)，安装了多个散热片/$"
+    },
+    {
+      "type": "text",
+      "title": "主动冷却",
+      "text": "把$(item)散热片/$放在$(l:tubes/air_grate_module#active_cooling)空气栅管道模块/$的作用范围内，可提高散热效率。把模块安装到$(l:tubes/pressure_tubes)压力管道/$上时，会显示其作用范围。使用多个空气栅管道模块可以叠加冷却效果。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作散热片",
+      "recipe": "pneumaticcraft:heat_sink"
+    }
+  ]
+}

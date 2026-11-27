@@ -1,0 +1,22 @@
+{
+  "name": "隔热板",
+  "icon": "pneumaticcraft:thermal_lagging",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "你可能已经知道，$(pncr) 中使用$(l:base_concepts/heat)热量/$的机器只要表面暴露在空气中，就会向空气散热。虽然几乎所有非空气且不导热的方块都能覆盖机器，$(thing)隔热板/$尤其适合用于机器保温。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:thermal_lagging",
+      "text": "$(thing)隔热板/$有一项实用特性：可以$(italic)穿透点击/$其后的方块，就像隔热板不存在一样。$(p)手持任意$(item)镐/$、$(item)扳手/$或处于$(thing)潜行/$状态时除外；此时会选中隔热板本身，以便拆除或进行其他交互。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作隔热板",
+      "recipe": "pneumaticcraft:thermal_lagging"
+    }
+  ]
+}

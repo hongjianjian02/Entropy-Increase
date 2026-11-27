@@ -1,0 +1,32 @@
+{
+  "name": "智能箱子",
+  "icon": "pneumaticcraft:smart_chest",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)智能箱子/$拥有 72 个槽位；与其小型版本$(l:machines/reinforced_chest)强化箱子/$相同，它的爆炸抗性与黑曜石相当，而且被破坏后仍会保留内部物品。此外，智能箱子还有一些非常强大的功能……"
+    },
+    {
+      "type": "text",
+      "title": "槽位过滤",
+      "text": "$(li)对装有物品的槽位执行$(thing)Alt+左击/$，智能箱子会为该槽位设置过滤，只允许放入同种物品。$(li)对已过滤的槽位执行$(thing)Alt+左击/$，可取消过滤。$(li)对空槽位执行$(thing)Alt+左击/$，会关闭该槽位及其后的所有槽位，相当于缩小物品栏容量。$(li)对第一个已关闭槽位执行$(thing)Alt+左击/$，会重新开启全部已关闭槽位。"
+    },
+    {
+      "type": "text",
+      "title": "主动输出物品",
+      "text": "智能箱子的每个面都可单独设为输出物品、输入物品或不进行操作（默认）。在 GUI 的$(thing)侧面配置/$标签页中设置各面。$(p)设为输出的面会尝试把智能箱子中的物品送入该面相邻的物品容器。安装$(item)发射器升级/$后，如果相邻位置没有物品容器，箱子会把物品抛到世界中。"
+    },
+    {
+      "type": "text",
+      "title": "主动输入物品",
+      "text": "设为输入的面会尝试从该面相邻的物品容器中抽取物品。$(p)安装$(l:base_concepts/upgrades#magnet)磁铁升级/$后，箱子还可吸收附近掉落在地面的物品；只有设为输入的面具有此功能。默认拾取区域是紧邻输入面的 3x3x3 立方体，可安装$(l:base_concepts/upgrades#range)范围升级/$扩大。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作智能箱子",
+      "recipe": "pneumaticcraft:smart_chest"
+    }
+  ]
+}

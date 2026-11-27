@@ -1,0 +1,19 @@
+{
+  "name": "放置模块",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:placer_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此模块尝试将缓冲区中的物品作为方块，放置到路由器旁、模块$(l:intro/modules#direction)指定方向/$的位置。$(li)物品无法作为方块放置，或目标位置被占用时，不执行操作。$(li)遵循 Minecraft 的正常放置规则。例如，甘蔗只能放在水边的沙子或泥土上。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)会替换流体方块，以及高草等可替换方块。$(li)放置模块可以在耕地上播种，也能在相邻的丛林原木上种植可可豆。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:placer_module"
+    }
+  ]
+}

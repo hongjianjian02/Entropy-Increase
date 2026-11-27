@@ -1,0 +1,40 @@
+{
+  "name": "采掘塑形卡片",
+  "icon": "rftoolsbuilder:shape_card_quarry",
+  "category": "rftoolsbase:category_rftoolsbuilder_shape_cards",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:shape_card_quarry": 1,
+    "rftoolsbuilder:shape_card_quarry_clear": 2,
+    "rftoolsbuilder:shape_card_quarry_silk": 3,
+    "rftoolsbuilder:shape_card_quarry_fortune": 4,
+    "rftoolsbuilder:shape_card_quarry_clear_silk": 3,
+    "rftoolsbuilder:shape_card_quarry_clear_fortune": 4
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "采掘卡片会让建造机开采所选区域内的所有方块。普通采掘卡片会用配置的填充方块替换已采掘的方块。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_quarry"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_quarry_clear"
+    },
+    {
+      "type": "text",
+      "text": "清理型卡片会留下空气，而不放置填充方块。精准采集型会保留方块原貌，时运型则会在适用时增加掉落。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_quarry_silk"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbuilder:shape_card_quarry_fortune"
+    }
+  ]
+}

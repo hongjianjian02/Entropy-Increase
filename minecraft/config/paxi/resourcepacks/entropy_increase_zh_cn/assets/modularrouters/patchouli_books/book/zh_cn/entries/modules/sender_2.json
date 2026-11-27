@@ -1,0 +1,20 @@
+{
+  "name": "发送模块 Mk2",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:sender_module_2",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此模块与$(l:modules/sender_1)发送模块 Mk1/$类似，但选择目标容器的能力更强：$(li)目标最远可位于 24 格外，使用$(l:augments/range_up)范围升级拓展/$后可达 48 格。$(li)$(italic)无需/$保持视线畅通。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)手持发送模块 Mk2，对目标$(thing)潜行并右键/$即可设置目标，并收到确认消息。$(li)手持已设置目标的发送模块 Mk2 时，目标方块会被高亮。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:sender_module_2",
+      "recipe2": "modularrouters:sender_module_2_x4"
+    }
+  ]
+}

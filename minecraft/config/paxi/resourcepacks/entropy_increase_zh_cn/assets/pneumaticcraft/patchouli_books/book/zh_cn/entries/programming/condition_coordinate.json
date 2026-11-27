@@ -1,0 +1,23 @@
+{
+  "name": "条件：坐标组件",
+  "icon": "pneumaticcraft:textures/progwidgets/condition_coordinate_piece.png",
+  "category": "pneumaticcraft:widget_cond",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是一个$(l:programming/conditions)条件/$组件。$(p)$(thing)条件：坐标/$组件用于比较两个$(l:programming/coordinate)坐标/$。可以分别判断坐标的 X、Y、Z 轴分量，并选择只比较其中一个轴、两个轴或全部三个轴。"
+    },
+    {
+      "type": "text",
+      "text": "要比较哪些轴，由组件 GUI 中的复选框决定；使用“=”还是“>=”条件，则由 GUI 中的单选按钮决定。$(p)GUI 还会以文本显示当前的坐标比较式，例如$(thing)x1 <= x2 且 z1 <= z2/$。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/condition_coordinate_piece.png"
+      ],
+      "text": "$(italic)条件：坐标组件/$"
+    }
+  ]
+}

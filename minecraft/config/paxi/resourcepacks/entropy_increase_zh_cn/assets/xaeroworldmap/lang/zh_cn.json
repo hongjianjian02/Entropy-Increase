@@ -310,5 +310,17 @@
   "gui.xaero_worldmap_waypoints": "世界地图路径点",
   "gui.xaero_zoom_buttons": "变焦按钮",
   "gui_xaero_wm_dropdown_dimension_select": "尺寸选择",
-  "gui_xaero_wm_dropdown_map_select": "地图选择"
+  "gui_xaero_wm_dropdown_map_select": "地图选择",
+  "gui.xaero_lighting": "光照",
+  "gui.xaero_block_colours": "方块颜色",
+  "gui.xaero_accurate": "精确",
+  "gui.xaero_vanilla": "原版",
+  "gui.xaero_terrain_depth": "地形深度",
+  "gui.xaero_terrain_slopes": "地形坡度",
+  "gui.xaero_confirm": "确认",
+  "gui.xaero_cancel": "取消",
+  "gui.xaero_delete": "删除",
+  "gui.xaero_default": "默认",
+  "gui.xaero_toggle_pac_chunk_claims": "切换区块认领显示",
+  "gui.xaero_wm_cave_mode_start_auto": "自动"
 }

@@ -27,7 +27,7 @@
 	quest.0C42E80F859B8885.title: "击败巫妖"
 	quest.0E7D52A1B8C83D62.title: "高压精炼装置"
 	quest.0FF73CE7539C399D.title: "粉色小粉末的产物"
-	quest.100DB060C8AC126F.quest_desc: ["ps：用ME能量存储元件存储电量，再在样板供应器放入感应卡会自动给机器发配电量"]
+	quest.100DB060C8AC126F.quest_desc: ["提示：用 ME 能量存储元件存储电量，再在样板供应器放入感应卡，就会自动给机器供电。"]
 	quest.10C7603A8927D822.title: "压力室"
 	quest.128A66B8CA3E3F08.quest_desc: [
 		"使用&d世界盐&r进入天境"
@@ -37,7 +37,7 @@
 	quest.128A66B8CA3E3F08.title: "天境"
 	quest.1301F3F28736AD5F.quest_desc: ["跳入暮色传送门然后回家！ 但是真的是回家吗？"]
 	quest.1301F3F28736AD5F.title: "回家"
-	quest.144913CE171A67E8.title: "eio磨粉机倍产"
+	quest.144913CE171A67E8.title: "Ender IO 磨粉机倍产"
 	quest.156845B8FDE37E62.title: "维度存储"
 	quest.1661897BFFC6CA25.title: "神秘矿簇倍产"
 	quest.16DEAADC209D716E.quest_desc: ["[ \"你可以自由控制天境的白天黑夜了 在黑夜可以放置\", { \"text\": \"lv0天境矿机\", \"underlined\": true, \"clickEvent\": { \"action\": \"change_page\", \"value\": \"438E115A3DD8E5F8\" } }, \"进行挖掘天境的全部矿石\" ]"]
@@ -46,7 +46,7 @@
 	quest.18E87D454E189DFE.title: "塑料"
 	quest.1A283E48EC379423.quest_desc: ["或许是同族的......."]
 	quest.1A283E48EC379423.title: "不觉得幻影骑士很像精灵吗"
-	quest.1A8F47A4A83C71A9.title: "天镜稀有矿"
+	quest.1A8F47A4A83C71A9.title: "天境稀有矿"
 	quest.1A97254B72199906.quest_desc: ["给 ME 控制器供电，接上 ME 线缆、终端和装有存储元件的 ME 驱动器，就能通过终端存取物品。"]
 	quest.1A97254B72199906.title: "ME 存储网络"
 	quest.1ABB4A061CF20212.quest_desc: [""]
@@ -54,7 +54,7 @@
 	quest.1F859657875F24FA.title: "流体管道"
 	quest.23D00422414A32B3.quest_desc: ["需要使用&5注魔&r制作"]
 	quest.23DA1960E2B48C55.title: "证明一下你的产能"
-	quest.25BF6039CFA26DEE.title: "mek倍产"
+	quest.25BF6039CFA26DEE.title: "Mekanism 倍产"
 	quest.2A28A070CF148DB0.title: "禁幻翼"
 	quest.2A94AF2829D357CA.quest_desc: ["各种可能有用的帽子"]
 	quest.2A94AF2829D357CA.title: "妖怪的帽子"
@@ -69,7 +69,7 @@
 	quest.38F1673B4154CF0A.title: "回家的钥匙！"
 	quest.3AA21B0322118408.quest_desc: ["这两种种子可以在暮色森林的树屋中找到 可以帮助玩家在前期快速积累血量"]
 	quest.3B0E2B868685E5A2.title: "烈阳巨灵"
-	quest.3EA85D4C8B58892F.quest_desc: ["ps：pip管道尽量不要过多使用下界合金升级"]
+	quest.3EA85D4C8B58892F.quest_desc: ["提示：Pipez 管道尽量不要过多使用下界合金升级。"]
 	quest.3EA85D4C8B58892F.title: "物品管道"
 	quest.432DA3192FEFEF0E.quest_desc: ["在配方查看器查找首台 ME 控制器的配方，以守卫者核心、远古驱动晶体和 NeoEcoAE 的充能福鲁伊克斯水晶制作控制器。取得控制器后即可继续 ME 支线。"]
 	quest.432DA3192FEFEF0E.title: "首台 ME 控制器"
@@ -92,14 +92,14 @@
 	quest.56E3C6A22E845015.title: "钻井"
 	quest.578760D8D2797C28.quest_desc: ["(本章不会用到血魔法但是可以提前发展一下)"]
 	quest.578760D8D2797C28.title: "世界盐怎么做？"
-	quest.57BC34FCEAB6B2DD.quest_desc: ["Mek管道不做推荐"]
+	quest.57BC34FCEAB6B2DD.quest_desc: ["不推荐使用 Mekanism 管道。"]
 	quest.57BC34FCEAB6B2DD.title: "物流管道"
 	quest.588A93C0945448CF.quest_desc: ["看星星！"]
 	quest.588A93C0945448CF.title: "天枢之星！"
 	quest.59C4DCBCFBBF5F82.quest_desc: ["送你几瓶&4治疗药水&r，至于有什么用你应该知道吧！"]
 	quest.59C4DCBCFBBF5F82.title: "击败娜迦"
 	quest.5A257762548719D9.title: "罐装机"
-	quest.5B67B138C5619BA5.quest_desc: ["ps：eio的管道数值都很逆天具体可以去EMI查看"]
+	quest.5B67B138C5619BA5.quest_desc: ["提示：Ender IO 的导管性能很强，具体数值可以在 EMI 中查看。"]
 	quest.5B67B138C5619BA5.title: "物品导管"
 	quest.5BF7DF8C072BD707.quest_desc: ["真的有人有更好用的管道不用，来用这个吗……"]
 	quest.5BF7DF8C072BD707.quest_subtitle: "？！区区！？"
@@ -170,7 +170,7 @@
 	task.094E675641541306.title: "任意机械管道"
 	task.1BF2AACC3D0337F0.title: "坠星仪式"
 	task.22831D6075664B28.title: "气体管道"
-	task.22F060C52A50CEFD.title: "Any #enderio:enderio/hide_facades"
+	task.22F060C52A50CEFD.title: "任意能量导管"
 	task.2DBBAB262FE1B08C.title: "任意物品导管"
 	task.37108F42445B128E.title: "任意物流管道"
 	task.449FBEF52375816E.title: "电力管道"
@@ -184,14 +184,14 @@
 	quest.03CB9D5247B0DD54.quest_desc: ["建议搞个自动化捏！"]
 	quest.1CD4F24C2B5D2859.quest_desc: ["在手札中仪式一栏可以找到&b穿破狱界&r 开启仪式需要80000EV"]
 	quest.23FFEB0FB1627FF0.quest_desc: ["热传导似乎是个不错的选择"]
-	quest.27DC9E9E808BEE02.quest_desc: ["可以使用血魔法自带的炼金炉或者使用科技mod的倍矿机器"]
+	quest.27DC9E9E808BEE02.quest_desc: ["可以使用血魔法自带的炼金炉，或者使用科技模组的倍矿机器。"]
 	quest.3D6E0C0662E78D65.quest_desc: ["3&mbaka&r倍矿"]
 	quest.4DB1FFF0AE897617.quest_desc: [
 		"魂结斑粒可以击杀魂结恶魔获取"
 		"魂结恶魔在无尽级地城中刷新"
 	]
 	quest.4F6C0AFA2EE91443.quest_desc: ["异教徒的心脏是个不错的生命源质来源"]
-	quest.64D15744454EF749.quest_desc: ["千古乐事的部分食物有十分强大的buff"]
+	quest.64D15744454EF749.quest_desc: ["千古乐事的部分食物有十分强大的增益效果。"]
 	quest.657F8558681E9762.quest_desc: [
 		"将祭坛升级到二级制作巫师宝珠"
 		"各种仪式石需要制作铭文工具"

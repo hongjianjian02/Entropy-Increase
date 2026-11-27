@@ -1,0 +1,17 @@
+{
+  "name": "发酵站",
+  "icon": "industrialforegoing:fermentation_station",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 20,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "使用生矿物肉汤。当存量达到设定值时，机器会封闭内部容器，并按所选的生产类型发酵肉汤。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fermentation_station"
+    }
+  ]
+}

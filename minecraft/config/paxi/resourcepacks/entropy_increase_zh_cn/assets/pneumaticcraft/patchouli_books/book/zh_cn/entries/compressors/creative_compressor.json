@@ -1,0 +1,17 @@
+{
+  "name": "创造模式压缩机",
+  "icon": "pneumaticcraft:creative_compressor",
+  "category": "pneumaticcraft:compressors",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)创造模式压缩机/$是无法合成的$(l:base_concepts/pressure)空气压缩机/$。$(p)只需在压缩机 GUI 中选择所需压力，它就会让所有相连的管道和机器维持该压力。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:creative_compressor",
+      "text": "$(italic)配方？哪来的配方？/$"
+    }
+  ]
+}

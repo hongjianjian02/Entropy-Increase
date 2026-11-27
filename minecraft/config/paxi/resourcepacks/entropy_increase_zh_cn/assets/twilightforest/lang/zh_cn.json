@@ -24,5 +24,8 @@
   "structure.twilightforest.fallen_trunk": "倒伏树干",
   "structure.twilightforest.giant_house": "巨人之家",
   "structure.twilightforest.hollow_tree": "空心树",
-  "structure.twilightforest.swamp_hollow_tree": "沼泽空心树"
+  "structure.twilightforest.swamp_hollow_tree": "沼泽空心树",
+  "museumcurator.animalhusbandry.twilightforest.bugs": "虫类",
+  "advancement.twilightforest.naga_armors.desc": "合成 %s 和 %s",
+  "death.attack.twilightforest.yeeted": "%1$s 被抛飞，结束了这一生"
 }

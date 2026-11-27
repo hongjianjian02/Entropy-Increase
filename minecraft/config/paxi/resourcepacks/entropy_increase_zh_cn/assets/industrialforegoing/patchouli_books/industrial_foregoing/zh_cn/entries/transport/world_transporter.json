@@ -1,0 +1,25 @@
+{
+  "name": "世界运输器",
+  "icon": "industrialforegoing:world_transporter_type",
+  "category": "industrialforegoing:transport",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "世界运输器可以将世界中的掉落物收进容器，或将物品丢到世界中。$(br2)同一个方块上可以安装多种运输器；运输器拥有输入和抽出两种模式，右击中间区域即可切换。"
+    },
+    {
+      "type": "text",
+      "text": "可在界面中通过白名单或黑名单过滤物品与流体。$(br2)潜行并右击一个运输器，即可拆下其升级或运输器本身。$(br2)运输器处于输入模式时，可在调节模式中指定目标容器应保有的物品或流体数量。"
+    },
+    {
+      "type": "text",
+      "text": "用速度插件右击运输器的外环，可以提高工作速度；用效率插件右击外环，则可提高每次传输的数量。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:world_transporter_type"
+    }
+  ]
+}

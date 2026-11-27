@@ -1,0 +1,18 @@
+{
+  "name": "镐尖斧",
+  "icon": "nuclearcraftneohaul:boron_spaxelhoe",
+  "category": "nuclearcraftneohaul:items",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "spaxelhoe",
+      "type": "items/4",
+      "header": "镐尖斧",
+      "item1": "nuclearcraftneohaul:boron_spaxelhoe",
+      "item2": "nuclearcraftneohaul:tough_spaxelhoe",
+      "item3": "nuclearcraftneohaul:hard_carbon_spaxelhoe",
+      "item4": "nuclearcraftneohaul:boron_nitride_spaxelhoe",
+      "text": "$(item)镐尖斧$()将多种工具合而为一，兼具斧、剑、锹、锄和镐的功能。"
+    }
+  ]
+}

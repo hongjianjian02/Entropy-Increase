@@ -136,5 +136,336 @@
   "text.config.accessories.section.experimental": "实验性设置画面",
   "text.config.accessories.section.hover": "悬停效果",
   "text.config.accessories.section.legacy": "原始风格画面",
-  "text.config.accessories.title": "Accessories 设置"
+  "text.config.accessories.title": "Accessories 设置",
+  "accessories.unused_slots.toggle.enabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "✔",
+      "color": "#28FFBF"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 显示"
+  ],
+  "accessories.unused_slots.toggle.disabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "❌",
+      "color": "#EB1D36"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 隐藏"
+  ],
+  "accessories.widget_type.paginated": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "☰",
+      "color": "#347ecf"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 分页"
+  ],
+  "accessories.widget_type.scrollable": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "⏷",
+      "color": "#953abd"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 滚动"
+  ],
+  "accessories.main_widget_position.toggle.enabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "←",
+      "color": "#32a852"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 左侧"
+  ],
+  "accessories.main_widget_position.toggle.disabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "→",
+      "color": "#32a852"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 右侧"
+  ],
+  "accessories.group_filter.toggle.enabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "✔",
+      "color": "#28FFBF"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 显示"
+  ],
+  "accessories.group_filter.toggle.disabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "❌",
+      "color": "#EB1D36"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 隐藏"
+  ],
+  "accessories.side_widget_position.toggle.enabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "()",
+      "color": "#32a852"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 合并"
+  ],
+  "accessories.side_widget_position.toggle.disabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "||",
+      "color": "#32a852"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 分离"
+  ],
+  "accessories.dark_mode_toggle.toggle.enabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "☽",
+      "color": "#3d29c2"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 深色"
+  ],
+  "accessories.dark_mode_toggle.toggle.disabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "☀",
+      "color": "#bffa9b"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 浅色"
+  ],
+  "accessories.show_equipped_stack_slot_type.toggle.enabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "✔",
+      "color": "#28FFBF"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 显示"
+  ],
+  "accessories.show_equipped_stack_slot_type.toggle.disabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "❌",
+      "color": "#EB1D36"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 隐藏"
+  ],
+  "accessories.entity_look_at_cursor.toggle.enabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "✔",
+      "color": "#28FFBF"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 启用"
+  ],
+  "accessories.entity_look_at_cursor.toggle.disabled": [
+    "",
+    {
+      "text": "[",
+      "color": "gray"
+    },
+    {
+      "text": "❌",
+      "color": "#EB1D36"
+    },
+    {
+      "text": "]",
+      "color": "gray"
+    },
+    " 禁用"
+  ],
+  "accessories.selection_screen.message": [
+    "你可以从以下界面选项中选择，\n",
+    "以适应整合包的风格\n",
+    "或自己的游玩习惯。\n\n",
+    "如果不喜欢当前选择，\n",
+    "也可以在 Accessories 配置中\n",
+    "随时更改。"
+  ],
+  "text.config.accessories.option.useExperimentalCaching.tooltip": [
+    "尝试缓存各类物品堆栈查询以提高性能，\n",
+    "但可能引发问题。"
+  ],
+  "text.config.accessories.category.clientOptions.tooltip": [
+    "包含渲染和玩家输入等通用客户端选项"
+  ],
+  "text.config.accessories.option.clientOptions.forceNullRenderReplacement.tooltip": [
+    "若已注册的渲染器不进行渲染，\n",
+    "则强制改用默认渲染器。"
+  ],
+  "text.config.accessories.option.clientOptions.disableEmptySlotScreenError.tooltip": [
+    "关闭饰品界面中未找到已使用槽位时\n",
+    "显示的错误提示。"
+  ],
+  "text.config.accessories.option.clientOptions.showCosmeticAccessories.tooltip": [
+    "启用或禁用已装备的装饰物品变体的渲染。"
+  ],
+  "text.config.accessories.option.clientOptions.disabledDefaultRenders.tooltip": [
+    "禁用内置默认渲染器对物品的渲染。"
+  ],
+  "text.config.accessories.option.clientOptions.equipControl.tooltip": [
+    "更改快速装备手持物品所使用的模式。"
+  ],
+  "text.config.accessories.category.screenOptions.tooltip": [
+    "包含所有界面类型的配置选项，以及添加按钮的位置偏移"
+  ],
+  "text.config.accessories.option.screenOptions.selectedScreenType.tooltip": [
+    "选择要使用的界面；选择“无”时，\n",
+    "将提示玩家自行选择。"
+  ],
+  "text.config.accessories.option.screenOptions.allowSlotScrolling.tooltip": [
+    "若其他模组支持滚动切换物品堆栈，\n",
+    "此选项可用于处理浏览饰品时发生的冲突。"
+  ],
+  "text.config.accessories.option.screenOptions.showEquippedStackSlotType.tooltip": [
+    "在物品的工具提示中显示其当前装备的槽位类型。"
+  ],
+  "text.config.accessories.option.screenOptions.entityLooksAtMouseCursor.tooltip": [
+    "启用后，模型会看向鼠标光标；\n",
+    "否则可手动旋转模型。"
+  ],
+  "text.config.accessories.option.screenOptions.allowSideBarCraftingGrid.tooltip": [
+    "没有分组筛选器时，尝试将合成栏\n",
+    "放入侧栏而非界面下方。"
+  ],
+  "text.config.accessories.option.screenOptions.isDarkMode.tooltip": [
+    "将实验性界面的主题切换为深色模式。"
+  ],
+  "text.config.accessories.option.screenOptions.showGroupTabs.tooltip": [
+    "显示或隐藏原版饰品界面中的分组标签页。"
+  ],
+  "text.config.accessories.category.screenOptions.hoveredOptions.tooltip": [
+    "控制鼠标悬停条目的渲染效果。"
+  ],
+  "text.config.accessories.category.screenOptions.unHoveredOptions.tooltip": [
+    "控制未被鼠标悬停条目的渲染效果。"
+  ],
+  "text.config.accessories.option.disabledDefaultRenders.tooltip": [
+    "可禁用指定槽位的默认渲染，\n",
+    "可分别针对方块、物品或两者设置。"
+  ],
+  "text.config.accessories.option.modifiers.tooltip": [
+    "无需数据包即可为指定槽位类型\n",
+    "添加数量偏移值，\n",
+    "支持正值和负值。"
+  ]
 }

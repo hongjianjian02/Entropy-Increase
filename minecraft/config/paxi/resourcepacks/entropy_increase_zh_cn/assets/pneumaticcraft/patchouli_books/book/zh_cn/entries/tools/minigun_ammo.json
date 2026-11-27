@@ -1,0 +1,72 @@
+{
+  "name": "机枪弹药",
+  "icon": "pneumaticcraft:gun_ammo",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:minigun",
+  "pages": [
+    {
+      "type": "text",
+      "text": "机枪弹药供$(l:tools/minigun)转管机枪/$使用。$(p)每个弹药筒最多容纳 2000 发子弹，实际容量取决于弹药类型。$(item)转管机枪/$射击时会持续消耗弹药；剩余弹量可在弹药物品提示、耐久条以及装备转管机枪时的 HUD 中查看，HUD 指示位于屏幕中央的机枪准星旁。"
+    },
+    {
+      "type": "text",
+      "anchor": "magazine",
+      "text": "弹药必须装入$(item)转管机枪/$的弹匣才能使用，不会直接消耗玩家物品栏中的弹药。对$(item)转管机枪/$执行$(thing)潜行 + 右击/$即可装填。$(p)弹药通常依次从编号 1–4 的槽位中消耗；也可以对某个槽位执行$(thing)中击/$将其锁定，强制$(item)转管机枪/$只使用该槽位中的弹药，适合同时装有多种弹药时使用。再次对已锁定槽位执行$(thing)中击/$即可解锁。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gun_ammo",
+      "text": "普通$(item)机枪弹药/$本身没有特殊效果，但弹药筒容量高达 2000 发。$(p)此外，它是唯一可以与$(l:tools/minigun_ammo#potions)药水/$合成来获得药水效果的弹药类型。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gun_ammo_incendiary",
+      "text": "$(item)燃烧型机枪弹药/$的弹药筒容量为 1000 发，会点燃命中的实体。$(p)它也有概率点燃方块，使用时务必小心！"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gun_ammo_weighted",
+      "text": "$(item)重质型机枪弹药/$的弹药筒容量为 500 发，伤害很高；但由于弹头较重，射程只有普通弹药的 20%。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gun_ammo_ap",
+      "text": "$(item)破甲型机枪弹药/$的弹药筒容量为 500 发，合成成本较高；其伤害略高于普通弹药，并且能够穿透目标护甲。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gun_ammo_explosive",
+      "text": "$(item)爆炸型机枪弹药/$的弹药筒容量为 250 发。命中时有概率产生范围小但威力很强的爆炸；注意，爆炸也会伤到射击者。爆炸$(ttcolor)$(t:参见配置项 'B:explosiveAmmoTerrainDamage')默认/$不会破坏地形。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:gun_ammo_freezing",
+      "text": "$(item)寒冰型机枪弹药/$的弹药筒容量为 1000 发。它会减速命中的目标，并有概率将其困在会造成伤害的冰冻云雾中；注意，云雾也会伤到射击者。$(p)此弹药对具有火焰抗性的目标会造成额外伤害，因此非常适合在$(#800)Nether/$作战。"
+    },
+    {
+      "type": "text",
+      "title": "药水弹药",
+      "anchor": "potions",
+      "text": "可以把普通机枪弹药与任意$(item)药水/$合成。处理后的弹药不再造成物理伤害，但有概率对目标施加对应的药水效果。$(p)也可使用$(thing)喷溅型/$或$(thing)滞留型/$药水；两者都会产生相应的范围效果，但喷溅型药水弹药的消耗速度为普通速度的 3 倍，滞留型则为 6 倍！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:gun_ammo",
+      "recipe2": "pneumaticcraft:gun_ammo_incendiary"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:gun_ammo_weighted",
+      "recipe2": "pneumaticcraft:gun_ammo_ap"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:gun_ammo_explosive",
+      "recipe2": "pneumaticcraft:gun_ammo_freezing"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:gun_ammo_potion_crafting"
+    }
+  ]
+}

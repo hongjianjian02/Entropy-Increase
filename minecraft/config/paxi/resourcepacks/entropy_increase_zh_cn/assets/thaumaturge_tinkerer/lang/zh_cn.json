@@ -11,7 +11,7 @@
   "item.thaumaturge_tinkerer.infused_seeds_aqua": "注魔种子（水）",
   "item.thaumaturge_tinkerer.infused_seeds_ignis": "注魔种子（火）",
   "item.thaumaturge_tinkerer.infused_seeds_ordo": "注魔种子（秩序）",
-  "item.thaumaturge_tinkerer.infused_seeds_perditio": "注魔种子（熵）",
+  "item.thaumaturge_tinkerer.infused_seeds_perditio": "注魔种子（混沌）",
   "item.thaumaturge_tinkerer.infused_seeds_terra": "注魔种子（地）",
   "item.thaumaturge_tinkerer.infused_terra_fruit": "注魔谷物",
   "jei.thaumaturge_tinkerer.activate": "激活",
@@ -76,8 +76,8 @@
   "thaumaturge_tinkerer.research.ENDER_RIFT.1": "我的怀疑是正确的。末影宝箱和裂缝焦点效果基于相同的基本原理，尽管经过一些调整后它们的表现形式略有不同。通过改进这些公式，我成功地创建了一个咒语，使我可以直接访问我的个人末影箱存储，而不需要物理箱子。<BR>更有趣的是，我现在不仅能够访问我自己的，还能够访问属于其他人的其他个人末影箱。别再向我隐瞒钻石了！",
   "thaumaturge_tinkerer.research.ENDER_RIFT.title": "焦点效果：末影裂谷",
   "thaumaturge_tinkerer.research.infused_seeds.0": "谁说蜜蜂？没有人说蜜蜂。",
-  "thaumaturge_tinkerer.research.infused_seeds.1": "你可以通过将魔法碎片注入普通种子来创造一种新形式的植物。这些种子可以创造出各种各样的物品。每个要素都可以创建不同类型的物品。 <PAGE> 你只能制作原始种子，所有其他种子都必须培育。当收获完全成熟的农作物时，它会将魔法残留物沉积到土壤中。如果农作物生长在含有适当要素的高魔法残留物的土壤中，则两种要素将结合形成不同要素的种子。 <PAGE> 要素趋势也可以培育到农作物中以增加某些性状。泰拉会增加留在土壤上的魔法残留物。伊格尼斯将帮助创造新的要素。奥尔多将增加植物的赏金。 Perditio 会增加掉落的种子。空气将使植物更容易接受其他类型的倾向。单个植物最多只能有 50 种要素倾向。 <PAGE> 赋予作物原始倾向的方法有两种。如果种植在具有适当要素的植物旁边，农作物偶尔会吸收原始倾向。然而，通过这种方式，植物在单一要素中不能获得超过 5 点。 <PAGE> 作物也会吸收附近作物的倾向。作物将从具有相同或更多点数的相邻作物中吸取点数。 <PAGE> 有些植物会产生特殊的谷物，可以制成药水。 <BR> 注入地球的药水会在攻击你的小怪之间召唤屏障。 <BR> 注入火焰的药水将你的敌人困在火球中。 <BR> 注入空气的药水将你的敌人送至空中。 <BR> 注入水的药水会冷却周围的熔岩。",
-  "thaumaturge_tinkerer.research.infused_seeds.title": "注入作物",
+  "thaumaturge_tinkerer.research.infused_seeds.1": "将魔力水晶碎片注入普通种子，就能创造出全新的植物。这些种子能产出多种物品，不同要素会带来不同种类的产物。 <PAGE> 只有元始要素种子可以直接制作，其他种子都需要通过育种获得。收获完全成熟的作物时，会在土壤中留下魔力残留。如果土壤中积累了大量相容要素的魔力残留，种在其中的作物就能让两种要素结合，产生另一种要素的种子。 <PAGE> 通过育种还可以为作物引入要素倾向，增强某些性状。地要素能增加留在土壤中的魔力残留；火要素有助于产生新要素；秩序要素能提高作物产量；混沌要素能增加掉落的种子；风要素能让作物更容易获得其他类型的倾向。一株作物最多只能拥有50点要素倾向。 <PAGE> 有两种方式可以让作物获得元始要素倾向。种在对应要素的植物旁边时，作物偶尔会吸收该要素的倾向，但以这种方式获得的每种要素倾向最多为5点。 <PAGE> 作物也会从附近作物中吸取倾向点数。相邻作物的倾向点数不少于自身时，就能从中吸取点数。 <PAGE> 有些植物会产出特殊的谷物，可以用来制作药水。 <BR> 地之注魔药水会召唤屏障，阻挡攻击你的生物。 <BR> 火之注魔药水会用球形火焰囚住敌人。 <BR> 风之注魔药水会将敌人抛向空中。 <BR> 水之注魔药水会冷却周围的熔岩。",
+  "thaumaturge_tinkerer.research.infused_seeds.title": "注魔作物",
   "tooltip.thaumaturge_tinkerer.active": "活跃",
   "tooltip.thaumaturge_tinkerer.blood_sword": "Shift + 右键：将生物掉落物转换为生物要素",
   "tooltip.thaumaturge_tinkerer.inactive": "不活动",
@@ -88,5 +88,10 @@
   "wand.cap.thaumaturge_tinkerer.ichor": "灵宝金属",
   "wand.rod.thaumaturge_tinkerer.ichorcloth": "灵宝布",
   "wand.thaumaturge.cap.ichor": "灵宝金属",
-  "wand.thaumaturge.rod.ichorcloth": "灵宝布"
+  "wand.thaumaturge.rod.ichorcloth": "灵宝布",
+  "spell.thaumaturge_tinkerer.telekinesis.name": "念力",
+  "spell.thaumaturge_tinkerer.dislocation.name": "移位",
+  "spell.thaumaturge_tinkerer.efreet_flame.name": "炎魔之焰",
+  "spell.thaumaturge_tinkerer.ender_rift.name": "末影裂隙",
+  "spell.thaumaturge_tinkerer.celestial_teleport.name": "天体传送"
 }

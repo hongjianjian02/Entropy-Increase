@@ -1,0 +1,20 @@
+{
+  "name": "概览",
+  "icon": "minecraft:cake",
+  "category": "modularrouters:intro",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "欢迎使用 Modular Routers！$(p)这是一个可以灵活地以多种方式搬运物品的模组。只需一个$(thing)物品路由器/$方块，再装上一个或多个$(thing)模块/$，就能从容器中抽取物品、将物品送往远近各处的其他容器、把物品放置为方块、破坏方块、将物品丢入世界、分拣物品，以及完成更多工作。"
+    },
+    {
+      "type": "image",
+      "text": "$(italic)你可以把它看作一个功能大幅增强、配置极其灵活的漏斗……/$",
+      "images": [
+        "modularrouters:textures/patchouli/modular_router.png"
+      ],
+      "border": "true"
+    }
+  ]
+}

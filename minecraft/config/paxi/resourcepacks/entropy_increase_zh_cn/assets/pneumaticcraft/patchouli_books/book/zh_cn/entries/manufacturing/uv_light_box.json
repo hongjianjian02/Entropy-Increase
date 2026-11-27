@@ -1,0 +1,26 @@
+{
+  "name": "紫外线灯箱",
+  "icon": "pneumaticcraft:uv_light_box",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:pcb_blueprint",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)紫外线灯箱/$用于按指定区域给$(l:components/pcb)印刷电路板（PCB）/$曝光；曝光区域由放在 PCB 上方的$(l:components/pcb_blueprint)印刷电路板蓝图/$决定。$(p)完整曝光最多需要 10 分钟；安装$(l:base_concepts/upgrades#speed)速度升级/$可缩短时间。"
+    },
+    {
+      "type": "text",
+      "text": "完整曝光 10 分钟后，$(item)PCB/$在$(l:manufacturing/etching_acid)蚀刻酸/$中成功蚀刻的概率为 100%。也可提前停止曝光，但蚀刻成功率会降低。$(p)曝光开始阶段进度增长较快，接近完成时则会变慢。"
+    },
+    {
+      "type": "text",
+      "title": "阈值自动化",
+      "text": "可通过 GUI 滑块手动调整完成阈值，也可用红石信号设定：把红石模式切换为$(thing)插值阈值/$。在此模式下，阈值为 25% 加上每级信号 5%；信号为 0 时机器停机，因此实际范围为 30%-100%。$(p)需要同时设置多台紫外线灯箱时，此功能很方便。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作紫外线灯箱",
+      "recipe": "pneumaticcraft:uv_light_box"
+    }
+  ]
+}

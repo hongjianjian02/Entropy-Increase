@@ -1,0 +1,55 @@
+{
+  "name": "末影能发电机",
+  "icon": "rftoolspower:endergenic",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:endergenic": 0,
+    "rftoolspower:ender_monitor": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "末影能发电依靠精确时序。末影珍珠注入器产生末影能珍珠，发电机负责接收和发射；在合适的时机接住珍珠，就能产生 FE。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:endergenic",
+      "recipe2": "rftoolspower:ender_monitor"
+    },
+    {
+      "type": "text",
+      "text": "基础装置至少需要两台末影能发电机、一个末影珍珠注入器、红石时序控制，并用扳手设置发射目标。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "rftoolspower:textures/manual/endergenic.png"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "发电机状态：闲置时等待；充能时可以接收珍珠；持有表示已捕获珍珠，此时会持续消耗 FE，直到再次发射。"
+    },
+    {
+      "type": "text",
+      "text": "步骤 1：向末影珍珠注入器发送脉冲，把珍珠注入第一台发电机。步骤 2：向该发电机发送脉冲，将珍珠发射到与之配对的发电机。"
+    },
+    {
+      "type": "text",
+      "text": "步骤 3：在珍珠抵达前，向接收方发电机发送脉冲，使其进入充能状态。最佳捕获时刻是 15 游戏刻充能周期中的第 10 刻。"
+    },
+    {
+      "type": "text",
+      "text": "步骤 4：尽快继续发射珍珠。持有珍珠每游戏刻都会消耗 FE，持有过久或发电机电量耗尽，都可能导致珍珠丢失。"
+    },
+    {
+      "type": "text",
+      "text": "使用扳手配对发电机。聊天提示会显示珍珠飞行所需的游戏刻数，最多 4 刻，这是设计红石时序的关键数值。"
+    },
+    {
+      "type": "text",
+      "text": "末影监测器可以检测发电机状态，帮助自动控制时序。即使调试良好也仍可能损失珍珠，因此别忘了珍珠供应与启动控制。"
+    }
+  ]
+}

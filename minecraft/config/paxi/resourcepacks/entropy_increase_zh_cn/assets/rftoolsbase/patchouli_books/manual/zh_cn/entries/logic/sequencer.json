@@ -1,0 +1,18 @@
+{
+  "name": "序列器",
+  "icon": "rftoolsutility:sequencer",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:sequencer": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "序列器可以根据红石输入，生成指定的红石信号序列。你可以设置 64 个步骤的红石输出，每次执行序列时，方块会依次输出对应信号。$(br2)共有 7 种模式："
+    },
+    {
+      "type": "text",
+      "text": "$(li)$(d)单次 1：$()运行一遍，完成前忽略新信号。$(/li)$(li)$(d)单次 2：$()运行一遍，收到新信号时从头开始。$(/li)$(li)$(d)循环 1：$()持续循环，忽略红石信号。$(/li)$(li)$(d)循环 2：$()持续循环，收到信号时从头开始。$(/li)$(li)$(d)循环 3：$()启用时持续循环，禁用时停在当前步骤。$(/li)$(li)$(d)循环 4：$()启用时持续循环，禁用时重置到开头。$(/li)$(li)$(d)步进：$()每收到一次信号，就执行序列中的一步。$(/li)"
+    }
+  ]
+}

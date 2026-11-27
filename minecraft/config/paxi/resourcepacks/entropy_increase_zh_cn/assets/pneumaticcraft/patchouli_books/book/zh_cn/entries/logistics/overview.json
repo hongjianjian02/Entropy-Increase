@@ -1,0 +1,25 @@
+{
+  "name": "物流系统概览",
+  "icon": "pneumaticcraft:logistics_configurator",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:root",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(pncr) 的$(thing)物流系统/$能够运输物品和流体，并自动维持物品容器与储罐中的库存。$(p)可在物品容器或储罐上安装$(l:logistics/frames)物流框架/$；框架用于指定资源应如何进出这些方块。"
+    },
+    {
+      "type": "text",
+      "text": "这些容器随后由$(l:logistics/logistics_drone)物流无人机/$，或装有$(l:tubes/logistics_module)物流管道模块/$的$(l:tubes/pressure_tubes)压力管道/$连接。$(p)$(thing)物流系统/$的设计很大程度上参考了$(l:https://wiki.factorio.com/Logistic_network)Factorio/$。主要区别在于：本模组把$(l:logistics/frames)物流框架/$安装到现有容器或储罐上，无需使用单独的物流箱。"
+    },
+    {
+      "type": "relations",
+      "entries": [
+        "pneumaticcraft:logistics/frames",
+        "pneumaticcraft:logistics/logistics_drone",
+        "pneumaticcraft:tubes/logistics_module"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "inventoryhud.config.gui.bardur": "进度条时长：",
+  "inventoryhud.config.gui.bardur.tt": "完整进度条对应的持续时间，单位为秒（迷你模式设置）"
+}

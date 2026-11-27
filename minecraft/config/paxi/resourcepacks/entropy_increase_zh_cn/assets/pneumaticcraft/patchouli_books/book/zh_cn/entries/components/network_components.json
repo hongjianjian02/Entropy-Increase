@@ -1,0 +1,48 @@
+{
+  "name": "网络组件",
+  "icon": "pneumaticcraft:network_api",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这些组件主要用于设置$(l:programming/security_station)安全站/$，其中一些也可用作制作材料；$(l:components/network_components#network_storage)网络数据存储器/$和$(l:components/network_components#network_api)网络API/$还可用于保存$(l:tools/drone)无人机/$程序。"
+    },
+    {
+      "type": "crafting",
+      "anchor": "diagnostic",
+      "text": "$(item)诊断子程序/$是$(l:machines/security_station)安全站/$的必需组件。$(br)它负责反向追踪$(l:machines/security_station#hacking)入侵尝试/$并定位入侵者。如果所有$(item)诊断子程序/$都被入侵，你的$(item)安全站/$便已失守。",
+      "recipe": "pneumaticcraft:diagnostic_subroutine"
+    },
+    {
+      "type": "crafting",
+      "anchor": "io_port",
+      "text": "$(item)网络交互端口/$是$(l:machines/security_station)安全站/$的必需组件。$(br)它是入侵者尝试入侵$(item)安全站/$时的入口。",
+      "recipe": "pneumaticcraft:network_io_port"
+    },
+    {
+      "type": "crafting",
+      "anchor": "registry",
+      "text": "$(item)网络注册表/$是$(l:machines/security_station)安全站/$的必需组件。$(br)它是入侵者的目标；如果$(italic)所有/$网络注册表都被入侵，你的$(item)安全站/$便已失守。",
+      "recipe": "pneumaticcraft:network_registry"
+    },
+    {
+      "type": "crafting",
+      "anchor": "node",
+      "text": "$(item)网络节点/$是$(l:machines/security_station)安全站/$中的通用组件，用于在各个必需组件之间构成连接路径。",
+      "recipe": "pneumaticcraft:network_node"
+    },
+    {
+      "type": "crafting",
+      "anchor": "network_api",
+      "text": "$(item)网络API/$可用于保存$(l:tools/drone)无人机/$程序。向其中写入程序时需要$(l:programming/puzzle_pieces)编程拼图/$；其中的程序既可在$(l:programming/programmable_controller)可编程控制器/$中运行，也可由$(l:programming/external_program)外部程序/$拼图执行。",
+      "recipe": "pneumaticcraft:network_api"
+    },
+    {
+      "type": "crafting",
+      "anchor": "network_storage",
+      "text": "$(item)网络数据存储器/$可用于保存$(l:tools/drone)无人机/$程序。向其中写入程序时$(italic)不/$需要$(l:programming/puzzle_pieces)编程拼图/$，因此它不能用于运行程序；不过，它很适合保存程序库，或与其他玩家交换程序。",
+      "recipe": "pneumaticcraft:network_data_storage"
+    }
+  ]
+}

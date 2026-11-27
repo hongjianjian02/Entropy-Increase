@@ -19,8 +19,8 @@
   "pneumaticcraft.config.common.integration.curios_aerial_interface_access": "Curios：空中接口槽位访问",
   "pneumaticcraft.entityTracker.label.main": "首页",
   "pneumaticcraft.entityTracker.label.stopped": "已停止",
-  "pneumaticcraft.gui.air_canister.charging.armor": "充电装甲",
-  "pneumaticcraft.gui.air_canister.charging.held_armor": "冲锋装甲+持有",
+  "pneumaticcraft.gui.air_canister.charging.armor": "为护甲充能",
+  "pneumaticcraft.gui.air_canister.charging.held_armor": "为护甲与手持物品充能",
   "pneumaticcraft.gui.logistics_frame.stock_amount": "最低库存",
   "pneumaticcraft.gui.logistics_frame.stock_fluid": "库存流体量（mB）",
   "pneumaticcraft.gui.logistics_frame.stock_fluid.tooltip": "该物流框架将试图保持库存流体不少于该量，如少于该量则不会供应流体。",
@@ -36,7 +36,7 @@
   "pneumaticcraft.gui.relative.bottom": "底部",
   "pneumaticcraft.gui.relative.front": "正面",
   "pneumaticcraft.gui.relative.left": "左",
-  "pneumaticcraft.gui.relative.right": "对",
+  "pneumaticcraft.gui.relative.right": "右",
   "pneumaticcraft.gui.relative.top": "顶部",
   "pneumaticcraft.gui.tab.info.item.drone.mufflerUpgrade": "§0降低无人机所携带机枪发出的噪声。安装的消音升级越多，降噪效果越好。",
   "pneumaticcraft.gui.tab.pressureChamber.chamberSize.inside": "（内部）",
@@ -45,5 +45,7 @@
   "pneumaticcraft.gui.tooltip.jackhammer.speedcapped.true": "防止瞬间破坏：开启",
   "pneumaticcraft.gui.tubeModule.inline": "在管线内：%s",
   "pneumaticcraft.gui.tubeModule.installed": "已安装",
-  "programmingPuzzle.pneumaticcraft.condition_dimension.name": "条件：尺寸"
+  "programmingPuzzle.pneumaticcraft.condition_dimension.name": "条件：维度",
+  "pneumaticcraft.gui.tab.problems.exposedFaces": "§f隔热不良\n§0有 %d 个方块表面暴露在空气中（共 %d 个），造成热量流失。确保相邻位置没有空气方块，以改善机器的隔热效果和工作效率。",
+  "pneumaticcraft.gui.tooltip.item.uvLightBox.successChance": "蚀刻成功概率：%d%%"
 }

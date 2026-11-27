@@ -1,0 +1,24 @@
+{
+  "name": "编辑告示牌组件",
+  "icon": "pneumaticcraft:textures/progwidgets/edit_sign_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此组件会修改$(item)告示牌/$和/或$(l:machines/aphorism_tile)格言瓷砖/$的文字；处理范围为所连接$(l:programming/area)区域/$内的全部此类方块，写入内容由相连的$(l:programming/text)文本/$组件指定。$(p)每个相连的$(thing)文本/$组件代表一行；连接多个$(thing)文本/$组件即可写入多行内容。"
+    },
+    {
+      "type": "text",
+      "title": "变量",
+      "text": "还可插入$(l:programming/variables)变量/$的值，只需在文本中写入$(thing)${<var_name>}/$。例如：$(p)  $(formula)Counter: ${counter}/$$(p)上述内容会展开为$(thing)Counter: 1, 2, 3/$，前提是$(thing)counter/$变量的值为$(thing)x=1,y=2,z=3/$。这里也可以使用$(l:programming/variables#special)特殊变量/$和$(l:programming/variables#global)全局变量/$。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/edit_sign_piece.png"
+      ],
+      "text": "$(italic)编辑告示牌组件/$"
+    }
+  ]
+}

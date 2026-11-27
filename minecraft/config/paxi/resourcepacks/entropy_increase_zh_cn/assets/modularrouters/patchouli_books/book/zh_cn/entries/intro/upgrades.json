@@ -1,0 +1,11 @@
+{
+  "name": "升级",
+  "icon": "modularrouters:speed_upgrade",
+  "category": "modularrouters:intro",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)升级/$能从不同方面增强$(l:intro/modular_router)物品路由器/$的功能。共有 8 种升级，路由器提供 5 个升级槽。$(p)每个槽中可以叠放多个升级，但同类升级的安装数量有上限。详情请查看各升级页面或物品工具提示。"
+    }
+  ]
+}

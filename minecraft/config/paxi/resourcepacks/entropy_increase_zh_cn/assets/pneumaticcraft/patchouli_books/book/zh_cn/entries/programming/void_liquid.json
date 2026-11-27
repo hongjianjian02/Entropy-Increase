@@ -1,0 +1,19 @@
+{
+  "name": "销毁流体组件",
+  "icon": "pneumaticcraft:textures/progwidgets/void_fluid_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "与$(l:programming/void_item)销毁物品/$组件一样，此组件会立即且永久销毁无人机储罐中的流体，请务必小心！强烈建议配合$(l:programming/liquid_filter)流体过滤器/$组件使用；连接过滤器后，只会销毁过滤器允许的流体。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/void_fluid_piece.png"
+      ],
+      "text": "$(italic)滴水不剩/$"
+    }
+  ]
+}

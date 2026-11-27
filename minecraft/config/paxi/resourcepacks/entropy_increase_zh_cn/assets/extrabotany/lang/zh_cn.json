@@ -3,5 +3,12 @@
   "advancement.extrabotany:deep_dark_fantasy": "深暗幻想",
   "advancement.extrabotany:goodtek": "固德科技！",
   "advancement.extrabotany:its_only_the_fairy_tale": "这只是童话",
-  "extrabotany.page.reward_bags4": "天知道...$(br2)"
+  "extrabotany.page.reward_bags4": "天知道...$(br2)",
+  "death.attack.extrabotany.link.item": "%1$s 使用 %3$s，对 %2$s 的痛苦感同身受",
+  "extrabotany.category.desc": "通过深入了解植物魔法，你发现了一个全新的魔法世界：$(br)这里有更多的$(thing)自然装置$()、$(thing)神秘工具$()、$(thing)饰品$()，最重要的是：$(br2)全新的$(thing)盖亚首领$()。",
+  "extrabotany.page.peaceamulet0": "佩戴$(item)和平友好之证$(0)后，额外植物学中的所有武器都不会再伤害其他玩家和友好生物。",
+  "extrabotany.page.potatochips0": "$(item)薯片$(0)拥有着和不死图腾类似的效果。装备后，在受到致死伤害时会激活，消耗魔力获得多种增益并回复生命至5点。这一效果有30秒的冷却，如果伤害来源为首领则会延长至10分钟。",
+  "commands.extrabotany.itemcheck.off": "物品检查已关闭；现在可携带任意模组的物品进入首领战。",
+  "extrabotany.page.holy_water_grenade1": "小心手雷！",
+  "extrabotany.page.manabuffer1": "一……二……三……"
 }

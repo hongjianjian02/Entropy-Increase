@@ -1,0 +1,30 @@
+{
+  "name": "热量",
+  "icon": "minecraft:blaze_powder",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(pncr) 加入了$(thing)热量（Heat）/$系统。热量会像现实中一样在方块之间传递，与$(l:base_concepts/pressure)压力趋于平衡/$的方式有些相似：$(li)热量从高温物体传向低温物体。$(li)方块只会与支持热量系统的相邻方块传热，详见$(l:base_concepts/heat_sources)热量来源/$。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)温差越大，热量传递得越快。$(li)不同物体具有不同的$(thing)热阻（Thermal Resistance）/$。$(item)火把/$和$(item)空气/$的热阻较高，而$(l:base_concepts/basic_materials#compressed_iron_block)压缩铁块/$的热阻很低。$(thing)热阻/$决定热量从一个物体传到另一个物体的速度。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)不同物体具有不同的$(thing)热容量（Thermal Capacity）/$。热容量越高，在吸收相同热量时升温越慢，在损失相同热量时降温也越慢。换言之，提高高热容量方块的$(thing)温度/$需要更多$(thing)热量/$，但它散失热量后降温也更慢。"
+    },
+    {
+      "type": "text",
+      "title": "隔热",
+      "anchor": "insulation",
+      "text": "机器表面暴露在空气中时会损失热量；$(l:manufacturing/refinery)炼油厂/$的外露面很多，因此尤其明显。包括$(l:base_concepts/basic_materials#compressed_iron_block)压缩铁块/$在内的所有导热方块也遵循此规则。$(p)要减少热量损失，应避免让机器表面直接接触空气方块；用任意不导热方块覆盖即可，而且不必使用完整方块，$(item)活板门/$和$(item)台阶/$同样有效。"
+    },
+    {
+      "type": "text",
+      "title": "热量来源",
+      "text": "$(pncr) 中有些机器会产生必须散掉的热量，另一些机器则需要热量才能工作。$(p)因此，你需要$(l:base_concepts/heat_sources)设法/$调节这些机器的温度。"
+    }
+  ]
+}

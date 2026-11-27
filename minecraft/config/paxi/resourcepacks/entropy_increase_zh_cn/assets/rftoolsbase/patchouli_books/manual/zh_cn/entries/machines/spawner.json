@@ -1,0 +1,36 @@
+{
+  "name": "刷怪笼",
+  "icon": "rftoolsutility:spawner",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:spawner": 0,
+    "rftoolsutility:syringe": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "刷怪笼使用装满的注射器、FE，以及已连接的$(l:rftoolsbase:machines/matter_beamer)物质投影仪$(/l)提供的材料生成生物。所需材料由选定的生物决定。"
+    },
+    {
+      "type": "crafting",
+      "heading": "刷怪笼",
+      "recipe": "rftoolsutility:spawner",
+      "recipe2": "rftoolsutility:syringe"
+    },
+    {
+      "type": "text",
+      "title": "注射器",
+      "text": "对同一种生物反复使用注射器，直到完全采满，再放入刷怪笼。工具提示会显示记录的生物种类和采集进度。"
+    },
+    {
+      "type": "text",
+      "title": "材料",
+      "text": "界面会显示三种物质的缓冲量。物质投影仪必须发送注射器中生物所需的材料，无关材料会被忽略。"
+    },
+    {
+      "type": "text",
+      "title": "效率",
+      "text": "提供足够的 FE，并保持投影仪有料可用。为刷怪笼$(5)注能$()可以提高效率，为投影仪注能则能加快物品发送并降低消耗。"
+    }
+  ]
+}

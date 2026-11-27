@@ -1,0 +1,11 @@
+{
+  "name": "创造模块",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:creative_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "创造模块是一种无法合成的特殊模块，能凭空向路由器缓冲区中放入物品。$(p)它将过滤器作为物品列表，每次运行按顺序循环选取下一项，无视白名单、黑名单、NBT 匹配等其他过滤设置。"
+    }
+  ]
+}

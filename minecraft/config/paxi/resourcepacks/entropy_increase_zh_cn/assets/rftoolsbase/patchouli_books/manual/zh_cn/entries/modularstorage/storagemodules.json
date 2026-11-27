@@ -1,0 +1,35 @@
+{
+  "name": "存储模块",
+  "icon": "rftoolsstorage:storage_module0",
+  "category": "rftoolsbase:category_rftoolsstorage_modularstorage",
+  "extra_recipe_mappings": {
+    "rftoolsstorage:storage_module0": 0,
+    "rftoolsstorage:storage_module1": 0,
+    "rftoolsstorage:storage_module2": 0,
+    "rftoolsstorage:storage_module3": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "存储模块才是模块化存储器实际存放物品的地方。一阶可容纳 100 组，二阶 200 组，三阶 300 组，四阶 500 组。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:storage_module0"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:storage_module1",
+      "recipe2": "rftoolsstorage:storage_module2"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:storage_module3"
+    },
+    {
+      "type": "text",
+      "text": "通过保留 NBT 的有序合成配方升级时，模块内的物品会保留。在系统之间转移贵重模块前，请先做好备份。"
+    }
+  ]
+}

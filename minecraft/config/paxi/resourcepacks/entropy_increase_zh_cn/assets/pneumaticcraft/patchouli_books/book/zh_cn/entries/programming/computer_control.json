@@ -1,0 +1,20 @@
+{
+  "name": "电脑控制组件",
+  "icon": "pneumaticcraft:textures/progwidgets/computer_control_piece.png",
+  "category": "pneumaticcraft:widget_other",
+  "flag": "|mod:computercraft,mod:opencomputers",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)电脑控制/$组件允许$(l:tools/drone)无人机/$通过$(thing)ComputerCraft/$或$(thing)OpenComputers/$计算机接受控制。具体方法参见$(l:machines/drone_interface)无人机接口/$。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/computer_control_piece.png"
+      ],
+      "text": "$(italic)我的心去哪儿了/$"
+    }
+  ]
+}

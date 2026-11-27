@@ -1,0 +1,23 @@
+{
+  "name": "远程检测器",
+  "icon": "rftoolsstorage:tablet_scanner",
+  "category": "rftoolsbase:category_rftoolsstorage_scanner",
+  "extra_recipe_mappings": {
+    "rftoolsstorage:tablet_scanner": 0
+  },
+  "sortnum": 30,
+  "pages": [
+    {
+      "type": "text",
+      "text": "平板电脑（检测器）是平板电脑的一种状态，可远程访问已连接的存储检测器。"
+    },
+    {
+      "type": "text",
+      "text": "将存储控制模块绑定到存储检测器，再将模块放入平板电脑并选中。右键点击即可打开远程检测器界面。"
+    },
+    {
+      "type": "text",
+      "text": "潜行右键点击则打开平板电脑管理界面。远程使用时会按检测器平板电脑的费用设置消耗平板电脑中的 FE。"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "name": "进阶",
+  "icon": "rftoolsbuilder:red_shield_template_block",
+  "category": "rftoolsbase:category_rftoolsbuilder_shield",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:blue_shield_template_block": 0,
+    "rftoolsbuilder:red_shield_template_block": 0,
+    "rftoolsbuilder:green_shield_template_block": 0,
+    "rftoolsbuilder:yellow_shield_template_block": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "护盾投射仪既可以根据附近的护盾支架生成护盾，也可以使用界面中装入的塑形卡片。使用卡片时，会忽略护盾支架。"
+    },
+    {
+      "type": "text",
+      "text": "显示模式包括不可见、护盾、透明、实心和模仿。模仿模式会使用模仿槽中方块的纹理作为护盾外观。"
+    },
+    {
+      "type": "text",
+      "text": "过滤器决定如何处理实体：放行、阻挡、伤害，或阻挡并伤害。过滤类型包括全部、被动生物、敌对生物、物品和玩家。"
+    },
+    {
+      "type": "text",
+      "text": "过滤规则的顺序很重要。应将具体规则移到宽泛规则上方，让指定玩家或物品规则先于“全部”规则处理。"
+    }
+  ]
+}

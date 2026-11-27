@@ -1,0 +1,29 @@
+{
+  "name": "检测器模块",
+  "icon": "rftoolsstorage:storage_control_module",
+  "category": "rftoolsbase:category_rftoolsstorage_scanner",
+  "extra_recipe_mappings": {
+    "rftoolsstorage:storage_control_module": 0,
+    "rftoolsstorage:dump_module": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "存储控制模块和清空模块都是通过已绑定存储检测器工作的屏幕模块。手持模块潜行右键点击检测器，即可设置目标。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:storage_control_module",
+      "recipe2": "rftoolsstorage:dump_module"
+    },
+    {
+      "type": "text",
+      "text": "存储控制模块最多可监控九项物品过滤条件，可以统计所有容器，也可以只统计已加星标、允许路由的容器。"
+    },
+    {
+      "type": "text",
+      "text": "清空模块会把玩家物品栏中符合条件的物品送入已绑定的检测器网络，也支持使用通用物品标签进行更广泛的匹配。"
+    }
+  ]
+}

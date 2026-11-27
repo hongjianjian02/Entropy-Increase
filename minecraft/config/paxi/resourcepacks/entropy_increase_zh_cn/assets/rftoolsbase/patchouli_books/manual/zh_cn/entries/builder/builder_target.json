@@ -1,0 +1,20 @@
+{
+  "name": "指定目标区域",
+  "icon": "minecraft:compass",
+  "category": "rftoolsbase:category_rftoolsbuilder_builder",
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "有几种方式可以设置建造机的作用区域。"
+    },
+    {
+      "type": "text",
+      "text": "可以直接在塑形卡片中输入尺寸和偏移量。$(br2)偏移量始终相对于建造机。设为 0,0,0 时，区域以建造机为中心。"
+    },
+    {
+      "type": "text",
+      "text": "也可以潜行并右键点击建造机，开始选定区域；或先在塑形卡片中设置尺寸，再用界面中的锚点按钮调整偏移量。"
+    }
+  ]
+}

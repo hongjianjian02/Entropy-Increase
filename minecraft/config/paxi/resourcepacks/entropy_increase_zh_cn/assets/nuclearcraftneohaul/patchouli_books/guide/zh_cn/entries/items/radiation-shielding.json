@@ -1,0 +1,17 @@
+{
+  "name": "辐射防护板",
+  "icon": "nuclearcraftneohaul:light_radiation_shielding",
+  "category": "nuclearcraftneohaul:items",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "hazmat",
+      "type": "items/3",
+      "header": "辐射防护板",
+      "item1": "nuclearcraftneohaul:light_radiation_shielding",
+      "item2": "nuclearcraftneohaul:medium_radiation_shielding",
+      "item3": "nuclearcraftneohaul:heavy_radiation_shielding",
+      "text": "可以为盔甲加装$(item)辐射防护板$()，使其获得辐射抗性。增加的抗性取决于所使用的防护板类型，安装多块防护板提供的辐射抗性会叠加。"
+    }
+  ]
+}

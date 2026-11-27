@@ -124,5 +124,6 @@
   "gui.xaero_weather_raining": "下雨/下雪",
   "gui.xaero_weather_thundering": "雷鸣",
   "gui.xaero_zoom_on_enlarge": "放大时的缩放级别",
-  "gui.xaero_zoom_on_enlarge_auto": "自动"
+  "gui.xaero_zoom_on_enlarge_auto": "自动",
+  "gui.xaero_deleted": "已删除"
 }

@@ -1,0 +1,53 @@
+{
+  "name": "物品路由器",
+  "icon": "modularrouters:modular_router",
+  "category": "modularrouters:router",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)物品路由器/$是路由系统的核心，负责执行装入的所有模块，以各种方式搬运物品、方块和流体。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "modularrouters:textures/patchouli/router_gui.png"
+      ],
+      "text": "$(italic)装有多个模块和升级的物品路由器界面",
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "1. 缓冲区",
+      "text": "$(thing)物品路由器/$有一个缓冲槽，最多可容纳一组物品。这个缓冲区可作为普通容器访问，因此能通过$(item)漏斗/$和其他模组的管道系统进行交互。$(p)此外，在路由器旁放置$(item)比较器/$，即可按通常方式检测槽位的填充程度。"
+    },
+    {
+      "type": "text",
+      "title": "2. 模块槽",
+      "text": "$(thing)物品路由器/$有九个$(l:intro/modules)模块/$槽。路由器每次运行时，都会从左到右依次$(thing)执行/$各模块。运行频率取决于速度升级，每秒 1 至 10 次。$(p)将鼠标悬停在模块上按 $(4)$(bold)[$(k:modularrouters.configure)]/$，或用$(thing)鼠标中键点击/$模块，即可直接配置，无需取出。"
+    },
+    {
+      "type": "text",
+      "title": "3. 升级槽",
+      "text": "$(thing)物品路由器/$有五个$(l:intro/upgrades)升级/$槽。升级能从不同方面增强路由器。例如，每个$(l:upgrades/speed)速度升级/$都会提高运行频率，而每个$(l:upgrades/stack)堆叠升级/$都能增加每次操作处理的物品数量。"
+    },
+    {
+      "type": "text",
+      "title": "4. 红石控制",
+      "text": "$(thing)物品路由器/$可灵活设置对红石输入的响应方式，由右上角按钮控制：$(li)默认：始终运行，不受红石信号影响。$(li)仅在$(italic)没有/$红石信号时运行。$(li)仅在$(italic)有/$红石信号时运行。$(li)从不运行。$(li)收到红石脉冲，即信号强度高于之前时，运行$(italic)一次/$。"
+    },
+    {
+      "type": "text",
+      "title": "5. 节能模式",
+      "text": "路由器提供节能模式，闲置一段时间后可自动降低运行频率。$(p)启用后，如果路由器在过去 $(ttcolor)$(t:可在模组配置的 'ecoTimeout' 中调整)5 秒/$内没有完成任何工作，就会降速到每 $(ttcolor)$(t:可在模组配置的 'lowPowerTickRate' 中调整)5 秒/$运行一次，无视$(l:upgrades/speed)速度升级/$。一旦再次完成工作，便恢复正常速度。"
+    },
+    {
+      "type": "text",
+      "title": "节能模式（续）",
+      "text": "此功能主要用于减轻繁忙服务器的 CPU 负担。对于很少工作、也不要求快速传输的路由器同样适用，例如牧羊场中用$(l:modules/vacuum)真空模块/$定期收集剪下的羊毛。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:modular_router"
+    }
+  ]
+}

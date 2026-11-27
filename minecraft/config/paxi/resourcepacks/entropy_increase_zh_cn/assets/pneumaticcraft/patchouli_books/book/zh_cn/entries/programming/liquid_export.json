@@ -1,0 +1,23 @@
+{
+  "name": "输出流体组件",
+  "icon": "pneumaticcraft:textures/progwidgets/liquid_export_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此组件与$(l:programming/liquid_import)输入流体/$组件相反：$(l:tools/drone)无人机/$会前往指定$(l:programming/area)区域/$内最近的储罐，把自身储罐中的流体输入其中。$(p)此外，$(item)无人机/$还能把流体放置到世界中；在组件 GUI 中勾选$(thing)在世界中放置流体/$即可启用。请小心，$(item)无人机/$执行此操作时很容易困住自己！"
+    },
+    {
+      "type": "text",
+      "text": "可在组件 GUI 中指定储罐从哪些面接收无人机输出的流体，还可设定最多输出多少流体（单位为 mB）。$(p)可以$(ttcolor)$(t:连接在右侧为白名单，连接在左侧为黑名单)连接/$$(l:programming/liquid_filter)流体过滤器/$组件，以限制无人机允许输出的流体。$(p)当$(item)无人机/$储罐中已无符合条件的流体，或区域内没有储罐能够接收该流体时，此组件执行完毕。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/liquid_export_piece.png"
+      ],
+      "text": "$(italic)输出流体组件/$"
+    }
+  ]
+}

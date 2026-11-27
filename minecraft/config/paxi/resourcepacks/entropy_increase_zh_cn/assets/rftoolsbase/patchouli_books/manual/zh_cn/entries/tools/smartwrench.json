@@ -1,0 +1,16 @@
+{
+  "name": "智能扳手",
+  "icon": "rftoolsbase:smartwrench",
+  "category": "rftoolsbase:category_tools",
+  "pages": [
+    {
+      "type": "text",
+      "text": "智能扳手可以方便地拆下科技方块，也可选中方块以使用特殊功能。$(br2)作为普通扳手使用时，$(5)潜行右键点击$()可拆下方块，$(5)右键点击$()可旋转方块。$(br2)对空气$(5)右键点击$()可切换模式。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsbase:smartwrench",
+      "text": "扳手处于$(thing)选择模式$()时，可对护盾投射仪等方块执行特殊操作。"
+    }
+  ]
+}

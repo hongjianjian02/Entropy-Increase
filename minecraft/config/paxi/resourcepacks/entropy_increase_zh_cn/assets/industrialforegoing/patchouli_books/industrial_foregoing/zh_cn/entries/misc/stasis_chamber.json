@@ -1,0 +1,17 @@
+{
+  "name": "生物静滞室",
+  "icon": "industrialforegoing:stasis_chamber",
+  "category": "industrialforegoing:misc",
+  "sortnum": 5,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "通入能量后，会$(6)定住$()并$(6)治疗$()工作区域内的所有实体。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:stasis_chamber"
+    }
+  ]
+}

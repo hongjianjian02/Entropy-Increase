@@ -1,0 +1,23 @@
+{
+  "name": "燃煤发电机",
+  "icon": "rftoolspower:coalgenerator",
+  "category": "rftoolsbase:category_rftoolspower_powergeneration",
+  "extra_recipe_mappings": {
+    "rftoolspower:coalgenerator": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "燃煤发电机是一种适合早期使用的简单 FE 发电机。放入煤炭或煤炭块后，它会燃烧燃料，为附近机器或连接的线缆供能。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolspower:coalgenerator"
+    },
+    {
+      "type": "text",
+      "text": "它有内部储能缓冲区，因此输出暂时受阻时仍能继续燃烧。煤炭块适合长时间无人照看地运行。"
+    }
+  ]
+}

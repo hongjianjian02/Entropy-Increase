@@ -110,5 +110,7 @@
   "tooltip.excessive_utilities.not_yet_implented": "尚未实现",
   "tooltip.excessive_utilities.wardens_wake": "被放弃的典狱长留下",
   "structure.excessive_utilities.ancient_cities": "远古城市",
-  "structure.excessive_utilities.ancient_city": "远古城市"
+  "structure.excessive_utilities.ancient_city": "远古城市",
+  "advancements.excessive_utilities.rainbow_generator.title": "彩虹",
+  "message.excessive_utilities.ticks": "%s 游戏刻"
 }

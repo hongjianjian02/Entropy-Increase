@@ -1,0 +1,19 @@
+{
+  "name": "按模组分拣过滤器",
+  "category": "modularrouters:filters",
+  "icon": "modularrouters:mod_filter",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此过滤器按物品所属模组进行匹配。每个过滤器最多可添加 6 个模组。$(li)$(thing)右键/$过滤器打开界面；若它已装入模块，则可用$(thing)鼠标中键点击/$，或悬停后按 $(bold)$(4)[$(k:modularrouters.configure)]/$。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)将任意物品放入界面左上角的槽，右侧会显示所属模组的名称。点击 $(bold)$(2)+/$ 按钮，将它加入下方模组列表。$(li)点击某项旁的红色 $(bold)$(4)X/$ 按钮，可将该模组移出列表。$(p)也可以添加原版物品，其所属的“模组”会显示为 $(italic)Minecraft/$。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:mod_filter"
+    }
+  ]
+}

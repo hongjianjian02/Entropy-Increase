@@ -1,0 +1,16 @@
+{
+  "name": "入门指南",
+  "icon": "pneumaticcraft:textures/gui/icon/gui_no_problem.png",
+  "category": "pneumaticcraft:base_concepts",
+  "priority": "true",
+  "pages": [
+    {
+      "type": "text",
+      "text": "欢迎来到 PneumaticCraft！$(li)收集一些$(thing)铁/$和$(thing)石头/$；初期各准备约一组即可，铁可以稍少。$(li)把铁扔在地上，然后用爆炸加工。没错，真的要炸。$(li)收集生成的$(thing)压缩铁/$；爆炸会损失一小部分。$(li)制作一些$(l:tubes/pressure_tubes)压力管道/$。$(li)制作一些$(l:base_concepts/building_materials)强化石头/$。$(li)搭建一座$(l:manufacturing/pressure_chamber)压力室/$。"
+    },
+    {
+      "type": "text",
+      "text": "从现在起，本手册会根据你获得的$(thing)进度/$逐步解锁更多章节；这些进度来自推进 $(pncr)。可随时查看本模组的进度页面，了解下一步该制作什么（解锁部分进度时还会获得少量$(thing)经验/$，也算额外收获）。"
+    }
+  ]
+}

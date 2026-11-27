@@ -1,0 +1,17 @@
+{
+  "name": "压力技工",
+  "icon": "minecraft:emerald",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "据说有一种$(thing)村民/$会出售有趣的 $(pncr) 组件，好像还曾卷入一场$(l:manufacturing/pressure_chamber)压力室/$事故。如今压力技工通常待在村庄中的专属房屋里；如果找不到，也可用$(l:machines/charging_station)充气站/$吸引无业村民转职。"
+    },
+    {
+      "type": "entity",
+      "name": "压力技工",
+      "entity": "minecraft:villager{VillagerData:{profession:'pneumaticcraft:mechanic'}}",
+      "text": "$(italic)不太喜欢$(l:tools/amadron_tablet)亚马龙/$。"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "熔盐反应堆",
+  "icon": "nuclearcraftneohaul:molten_salt_fission_controller",
+  "category": "nuclearcraftneohaul:fission",
+  "sortnum": 3,
+  "pages": [
+    {
+      "anchor": "intro",
+      "type": "text",
+      "text": "熔盐裂变反应堆使用液态裂变燃料，将产生的热量传递给熔盐冷却剂，再通过$(l:heat_exchanger/heat_exchanger#intro)热交换器$()产生蒸汽。由于热交换器尚未完全实现，熔盐反应堆目前还没有实际用途。"
+    }
+  ]
+}

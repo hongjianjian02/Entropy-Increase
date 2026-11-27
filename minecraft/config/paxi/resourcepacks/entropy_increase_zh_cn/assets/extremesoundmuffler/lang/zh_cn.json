@@ -72,5 +72,6 @@
   "tip.set_anchors": "点击任何一个锚点按钮（有编号的），然后点击类似标记的按钮（在右边）来设置锚点位置",
   "tip.sound_blacklist": "你可以在配置中把音效列入黑名单",
   "tip.unmuffle": "你可以按“关闭消音”按钮来停止过滤所有选定的音效，再按一次重新开启",
-  "tip.use_anchors": "锚点（最上面的10个按钮）用于过滤选定区域的声音"
+  "tip.use_anchors": "锚点（最上面的10个按钮）用于过滤选定区域的声音",
+  "slider.title.everything": "全部"
 }

@@ -1,0 +1,298 @@
+{
+  "name": "无人机接口",
+  "icon": "pneumaticcraft:drone_interface",
+  "category": "pneumaticcraft:machines",
+  "flag": "|mod:computercraft,mod:opencomputers",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "无人机接口是一种$(thing)ComputerCraft/OpenComputers 外设/$，用于与$(l:tools/drone)无人机/$通信。使用时，需要给$(item)无人机/$编入$(l:programming/computer_control)电脑控制/$组件。$(p)无人机执行电脑控制组件时，会尝试连接组件指定区域内$(ttcolor)$(t:一个无人机接口同时只能连接一台无人机)可用的/$$(item)无人机接口/$。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:drone_interface",
+      "text": "连接后，无人机将完全由接口控制；具体来说，由控制计算机调用接口所提供的 Lua 方法进行控制。$(p)无人机接口公开了大量 Lua 方法，后续页面将逐一说明。"
+    },
+    {
+      "type": "text",
+      "title": "示例",
+      "text": "Lua 程序示例：$(br)$(#008)m = peripheral.wrap(\"right\")$(br)m.addArea(100, 64, 100, 120, 4, 120, \"Filled\")$(br)m.setAction(\"dig\")$(br)while not m.isActionDone()$(br)do$(br)  sleep(1)$(br)end$(br)m.clearArea()$(br)m.addArea(80, 65, 80)$(br)m.setAction(\"goto\")$(br)-- wait till done, as above$(br)m.setAction(\"standby\")$(p)/$该程序会让无人机挖空一大片区域，即 (100,64,100)->(120,4,120) 范围内的所有方块；随后返回 (80, 65, 80) 并进入待机状态。"
+    },
+    {
+      "type": "text",
+      "title": "示例（续）",
+      "text": "你可能已经注意到，与使用$(l:programming/programmer)编程器/$编写无人机程序不同，上一页的程序必须明确等待区域挖掘和去往位置操作完成后才能继续。这是因为 Lua 计算机程序运行在独立线程中，不能直接与世界交互；它只能告诉无人机接下来做什么，并主动查询无人机是否已经完成。"
+    },
+    {
+      "type": "text",
+      "title": "abortAction()",
+      "text": "$(#800)abortAction()/$$(p)停止当前正在执行的动作。"
+    },
+    {
+      "type": "text",
+      "title": "addArea()",
+      "text": "$(#800)addArea(<x1>,<y1>,<z1>)/$$(p)$(#800)addArea(<x1>,<y1>,<z1>,<x2>,<y2>,<z2>,<areaType>)/$$(p)向无人机当前保存的区域中添加一个区域。使用第二种形式时，x1/y1/z1 表示第一个点，即$(l:tools/gps_area_tool)区域定位工具/$的 P1；x2/y2/z2 表示第二个点，即区域定位工具的 P2。$(p)可调用 getAreaTypes() 列出有效的区域类型。"
+    },
+    {
+      "type": "text",
+      "text": "$(#800)addBlacklistItemFilter(<item/block name>, <useNBT>, <useModSimilarity>)/$$(p)与 addWhitelistItemFilter(...) 类似，但会把物品加入黑名单。",
+      "title": "addBlacklistItemFilter()"
+    },
+    {
+      "type": "text",
+      "title": "addBlacklistLiquidFilter()",
+      "text": "$(#800)addBlacklistLiquidFilter(<liquid name>)/$$(p)与 addWhitelistLiquidFilter(...) 类似，但会把流体加入黑名单。"
+    },
+    {
+      "type": "text",
+      "title": "addBlacklistText()",
+      "text": "$(#800)addBlacklistText(<text>)/$$(p)向文本黑名单中添加一条文本。例如，可用它为 \"entity_attack\" 动作指定过滤器。"
+    },
+    {
+      "type": "text",
+      "text": "$(#800)addWhitelistItemFilter(<item/block name>, <useNBT>, <useModSimilarity>)/$$(p)其作用等同于连接在另一个编程组件右侧的$(l:programming/item_filter)物品过滤器/$组件。物品或方块名称必须使用注册名，例如 $(thing)pneumaticcraft:pressure_tube/$。“useXXX”参数均为布尔值，用于决定启用哪些过滤选项，与物品过滤器组件 GUI 中的选项相同。",
+      "title": "addWhitelistItemFilter()"
+    },
+    {
+      "title": "addWhitelistLiquidFilter()",
+      "text": "$(#800)addWhitelistLiquidFilter(<liquid name>)/$$(p)其作用等同于在另一个组件右侧放置一个 $l(:programming/liquid_filter)流体过滤器/$组件。必须提供流体的注册名，例如 $(thing)minecraft:water/$。",
+      "type": "text"
+    },
+    {
+      "text": "$(#800)addWhitelistText(<text>)/$$(p)向文本白名单中添加一条文本。例如，可用它为 \"entity_attack\" 动作指定实体过滤器。",
+      "type": "text",
+      "title": "addWhitelistText()"
+    },
+    {
+      "title": "clearArea()",
+      "type": "text",
+      "text": "$(#800)clearArea()/$$(p)清除当前保存的区域。"
+    },
+    {
+      "title": "clearBlacklistItemFilter()",
+      "type": "text",
+      "text": "$(#800)clearBlacklistItemFilter()/$$(p)清除所有已保存的物品过滤器黑名单。"
+    },
+    {
+      "title": "clearBlacklistLiquidFilter()",
+      "text": "$(#800)clearBlacklistLiquidFilter()/$$(p)清除所有已保存的流体过滤器黑名单。",
+      "type": "text"
+    },
+    {
+      "text": "$(#800)clearBlacklistText()/$$(p)清除所有已保存的文本黑名单。",
+      "type": "text",
+      "title": "clearBlacklistText()"
+    },
+    {
+      "title": "clearWhitelistItemFilter()",
+      "text": "$(#800)clearWhitelistItemFilter()/$$(p)清除所有已保存的物品过滤器白名单。",
+      "type": "text"
+    },
+    {
+      "type": "text",
+      "text": "$(#800)clearWhitelistLiquidFilter()/$$(p)清除所有已保存的流体过滤器白名单。",
+      "title": "clearWhitelistLiquidFilter()"
+    },
+    {
+      "title": "clearWhitelistText()",
+      "text": "$(#800)clearWhitelistText()/$$(p)清除所有已保存的文本白名单。",
+      "type": "text"
+    },
+    {
+      "title": "evaluateCondition()",
+      "text": "$(#800)evaluateCondition()/$$(p)返回 true 或 false，仅用于$(l:programming/conditions)条件/$动作。返回值表示条件是否成立。调用$(#800)setAction()/$后，可以立即检查无人机自身条件；对于其他条件，则必须等待$(#800)isActionDone()/$返回 true，此时$(#800)evaluateCondition()/$的结果才有意义。",
+      "type": "text"
+    },
+    {
+      "type": "text",
+      "text": "$(#800)exitPiece()/$$(p)停止无人机中的$(thing)电脑控制/$组件，并允许无人机程序继续执行下一个编程拼图。",
+      "title": "exitPiece()"
+    },
+    {
+      "type": "text",
+      "title": "forgetTarget()",
+      "text": "$(#800)forgetTarget()/$$(p)无人机通过 \"entity_attack\" 动作锁定实体时，调用此方法会停止攻击当前目标。"
+    },
+    {
+      "text": "$(#800)getAction()/$$(p)返回一个字符串，表示最近一次由$(#800)setAction()/$设置的动作。未设置动作时返回$(thing)nil/$。可用此方法确保只在返回值不是 nil 时调用$(#800)isActionDone()/$。",
+      "type": "text",
+      "title": "getAction()"
+    },
+    {
+      "title": "getAllActions()",
+      "type": "text",
+      "text": "$(#800)getAllActions()/$$(p)返回一张表，其中列出当前所有可选动作，例如$(thing)pneumaticcraft:dig/$或$(thing)pneumaticcraft:place'/$。每个动作都直接对应$(l:programming/programmer#ids)编程器/$ GUI 中的一种编程组件。$(p)注意：对于以$(thing)pneumaticcraft:/$开头的动作（默认动作均如此），$(thing)pneumaticcraft:/$前缀可以省略。"
+    },
+    {
+      "title": "getAreaTypes()",
+      "text": "$(#800)getAreaTypes()/$$(p)返回一张表，其中列出所有可用区域类型，例如 filled、frame、sphere……",
+      "type": "text"
+    },
+    {
+      "title": "getDronePosition()",
+      "text": "$(#800)getDronePosition()/$$(p)返回无人机的 x/y/z 位置。此方法为兼容旧程序而保留，建议改用新的$(#800)getDronePositionVec()/$方法。",
+      "type": "text"
+    },
+    {
+      "title": "getDronePositionVec()",
+      "text": "$(#800)getDronePosition()/$$(p)返回一张包含无人机 x/y/z 坐标的表。可通过 .x、.y 和 .z 字段分别取得各分量，例如$(#800)xpos = getDronePosition().x/$。",
+      "type": "text"
+    },
+    {
+      "title": "getUpgrades()",
+      "type": "text",
+      "text": "$(#800)getUpgrades(<upgrade>)/$$(p)返回已安装的指定类型升级数量。$(p)用 F3+H 开启高级信息后，将鼠标悬停在任意气动工艺升级物品上即可查看升级名称；取该物品的注册名，并移除其中的 '_upgrade' 部分。$(p)例如，$(thing)pneumaticcraft:speed_upgrade/$对应的名称为 \"speed\"。"
+    },
+    {
+      "type": "text",
+      "title": "getVariable()",
+      "text": "$(#800)getVariable(<variable name>)/$$(p)返回这台无人机中变量的值，即 x、y 和 z。也可以读取$(l:programming/variables#global)全局变量/$（使用 # 前缀）和$(l:programming/variables#special)特殊变量/$（使用 $ 前缀）。"
+    },
+    {
+      "type": "text",
+      "title": "hideArea()",
+      "text": "$(#800)hideArea()/$$(p)停止在世界中高亮无人机当前保存的区域；此高亮由$(#800)showArea()/$显示。"
+    },
+    {
+      "type": "text",
+      "title": "isActionDone()",
+      "text": "$(#800)isActionDone()/$$(p)当前动作完成时返回 true，例如：\"goto\" 已到达目标位置、\"inventory import\" 已无法继续导入，或 \"dig\" 已挖掘所有可处理的方块。"
+    },
+    {
+      "type": "text",
+      "title": "isConnectedToDrone()",
+      "text": "$(#800)isConnectedToDrone()/$$(p)有无人机连接到此无人机接口时返回 true；连接会在无人机程序运行到电脑控制组件并成功建立通信后完成。"
+    },
+    {
+      "type": "text",
+      "title": "removeArea()",
+      "text": "$(#800)removeArea(<x1>,<y1>,<z1>,<x2>,<y2>,<z2>,<areaType>)/$$(p)从当前保存的区域中移除指定区域，效果等同于把该区域加入黑名单。"
+    },
+    {
+      "type": "text",
+      "title": "setAction()",
+      "text": "$(#800)setAction(<action>)/$$(p)设置无人机要执行的动作。该参数应为$(#800)getAllActions()/$返回的动作之一；这些动作与$(l:programming/programmer)编程器/$ GUI 中的编程组件直接对应。按 F3+H 开启高级物品提示后，组件的提示信息会显示相应动作名称。$(p)动作名称以$(thing)pneumaticcraft:/$开头时，可以省略此前缀。"
+    },
+    {
+      "type": "text",
+      "title": "setBlockOrder()",
+      "text": "$(#800)setBlockOrder(<\"closest\"/\"highToLow\"/\"lowToHigh\">)/$$(p)设置无人机放置或挖掘方块时的处理顺序。"
+    },
+    {
+      "type": "text",
+      "title": "setCanSteal()",
+      "text": "$(#800)setCanSteal(<true/false>)/$$(p)使用 \"pickup_item\" 动作时，此设置决定无人机能否拾取通常应当忽略的物品，例如$(thing)沉浸工程/$传送带上的物品。$(p)默认值为 'false'：无人机不会尝试拾取这类物品。"
+    },
+    {
+      "type": "text",
+      "title": "setCheckLineOfSight()",
+      "text": "$(#800)setCheckLineOfSight(<true/false>)/$$(p)使用 \"entity_attack\" 动作时，此设置决定无人机是攻击区域内的任意目标，还是只攻击与自身之间有直接视线的目标。$(p)默认值为 'false'：不检查视线。"
+    },
+    {
+      "type": "text",
+      "title": "setCount()",
+      "text": "$(#800)setCount(<amount>)/$$(p)设置导入、导出或投掷动作一次最多处理的物品数量；条件判断也会用该数量作为比较值。"
+    },
+    {
+      "type": "text",
+      "title": "setCraftingGrid()",
+      "text": "$(#800)setCraftingGrid(<item/block name>, <item/block name>, ...(9x))/$$(p)设置合成网格，供 \"crafting\" 动作使用此配方。必须依次指定配方中的全部 9 个格位；空格位应传入$(thing)nil/$。物品名称的格式与物品过滤器相同。"
+    },
+    {
+      "type": "text",
+      "title": "setDropStraight()",
+      "text": "$(#800)setDropStraight(<true/false>)/$$(p)当前动作为 \"drop_item\" 时，此设置决定物品是像原版投掷器一样带有随机速度，还是竖直向下投出。"
+    },
+    {
+      "type": "text",
+      "title": "setEmittingRedstone()",
+      "text": "$(#800)setEmittingRedstone(<strength>)/$$(p)设置当前动作为 \"emit_redstone\" 时要发出的红石信号强度。"
+    },
+    {
+      "type": "text",
+      "title": "setIsAndFunction()",
+      "text": "$(#800)setIsAndFunction(<true/false>)/$$(p)仅用于条件判断。设为 true 时，所有受检方块都必须满足条件要求（例如 >=10）。"
+    },
+    {
+      "type": "text",
+      "title": "setMaxActions()",
+      "text": "$(#800)setMaxActions(<amount>)/$$(p)设置动作被视为“完成”前，最多可对方块执行的操作次数。此设置适用于 \"place\"、\"dig\" 和 \"block_right_click\" 动作。还必须调用$(#800)setUseMaxActions(true)/$才能启用此限制。"
+    },
+    {
+      "type": "text",
+      "text": "$(#800)setOperator(<\"=\" / \">=\" / \"<=\">)/$$(p)仅用于条件判断。设置条件是检查数量相等（=）、大于或等于（>=），还是小于或等于（<=）。比较数量可通过$(#800)setCount()/$设置。",
+      "title": "setOperator()"
+    },
+    {
+      "title": "setPlaceFluidBlocks()",
+      "type": "text",
+      "text": "$(#800)setPlaceFluidBlocks(<true/false>)/$$(p)仅用于 \"liquid_export\" 动作。设为 true 时，无人机可以把流体方块放入世界；默认值 'false' 只允许把流体输出到流体储罐。"
+    },
+    {
+      "title": "setRenameString()",
+      "text": "$(#800)setRenameString(<name>)/$$(p)设置执行 \"rename\" 动作时要赋予无人机的名称。",
+      "type": "text"
+    },
+    {
+      "type": "text",
+      "title": "setRequiresTool()",
+      "text": "$(#800)setRequiresTool(<true/false>)/$$(p)设置无人机执行 \"dig\" 和 \"harvest\" 动作时是否需要工具。没有工具时，无人机不会尝试执行这些动作。"
+    },
+    {
+      "type": "text",
+      "title": "setRightClickType()",
+      "text": "$(#800)setRightClickType(\"click_item\" / \"click_block\")/$$(p)当前动作为 \"block_right_click\" 时，此设置决定无人机是按手持物品的使用逻辑执行右击（例如使用$(item)打火石/$），还是尝试激活目标方块（例如拨动$(item)拉杆/$）。默认值为 \"click_item\"。"
+    },
+    {
+      "type": "text",
+      "title": "setSide()",
+      "text": "$(#800)setSide(<side>, <accessible>)/$$(p)设置指定方向是否允许访问。\"inventory_import\" 和 \"inventory_export\" 动作以此决定无人机可从容器的哪一面访问物品栏；\"place\" 动作也会用它确定方块的放置方向。"
+    },
+    {
+      "title": "setSides()",
+      "text": "$(#800)setSides(<down>, <up>, <north>, <south>, <east>, <west>)/$$(p)作用与上一个方法相同，但可在一次调用中设置所有方向；此方法接受六个布尔参数。",
+      "type": "text"
+    },
+    {
+      "type": "text",
+      "title": "setSignText()",
+      "text": "$(#800)setSignText(<line1>, <line2>, ..., <lineN>)/$$(p)设置执行$(thing)edit_sign/$动作时，要写入告示牌和格言瓷砖的文字。"
+    },
+    {
+      "title": "setSneaking()",
+      "text": "$(#800)setSneaking(<true/false>)/$$(p)仅用于 \"block_right_click\" 动作；此设置决定模拟玩家执行右击时是否处于潜行状态。",
+      "type": "text"
+    },
+    {
+      "type": "text",
+      "text": "$(#800)setUseCount(<true/false>)/$$(p)设置无人机是否限制导入、导出或投掷的最大物品数量。设为 true 时，还必须调用$(#800)setCount()/$设置数量。",
+      "title": "setUseCount()"
+    },
+    {
+      "title": "setUseMaxActions()",
+      "type": "text",
+      "text": "$(#800)setUseMaxActions(<true/false>)/$$(p)设置是否限制无人机在命令被视为“完成”前，单次可对一个方块执行的最大操作次数。此设置适用于 \"place\"、\"dig\" 和 \"block_right_click\" 动作。设为 true 时，还必须调用$(#800)setMaxActions()/$设置次数。"
+    },
+    {
+      "text": "$(#800)setVariable(<variable name>, <x>, <y>, <z>)/$$(p)把这台无人机的一个$(l:programming/variables)变量/$设为给定的 X/Y/Z 坐标。也可以设置$(l:programming/variables#global)全局变量/$。",
+      "type": "text",
+      "title": "setVariable()"
+    },
+    {
+      "text": "$(#800)setVariable(<variable name>, <boolean>)/$$(p)为这台无人机设置一个$(l:programming/coordinate_operator)变量/$。传入 'true' 等同于传入 (1,0,0)，传入 'false' 等同于传入 (0,0,0)。",
+      "type": "text",
+      "title": "setVariable()"
+    },
+    {
+      "type": "text",
+      "title": "showArea()",
+      "text": "$(#800)showArea()/$$(p)显示无人机当前保存的区域；其渲染方式与在编程组件选项 GUI 中点击$(thing)显示区域/$时相同。可以使用$(#800)hideArea()/$隐藏这些区域。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成无人机接口",
+      "recipe": "pneumaticcraft:drone_interface"
+    }
+  ]
+}

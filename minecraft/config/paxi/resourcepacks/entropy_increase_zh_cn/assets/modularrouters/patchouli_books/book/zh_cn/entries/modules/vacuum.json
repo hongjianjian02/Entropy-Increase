@@ -1,0 +1,19 @@
+{
+  "name": "真空模块",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:vacuum_module",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此模块会搜索路由器周围 13x13x13 的立方体区域，即各方向最远 6 格，并尽可能将掉落物吸入缓冲区。$(p)使用$(l:augments/range_up)范围升级拓展/$可扩大至 25x25x25，即各方向 12 格；使用$(l:augments/range_down)范围降级拓展/$可缩小至 3x3x3。"
+    },
+    {
+      "type": "text",
+      "text": "模块的$(l:intro/modules#direction)指定方向/$为默认的$(bold)全部/$时，搜索区域以路由器为中心。$(p)如果指定了某个方向，搜索区域会沿该方向偏移 6 格；每个范围升级拓展再增加 1 格偏移，每个范围降级拓展减少 1 格。$(p)例如，方向设为$(bold)上/$时，模块只搜索路由器正上方的区域。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:vacuum_module"
+    }
+  ]
+}

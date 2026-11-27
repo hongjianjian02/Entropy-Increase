@@ -2,5 +2,6 @@
   "config.extendedae_plus": "扩展 AE Plus",
   "extendedae_plus.tooltip.frequency_secondary": "频率: %d",
   "extendedae_plus.tooltip.locked_secondary": "状态：%s",
-  "extendedae_plus.tooltip.master_mode_secondary": "模式：%s"
+  "extendedae_plus.tooltip.master_mode_secondary": "模式：%s",
+  "extendedae_plus.message.mapping.delete_success": "已删除“%2$s”的映射，共 %1$d 条。"
 }

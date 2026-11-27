@@ -1,0 +1,75 @@
+{
+  "name": "装配系统",
+  "icon": "pneumaticcraft:assembly_controller",
+  "category": "pneumaticcraft:manufacturing",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "要制造更高等级的材料，需要搭建由多种$(thing)装配设备/$组成的$(thing)装配系统/$。这些设备水平相邻时会互相通信。除$(item)装配台交互设备/$外，每种设备只能有一台（见下文）。装配系统以$(l:base_concepts/pressure)压缩空气/$运行；只需向装配台供气，即可为整套系统提供动力。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:assembly_controller",
+      "text": "$(thing)装配系统/$的核心。它接收$(l:manufacturing/assembly_programs)装配程序/$，由程序指示$(item)装配台/$如何控制其他$(thing)装配设备/$。$(p)装配台的显示屏会显示当前状态和诊断信息；打开 GUI 可查看具体运行情况。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:assembly_io_unit_import",
+      "text": "$(item)装配台交互设备/$负责在物品容器与$(item)装配平台/$之间转移物品，其机械臂可以斜向伸展。$(p)交互设备既可导入待加工物品，也可导出成品；原版$(item)箱子/$或其他模组的物品容器均可使用。"
+    },
+    {
+      "type": "text",
+      "title": "装配台交互设备（续）",
+      "text": "一套$(thing)装配系统/$必须包含$(italic)两台/$$(item)装配台交互设备/$：一台输入，一台输出。$(6)橙色/$表示输出模式，$(9)蓝色/$表示输入模式。$(item)装配台交互设备/$必须同时能够触及$(item)装配平台/$，以及用于取出或存入物品的容器（取决于当前模式）。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:assembly_platform",
+      "text": "$(item)装配平台/$是其他$(thing)装配设备/$使用的工作台，在钻孔或激光加工时固定物品。$(p)所有其他设备都必须能够触及平台，因此最好把$(item)装配平台/$放在系统中央。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:assembly_drill",
+      "text": "$(item)装配钻头/$是负责实际加工的$(thing)装配机器/$之一，其钻石钻头能够钻透最坚硬的材料。$(p)$(item)装配钻头/$$(italic)不能/$斜向触及目标，因此必须紧邻$(thing)装配平台/$放置。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:assembly_laser",
+      "text": "$(item)装配激光/$用于切割材料，可把物品切片或切除边缘。$(p)与$(item)装配钻头/$相同，该设备$(italic)不能/$斜向触及装配平台。"
+    },
+    {
+      "type": "text",
+      "title": "使用方法",
+      "text": "要使用$(thing)装配系统/$加工物品，把对应的$(l:manufacturing/assembly_programs)装配程序/$放入$(item)装配台/$，再把所需原料放入输入容器。$(p)只要原料与装配台已知的配方及当前程序相符，系统便会自动加工。"
+    },
+    {
+      "type": "link",
+      "flag": "mod:crafttweaker",
+      "title": "CraftTweaker",
+      "text": "$(thing)装配系统/$支持$(l:https://minecraft.curseforge.com/projects/crafttweaker)CraftTweaker/$：可添加或移除配方。更多信息见下方链接。",
+      "url": "https://docs.blamejared.com/1.16/en/mods/PneumaticCraft-Repressurized/AssemblySystem",
+      "link_text": "CraftTweaker 文档"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:assembly_controller",
+      "recipe2": "pneumaticcraft:assembly_platform"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:assembly_io_unit_import",
+      "recipe2": "pneumaticcraft:assembly_io_unit_export"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:assembly_io_unit_import_from_export",
+      "recipe2": "pneumaticcraft:assembly_io_unit_export_from_import"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:assembly_drill",
+      "recipe2": "pneumaticcraft:assembly_laser"
+    }
+  ]
+}

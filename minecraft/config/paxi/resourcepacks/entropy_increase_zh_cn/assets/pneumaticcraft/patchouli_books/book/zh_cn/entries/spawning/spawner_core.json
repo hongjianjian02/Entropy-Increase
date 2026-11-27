@@ -1,0 +1,30 @@
+{
+  "name": "刷怪笼核心",
+  "icon": "pneumaticcraft:spawner_core",
+  "category": "pneumaticcraft:spawning",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)刷怪笼核心/$是原版$(item)刷怪笼/$的核心部分，保存着待生成生物的精质。$(p)可以使用$(l:spawning/spawner_extractor)刷怪笼抽取器/$从刷怪笼中强制取出核心；也可以自行制造核心，并将其用于功能更强的$(l:spawning/pressurized_spawner)气动刷怪笼/$。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:spawner_core",
+      "text": "获取刷怪笼核心有两种方式：$(li)使用$(l:spawning/spawner_extractor)刷怪笼抽取器/$从刷怪笼中强制抽取，请做好战斗准备！这种核心会被对应刷怪笼的生物精质 100% 填满。$(li)自行制造刷怪笼核心，再使用$(l:spawning/vacuum_trap)真空陷阱/$捕获生物精质并填充核心。"
+    },
+    {
+      "type": "text",
+      "text": "由$(item)真空陷阱/$填充的刷怪笼核心可能含有多种生物的精质；这可能符合需求，也可能并非如此。$(p)$(thing)右击/$核心可随机释放其中一种生物，但结果不一定如愿。要用$(thing)真空陷阱/$制得纯度 100% 的核心并不容易，需要谨慎操作。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成刷怪笼核心外壳；它用于制造真正的$(item)刷怪笼核心/$。",
+      "recipe": "pneumaticcraft:spawner_core_shell"
+    },
+    {
+      "type": "pneumaticcraft:thermo_plant",
+      "recipe": "pneumaticcraft:thermo_plant/spawner_core"
+    }
+  ]
+}

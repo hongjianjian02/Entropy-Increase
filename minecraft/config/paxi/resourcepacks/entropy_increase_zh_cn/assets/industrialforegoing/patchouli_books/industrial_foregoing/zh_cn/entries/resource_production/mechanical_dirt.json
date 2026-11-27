@@ -1,0 +1,21 @@
+{
+  "name": "机械诅咒之土",
+  "icon": "industrialforegoing:mechanical_dirt",
+  "category": "industrialforegoing:resource_production",
+  "sortnum": 1,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "这个方块融入了未知技术，满足特定条件时会迅速生成$(6)怪物$()。$(br2)首先，每次操作需要 $(6)1000$()RF 和 $(6)20mb$() 的$(6)肉汤$()；其次，必须满足普通怪物的生成条件（即亮度等级不超过 $(6)7$()，且方块所在区域已加载）。$(br2)"
+    },
+    {
+      "type": "text",
+      "text": "向其中一个方块提供$(6)能量$()或$(6)肉汤$()时，它会自动将资源平均分配给相连的其他方块。"
+    },
+    {
+      "type": "industrialforegoing:dissolution",
+      "recipe": "industrialforegoing:dissolution_chamber/mechanical_dirt"
+    }
+  ]
+}

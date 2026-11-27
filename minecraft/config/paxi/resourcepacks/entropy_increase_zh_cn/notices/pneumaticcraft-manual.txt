@@ -1,0 +1,27 @@
+PneumaticCraft: Repressurized Simplified Chinese Patchouli manual
+Source project: DemSum/pneumaticcraft-zh_cn-manual
+Source URL: https://github.com/DemSum/pneumaticcraft-zh_cn-manual
+Source commit: 3c6431b07fc3f142ae94d5853dc68f59419098f2
+Imported: 2026-11-26. All 236 English source JSON files were verified identical to the installed 8.2.24 manual.
+Local adjustments: remove a repeated <action> notation from explanatory prose; retain IndustrialCraft 2 as a proper name.
+
+PneumaticCraft 8.2.23 Simplified Chinese Manual Resource Pack
+
+Project-authored translation text, validation scripts, reports, and metadata are
+distributed under the GNU General Public License, version 3 only (GPL-3.0-only):
+https://www.gnu.org/licenses/gpl-3.0.html
+
+The English manual and pack icon are derived from PneumaticCraft: Repressurized.
+The installed mod declares "GNU GPLv3" in META-INF/neoforge.mods.toml. Copyright
+and attribution remain with Team Pneumatic / the PneumaticCraft contributors:
+https://github.com/TeamPneumatic/pnc-repressurized
+
+Terminology was aligned with assets/pneumaticcraft/lang/zh_cn.json in the
+installed mod. PneumaticCraft release notes attribute that Chinese localization
+to the CFPA project, whose translation repository is licensed CC BY-NC-SA 4.0:
+https://github.com/CFPAOrg/Minecraft-Mod-Language-Package
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+SPDX-License-Identifier: GPL-3.0-only
+
+Additional local review: restored the original number of setTargetHeight() references; clarified that only drones placed by security-station-whitelisted players may charge.

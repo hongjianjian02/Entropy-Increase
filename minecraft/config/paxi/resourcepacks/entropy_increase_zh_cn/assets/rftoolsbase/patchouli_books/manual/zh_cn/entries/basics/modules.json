@@ -1,0 +1,15 @@
+{
+  "name": "模块",
+  "icon": "rftoolsbase:filter_module",
+  "category": "rftoolsbase:category_basics",
+  "extra_recipe_mappings": {
+    "rftoolsbase:filter_module": 0,
+    "rftoolsbase:crafting_card": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "RFTools 科技系列中的多种机器支持模块。模块是一类可放入机器的物品，用于调整或提供功能。对于支持模块的机器，通常手持模块右键点击机器即可装入。"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "name": "拓展",
+  "description": "将拓展装入模块，可以增强或扩展模块的功能。",
+  "icon": "modularrouters:xp_vacuum_augment",
+  "sortnum": 4
+}

@@ -1,0 +1,50 @@
+{
+  "name": "模块",
+  "icon": "modularrouters:breaker_module",
+  "category": "modularrouters:intro",
+  "pages": [
+    {
+      "type": "text",
+      "text": "将$(thing)模块/$装入$(l:intro/modular_router)物品路由器/$，就能指定路由器的工作。共有 20 种不同模块，各有自己的功能，但都具备一些共同特点：$(li)每个模块都有 9 个$(thing)过滤槽/$，用于控制它处理哪些物品。$(li)许多模块具有相对于路由器朝向的$(thing)工作方向/$。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)部分模块还有用于调整其特有功能的额外设置。$(p)这些选项都能在模块界面中设置，手持模块并$(thing)右键/$即可打开。$(p)在路由器界面中，将鼠标悬停在已安装的模块上，按 $(4)$(bold)[$(k:modularrouters.configure)]/$，或用$(thing)鼠标中键点击/$模块，也能直接配置，无需将其取出。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "modularrouters:textures/patchouli/module_gui.png"
+      ],
+      "text": "$(italic)模块界面：各部分的说明见后续页面/$",
+      "border": true
+    },
+    {
+      "type": "text",
+      "title": "1. 过滤槽",
+      "anchor": "filter",
+      "text": "九个过滤槽可放入任意物品或方块的虚拟副本。白名单模式下，只有路由器$(thing)缓冲区/$中的物品与模块过滤器中的某项匹配时，模块才会工作；黑名单模式则相反。"
+    },
+    {
+      "type": "text",
+      "anchor": "direction",
+      "title": "2. 方向选择",
+      "text": "大多数模块沿相对于路由器朝向的指定方向工作，你可以在此选择方向。$(p)部分模块会直接锁定远处的方块，例如$(l:modules/sender2)发送模块 Mk2/$，因此无法设置工作方向，此时方向选择区域会留空。"
+    },
+    {
+      "type": "text",
+      "title": "3. 过滤控制",
+      "text": "这里的按钮可控制以下选项：$(li)白名单或黑名单$(li)是否区分物品损耗（针对有耐久度的物品）$(li)是否匹配物品 NBT，例如附魔$(li)是否按$(l:https://minecraft.gamepedia.com/Tag)物品标签/$匹配$(p)这里还有控制$(l:router/termination)终止行为/$的按钮，详见对应页面。"
+    },
+    {
+      "type": "text",
+      "title": "4. 拓展",
+      "text": "每个模块都有四个$(thing)拓展槽/$，可装入用于该模块的拓展。$(p)能够安装哪些拓展取决于模块类型，并非所有模块都支持所有拓展。"
+    },
+    {
+      "type": "text",
+      "title": "5. 额外设置",
+      "text": "部分模块还提供额外配置选项。例如，前面展示的$(l:modules/detector)检测模块/$可以设置红石输出强度，以及输出弱充能还是强充能信号。$(p)这些选项会显示在模块界面的右侧。"
+    }
+  ]
+}

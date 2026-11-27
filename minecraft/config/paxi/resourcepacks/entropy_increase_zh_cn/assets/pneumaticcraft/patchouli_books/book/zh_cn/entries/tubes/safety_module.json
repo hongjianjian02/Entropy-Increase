@@ -1,0 +1,26 @@
+{
+  "name": "安全阀管道模块",
+  "icon": "pneumaticcraft:safety_tube_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "该管道模块用于把管道内的$(l:base_concepts/pressure)压力/$限制在指定值，从而防止$(thing)爆炸/$；超出的压力会释放到大气中，这意味着$(thing)能量损失/$。因此，本模块最适合与$(l:tubes/pressure_gauge_module)压力表管道模块/$搭配使用，后者可发出红石信号来关闭压缩机。"
+    },
+    {
+      "type": "text",
+      "text": "$(item)安全阀管道模块/$的默认阈值比管道的危险压力低 0.1 bar：$(li)基础$(item)压力管道/$为 4.9 bar$(li)$(item)高级压力管道/$为 19.9 bar$(p)请注意，此机制与 1.12.2 时不同；旧版本需要红石信号来设定阈值。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "对安全阀管道模块使用$(l:tubes/module_expansion_card)模块拓展卡/$后，模块会获得 GUI（右击打开），可更精细地控制阈值。你可以在 GUI 中直接设定精确阈值，也可以勾选$(bold)高级配置/$，根据红石信号插值计算阈值。其工作方式与$(l:tubes/pressure_gauge_module#img)压力表 GUI/$十分相似，但作用方向相反。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作安全阀管道模块",
+      "recipe": "pneumaticcraft:safety_tube_module"
+    }
+  ]
+}

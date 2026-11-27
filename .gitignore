@@ -10,3 +10,21 @@ minecraft/Entropy-Increase*
 /tools
 /outputs
 /minecraft/_tmp
+
+# Keep the localized runtime guides, attribution and this batch's progress.
+!/minecraft/config/paxi/resourcepacks/entropy_increase_zh_cn/**/*.md
+!/docs/
+/docs/*
+!/docs/localization/
+/docs/localization/*
+!/docs/localization/20261126/
+!/docs/localization/20261126/**
+
+# Editable FancyMenu art, build sources, previews and verification records.
+!/docs/development/
+/docs/development/*
+!/docs/development/fancymenu/
+!/docs/development/fancymenu/**
+/docs/development/fancymenu/**/__pycache__/
+/docs/development/fancymenu/20261126-schema/decompiled/
+/docs

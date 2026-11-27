@@ -405,6 +405,102 @@ file = "config/fabric/indigo-renderer.properties"
 hash = "e242b95b585e76925b7e84ef613ad8c606be037c49f80a51bc15ce37d94efdfa"
 
 [[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/background.png"
+hash = "9cd6c8a8ece3e322bbc0726c173da747a5a51f82e5ecf11ef1078f396e289694"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/language_hover.png"
+hash = "dbb7f21846815ac532c13eb10c4108bbe68ed9f33532f70429807578f97315a5"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/language_normal.png"
+hash = "83741f53f81bee7526dccccf4287e31ef3bafd5295433094275c7b73a448cf3d"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/language_pressed.png"
+hash = "4fc0f2e59ea607580ec4b176dbfe295ab0487a3c612cbcfeb549dbbaac152fcf"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/logo.png"
+hash = "768862600fc3b4afd7b0d4a0363fd2ce08403bd0e93074f47cff4cca05200aea"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/mods_hover.png"
+hash = "62ae5e65547cd2b57819afb1017a268dfdef4ddcda27f294ea414a01b609a7a7"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/mods_normal.png"
+hash = "14f2d27709d1be5ff3dcd963c8f652b0f83b1bd87aa4531e2cddc4cd64f2f5fa"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/mods_pressed.png"
+hash = "9cff73f76e028859c2d368debccf661d4203d5ceba84251879c360be37a3eea3"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/multiplayer_hover.png"
+hash = "42f91960f2c10d7e9b5b04281734fc82d3400963b56e6038e556148dee26ea76"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/multiplayer_normal.png"
+hash = "e094a05843f6d4a66328403ab930ecb9a103a8960d76db01939bb8a149047f2f"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/multiplayer_pressed.png"
+hash = "538e591830b377224bd7482755dfcc18293c9081fc7f41cdde0849ac0e2a21c8"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/options_hover.png"
+hash = "92ff7e5ce9b597aa3d7a94b1ffc4b7b4d823b0c6e06c784784f1d7dafa45d3b6"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/options_normal.png"
+hash = "50d66cc223970b035a889bafcb6070d2059e52260fa9e50563ca2f98c8658b26"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/options_pressed.png"
+hash = "7e2b7e0bb54d8978151237598c9aedadc6e1090a9c666894e69caa2c0a4177cb"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/quit_hover.png"
+hash = "651da3093bc78ca51f76d63780ee9a2d6e174e41f2744e0b9bf0d853b53f6085"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/quit_normal.png"
+hash = "dcb81d6d989b8c7cc8a66f3affce99db52e019cf0ac94a4ff80805d9452c5a2f"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/quit_pressed.png"
+hash = "d8f930ffb5099e53b42d6708da3e34e1a111e95f837655973f89c7ef216dce71"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/singleplayer_hover.png"
+hash = "eb85c82ed498f1c0b3e9c5d56ca95c5b8489fadc4973f515523b58a6f8650baf"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/singleplayer_normal.png"
+hash = "216f9b70d9bdcdff352ae399c190ae790931b55462f8ee7cfbebf4c5a98a6454"
+
+[[files]]
+file = "config/fancymenu/assets/entropy_variants/c_arcane/singleplayer_pressed.png"
+hash = "b7825ceca317c39334047244c750060da7c975889635c1771d12565e3f75ff3a"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "4c68ab99c906dd487952f61bf33c0635039a8bbff3f02099e3cd8272fe51b4aa"
+
+[[files]]
+file = "config/fancymenu/customization/ei_variants/c_arcane.txt"
+hash = "248272ff561e70dccc0b775ff0a8ad01f0813aa41c3fcd5958735b9631b6eccd"
+
+[[files]]
+file = "config/fancymenu/entropy_themes_README.txt"
+hash = "289f21742c67e2c22ba97d04e527126e10cf68d19661c9b829d955cee29179ca"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "e5c00ee3510bef30bada4b618b27c08d183cfc62e4bc7fb9105553b841b5be74"
+
+[[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "b6c85cb392f799ed932ffe8d6051f48a283a0df3f8674acf4f8d89341836e686"
 
@@ -2616,6 +2712,11 @@ hash = "9009bd5cdcdbc6bc47a7fbb203844d9a551accdd796877bdba5233ac14bbd513"
 metafile = true
 
 [[files]]
+file = "mods/.index/bookshelf.pw.toml"
+hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
+metafile = true
+
+[[files]]
 file = "mods/.index/brandons-core.pw.toml"
 hash = "e8715ea59563162d2f135e3ced41f145e7fcdd51237bbbc0ec9fdc40793d79be"
 metafile = true
@@ -2923,6 +3024,11 @@ metafile = true
 [[files]]
 file = "mods/.index/guideme.pw.toml"
 hash = "c7fc7e150c7984b36c95df43994dc617af53317c14a24f2162ff35d41e685a3a"
+metafile = true
+
+[[files]]
+file = "mods/.index/hardcoreastagesitem.pw.toml"
+hash = "6a8b7a366c9af77cc7008d99c5fbfd9bbd204741404ab7b2f3b895d7815ce901"
 metafile = true
 
 [[files]]
@@ -3301,6 +3407,11 @@ hash = "03b48b231e998a43788294a2181009608a7e9e069844dfe8f6da6bf19118734a"
 metafile = true
 
 [[files]]
+file = "mods/.index/prickle.pw.toml"
+hash = "eab2f56ff9135b3b7253ea5a73deae2f887e2876f5f0432936044a6e926937b4"
+metafile = true
+
+[[files]]
 file = "mods/.index/prism-lib.pw.toml"
 hash = "5c6e05e760971feeacf6a0102c2829a712c9e16e3fb6f3d6fece18a87a8381a4"
 metafile = true
@@ -3481,8 +3592,12 @@ hash = "8d4c36e3aac91377077f3c9e51173a669d6dbe445df94e926df0cea1581a975e"
 metafile = true
 
 [[files]]
-file = "mods/EI core-1.0.36.jar"
-hash = "fbae99d20087cb1513f356a272bbd2eb091f74f918f132f348f046f8478a78c9"
+file = "mods/astagemaeks-1.0.4.jar"
+hash = "4d5f75d23c02ba81e11f9b5b32c5a307c444958767534a3a308faccb717529ed"
+
+[[files]]
+file = "mods/EI core-1.0.37.jar"
+hash = "a9eff32d95ecb7d05f75d86561cc8d029884c38a67d8ac17837fba90618045cc"
 
 [[files]]
 file = "mods/aeroblender.pw.toml"
@@ -3555,11 +3670,6 @@ hash = "4237401ed9eb9c3e44cd056664e784cf2c35f238ff65cd8796f3ded6bafb0ed8"
 metafile = true
 
 [[files]]
-file = "mods/.index/bookshelf.pw.toml"
-hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
-metafile = true
-
-[[files]]
 file = "mods/botania-neoforge-1.21.1-456-20260822.093314-4.jar"
 hash = "7ea12cdb4e0f855a94d9620b5325a7449b62a010d16c23284bd5191e8b788237"
 
@@ -3598,6 +3708,11 @@ file = "mods/extrabotany-neoforge-1.21.1-2.0-scex.9-dev.jar"
 hash = "fd1337608ca04deda195ce5bf8fcd85355c3779bc8808c4c49a20c314557487a"
 
 [[files]]
+file = "mods/.index/fancymenu.pw.toml"
+hash = "5379aa2d58764a2e9a2849ba8b358ca80ee58a4f94eea764f53251d3c922d5c0"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "d9ed9ac8e0db9db29078dafa22bc2d86ac702f10863ae7cb1d5245111c5ea17b"
 metafile = true
@@ -3608,11 +3723,6 @@ hash = "62637d9fa6059eee6042ffe48185a94621d4f45e0c3e77397b4e19cbbcbc59fb"
 metafile = true
 
 [[files]]
-file = "mods/.index/hardcoreastagesitem.pw.toml"
-hash = "6a8b7a366c9af77cc7008d99c5fbfd9bbd204741404ab7b2f3b895d7815ce901"
-metafile = true
-
-[[files]]
 file = "mods/immortalers-delight.pw.toml"
 hash = "a4085d9fbece293e93185a72415834701a52ad1e8e0ac8a358aaeefcf8cf6189"
 metafile = true
@@ -3620,6 +3730,16 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "75c8544ee70cd8b0549e429a0c08bd5c1c20f97fc6bb15d30fdd98677a657cef"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-resources-jer.pw.toml"
+hash = "397f35d7eccfd938827dc2e16fad9619213604b5e9f81d0d54f0674b1d3df6b6"
+metafile = true
+
+[[files]]
+file = "mods/.index/konkrete.pw.toml"
+hash = "05aa5d04a38f1c1829e39056462b003a8cd313e22c5cd9e015a8bb413a14fdc7"
 metafile = true
 
 [[files]]
@@ -3645,6 +3765,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "ff152357ebb175e8e8c58ecda4f9814d398c5668f3311b0ad6a4afcb1dc26d13"
+metafile = true
+
+[[files]]
+file = "mods/.index/melody.pw.toml"
+hash = "331f9551b85f075a6398c8cf1d9ced0d2c0b643ab4db6ea1609666846c0208f1"
 metafile = true
 
 [[files]]
@@ -3674,11 +3799,6 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
-metafile = true
-
-[[files]]
-file = "mods/.index/prickle.pw.toml"
-hash = "eab2f56ff9135b3b7253ea5a73deae2f887e2876f5f0432936044a6e926937b4"
 metafile = true
 
 [[files]]
@@ -3778,3 +3898,547 @@ hash = "299a8f49b86c472812f27764cb3c7847828fa0f5e85b76e85a34486547b3a9ab"
 [[files]]
 file = "重建索引.bat"
 hash = "87b2313b331d3d96b61a7c7d043c262c1872853d1bae66f074b4458a53237074"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/README.txt"
+hash = "962e57292359fb2ba6bbbbf9c1e5aa0e588f4bb8150086180934db043133fb0d"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/health.png"
+hash = "d9670aa23cc5c10f8ee5e3708e80d5e3d874270961235487de5a7a491698c1bc"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/absorption.png"
+hash = "91d4ec9aa2f7f12e78b27a38de7d2a4de67a31117c47559d2f853182b61e6c01"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/air.png"
+hash = "6aa7a7e35dcff429ddeb05dc67cfdadc19d0b3dd9c442c0dcfaabfd74f65e5a3"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/air_blinking.png"
+hash = "876bfdbde62b00edad66bc846250b1c1cab83c58ce72c63e0efc63cedc220589"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/armor.png"
+hash = "eefe2af566e87b2b296c4f786f8ce648f6879ebc699d7a02462e1b7368f3224b"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/armor_toughness.png"
+hash = "eefe2af566e87b2b296c4f786f8ce648f6879ebc699d7a02462e1b7368f3224b"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/blood.png"
+hash = "4c88f382105ac9b005a12cd79a12ddc7b1e30ffdd8f7cfef891c6e37035484b8"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/fallback.png"
+hash = "29136c44894fdc110013c8427d16f16d758f4097603d39bd0f4f3621d416fedf"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/feathers.png"
+hash = "391f051468b6745caf3dd4558a35b8700059d3a5d805057109062c7bf9a05948"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/forbidden_hunger.png"
+hash = "1e6593f0b78c8dfeb991f42cc7a925739bca6e87179c485a4edfd26c4eac7a38"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/mana_extra.png"
+hash = "6aa7a7e35dcff429ddeb05dc67cfdadc19d0b3dd9c442c0dcfaabfd74f65e5a3"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/mana_extra_blinking.png"
+hash = "876bfdbde62b00edad66bc846250b1c1cab83c58ce72c63e0efc63cedc220589"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/mana_full.png"
+hash = "6aa7a7e35dcff429ddeb05dc67cfdadc19d0b3dd9c442c0dcfaabfd74f65e5a3"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/mana_full_blinking.png"
+hash = "876bfdbde62b00edad66bc846250b1c1cab83c58ce72c63e0efc63cedc220589"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/mana_leaking.png"
+hash = "6aa7a7e35dcff429ddeb05dc67cfdadc19d0b3dd9c442c0dcfaabfd74f65e5a3"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/mana_leaking_blinking.png"
+hash = "876bfdbde62b00edad66bc846250b1c1cab83c58ce72c63e0efc63cedc220589"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/mount_health.png"
+hash = "4c88f382105ac9b005a12cd79a12ddc7b1e30ffdd8f7cfef891c6e37035484b8"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/thirst.png"
+hash = "6aa7a7e35dcff429ddeb05dc67cfdadc19d0b3dd9c442c0dcfaabfd74f65e5a3"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/thirst_blinking.png"
+hash = "876bfdbde62b00edad66bc846250b1c1cab83c58ce72c63e0efc63cedc220589"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/thirst_hunger.png"
+hash = "1e6593f0b78c8dfeb991f42cc7a925739bca6e87179c485a4edfd26c4eac7a38"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/thirst_hunger_blinking.png"
+hash = "7277cb3f095f005bdc3ab9581e6261043c3812e9c7e359caae4a24ed65b541ab"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/icons/thirst_nourishment.png"
+hash = "44e329b27f9bf07991c232d01527a9f1bc56d21bb1c08b93d95bfbbf3905cd4c"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/container/inventory.png"
+hash = "a75002738e37e78b2a6074ec073d0a53d50307179e732d1226a89b0c5a67504c"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/footer_separator.png"
+hash = "f44dd01050a5dabf4488e9862ed039d7175c1b9fc5c7af4dca7df991aeb3267a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/header_separator.png"
+hash = "f44dd01050a5dabf4488e9862ed039d7175c1b9fc5c7af4dca7df991aeb3267a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/menu_background.png"
+hash = "01091efb14da7348ddd2b96a806724ddb0bde8d7a0117ed93bc8bd59a505ebb8"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/menu_list_background.png"
+hash = "f5ae1f3dd4a322a9ced25bb63770a5b0219ab722e164a0475285463ca145018e"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/recipe_book.png"
+hash = "7afdb3e5752cd92f37f752863420a19ffc363b1824231736ca0ddec187b93193"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/hud/experience_bar_background.png"
+hash = "dad4f26cec4b73f5fe59e204a1bc4d6a3066a3f067747726ccf900ae10320d1a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/hud/experience_bar_progress.png"
+hash = "438a348c9848c70ef17b8cb3b97bb32adc102bc1ab0890a10a2e672a24a6665b"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/hud/hotbar.png"
+hash = "7ef45abe627f47abf2f904f39cc846ad75153149a58ea4588844d6dd829dc9c9"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/hud/hotbar_offhand_left.png"
+hash = "a6719d904431155669b2279f79c6fd58e62f7f3c94b20d392ca2af40c8173305"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/hud/hotbar_offhand_right.png"
+hash = "e2d5cd7649036b4e058f0a8c868e065fbd5a82af5387502dd1084a355c96283a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/hud/hotbar_selection.png"
+hash = "04cd340eaac0f3f3c09dad7ed84be308f480cb83ad6a5aa5d0faf7396f94bacb"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/hud/jump_bar_background.png"
+hash = "dad4f26cec4b73f5fe59e204a1bc4d6a3066a3f067747726ccf900ae10320d1a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/hud/jump_bar_cooldown.png"
+hash = "e533be2b1f8f26876bee91a9797a666621f3d9782eaa618c598de0c683065c71"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/hud/jump_bar_progress.png"
+hash = "3c533418ae63ce44b532bae0d8438226168ea55013153913e39fc1a7491b75d5"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/button.png"
+hash = "b9876e49d1fbbf573169d18e6b6b9343724da46aef8304dbfb3d750b9d2f9f6d"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/button_highlighted.png"
+hash = "78c81de57c381e82b630ab6503178392297458b29d7a6cb746a9dd2f15a50b99"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay.png"
+hash = "cdc00fa39dceb415808af6157966f7f9e8674e831bb2aea03557192fbbaf74d9"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_disabled.png"
+hash = "07b422bb67d609071bb5bf067b580bec4e0f2dfd1b9db0a76f2b670812d28d13"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_disabled_highlighted.png"
+hash = "649705e13593b4ae328ac1c38e0048d320345c884e08625860e596763a84a6c7"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/crafting_overlay_highlighted.png"
+hash = "9097ca383d32e2ea5adbf2a9d798301e1879f8338a8e0ff6666d8061c7191c3c"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/filter_disabled.png"
+hash = "ca6046948857493eb97dac8e04741611c98b9da23c5748fa20ee96b2445c17a9"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/filter_disabled_highlighted.png"
+hash = "dbf184739a00fc8575a4f0df419cdd5c08094770e989a41db9bc031a9dda9072"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/filter_enabled.png"
+hash = "b4dc979f2bf9e76d8c5fb7aa6738b98484a567ad0ee0c95a3fa591e19ae0dd54"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/filter_enabled_highlighted.png"
+hash = "b4dc979f2bf9e76d8c5fb7aa6738b98484a567ad0ee0c95a3fa591e19ae0dd54"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_disabled.png"
+hash = "faf71cec22ad908d00bf85a7d41b6e3cf0b385bb9a27312941deda371eed601c"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_disabled_highlighted.png"
+hash = "750dd0a81209aedf065cc055d85a5215d7233c50673381c2a99c7a2060e20655"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_enabled.png"
+hash = "09c5c5a5414b695bee27373417435ca68927f804209002c18b1ee30a4450f349"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/furnace_filter_enabled_highlighted.png"
+hash = "09c5c5a5414b695bee27373417435ca68927f804209002c18b1ee30a4450f349"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay.png"
+hash = "cdc00fa39dceb415808af6157966f7f9e8674e831bb2aea03557192fbbaf74d9"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_disabled.png"
+hash = "07b422bb67d609071bb5bf067b580bec4e0f2dfd1b9db0a76f2b670812d28d13"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_disabled_highlighted.png"
+hash = "649705e13593b4ae328ac1c38e0048d320345c884e08625860e596763a84a6c7"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/furnace_overlay_highlighted.png"
+hash = "9097ca383d32e2ea5adbf2a9d798301e1879f8338a8e0ff6666d8061c7191c3c"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/overlay_recipe.png"
+hash = "a169952dfb6b5f4478b2402085d88c4eccc96ecee4aea97faba22897632af196"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/overlay_recipe.png.mcmeta"
+hash = "293c6f9bb846e6045b822ab7e5e489ec297b4c054a265f5df50f3eabe78f9738"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/page_backward.png"
+hash = "10a373c5727987627e7c81f74c1a20dca7fd764660f6f1786d4d76a87c1dea24"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/page_backward_highlighted.png"
+hash = "2099d49dab3332db298904d8adb531403b55a5eb42b3eafd1f462b4aab59cee8"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/page_forward.png"
+hash = "2e8bf670ffe18232bb2db0498cf1a02385750909cadb32e8d6443c111b900ba8"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/page_forward_highlighted.png"
+hash = "fb0bad394f085a3c42476ebfc7aba479e9c0af0f8f15e8d3f1067ed1dc729407"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/slot_craftable.png"
+hash = "6650ad5b8f842e6c8cd58c8df6f27d7e5e55de1885d00448ad9caca23ca7f706"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/slot_many_craftable.png"
+hash = "9b686ea8543038e0f7d1978128439684d2aadfa964a0bbe82c689cfb5c38dfb9"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/slot_many_uncraftable.png"
+hash = "4bc73fd0b9757181e228c970cc492411f9ad305c3caf63f724ac4819f1ff0a0b"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/slot_uncraftable.png"
+hash = "a0086102e47678acf0dd4933791610045f692f89b97b351f78de38f3f3de4aa1"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/tab.png"
+hash = "27d03a2f2337d4d3095a44dcfad8b04b4081c55807929fb38990d84ae2099851"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/recipe_book/tab_selected.png"
+hash = "d67ad96585c3dea12e31ff15df20980445b7d86be820a0292bb586449dedd6dc"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/incompatible.png"
+hash = "4d3b9c1e068e7c91acc6cb29e9860738ca10d2d23b4c0a4efb87c022c7c07739"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/join.png"
+hash = "6ec69502a543818d57724f7ffd6a8ac5ef2ded67189ed930c4efd95c415852de"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/join_highlighted.png"
+hash = "9c446f825b997db90944ec9ef83890724063af66d44a2241ab7456bd5a16833b"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/move_down.png"
+hash = "11dd3e9e7e29bc268bebdc653b470d99302a8f6da266522c1f666577f91bd290"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/move_down_highlighted.png"
+hash = "a0d29b509ea58ca0884ae0de4fbdadf7193622700ec7f9dc083b1d744eedb862"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/move_up.png"
+hash = "4a82ed11dad3c4397c9adca4cb82b02c0b6e2632db79145bb9aebe238eabd732"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/move_up_highlighted.png"
+hash = "55f887e66f30418bed3099e786f901aa27d64c49dc4c2b53bbc6b3ae0123c511"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/ping_1.png"
+hash = "e31b81c7836c8e24852f2e34d66a485fa0010fa0d0f44dc01ff1d20929a170ed"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/ping_2.png"
+hash = "fca588f3086b36cc32731f86bc3a8c6a199c359f4b4f94e3adc27d52580ab161"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/ping_3.png"
+hash = "b5a0bc0f7e11888b3eb942dcc941ffd834e1754e09b7ea1b2f758b898057200a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/ping_4.png"
+hash = "2684dbf41ee37eef7b221e63ae1864cbf68c078881adddbc7743892700dca417"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/ping_5.png"
+hash = "33e74cfa1b09f46e595c163217766f164b1f9a416ce79bc8f1112958d42b2070"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/pinging_1.png"
+hash = "33e74cfa1b09f46e595c163217766f164b1f9a416ce79bc8f1112958d42b2070"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/pinging_2.png"
+hash = "2684dbf41ee37eef7b221e63ae1864cbf68c078881adddbc7743892700dca417"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/pinging_3.png"
+hash = "b5a0bc0f7e11888b3eb942dcc941ffd834e1754e09b7ea1b2f758b898057200a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/pinging_4.png"
+hash = "fca588f3086b36cc32731f86bc3a8c6a199c359f4b4f94e3adc27d52580ab161"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/pinging_5.png"
+hash = "e31b81c7836c8e24852f2e34d66a485fa0010fa0d0f44dc01ff1d20929a170ed"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/server_list/unreachable.png"
+hash = "4d3b9c1e068e7c91acc6cb29e9860738ca10d2d23b4c0a4efb87c022c7c07739"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/button.png"
+hash = "bd2cc70aae1d5baa706a54cec3e5aebc8fe1e052aa733f26ee2f9610c0858a4f"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/button.png.mcmeta"
+hash = "68419f967ef77ff4de9dc09f620c262599b2aba45e714c0e83a66c1b319686d3"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/button_disabled.png"
+hash = "577748e21870550581802cf872c4726e83a8d5232f7aa700ed19f721f2753d1c"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/button_disabled.png.mcmeta"
+hash = "2090fd7fe51edfca5f9ff8a3d10075890daa93152949f9da731f0b6cd692276e"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/button_highlighted.png"
+hash = "4aec2b5d9e27f4672c87e2ddb9e44fdb831f47991464ebfea7003021aa1359d3"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/button_highlighted.png.mcmeta"
+hash = "68419f967ef77ff4de9dc09f620c262599b2aba45e714c0e83a66c1b319686d3"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/checkbox.png"
+hash = "13fddc5c4fcf11d7fcd6d6bfc4a49c0708b0c898b095a7ccaf59402e0f885177"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/checkbox_highlighted.png"
+hash = "2fb541126390cb0ddccaeb25a4ead54056f32a059f26c2eca6da2b3f545042dd"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/checkbox_selected.png"
+hash = "53232591c97fda3e3be34253177b8bf79bec8d3877798b210814b0bc63eb298e"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/checkbox_selected_highlighted.png"
+hash = "53232591c97fda3e3be34253177b8bf79bec8d3877798b210814b0bc63eb298e"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/locked_button.png"
+hash = "257931c6c30cb64622bcc18889ddab9ff49e1bd97a6378e81e7277635e0e7ab4"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/locked_button_disabled.png"
+hash = "61b192c0ea1101d27747a0fb12ff2f44b0109d9e59b2b1c4c7da4984bbe812ac"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/locked_button_highlighted.png"
+hash = "fbf7b9178d4ae0cb0da4cab7f6fd7a6f0524d3380214a0b5d4740017189a0570"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/scroller.png"
+hash = "20276cce5c146f9c334067944588baca24d10c1aadbd15af63ca64ecd508fab7"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/scroller.png.mcmeta"
+hash = "9f78eb8fd5e7028d7fb539ef68e1ec1b3afa23233feb657894f9f522c1b36e2c"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/scroller_background.png"
+hash = "02e9f792d4ba16ddf1a86f7e8db8abdad5556fabba1a8630a0acc9acf5b2b597"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/scroller_background.png.mcmeta"
+hash = "9f78eb8fd5e7028d7fb539ef68e1ec1b3afa23233feb657894f9f522c1b36e2c"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/slider.png"
+hash = "80abe246f6f8407b05c8c3a017958af97158c7977342ba6fe0892036f8b373e8"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/slider.png.mcmeta"
+hash = "2090fd7fe51edfca5f9ff8a3d10075890daa93152949f9da731f0b6cd692276e"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/slider_handle.png"
+hash = "d9761ca808e043d15eeeb65d90d4d57a0c31cccf3a94cabd590f46fa185a2233"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/slider_handle.png.mcmeta"
+hash = "a2571b8a5fcc98d952392ef09a7938044150f583d79ce4834b2e2a6dd7fa4bfc"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png"
+hash = "d7283a6a2e73bbdda5b0f9d9ba894b1b08e715a1717e849c21f96d45d2031062"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/slider_handle_highlighted.png.mcmeta"
+hash = "a2571b8a5fcc98d952392ef09a7938044150f583d79ce4834b2e2a6dd7fa4bfc"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png"
+hash = "80abe246f6f8407b05c8c3a017958af97158c7977342ba6fe0892036f8b373e8"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/slider_highlighted.png.mcmeta"
+hash = "2090fd7fe51edfca5f9ff8a3d10075890daa93152949f9da731f0b6cd692276e"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/tab.png"
+hash = "89f56e55f52c13c43d32fe90af857b24cad558f66340fc424ad47e7d0655fc38"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/tab.png.mcmeta"
+hash = "1e02c06816c3027200915a5a8b25806d6499c7c608d3d6f973a91e180cbf2f1f"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/tab_highlighted.png"
+hash = "e1080b0bc9a3f488d365b2b65dd292f5e36781bf2de5afc3706907ff7328920c"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/tab_highlighted.png.mcmeta"
+hash = "1e02c06816c3027200915a5a8b25806d6499c7c608d3d6f973a91e180cbf2f1f"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/tab_selected.png"
+hash = "8c11d0325f366c4a6753e62251c94dd1d91f40ba2aca30ac1eb301c32a6078d5"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/tab_selected.png.mcmeta"
+hash = "1e02c06816c3027200915a5a8b25806d6499c7c608d3d6f973a91e180cbf2f1f"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png"
+hash = "8c11d0325f366c4a6753e62251c94dd1d91f40ba2aca30ac1eb301c32a6078d5"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/tab_selected_highlighted.png.mcmeta"
+hash = "1e02c06816c3027200915a5a8b25806d6499c7c608d3d6f973a91e180cbf2f1f"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/text_field.png"
+hash = "b8804aa6502b9db66936baa7be775b33a793ddbab294d193ab0dc42309609585"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/text_field.png.mcmeta"
+hash = "2090fd7fe51edfca5f9ff8a3d10075890daa93152949f9da731f0b6cd692276e"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png"
+hash = "787659e76b47c3cff7899a15c400f56fe9808525b06846a47d31da3a199dd052"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/text_field_highlighted.png.mcmeta"
+hash = "2090fd7fe51edfca5f9ff8a3d10075890daa93152949f9da731f0b6cd692276e"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/unlocked_button.png"
+hash = "d9debf05fe452c1660c2215faa373d4a5c502bace7f356deba78fdd4eebda3e1"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/unlocked_button_disabled.png"
+hash = "774ed93715a7e2e3599dea91a9b9546554a573adf6fd95739a1a5d7be8322e5c"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/widget/unlocked_button_highlighted.png"
+hash = "93c7096c03fec2312e01f99367fc3bf573e39ef809dc96e647a059a8726fd3b8"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/world_list/error.png"
+hash = "9cbb04821d957847cfcdcee59b8db7581a225c6888f13eeafc2d11016d5293c7"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/world_list/error_highlighted.png"
+hash = "9cbb04821d957847cfcdcee59b8db7581a225c6888f13eeafc2d11016d5293c7"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/world_list/join.png"
+hash = "cad22c5cf0f688c978b6cacb289ae3aa0c7abc7badc75606dc4aedea202c0c08"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/world_list/join_highlighted.png"
+hash = "98c91a00733394c6ad2d292942bfa2fa0f1696c090bba0b730bd90c27abd6b3c"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/world_list/marked_join.png"
+hash = "15d107926e1056c39243502a60c9257f26b1a4fe00d0f45eab201033141e675f"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/world_list/marked_join_highlighted.png"
+hash = "15d107926e1056c39243502a60c9257f26b1a4fe00d0f45eab201033141e675f"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/world_list/warning.png"
+hash = "b8d8c0ac7703bfa314c8a63beff73cdbc6a6ca5022aac82aef56783c5e2ee860"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/world_list/warning_highlighted.png"
+hash = "b8d8c0ac7703bfa314c8a63beff73cdbc6a6ca5022aac82aef56783c5e2ee860"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/tab_header_background.png"
+hash = "01091efb14da7348ddd2b96a806724ddb0bde8d7a0117ed93bc8bd59a505ebb8"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/pack.mcmeta"
+hash = "2847d7d125a7b5e26fdb919a14d428692d3d1d03b58d89d786f286deffc484f2"

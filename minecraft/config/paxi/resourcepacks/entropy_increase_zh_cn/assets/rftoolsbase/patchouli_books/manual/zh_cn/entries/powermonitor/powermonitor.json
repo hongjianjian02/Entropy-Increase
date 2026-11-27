@@ -1,0 +1,20 @@
+{
+  "name": "能量监测器",
+  "icon": "rftoolspower:power_monitor",
+  "category": "rftoolsbase:category_rftoolspower_monitor",
+  "extra_recipe_mappings": {
+    "rftoolspower:power_monitor": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "放置此逻辑方块时，将输入面朝向$(thing)储能方块$()。可在界面中设置输出$(thing)红石信号$()的能量范围。$(br2)当能量百分比高于下限且低于上限时，输出红石信号。 "
+    },
+    {
+      "type": "crafting",
+      "heading": "能量监测器",
+      "recipe": "rftoolspower:power_monitor"
+    }
+  ]
+}

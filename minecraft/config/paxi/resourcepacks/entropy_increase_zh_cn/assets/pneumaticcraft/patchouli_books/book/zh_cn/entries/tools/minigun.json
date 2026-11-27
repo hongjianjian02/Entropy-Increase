@@ -1,0 +1,22 @@
+{
+  "name": "转管机枪",
+  "icon": "pneumaticcraft:minigun[pneumaticcraft:air=30000]",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)转管机枪/$是一种使用$(l:base_concepts/pressure)压缩空气/$和$(l:tools/minigun_ammo)机枪弹药/$的手持武器。弹药必须装入$(l:tools/minigun_ammo#magazine)转管机枪的弹匣/$，不会直接消耗玩家物品栏中的弹药。$(p)按住$(thing)右击/$即可开火；枪管会先开始旋转，达到所需转速后自动射击。"
+    },
+    {
+      "type": "text",
+      "title": "升级",
+      "text": "$(item)转管机枪/$的许多性能都可在$(l:machines/charging_station)充气站/$中升级，包括枪管加速速度、射程和药水效果触发概率等。$(p)每种升级及其具体效果均可在充气站的升级 GUI 中查看。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成转管机枪",
+      "recipe": "pneumaticcraft:minigun"
+    }
+  ]
+}

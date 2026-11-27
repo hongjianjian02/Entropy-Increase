@@ -1,0 +1,25 @@
+{
+  "name": "程序流控制",
+  "icon": "pneumaticcraft:textures/progwidgets/jump_piece.png",
+  "category": "pneumaticcraft:programming",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "部署$(l:tools/drone)无人机/$后，它会立即开始执行内部保存的程序。程序流遵循以下规则：$(li)程序$(italic)总是/$从$(l:programming/start)开始/$组件起步，且一个程序中只能有一个开始组件。$(li)程序流通常$(italic)向下/$推进，进入连接在当前组件下方的组件。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)每个组件都会持续执行自身操作，直到判定操作$(italic)完成/$；“完成”的具体条件因组件而异，各组件页面中会分别说明。$(li)当前组件下方没有连接其他组件时，程序会返回$(l:programming/start)开始/$组件。$(p)以上是基本规则；此外还有少数特殊情况，见下文。"
+    },
+    {
+      "type": "text",
+      "title": "程序流控制组件",
+      "text": "$(li)$(l:programming/label)标签/$组件在程序中定义一个可供跳转的目标点。$(li)$(l:programming/jump)跳转/$组件会立即、无条件地跳到名称匹配的$(thing)标签/$组件。$(li)$(l:programming/conditions)条件/$组件可根据所检测的条件触发跳转。$(li)高级的$(l:programming/for_each_item)对于每个物品/$和$(l:programming/for_each_coordinate)对于每个坐标/$组件会针对各自的输入列表，反复跳转到$(thing)标签/$。"
+    },
+    {
+      "type": "text",
+      "text": "另有两个会影响程序流的特殊组件：$(li)$(l:programming/standby)待机/$组件会让无人机“休眠”，直到其他组件确实有工作需要执行。$(li)$(l:programming/suicide)自毁/$组件会把$(thing)无人机/$变回物品，并立即终止程序。"
+    }
+  ]
+}

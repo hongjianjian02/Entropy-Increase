@@ -1,0 +1,19 @@
+{
+  "name": "传运器控制器",
+  "icon": "rftoolsbuilder:mover_controller",
+  "category": "rftoolsbase:category_rftoolsbuilder_mover",
+  "extra_recipe_mappings": {
+    "rftoolsbuilder:mover_controller": 0
+  },
+  "sortnum": 20,
+  "pages": [
+    {
+      "type": "text",
+      "text": "传运器控制器用于连接各传运器。将它紧邻一个传运器放置，再用它寻找其他已连通的传运器。"
+    },
+    {
+      "type": "text",
+      "text": "两个传运器沿同一主轴排列，且相距不超过 128 格时，即可连通。"
+    }
+  ]
+}

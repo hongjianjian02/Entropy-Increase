@@ -1,0 +1,35 @@
+{
+  "name": "存储检测器",
+  "icon": "rftoolsstorage:storage_scanner",
+  "category": "rftoolsbase:category_rftoolsstorage_scanner",
+  "extra_recipe_mappings": {
+    "rftoolsstorage:storage_scanner": 0
+  },
+  "sortnum": 10,
+  "pages": [
+    {
+      "type": "text",
+      "text": "存储检测器会扫描附近的容器，并在同一个界面中显示其中的物品。你可以搜索、取出物品，也可以将物品放回连接的容器。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "rftoolsstorage:storage_scanner"
+    },
+    {
+      "type": "text",
+      "text": "使用半径滑块和扫描按钮查找容器。若配置要求使用 XNet 联动，检测器的范围将改由 XNet 连接决定。"
+    },
+    {
+      "type": "text",
+      "text": "搜索框按物品名称过滤。在搜索词前加上 @ 可以按模组 ID 过滤，例如 @minecraft 或 @rftoolsstorage。"
+    },
+    {
+      "type": "text",
+      "text": "可以移动、移除、排序容器，并将其标记为允许路由。允许路由的容器会参与自动存取，也会显示在模块的星标视图中。"
+    },
+    {
+      "type": "text",
+      "text": "如需远程使用，请将$(l:rftoolsbase:scanner/modules)存储控制模块$(/l)绑定到检测器，再装入$(l:rftoolsbase:scanner/remote)平板电脑（检测器）$(/l)。"
+    }
+  ]
+}

@@ -2,5 +2,7 @@
   "item.merequester.wireless_requester_terminal": "无线请求终端",
   "key.ae2.wireless_requester_terminal": "打开无线请求终端",
   "tooltip.merequester.cpu": "无CPU",
-  "tooltip.merequester.cpu_desc": "系统无法为合成任务找到合适的CPU。找到CPU后将继续合成。"
+  "tooltip.merequester.cpu_desc": "系统无法为合成任务找到合适的CPU。找到CPU后将继续合成。",
+  "tooltip.merequester.amount": "目标存量",
+  "tooltip.merequester.batch": "请求批量"
 }

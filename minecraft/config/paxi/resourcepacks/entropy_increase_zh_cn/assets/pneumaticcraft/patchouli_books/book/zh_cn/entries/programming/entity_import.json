@@ -1,0 +1,29 @@
+{
+  "name": "搭载实体组件",
+  "icon": "pneumaticcraft:textures/progwidgets/entity_import_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)无人机/$会前往指定$(l:programming/area)区域/$内距离最近、且符合可选$(l:base_concepts/entity_filter)实体过滤器/$的实体；该过滤器由相连的$(l:programming/text)文本/$组件指定。找到目标后，无人机会搭载该实体进行运输。$(p)玩家也能被搭载，不过玩家可以轻松脱离$(item)无人机/$：$(thing)潜行/$即可下车。当然，乘坐一台可控制的飞行实体也有其好处……"
+    },
+    {
+      "type": "text",
+      "title": "经验球",
+      "text": "此组件也能让无人机搭载$(thing)经验球/$；$(item)@orb/$实体过滤器可以匹配经验球。搭载的经验球会转化为$(l:base_concepts/memory_essence)记忆源质/$并存入无人机的内部储罐，之后可用$(l:programming/liquid_export)输出流体/$组件把记忆源质送入流体储罐。"
+    },
+    {
+      "type": "text",
+      "title": "区域限制",
+      "text": "请注意，与此组件相连的$(l:programming/area)区域/$组件必须使用$(thing)盒型/$；这是唯一直接支持的形状。不过，可以通过组合区域白名单和黑名单来构造其他形状。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/entity_import_piece.png"
+      ],
+      "text": "$(italic)外星人绑架/$"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "充气管道模块",
+  "icon": "pneumaticcraft:charging_module",
+  "category": "pneumaticcraft:tubes",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此管道模块可为朝向的物品容器中可加压物品充气或放气，例如装有气动工具的箱子，或用于远距离转移气量的$(l:components/air_canister)空气罐/$（可配合某种末影物品传输系统）。$(p)也可让模块朝向$(l:machines/aerial_interface)空气接口/$，从而为玩家物品栏中的物品充气。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:module_expansion_card",
+      "text": "给充气管道模块安装$(l:tubes/module_expansion_card)模块拓展卡/$后，每件物品的充气速率会从 10mL/刻提高到 100mL/刻。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作充气管道模块",
+      "recipe": "pneumaticcraft:charging_module"
+    }
+  ]
+}

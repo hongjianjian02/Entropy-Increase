@@ -1,0 +1,33 @@
+{
+  "name": "格言瓷砖",
+  "icon": "pneumaticcraft:aphorism_tile",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:assembly_controller",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)格言瓷砖/$类似$(item)告示牌/$，但能显示任意数量的文字；文字会自动缩放，使全部内容都能放入瓷砖。$(p)放置格言瓷砖时，默认会$(ttcolor)$(t:可在客户端配置中禁用：参见“B:dramaSplash”)显示/$一条来自$(l:http://mc-drama.herokuapp.com/)Drama Generator（戏剧生成器）/$的随机闪烁标语。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)空手对$(item)格言瓷砖/$执行$(thing)右击/$，可直接在原位置编辑。$(li)使用$(thing)Alt + 0-9/a-f/l/m/n/o/r/$可添加格式代码，即$(l:https://minecraft.gamepedia.com/Formatting_codes)Minecraft 标准格式代码/$。$(li)按住$(thing)F1/$可显示编辑器按键帮助。$(li)手持任意染料对$(item)格言瓷砖/$执行$(thing)右击/$可重新染色；点击瓷砖上的对应区域，可以分别设置边框和背景颜色。"
+    },
+    {
+      "type": "text",
+      "anchor": "items",
+      "text": "$(li)$(item)格言瓷砖/$除文字外还可显示$(thing)物品/$。在单独一行中输入$(thing){item:<modid>:<itemid>}/$即可指定物品，例如$(thing){item:minecraft:diamond}/$。$(li)也可以点击 GUI 左侧面板中的$(thing)插入物品……/$按钮，再从搜索窗口选择物品；这会替换当前行的全部文字。同一块瓷砖可以显示多个物品。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)提示：显示的物品会缩放到与文字行高相匹配。混排文字与物品时，应缩短文字行，避免物品显示得过小。$(li)如果希望文字少占一些牌面空间，还可以使用 GUI 左侧面板的滑块为文字设置$(thing)边距/$。$(li)最后，可以勾选 GUI 左侧面板的复选框，让整个格言瓷砖$(thing)不可见/$，从而$(italic)只/$显示文字和/或物品。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)除非玩家正在潜行，否则隐形格言瓷砖完全没有方块碰撞形状，因此很适合用作箱子标签，尤其适合显示物品。由于没有碰撞形状，所有交互都会传递给后方方块——例如右击箱子。$(li)潜行并右击隐形格言瓷砖即可编辑（与通常操作一样，任意一只空手均可）。"
+    },
+    {
+      "type": "pneumaticcraft:assembly_system",
+      "recipe": "pneumaticcraft:assembly/aphorism_tile"
+    }
+  ]
+}

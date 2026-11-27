@@ -1377,5 +1377,11 @@
   "nuclearcraftneohaul:music_disc.end_of_the_world.credit": "8-Bit 版本制作：GermanPikachuGaming",
   "nuclearcraftneohaul:music_disc.hyperspace.credit": "“Riku Nuottajärvi”的 8-Bit 封面",
   "nuclearcraftneohaul:music_disc.money_for_nothing.credit": "8-Bit 版本制作：Omnigrad",
-  "nuclearcraftneohaul:music_disc.wanderer.credit": "8-Bit 版本制作：8 Bit Universe"
+  "nuclearcraftneohaul:music_disc.wanderer.credit": "8-Bit 版本制作：8 Bit Universe",
+  "nuclearcraftneohaul.tooltip.rad_shielding.desc_hardcore": "可安装在盔甲上，穿戴时获得 %s 辐射抗性。也可安装在容器上，屏蔽其内部物品产生的辐射。",
+  "block.nuclearcraftneohaul.electrolyzer_anode_terminal": "电解池阳极端子",
+  "block.nuclearcraftneohaul.electrolyzer_cathode_terminal": "电解池阴极端子",
+  "nuclearcraftneohaul.tooltip.electrode.anode": "电解池阳极",
+  "nuclearcraftneohaul.tooltip.electrode.cathode": "电解池阴极",
+  "block.nuclearcraftneohaul.fission_fuel_cell": "裂变燃料单元"
 }

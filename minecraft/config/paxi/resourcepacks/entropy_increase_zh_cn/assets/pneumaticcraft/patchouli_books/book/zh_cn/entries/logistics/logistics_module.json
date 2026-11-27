@@ -1,0 +1,17 @@
+{
+  "name": "物流管道模块",
+  "icon": "pneumaticcraft:logistics_module",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "完整说明请参阅手册$(thing)压力管道/$分类中的$(l:tubes/logistics_module)物流管道模块章节/$。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:logistics_module",
+      "text": "制作物流管道模块"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "液体提取机",
+  "icon": "industrialforegoing:fluid_extractor",
+  "category": "industrialforegoing:basics",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "液体提取机会从正前方放置的原木中提取$(l:basics/latex)胶乳$()。多个提取机可以同时从同一块原木中提取。$(br2)机器会逐步消耗原木；第一阶段耗尽后，原木会被替换为去皮变种，去皮原木继续被消耗，最终消失。 "
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:fluid_extractor",
+      "text": "$(br2)$(6)不同原木的胶乳产量不同，具体速率请查看 JEI。$(6)供能可选：提供能量会加快机器的工作速度。"
+    }
+  ]
+}

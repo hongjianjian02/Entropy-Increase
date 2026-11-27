@@ -1,0 +1,19 @@
+{
+  "name": "速度升级",
+  "category": "modularrouters:upgrades",
+  "icon": "modularrouters:speed_upgrade",
+  "pages": [
+    {
+      "type": "text",
+      "text": "默认情况下，$(l:router/modular_router)路由器/$每 20 个服务端游戏刻运行一次，也就是每秒一次。每次运行都会从左到右依次执行已安装的模块。$(p)若需要提高速度，可添加$(thing)速度升级/$。每个升级使运行间隔缩短 2 个服务端游戏刻，最短可达到每 2 刻一次，即每秒 10 次。"
+    },
+    {
+      "type": "text",
+      "text": "基础运行间隔、每个升级缩短的间隔，以及最短间隔，都可以在模组配置文件 config/modularrouters-common.toml 中调整。$(p)出于性能考虑，应尽量优先使用$(l:upgrades/stack)堆叠升级/$，只有确实需要提高物品传输速率时才酌情添加速度升级。$(p)请善待你的服务器（tm）。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:speed_upgrade"
+    }
+  ]
+}

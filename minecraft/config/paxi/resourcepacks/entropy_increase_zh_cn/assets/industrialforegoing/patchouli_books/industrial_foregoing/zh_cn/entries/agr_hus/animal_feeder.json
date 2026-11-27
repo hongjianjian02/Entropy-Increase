@@ -1,0 +1,17 @@
+{
+  "name": "饲育机",
+  "icon": "industrialforegoing:animal_feeder",
+  "category": "industrialforegoing:agriculture_husbandry",
+  "sortnum": 8,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "提供动物对应的食物后，机器会$(6)喂养$()动物，让它们繁殖幼仔。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:animal_feeder"
+    }
+  ]
+}

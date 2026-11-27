@@ -1,0 +1,30 @@
+{
+  "name": "Chunk 加载",
+  "icon": "minecraft:ender_eye",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "Minecraft 的一项基本机制是：任何时刻都只有部分世界会被加载到内存中。这对性能至关重要；普通计算机无法让整个世界，尤其是模组世界，始终全部加载并持续运行。因此，世界在水平面上被划分为 16x16 的$(thing)chunk/$，每次只有少数 chunk 处于加载状态。"
+    },
+    {
+      "type": "text",
+      "text": "这对构建可靠的模组设施影响很大：如果希望离开基地后机器仍继续处理，就必须对相关机器$(thing)进行 chunk 加载/$。以下内容主要用于帮助你构建可靠的 $(pncr) 设施，但大多也适用于其他模组。"
+    },
+    {
+      "type": "text",
+      "title": "Chunk 加载方式",
+      "text": "$(li)原版提供$(thing)/forceload/$命令，可强制一个或多个 chunk 始终保持加载，但需要 OP 权限。$(li)许多模组提供玩家可用的 chunk 加载方案，例如$(thing)FTB Chunks/$、$(thing)Chicken Chunks/$、$(thing)Weirding Gadgets/$等。$(li)本模组的$(l:programming/programmable_controller)可编程控制器/$也提供有限的 chunk 加载功能。"
+    },
+    {
+      "type": "text",
+      "title": "Chunk 加载安全",
+      "text": "以下建议有助于构建可靠的 chunk 加载系统：$(li)$(thing)尽量让整个设施不跨越 chunk 边界/$。如果设施一部分被加载、另一部分未加载，结果可能极难预测；应当让它全部加载或全部不加载。$(li)$(thing)在机器中安装安全升级。/$即使红石控制设计良好，chunk 加载或服务器性能问题仍可能引发故障；安全升级可以防止爆炸。"
+    },
+    {
+      "type": "text",
+      "title": "Chunk 加载安全（续）",
+      "text": "$(li)$(thing)尽可能把多方块结构完整放在单个 chunk 内。/$即使所有相关 chunk 都已强制加载，让$(l:manufacturing/pressure_chamber)压力室/$等多方块结构横跨两个或更多 chunk 也并不理想。"
+    }
+  ]
+}

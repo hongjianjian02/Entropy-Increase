@@ -1,0 +1,17 @@
+{
+  "name": "生物捕捉工具",
+  "icon": "industrialforegoing:mob_imprisonment_tool",
+  "category": "industrialforegoing:tools",
+  "sortnum": 0,
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "text",
+      "text": "手持生物捕捉工具（MIB）$(6)右击$()实体，即可将其收入工具。$(br2)使用工具$(6)右击$()地面，即可释放其中的实体。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "industrialforegoing:mob_imprisonment_tool"
+    }
+  ]
+}

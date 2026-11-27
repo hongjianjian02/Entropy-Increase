@@ -1,0 +1,25 @@
+{
+  "name": "煤油灯",
+  "icon": "pneumaticcraft:kerosene_lamp",
+  "category": "pneumaticcraft:machines",
+  "advancement": "pneumaticcraft:refinery",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)煤油灯/$是一种强力光源，顾名思义，以$(l:manufacturing/refinery)煤油/$为燃料。它类似于一些远距离光源，例如$(thing)神秘时代（Thaumcraft）的奥术灯/$。$(p)$(italic)严格来说，煤油灯能使用任何可燃燃料；但在这盏灯中，煤油的效率高于包括 LPG 在内的所有其他燃料。/$"
+    },
+    {
+      "type": "text",
+      "text": "$(item)煤油灯/$的默认照明范围为 10 格，可在 GUI 中调整，最大为 30 格。范围越大，耗油量越高，并且按范围的平方增长；因此范围翻倍时，耗油量会变为 4 倍！$(p)不过，煤油灯本身耗油不多：使用 1000mB 煤油并保持默认 10 格范围时，可运行$(ttcolor)$(t:可在模组配置中调整煤油灯效率：参见“D:keroseneLampFuelEfficiency”)约 40 分钟现实时间/$。"
+    },
+    {
+      "type": "text",
+      "text": "与大多数 $(pncr) 方块一样，$(item)煤油灯/$可由$(thing)红石/$控制。除常规开/关模式外，还有$(bold)插值信号/$模式，会根据红石信号强度对照明范围进行插值。$(p)例如，假设默认最大范围为 10 格，输入强度 8（满强度为 15）的$(#f00)红石信号/$时，煤油灯的照明范围为 5 格。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作煤油灯",
+      "recipe": "pneumaticcraft:kerosene_lamp"
+    }
+  ]
+}

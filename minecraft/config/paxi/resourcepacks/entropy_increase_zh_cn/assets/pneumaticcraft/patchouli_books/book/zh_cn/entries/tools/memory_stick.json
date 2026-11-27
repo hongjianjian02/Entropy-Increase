@@ -1,0 +1,27 @@
+{
+  "name": "记忆棒",
+  "icon": "pneumaticcraft:memory_stick",
+  "category": "pneumaticcraft:tools",
+  "advancement": "pneumaticcraft:plastic",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)记忆棒/$是一种用于提取、储存和取回玩家经验等级的手持设备：$(li)$(thing)右击/$：把自身的一级经验存入记忆棒$(li)$(thing)潜行 + 右击/$：从记忆棒取回一级经验$(li)$(thing)左击/$：切换 XP 经验球自动吸收；启用后，收集到的经验球会自动存入记忆棒"
+    },
+    {
+      "type": "text",
+      "text": "记忆棒中储存的经验还可提取为$(l:base_concepts/memory_essence)记忆源质/$流体。手持记忆棒对任意$(l:machines/tanks)流体储罐/$执行$(thing)右击/$，即可在记忆棒与储罐之间转移经验；其他模组的流体储罐通常也可使用。右击空储罐时，会尝试把记忆源质从记忆棒输入储罐；右击已含记忆源质的储罐时，则会尝试把记忆源质从储罐取回记忆棒。"
+    },
+    {
+      "type": "text",
+      "title": "Curios",
+      "flag": "mod:curios",
+      "text": "安装$(thing)Curios/$模组后，可以把记忆棒放入任意 Curios 槽位，以节省物品栏空间。启用 XP 经验球自动吸收时尤其方便。"
+    },
+    {
+      "type": "crafting",
+      "text": "合成记忆棒",
+      "recipe": "pneumaticcraft:memory_stick"
+    }
+  ]
+}

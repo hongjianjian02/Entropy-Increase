@@ -1,0 +1,6 @@
+{
+  "badmobs.configuration.allowNormalSpawning": "自然生成",
+  "badmobs.configuration.allowSpawners": "刷怪笼生成",
+  "badmobs.configuration.allowSpawnEggs": "刷怪蛋生成",
+  "badmobs.configuration.allowConversions": "转化生成"
+}

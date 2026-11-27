@@ -1,0 +1,38 @@
+{
+  "name": "基础材料",
+  "icon": "pneumaticcraft:ingot_iron_compressed",
+  "category": "pneumaticcraft:base_concepts",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(pncr) 不会在地下生成额外矿石。开始发展只需要$(item)铁锭/$；将其制成许多模组配方都会用到的$(item)压缩铁锭$()。$(p)把$(item)铁锭/$扔在地上，再在附近制造爆炸即可。$(item)TNT/$最方便，但其他爆炸同样有效。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/compressed_iron.png"
+      ],
+      "text": "$(italic)      记得后退/$"
+    },
+    {
+      "type": "spotlight",
+      "anchor": "compressed_iron_ingot",
+      "item": "pneumaticcraft:ingot_iron_compressed",
+      "text": "警告：爆炸加工会损失约 20% 的铁锭。以后可在$(l:manufacturing/pressure_chamber)压力室/$中制造$(item)压缩铁锭/$来避免损耗；但制作$(thing)压力室/$本身就需要一些$(item)压缩铁锭/$，所以初期的少量损失无法避免。"
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/compressed_iron_ingot"
+    },
+    {
+      "type": "crafting",
+      "anchor": "compressed_iron_block",
+      "recipe": "pneumaticcraft:compressed_iron_block_from_ingot",
+      "text": "$(item)压缩铁块/$是优良的$(l:base_concepts/heat)导热体/$，可为产热机器提供更多表面来安装$(l:machines/heat_sink)散热片/$。不过，也可考虑使用更紧凑的$(l:machines/heat_pipe)热管/$。"
+    },
+    {
+      "type": "pneumaticcraft:pressure_chamber",
+      "recipe": "pneumaticcraft:pressure_chamber/compressed_iron_block"
+    }
+  ]
+}

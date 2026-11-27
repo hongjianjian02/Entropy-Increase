@@ -1,0 +1,22 @@
+{
+  "name": "物流配置器",
+  "icon": "pneumaticcraft:logistics_configurator",
+  "category": "pneumaticcraft:logistics",
+  "advancement": "pneumaticcraft:pressure_tube",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)物流配置器/$主要用于帮助配置$(l:logistics/overview)物流系统/$。$(p)用它$(thing)右击/$任意$(l:logistics/frames)物流框架/$，即可配置各种过滤器。$(p)$(thing)潜行右击/$可从所附着的物品容器上拆下框架。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:logistics_configurator",
+      "text": "$(item)物流配置器/$还可拆下其他附属装置：对装置$(thing)潜行并右击/$即可，例如$(l:semiblocks/transfer_gadget)传输装置/$和$(l:semiblocks/crop_support)作物架/$。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作物流配置器",
+      "recipe": "pneumaticcraft:logistics_configurator"
+    }
+  ]
+}

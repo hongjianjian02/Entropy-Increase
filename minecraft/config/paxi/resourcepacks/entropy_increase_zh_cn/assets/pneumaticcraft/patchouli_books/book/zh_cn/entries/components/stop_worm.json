@@ -1,0 +1,17 @@
+{
+  "name": "停！蠕虫",
+  "icon": "pneumaticcraft:stop_worm",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是仅用于入侵$(l:machines/security_station)安全站/$的特殊组件。它无法合成，只能从地牢战利品或较罕见的村民交易中获得。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:stop_worm",
+      "text": "入侵过程中使用$(thing)停！蠕虫/$，会暂时冻结安全站的$(l:components/network_components#diagnostic)诊断子程序/$，使其无法追踪你。"
+    }
+  ]
+}

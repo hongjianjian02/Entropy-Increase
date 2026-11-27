@@ -1,0 +1,6 @@
+{
+  "name": "模块",
+  "description": "将模块装入物品路由器，即可决定路由器的功能。",
+  "icon": "modularrouters:sender_module_1",
+  "sortnum": 2
+}

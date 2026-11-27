@@ -1,0 +1,84 @@
+{
+  "name": "编程器",
+  "icon": "pneumaticcraft:programmer",
+  "category": "pneumaticcraft:programming",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)编程器/$使用可视化编程系统为$(l:tools/drone)无人机/$编写程序：在 GUI 中把$(l:programming/puzzle_pieces)编程拼图/$对应的组件拼接起来。$(thing)编程器/$运行时不需要$(l:base_concepts/pressure)压力/$。$(thing)编程/$分类中的其他章节会进一步介绍无人机程序的编写方法。"
+    },
+    {
+      "type": "crafting",
+      "text": "制作编程器",
+      "recipe": "pneumaticcraft:programmer"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/patchouli/programmer_gui.png"
+      ],
+      "text": "$(italic)编程器 GUI；各区域的说明见后续页面/$"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)1. 主编程区/$$(p)程序主体在此处搭建。把组件从$(thing)组件栏（区域 2）/$拖到这里，再像拼图一样连接成程序。$(p)可用鼠标滚轮或右侧滚动条缩放主编程区。"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)2. 组件栏/$$(p)这里存放用于搭建程序的组件。组件数量超过当前显示范围时，可用下方箭头翻页，也可按$(thing)Space/$或$(thing)Tab/$展开组件栏并显示全部组件。$(p)展开后，上方还会出现文本框，可输入筛选文字来搜索组件。"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)3. 无人机槽位/$$(p)把要编程的$(l:tools/drone)无人机/$（或$(l:components/network_components)网络数据存储器/网络API/$）放在这里。准备写入时，按$(thing)⟶/$按钮把程序写入无人机；如有需要，还可在左侧文本框中为无人机命名。写入成功时会播放提示音。$(p)按$(thing)⟵/$按钮可从无人机（或网络数据存储器/网络API）导入程序。"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)4. 复杂度选择/$$(p)这些单选按钮控制组件栏中可用的编程拼图，并启用或禁用$(l:programming/coordinate_operator)变量/$等高级功能。$(p)$(bold)5. 玩家物品栏/$$(p)这里是玩家自身的物品栏。若持有$(l:tools/gps_tool)定位工具/$或$(l:tools/gps_area_tool)区域定位工具/$，可用它们点击$(l:programming/area)区域/$或$(l:programming/coordinate)坐标/$组件，把工具中保存的设置传入组件。"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)6. 导航与显示选项/$$(p)这些按钮可用于：$(li)定位到程序的$(l:programming/start)开始/$组件$(li)定位到最后放置的组件$(li)切换是否显示各组件的附加信息$(li)切换是否显示$(l:programming/jump)跳转/$与$(l:programming/label)标签/$组件之间的连接线"
+    },
+    {
+      "type": "text",
+      "text": "$(bold)7. 其他按钮/$$(p)GUI 左侧边缘的按钮依次提供以下功能：$(li)$(thing)撤销/$最近最多 20 次操作$(li)$(thing)重做/$上一次被撤销的操作$(li)$(thing)导入或导出/$程序，将 JSON 文件上传至$(l:https://pastebin.com)pastebin.com/$（可选登录 Pastebin）$(li)$(thing)删除/$整个程序（可撤销）$(li)$(thing)转换/$程序，将坐标转换为$(thing)相对/$坐标（详见$(l:programming/programmer#convert_relative)此页/$）"
+    },
+    {
+      "type": "text",
+      "anchor": "ids",
+      "title": "编程组件 ID",
+      "text": "用 $(thing)F3+H/$ 开启高级工具提示后，每个编程组件的工具提示末尾都会显示其内部组件 ID。使用$(l:machines/drone_interface)无人机接口/$编程时，这些 ID 尤为重要：无人机接口的 $(thing)setAction()/$ Lua 方法以此类 ID 为参数，其中 $(thing)pneumaticcraft:/$ 前缀可以省略。"
+    },
+    {
+      "type": "text",
+      "title": "分享程序",
+      "text": "若要与其他玩家分享程序，可以采用以下方式：$(li)使用$(thing)Pastebin/$按钮，把程序导出到$(l:https://pastebin.com)pastebin.com/$$(li)在$(thing)Pastebin/$ GUI 中把程序写入剪贴板，以便复制粘贴$(li)把程序保存到$(l:tools/drone)无人机/$或$(l:components/network_components)网络数据存储器/网络API/$中，再把该物品交给同一服务器上的其他玩家。"
+    },
+    {
+      "type": "text",
+      "anchor": "convert_relative",
+      "title": "转换为相对坐标",
+      "text": "假设你设计了一套自动农场程序并想与他人分享。其他世界中的农场坐标不同，使用者原本必须逐个修改所有$(l:programming/area)区域/$组件。$(p)$(thing)转换为相对坐标/$按钮可以自动处理这些修改，并通过工具提示说明转换程序前需要完成的设置。"
+    },
+    {
+      "type": "text",
+      "anchor": "convert_relative",
+      "title": "转换为相对坐标（续）",
+      "text": "需要先添加一个固定的$(l:programming/coordinate_operator)坐标运算符/$组件，以及一个$(l:programming/coordinate)坐标/$组件，其中包含$(thing)基准位置/$（例如输入箱子的位置）。转换功能随后会把程序中所有绝对位置（区域或坐标）改为相对于该基准位置的坐标。$(p)这样，其他使用者只需修改一个坐标就能运行你的程序。"
+    },
+    {
+      "type": "text",
+      "flag": "mod:jei",
+      "anchor": "jei",
+      "title": "JEI 集成",
+      "text": "安装 JEI 后，在编程器 GUI 开启期间查看 JEI 配方，会出现一个“+”（移动物品）按钮。点击后，会为配方中的每种输入物品添加$(l:programming/item_filter)物品过滤器/$组件。若主编程区内已有未连接过滤器的$(l:programming/crafting)合成/$组件，这些过滤器会直接连接到合成组件，便于快速设置配方；否则，它们会排列在主编程区左上角。"
+    },
+    {
+      "type": "text",
+      "flag": "mod:jei",
+      "title": "JEI 集成（续）",
+      "text": "默认情况下，每种不同物品只会添加一个物品过滤器。例如，$(item)石台阶/$配方即使包含三块$(item)石头/$，也只会生成一个石头过滤器。中键点击并拖动可复制组件。若要为配方中的每个物品都添加过滤器（包括重复项），点击 JEI 的“+”按钮时按住 Shift。"
+    }
+  ]
+}

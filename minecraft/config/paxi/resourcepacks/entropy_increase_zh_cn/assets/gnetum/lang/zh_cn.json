@@ -54,5 +54,6 @@
   "gnetum.config.tooltip.auto": "Gnetum会自动决定是否缓存该元素。\n\n当前状态：%s",
   "gnetum.config.tooltip.off": "该元素的缓存被强制禁用。",
   "gnetum.config.tooltip.on": "强制启用此元素的缓存。",
-  "gnetum.config.vanilla": "命名元素..."
+  "gnetum.config.vanilla": "命名元素...",
+  "gnetum.config.auto": "自动"
 }

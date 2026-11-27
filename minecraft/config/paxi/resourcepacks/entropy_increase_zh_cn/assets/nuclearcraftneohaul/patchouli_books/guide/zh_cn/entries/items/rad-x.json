@@ -1,0 +1,15 @@
+{
+  "name": "降辐剂",
+  "icon": "nuclearcraftneohaul:rad_x",
+  "category": "nuclearcraftneohaul:items",
+  "sortnum": 0,
+  "pages": [
+    {
+      "anchor": "radx",
+      "type": "items/1",
+      "header": "降辐剂",
+      "item": "nuclearcraftneohaul:rad_x",
+      "text": "$(item)降辐剂$()能够在一段时间内为使用者提供一定的辐射抗性。虽然效果可以叠加，但抗性越高，衰减得也越快。"
+    }
+  ]
+}

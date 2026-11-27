@@ -1,0 +1,14 @@
+{
+  "name": "传感器",
+  "icon": "rftoolsutility:sensor",
+  "category": "rftoolsbase:category_rftoolsutility_logic",
+  "extra_recipe_mappings": {
+    "rftoolsutility:sensor": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "传感器可检测输入面正前方的各种情况，距离可选 1 格、3 格或 5 格。支持检测方块放置、作物生长阶段、实体数量等。"
+    }
+  ]
+}

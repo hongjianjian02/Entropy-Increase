@@ -1,0 +1,19 @@
+{
+  "name": "输入 RF 组件",
+  "icon": "pneumaticcraft:textures/progwidgets/rf_import_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)无人机/$拥有 100,000 FE（Forge Energy）的内部能量缓冲区。此组件可把能源方块中的能量输入无人机内部，例如从$(item)热力膨胀能源单元/$或$(item)沉浸工程电容器/$输入。$(p)$(italic)尽管名称仍为 RF，此组件实际输入 FE（Forge Energy）；“RF（红石通量，Redstone Flux）”仅为历史遗留命名。/$"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/rf_import_piece.png"
+      ],
+      "text": "$(italic)我充满力量/$"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "name": "气动靴子",
+  "icon": "pneumaticcraft:pneumatic_boots",
+  "category": "pneumaticcraft:armor",
+  "advancement": "pneumaticcraft:printed_circuit_board",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(item)气动靴子/$是四件$(thing)气动护甲/$之一。$(p)它内置摔落保护，消耗的气量与抵消的摔落伤害成正比。$(p)它还免费提供跨越 1 格高差的功能，不消耗气量；这是可切换的跨步辅助，不是自动跳跃。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "pneumaticcraft:pneumatic_boots",
+      "text": "制作气动靴子"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:jet_boots_upgrade_1",
+      "text": "$(l:base_concepts/upgrades#jet_boots_1)喷气靴升级/$让你能够飞行，但必须留意剩余压力。升级共有 5 个等级；等级越高，飞行越快，气量消耗也越大。"
+    },
+    {
+      "type": "text",
+      "title": "喷气靴（续）",
+      "text": "升级启用时，按住$(k:pneumaticcraft.boots.jet_boots)即可朝视线方向推进。$(p)$(thing)喷气靴/$的气量消耗$(bold)很高/$；强烈建议在靴子中安装多个$(l:base_concepts/upgrades#volume)容量升级/$，并在$(l:armor/pneumatic_chestplate)气动胸甲/$中安装$(l:base_concepts/upgrades#charging)充气升级/$。$(p)条件允许时，也建议使用$(l:machines/aerial_interface)空气接口/$，并在基地建设充足的充气设施。"
+    },
+    {
+      "type": "text",
+      "title": "喷气靴（续）",
+      "text": "安装$(l:base_concepts/upgrades#jet_boots_3)喷气靴升级：III 级/$或更高等级后，可启用$(thing)建造者模式/$，获得更接近创造模式、但速度较慢的飞行控制，并提高空中挖掘速度。$(p)可在护甲 GUI 中启用或禁用，也可绑定切换按键。"
+    },
+    {
+      "type": "text",
+      "title": "喷气靴（续）",
+      "text": "安装$(l:base_concepts/upgrades#jet_boots_4)喷气靴升级：IV 级/$或更高等级后，可使用$(thing)飞行稳定器/$；松开推进键时会立刻停止，消耗的气量与当时飞行速度成正比。$(p)与建造者模式相同，此功能可在护甲 GUI 中切换，也可绑定按键。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:dispenser_upgrade",
+      "text": "在靴子中安装最多 4 个$(l:base_concepts/upgrades#dispenser)发射器升级/$后，可施展$(bold)气动踢击/$。它会消耗适量气量，对实体（不限于生物）造成中等伤害和强力击退。$(p)按$(thing)$(k:pneumaticcraft.boots.kick)/$踢击。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:flippers_upgrade",
+      "text": "安装$(l:base_concepts/upgrades#flippers)脚蹼升级/$后，可在不额外消耗气量的情况下提高游泳速度，因此在水中比喷气靴更节省气量。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:stomp_upgrade",
+      "text": "安装并启用$(l:base_concepts/upgrades#stomp)震地升级/$后，你便能从天而降重创敌人。如果落地速度快到足以受到伤害（即使该伤害被靴子吸收），附近生物也会受伤；伤害与落地速度成正比。每因此伤到一个生物，都会消耗一些气量。"
+    }
+  ]
+}

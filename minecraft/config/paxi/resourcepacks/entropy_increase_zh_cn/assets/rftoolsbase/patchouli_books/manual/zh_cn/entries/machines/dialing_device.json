@@ -1,0 +1,20 @@
+{
+  "name": "传送控制器",
+  "icon": "rftoolsutility:dialing_device",
+  "category": "rftoolsbase:category_rftoolsutility_machines",
+  "extra_recipe_mappings": {
+    "rftoolsutility:dialing_device": 0,
+    "rftoolsutility:simple_dialer": 0,
+    "rftoolsutility:destination_analyzer": 0
+  },
+  "pages": [
+    {
+      "type": "text",
+      "text": "传送控制器可以将$(l:rftoolsbase:machines/matter_transmitter)物质传输器$(/l)连接到$(l:rftoolsbase:machines/matter_receiver)物质接收器$(/l)。传输器必须在附近，接收器则可以在很远的地方，甚至另一个维度。$(br2)为机器$(5)注能$()可以降低能耗。"
+    },
+    {
+      "type": "text",
+      "text": "先选择一个物质传输器，附近只有一个时会自动选中。然后在下方列表中选择物质接收器，点击“连接”或“单次连接”。使用“单次连接”时，只要有人完成传送，连接就会立即断开。"
+    }
+  ]
+}

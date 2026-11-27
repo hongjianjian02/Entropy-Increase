@@ -1,0 +1,17 @@
+{
+  "name": "核弹病毒",
+  "icon": "pneumaticcraft:nuke_virus",
+  "category": "pneumaticcraft:components",
+  "advancement": "pneumaticcraft:root",
+  "pages": [
+    {
+      "type": "text",
+      "text": "这是仅用于入侵$(l:machines/security_station)安全站/$的特殊组件。它无法合成，只能从地牢战利品或较罕见的村民交易中获得。"
+    },
+    {
+      "type": "spotlight",
+      "item": "pneumaticcraft:nuke_virus",
+      "text": "入侵时对节点使用$(thing)核弹病毒/$，会核毁该节点，使其立即被入侵。请注意，重复使用核弹病毒时有 3 秒冷却时间。"
+    }
+  ]
+}

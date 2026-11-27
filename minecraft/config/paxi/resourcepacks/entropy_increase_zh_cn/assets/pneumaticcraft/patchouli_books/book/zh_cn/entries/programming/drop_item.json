@@ -1,0 +1,23 @@
+{
+  "name": "投掷物品组件",
+  "icon": "pneumaticcraft:textures/progwidgets/item_drop_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此组件会让$(l:tools/drone)无人机/$在所连接$(l:programming/area)区域/$内投出物品栏中的物品。$(thing)右击/$$(thing)投掷物品/$组件，可以指定区域中每个位置最多投掷多少物品。还可在$(thing)随机/$与$(thing)垂直/$模式之间切换：前者会像原版$(item)投掷器/$一样，让物品带有较小的随机偏移；后者则让物品垂直向下落。"
+    },
+    {
+      "type": "text",
+      "text": "还可连接$(l:programming/item_filter)物品过滤器/$组件；连接后只会投掷过滤器允许的物品。$(p)当$(item)无人机/$物品栏中不再有符合条件的物品，或$(item)无人机/$已经访问区域内的每个位置时，此组件执行完毕。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/item_drop_piece.png"
+      ],
+      "text": "$(italic)投掷物品组件/$"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "造桥模块 Mk1",
+  "category": "modularrouters:modules",
+  "icon": "modularrouters:extruder_module_1",
+  "pages": [
+    {
+      "type": "text",
+      "text": "此模块会沿指定方向，从缓冲区中取用方块伸出一列，并可将其收回。$(p)默认在路由器收到红石信号时伸出，没有信号时收回；可以安装红石拓展自定义此行为。"
+    },
+    {
+      "type": "text",
+      "text": "使用此模块可以制作大型伸缩桥和门。如果你用过 1.7.10 的 Tinker's Mechworks 中的伸缩桥，就会很熟悉。$(li)可以搭配$(l:upgrades/camouflage)伪装升级/$隐藏路由器。$(li)默认范围，即可放置的方块数量为 12，使用$(l:augments/range_up)范围升级拓展/$后最多可达 24。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)方块已伸出时更改模块方向，可能使路由器无法正确处理。此时拆下并重新放置路由器即可。$(li)方块已伸出时破坏路由器，它不会保留伸出记录，需要手动清除这些方块。"
+    },
+    {
+      "type": "text",
+      "text": "$(li)多个装有造桥模块的路由器共同工作时，例如制作宽门或宽桥，可使用$(l:upgrades/sync)同步升级/$确保同时执行。$(li)造桥模块也与$(l:modules/placer)放置模块/$一样，能够在耕地上播种，或在相邻的丛林原木上种植可可豆。"
+    },
+    {
+      "type": "text",
+      "text": "注意，用于合成此模块的$(l:modules/breaker)破坏模块/$会将采掘等级和附魔传递过来。因此，想让造桥模块能够破坏$(item)黑曜石/$，就要使用由$(item)钻石镐/$合成的破坏模块！"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:extruder_module_1"
+    }
+  ]
+}

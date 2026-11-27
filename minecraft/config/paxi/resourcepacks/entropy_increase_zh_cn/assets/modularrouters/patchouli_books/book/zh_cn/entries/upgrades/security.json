@@ -1,0 +1,40 @@
+{
+  "name": "安全升级",
+  "category": "modularrouters:upgrades",
+  "icon": "modularrouters:security_upgrade",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)安全升级/$具备几项重要功能，详见后续页面。"
+    },
+    {
+      "type": "text",
+      "title": "访问保护",
+      "text": "装有安全升级的路由器$(italic)只能/$由升级白名单中的玩家打开。此升级不阻止路由器被破坏，但模块和升级会保留在拆下的路由器中，因此其他玩家无法通过拆除来窃取模块、升级或修改配置。如果需要防止路由器被破坏，可以使用其他模组的方块保护功能。"
+    },
+    {
+      "type": "text",
+      "title": "模拟玩家",
+      "text": "有些模块（$(l:modules/placer)放置/$、$(l:modules/breaker)破坏/$、$(l:modules/activator)执行/$）会以$(thing)模拟玩家/$的身份工作。默认用户名为 $(thing)[Modular Routers]/$；安装安全升级后，则以升级所有者的身份执行操作。在有领地保护的多人服务器上，这比直接允许 $(thing)[Modular Routers]/$ 对你的领地执行任何操作更安全。"
+    },
+    {
+      "type": "text",
+      "title": "执行模块攻击模式",
+      "text": "$(l:modules/activator)执行模块/$处于$(thing)攻击模式/$时，会忽略路由器内安全升级白名单中的所有玩家。如果路由器中放有高伤害武器，这通常能避免惨痛的误伤。"
+    },
+    {
+      "type": "spotlight",
+      "item": "modularrouters:override_card",
+      "anchor": "override",
+      "text": "$(li)有一种无法合成的物品叫$(thing)安全覆盖卡/$，可通过创造模式或 JEI 作弊取物等方式获得。玩家任意一只手持有此卡时，都不受安全升级限制，可以访问任何路由器。"
+    },
+    {
+      "type": "text",
+      "text": "主手持安全升级，对其他玩家$(thing)右键/$可将其加入白名单。$(p)对玩家$(thing)潜行并右键/$可将其移除。$(p)每个安全升级最多额外添加 6 名玩家，加上创建者共 7 名。如有需要，可在一个路由器中安装多个安全升级。"
+    },
+    {
+      "type": "crafting",
+      "recipe": "modularrouters:security_upgrade"
+    }
+  ]
+}

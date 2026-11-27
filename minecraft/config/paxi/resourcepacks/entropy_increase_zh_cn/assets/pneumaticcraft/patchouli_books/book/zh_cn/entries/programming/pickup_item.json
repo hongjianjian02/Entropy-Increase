@@ -1,0 +1,23 @@
+{
+  "name": "拾起物品组件",
+  "icon": "pneumaticcraft:textures/progwidgets/item_pick_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(l:tools/drone)无人机/$会拾起世界中的物品实体并放入自身物品栏。请注意，与此组件相连的$(l:programming/area)区域/$组件必须使用$(thing)盒型/$；这是唯一直接支持的形状。不过，可以通过组合多个区域的白名单和黑名单来构造更复杂的形状。"
+    },
+    {
+      "type": "text",
+      "text": "可以连接$(l:programming/item_filter)物品过滤器/$组件，以限制允许拾起的物品；请记住，黑名单过滤器应连接在$(thing)左侧/$。$(p)当所有能通过过滤器且能放入无人机物品栏的地面物品都已拾起，或区域内已无物品可拾取时，此组件执行完毕。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/item_pick_piece.png"
+      ],
+      "text": "$(italic)我的，都是我的/$"
+    }
+  ]
+}

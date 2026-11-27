@@ -1,0 +1,19 @@
+{
+  "name": "传送至位置组件",
+  "icon": "pneumaticcraft:textures/progwidgets/teleport_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "$(thing)传送至位置/$会消耗更多$(l:base_concepts/pressure)气量/$，是$(l:programming/goto)去往位置/$组件的高消耗版本，但操作同样直接：$(l:tools/drone)无人机/$会传送到指定$(l:programming/area)区域/$内最近且可到达的位置。$(p)$(item)无人机/$每次传送消耗 10000mL 气量，几乎会耗尽未升级$(item)无人机/$的全部容积，因此建议安装$(l:base_concepts/upgrades#volume)容量升级/$。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/teleport_piece.png"
+      ],
+      "text": "$(italic)刚才在这里，现在到那里/$"
+    }
+  ]
+}

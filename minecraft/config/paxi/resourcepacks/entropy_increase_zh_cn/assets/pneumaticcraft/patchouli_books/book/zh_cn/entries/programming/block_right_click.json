@@ -1,0 +1,27 @@
+{
+  "name": "右击组件",
+  "icon": "pneumaticcraft:textures/progwidgets/block_right_click_piece.png",
+  "category": "pneumaticcraft:widget_interact",
+  "advancement": "pneumaticcraft:programmer",
+  "pages": [
+    {
+      "type": "text",
+      "text": "无人机会用第一个物品栏槽位中的物品执行$(thing)右击/$，对象是所连接$(l:programming/area)区域/$组件指定范围内的每个方块位置。这可用于锄地、播种、施加骨粉、投掷药水、部署无人机、用扳手旋转方块……用途不胜枚举。"
+    },
+    {
+      "type": "text",
+      "text": "此组件有两种工作模式，可在编程器中的组件 GUI 里选择：$(li)物品模式——使用$(thing)手持物品/$的右击逻辑，例如对方块使用$(item)打火石/$$(li)方块模式——触发$(thing)方块/$自身的右击逻辑，例如拨动$(item)拉杆/$$(p)在$(thing)物品模式/$下，所有相连过滤器都作用于所使用的$(italic)物品/$；在$(thing)方块模式/$下，过滤器则作用于被触发的$(italic)方块/$。"
+    },
+    {
+      "type": "text",
+      "text": "也可以用此组件放置普通方块，但$(italic)不/$建议这样做。无人机右击一个已有方块的位置时，会对该方块执行右击，从而把手中方块放到它的$(italic)相邻位置/$，原方块不会被替换。$(p)因此，通常应使用$(l:programming/place)放置方块/$组件。不过在某些情况下，例如种植$(item)种子/$，仍必须使用$(thing)右击方块/$组件。"
+    },
+    {
+      "type": "image",
+      "images": [
+        "pneumaticcraft:textures/progwidgets/block_right_click_piece.png"
+      ],
+      "text": "$(italic)右击组件/$"
+    }
+  ]
+}
