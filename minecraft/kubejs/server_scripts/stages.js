@@ -43,10 +43,8 @@ var registerEIChapterRestrictions = event => {
     AStages.addRestrictionForModRecipe('ch2_ae2_placement', 'chapter2', 'meplacementtool') // ME 放置工具
     AStages.addRestrictionForModRecipe('ch2_ae2_wcwt', 'chapter2', 'wcwt') // AE2 WCWT
     AStages.addRestrictionForModRecipe('ch2_ae2_lt', 'chapter2', 'ae2lt') // AE2 闪电科技
-    AStages.addRestrictionForModRecipe('ch2_ae2_thaumic', 'chapter2', 'thaumicenergistics_ce') // 神秘能源学
     AStages.addRestrictionForModRecipe('ch2_ae2_appliedthaumaturge', 'chapter2', 'appliedthaumaturge') // Applied Thaumaturge
     AStages.addRestrictionForModRecipe('ch2_ae2_appliedsoul', 'chapter2', 'appliedsoul') // Applied Soul
-    AStages.addRestrictionForModRecipe('ch2_ae2_sticks', 'chapter2', 'appliedsticks') // Applied 建筑棒
     AStages.addRestrictionForModRecipe('ch2_ae2_appliedas', 'chapter2', 'appliedas') // 应用星辉
     AStages.addRestrictionForModRecipe('ch2_entry_neoecoae', 'chapter2', 'neoecoae') // Neo ECO AE
     AStages.addRestrictionForModRecipe('ch2_entry_appmek', 'chapter2', 'appmek') // Applied Mekanistics
@@ -57,9 +55,7 @@ var registerEIChapterRestrictions = event => {
     AStages.addRestrictionForModRecipe('ch2_if', 'chapter2', 'industrialforegoing') // 工业先锋
     // EIO 本体 + 附属
     AStages.addRestrictionForModRecipe('ch2_eio', 'chapter2', 'enderio') // 末影接口 EIO
-    AStages.addRestrictionForModRecipe('ch2_eio_core', 'chapter2', 'endercore') // EIO 前置
     AStages.addRestrictionForModRecipe('ch2_eio_evolution', 'chapter2', 'enderio_evolution') // EIO 进化
-    AStages.addRestrictionForModRecipe('ch2_eio_conduit', 'chapter2', 'enderio_conduit_opt') // EIO 导管优化
     // MEK 本体 + 附属
     AStages.addRestrictionForModRecipe('ch2_mek', 'chapter2', 'mekanism') // 通用机械 MEK
     AStages.addRestrictionForModRecipe('ch2_mek_generators', 'chapter2', 'mekanismgenerators') // MEK 发电机

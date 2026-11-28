@@ -3592,12 +3592,12 @@ hash = "8d4c36e3aac91377077f3c9e51173a669d6dbe445df94e926df0cea1581a975e"
 metafile = true
 
 [[files]]
-file = "mods/astagemaeks-1.0.4.jar"
-hash = "4d5f75d23c02ba81e11f9b5b32c5a307c444958767534a3a308faccb717529ed"
+file = "mods/astagemaeks-1.0.12.jar"
+hash = "260a78de481c130a9e041ae21f70f2fe595a5780d4d54d5e2f65500b41411288"
 
 [[files]]
-file = "mods/EI core-1.0.37.jar"
-hash = "a9eff32d95ecb7d05f75d86561cc8d029884c38a67d8ac17837fba90618045cc"
+file = "mods/EI core-1.0.38.jar"
+hash = "a333aead585f6c69699766940e2f86c6be824193979ca998a6977f3d2e9d8d12"
 
 [[files]]
 file = "mods/aeroblender.pw.toml"
@@ -3901,7 +3901,7 @@ hash = "87b2313b331d3d96b61a7c7d043c262c1872853d1bae66f074b4458a53237074"
 
 [[files]]
 file = "config/paxi/resourcepacks/entropy_arcane_ui/README.txt"
-hash = "962e57292359fb2ba6bbbbf9c1e5aa0e588f4bb8150086180934db043133fb0d"
+hash = "d03643c206aba62169909222ccfcdb5b82e20ca34f2a3467f2b69f2e35df96aa"
 
 [[files]]
 file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/classicbar/textures/gui/health.png"
@@ -4442,3 +4442,163 @@ hash = "01091efb14da7348ddd2b96a806724ddb0bde8d7a0117ed93bc8bd59a505ebb8"
 [[files]]
 file = "config/paxi/resourcepacks/entropy_arcane_ui/pack.mcmeta"
 hash = "2847d7d125a7b5e26fdb919a14d428692d3d1d03b58d89d786f286deffc484f2"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/extrabotany/textures/gui/container/creative_inventory/tab_extrabotany.png"
+hash = "99c5857770cc730dcafb7942963aa54734bbf0e8be9b6f7fcc4c83e6b0a9b1c5"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/l2tabs/textures/gui/sprites/up/des_0.png"
+hash = "e494075ee597289b7141bf92c0078f4e4848acc5255beff73b20b32a9666722e"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/l2tabs/textures/gui/sprites/up/des_1.png"
+hash = "e494075ee597289b7141bf92c0078f4e4848acc5255beff73b20b32a9666722e"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/l2tabs/textures/gui/sprites/up/des_2.png"
+hash = "e494075ee597289b7141bf92c0078f4e4848acc5255beff73b20b32a9666722e"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/l2tabs/textures/gui/sprites/up/sel_0.png"
+hash = "f2bfe0751062ac88dc3a66338c0ae48516c5d5c52c5c325c76f95a371d2cc06b"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/l2tabs/textures/gui/sprites/up/sel_1.png"
+hash = "f9a2b440a7915130b5047fb0fdd2091633e7ab53226d8c8e9f544ad0813d97f7"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/l2tabs/textures/gui/sprites/up/sel_2.png"
+hash = "c22ed7fffca819ccc34c84a6486e45b8e4229d2c5b610de5597874587455e0ec"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/container/creative_inventory/tab_inventory.png"
+hash = "e5688217442a38615299a5e4b6e6e57d315d30953334ab42d7bcafef5c5085a1"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/container/creative_inventory/tab_item_search.png"
+hash = "f99c884d1b7a9c988c09f7a5d8e85aac2f104be5bb69f69063cd0d89ddd015f2"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/container/creative_inventory/tab_items.png"
+hash = "b25260394967f6d0182d349fcb10a0afef0447401687195414ed63796e14982d"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/scroller.png"
+hash = "dcf7ac16997859737fd9cc7a5a029a43fba3aa0d594723d2abebe82fafc87766"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/scroller_disabled.png"
+hash = "4bd4c064085592035e58f994149400a434f423334ed83a598e18fa75e4bea38a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_1.png"
+hash = "c22cefe8f2698e82e19da1ecd8deb8c220b69ce45947063188972948d787f591"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_2.png"
+hash = "ae42198e4d8f00d5555a928740bc0a940801d32da9c6425ba2e7bf1ff2d64b24"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_3.png"
+hash = "ae42198e4d8f00d5555a928740bc0a940801d32da9c6425ba2e7bf1ff2d64b24"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_4.png"
+hash = "ae42198e4d8f00d5555a928740bc0a940801d32da9c6425ba2e7bf1ff2d64b24"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_5.png"
+hash = "ae42198e4d8f00d5555a928740bc0a940801d32da9c6425ba2e7bf1ff2d64b24"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_6.png"
+hash = "ae42198e4d8f00d5555a928740bc0a940801d32da9c6425ba2e7bf1ff2d64b24"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_selected_7.png"
+hash = "5b1f3a6739ae2f3584e7fc19d6beb3af884d31d67ca6cfd767197cf90b17ff92"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_1.png"
+hash = "e68f965eb79989cff0d4572cbfa45cb3588cb5e2901cd24792a342efd5ee536a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_2.png"
+hash = "e68f965eb79989cff0d4572cbfa45cb3588cb5e2901cd24792a342efd5ee536a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_3.png"
+hash = "e68f965eb79989cff0d4572cbfa45cb3588cb5e2901cd24792a342efd5ee536a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_4.png"
+hash = "e68f965eb79989cff0d4572cbfa45cb3588cb5e2901cd24792a342efd5ee536a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_5.png"
+hash = "e68f965eb79989cff0d4572cbfa45cb3588cb5e2901cd24792a342efd5ee536a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_6.png"
+hash = "e68f965eb79989cff0d4572cbfa45cb3588cb5e2901cd24792a342efd5ee536a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_bottom_unselected_7.png"
+hash = "e68f965eb79989cff0d4572cbfa45cb3588cb5e2901cd24792a342efd5ee536a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_1.png"
+hash = "bf24289068f6e128147bede3b143d4bbd104853c324153d780af0b92afe7445a"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_2.png"
+hash = "be427f56dd8d7a02b76c14f11cc3f77e0c89715eae2237ac03ed8426b064c848"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_3.png"
+hash = "be427f56dd8d7a02b76c14f11cc3f77e0c89715eae2237ac03ed8426b064c848"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_4.png"
+hash = "be427f56dd8d7a02b76c14f11cc3f77e0c89715eae2237ac03ed8426b064c848"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_5.png"
+hash = "be427f56dd8d7a02b76c14f11cc3f77e0c89715eae2237ac03ed8426b064c848"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_6.png"
+hash = "be427f56dd8d7a02b76c14f11cc3f77e0c89715eae2237ac03ed8426b064c848"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_selected_7.png"
+hash = "348c4458e3917c8719fbb9b894b9743b1f975ce4870a8edc2695b0771f4bab8b"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_1.png"
+hash = "dde039c57c4af063a22b27efeba38de3c6b8df1ed96d37420d31d61fdd0dae12"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_2.png"
+hash = "dde039c57c4af063a22b27efeba38de3c6b8df1ed96d37420d31d61fdd0dae12"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_3.png"
+hash = "dde039c57c4af063a22b27efeba38de3c6b8df1ed96d37420d31d61fdd0dae12"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_4.png"
+hash = "dde039c57c4af063a22b27efeba38de3c6b8df1ed96d37420d31d61fdd0dae12"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_5.png"
+hash = "dde039c57c4af063a22b27efeba38de3c6b8df1ed96d37420d31d61fdd0dae12"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_6.png"
+hash = "dde039c57c4af063a22b27efeba38de3c6b8df1ed96d37420d31d61fdd0dae12"
+
+[[files]]
+file = "config/paxi/resourcepacks/entropy_arcane_ui/assets/minecraft/textures/gui/sprites/container/creative_inventory/tab_top_unselected_7.png"
+hash = "dde039c57c4af063a22b27efeba38de3c6b8df1ed96d37420d31d61fdd0dae12"
